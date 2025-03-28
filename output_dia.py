@@ -5,8 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import date
 import base64
-from cloud import render_wordcloud
-from funciones import extraer_secciones
+
 
 # Configuración de página
 st.set_page_config(
