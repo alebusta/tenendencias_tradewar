@@ -172,7 +172,7 @@ def news_chatbot_component(api_key=None, news_data=None, title="Chatbot de Notic
     # Inicializar historial de chat en la sesión si no existe
     if "news_chat_messages" not in st.session_state:
         st.session_state.news_chat_messages = [
-            {"role": "assistant", "content": "¡Hola! Soy tu asistente de noticias de CEPAL. ¿Qué información necesitas sobre América Latina y el Caribe?"}
+            {"role": "assistant", "content": "¡Hola! Soy tu asistente de la base de datos de noticias. ¿Qué información necesitas saber?"}
         ]
     
     # Mostrar mensajes del chat
