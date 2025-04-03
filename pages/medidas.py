@@ -14,10 +14,10 @@ st.set_page_config(
 st.markdown("""
     <style>
         [data-testid="stSidebar"] {
-            display: none;
+            display: none !important;
         }
         [data-testid="collapsedControl"] {
-            display: none;
+            display: none !important;
         }
     </style>
 """, unsafe_allow_html=True)
