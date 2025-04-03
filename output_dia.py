@@ -262,8 +262,7 @@ with col3:
 st.header("💬 Asistente IA")
 st.write("Asistente conversacional basado en inteligencia artificial para hacer consultas a la base de datos de noticias")
 
-with st.expander("💬 Asistente IA - Haz clic para abrir"):
-    st.write("Asistente conversacional basado en inteligencia artificial para hacer consultas a la base de datos de noticias")
+with st.expander("Haz clic aquí para abrir"):
     with open('noticias_abr_03.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
 
