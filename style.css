@@ -162,3 +162,41 @@ body {
         .news-link:hover {
             text-decoration: underline;
         }
+
+  /* Para pantallas de hasta 768px de ancho (celulares) */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 1.5em; /* Reduce el tamaño del título */
+  }
+  .header-subtitle {
+    font-size: 1em; /* Reduce el tamaño del subtítulo */
+  }
+  .trending-bar {
+    flex-direction: column; /* Apila los elementos en lugar de mostrarlos en fila */
+  }
+  .trending-item {
+    margin-bottom: 10px; /* Añade espacio entre los elementos apilados */
+  }
+  .news-grid {
+    grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+  }
+  .news-block {
+    margin-bottom: 20px; /* Espacio entre bloques de noticias */
+  }
+  .news-text {
+    padding: 10px; /* Reduce el padding en los bloques de texto */
+  }
+  .stDataFrame {
+    overflow-x: auto; /* Permite el scroll horizontal si la tabla es muy ancha */
+  }
+}
+
+/* Para pantallas aún más pequeñas (ej: 480px) */
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 1.2em;
+  }
+  .header-subtitle {
+    font-size: 0.9em;
+  }
+}
