@@ -11,6 +11,7 @@ body {
             padding: 15px 0;
             text-align: center;
             display: flex;
+            flex-direction: row; /* Para pantallas grandes, los elementos en fila */
             justify-content: center;
             align-items: center;
             padding: 0 5%;
@@ -57,7 +58,7 @@ body {
         /* Barra de navegación secundaria */
         .trending-bar {
             background-color: #f3f3f3;
-            padding: 10px 20px;
+            padding: 10px;
             font-family: 'Open Sans', sans-serif;
             display: flex;
             height: 90px;
@@ -199,4 +200,23 @@ body {
   .header-subtitle {
     font-size: 0.9em;
   }
+}
+
+/* Estilos para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+    .trending-bar {
+        flex-direction: column; /* En móviles, los elementos en columna */
+        align-items: stretch; /* Estirar los elementos para que ocupen todo el ancho */
+    }
+
+    .trending-title {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+
+    .trending-item {
+        font-size: 0.9em;
+        padding: 8px;
+        text-align: center; /* Centrar el texto en móviles */
+    }
 }
