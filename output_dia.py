@@ -287,4 +287,4 @@ with col1:
 with col2:
     st.markdown('<p class="small-text">Datos actualizados al 17 de marzo, 2025</p>', unsafe_allow_html=True)
 with col3:
-    st.markdown('<p class="small-text">© Cepal Lab - Versión de prueba </p>', unsafe_allow_html=True)
+    st.markdown('<p class="small-text">©2025 Cepal Lab - Versión de prueba </p>', unsafe_allow_html=True)
