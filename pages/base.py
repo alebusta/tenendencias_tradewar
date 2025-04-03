@@ -40,7 +40,7 @@ st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 
 st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 25px'>Listado de noticias en medios en español</p>", unsafe_allow_html=True)
 st.markdown('---')
 
-df = pd.read_csv('../aranceles_2025-04-02.csv')
+df = pd.read_csv('aranceles_2025-04-02.csv')
 df = df[['title','url','country']]
 
 # Opción 1: Convertir la lista a string separado por comas
