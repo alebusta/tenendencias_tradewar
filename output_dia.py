@@ -261,19 +261,14 @@ with col3:
 
 st.header("💬 Asistente IA")
 st.write("Asistente conversacional basado en inteligencia artificial para hacer consultas a la base de datos de noticias")
-st.markdown("<div class='chat-container'>", unsafe_allow_html=True)
 
-# Cargar desde archivo
-with open('noticias_abr_03.json', 'r', encoding='utf-8') as file:
-    data = json.load(file)
-    print(data)
+with st.expander("💬 Asistente IA - Haz clic para abrir"):
+    st.write("Asistente conversacional basado en inteligencia artificial para hacer consultas a la base de datos de noticias")
+    with open('noticias_abr_03.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
 
-noticias = data
-
-
-# Aquí integramos el componente de chatbot con los datos de noticias incorporados
-news_chatbot_component(
-        news_data=noticias,
+    news_chatbot_component(
+        news_data=data,
         title="Asistente de Noticias CEPAL",
         height=250
     )
