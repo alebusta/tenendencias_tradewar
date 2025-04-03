@@ -214,13 +214,13 @@ body {
     }
 
     .trending-title {
-        font-size: 1em;
-        margin-bottom: 5px;
+        font-size: 0.5em;
+        margin-bottom: 1px;
     }
 
     .trending-item {
-        font-size: 0.9em;
-        padding: 8px;
+        font-size: 0.4em;
+        padding: 0.1px;
         text-align: center; /* Centrar el texto en móviles */
     }
 }
