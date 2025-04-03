@@ -264,7 +264,7 @@ st.write("Asistente conversacional basado en inteligencia artificial para hacer 
 st.markdown("<div class='chat-container'>", unsafe_allow_html=True)
 
 # Cargar desde archivo
-with open('../../newswatch/noticias_abr_03.json', 'r', encoding='utf-8') as file:
+with open('noticias_abr_03.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
     print(data)
 
