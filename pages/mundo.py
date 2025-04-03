@@ -37,7 +37,7 @@ st.markdown("""
 st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 5px'>Repercusiones en Estados Unidos y en el mundo</h1>", unsafe_allow_html=True)
 st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 25px'>Listado de noticias en medios de Estados Unidos y de habla inglesa</p>", unsafe_allow_html=True)
 st.markdown('---')
-df = pd.read_csv('../mundo_2025-04-02.csv')
+df = pd.read_csv('mundo_2025-04-02.csv')
 df = df[['title','url']]
 
 st.dataframe(df,
