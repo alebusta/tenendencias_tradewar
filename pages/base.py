@@ -26,20 +26,6 @@ st.markdown("""
 if st.button("Ir a Inicio"):
     st.switch_page("output_dia.py")
     
-st.page_link("https://tradewar-monitor.streamlit.app/", label="Ir a Inicio", icon="🏠")
-st.markdown("[Volver al inicio](./)")
-# Encabezado
-# CSS personalizado para el encabezado
-st.markdown("""
-
-<div class="trending-bar">
-        <div class="trending-title"><a href="https://tradewar-monitor.streamlit.app/" target="_blank"> < Volver al inicio  </a></div>
-        
-</div>
-""", unsafe_allow_html=True)
-
-
-
 # Título y descripción con estilo The Economist
 st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 5px'>Repercusiones en América Latina y El Caribe</h1>", unsafe_allow_html=True)
 st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 25px'>Listado de noticias en medios en español</p>", unsafe_allow_html=True)
