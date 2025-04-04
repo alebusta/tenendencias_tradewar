@@ -99,6 +99,10 @@
             text-decoration: none; /* Quita el subrayado */
         }
 
+        .trending-item:hover {
+            opacity: 0.8;
+        }
+
         .trending-number {
             color: #007bff;
             font-weight: bold;
