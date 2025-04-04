@@ -51,7 +51,7 @@ st.markdown("""
 st.markdown("""
 
 <div class="trending-bar">
-        <div class="trending-title"><a href="output_dia" target="_blank"> < Volver al inicio  </a></div>
+        <div class="trending-title"><a href="https://tradewar-monitor.streamlit.app/" target="_blank"> < Volver al inicio  </a></div>
         
 </div>
 """, unsafe_allow_html=True)
