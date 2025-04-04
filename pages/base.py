@@ -24,7 +24,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 if st.button("Ir a Inicio"):
-    st.switch_page("https://tradewar-monitor.streamlit.app/")
+    st.switch_page("output_dia.py")
     
 st.page_link("https://tradewar-monitor.streamlit.app/", label="Ir a Inicio", icon="🏠")
 st.markdown("[Volver al inicio](./)")
