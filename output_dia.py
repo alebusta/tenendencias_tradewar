@@ -281,10 +281,4 @@ La clasificación de noticias, análisis y reportes automatizados asistidos por 
 es fundamental la validación experta humana. Por lo tanto los resultados de los análisis deben tomarse con la debida cautela.*"
 
 """)
-col1, col2, col3 = st.columns([1, 1, 1])
-with col1:
-    st.markdown('<p class="small-text">Reporte preparado por CEPAL Lab para el Trade Emergency Team</p>', unsafe_allow_html=True)
-with col2:
-    st.markdown('<p class="small-text">Datos actualizados al 17 de marzo, 2025</p>', unsafe_allow_html=True)
-with col3:
-    st.markdown('<p class="small-text" text-align="right">©2025 Cepal Lab - Versión de prueba </p>', unsafe_allow_html=True)
+st.markdown('<p class="small-text" text-align="right">©2025 Cepal Lab - Versión de prueba </p>', unsafe_allow_html=True)
