@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');    
-body {
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-} 
-
-/* Barra superior principal con el slogan y botón */
+        /* Barra superior principal con el slogan y botón */
         .header-banner {
             background-size: cover; /* cubre todo el ancho*/
             background-position: center;
@@ -11,7 +7,6 @@ body {
             padding: 15px 0;
             text-align: center;
             display: flex;
-            flex-direction: row; /* Para pantallas grandes, los elementos en fila */
             justify-content: center;
             align-items: center;
             padding: 0 5%;
@@ -54,35 +49,49 @@ body {
             opacity: 0.7;
         }
         
-        
+        .header_short {
+            background-color: #012354;
+            background-size: cover;
+            font-family: 'Open Sans', sans-serif;
+
+        }
+
+        .header_short-title {
+            color: rgb(255, 255, 255);  
+            font-size: 3rem;
+            font-weight: 700;
+            margin-left: 20px;
+        }
+        .header_short-subtitle {
+            color: rgb(255, 255, 255);  
+            font-size: 1rem;
+            margin-left: 20px;
+        }
+
         /* Barra de navegación secundaria */
         .trending-bar {
             background-color: #f3f3f3;
-            padding: 10px;
+            padding: 10px 20px;
             font-family: 'Open Sans', sans-serif;
             display: flex;
             height: 90px;
-            /*gap: 30px;*/
+            gap: 30px;
             align-items: flex-start;
-            /*font-size: 16px;*/
-            /*border-radius: 5px;*/
+            font-size: 16px;
+            border-radius: 5px;
         }
 
         .trending-title {
             font-weight: 700;
-            min-width: 10%;
+            min-width: 120px;
             text-align: left;
-            padding-left: 10px;
-            font-size: 1em;
-            font-weight: bold;
-            text-align: left;
+            padding-left: 30px;
         }
 
         .trending-item {
             border-left: 2px solid #007bff;
             padding-left: 10px;
             flex-grow: 1;
-            font-size: 1em;
         }
 
         .trending-item a {
@@ -167,60 +176,3 @@ body {
         .news-link:hover {
             text-decoration: underline;
         }
-
-  /* Para pantallas de hasta 768px de ancho (celulares) */
-@media (max-width: 768px) {
-  .header-title {
-    font-size: 1.5em; /* Reduce el tamaño del título */
-  }
-  .header-subtitle {
-    font-size: 1em; /* Reduce el tamaño del subtítulo */
-  }
-  .trending-bar {
-    flex-direction: column; /* Apila los elementos en lugar de mostrarlos en fila */
-  }
-  .trending-item {
-    margin-bottom: 10px; /* Añade espacio entre los elementos apilados */
-  }
-  .news-grid {
-    grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
-  }
-  .news-block {
-    margin-bottom: 20px; /* Espacio entre bloques de noticias */
-  }
-  .news-text {
-    padding: 10px; /* Reduce el padding en los bloques de texto */
-  }
-  .stDataFrame {
-    overflow-x: auto; /* Permite el scroll horizontal si la tabla es muy ancha */
-  }
-}
-
-/* Para pantallas aún más pequeñas (ej: 480px) */
-@media (max-width: 480px) {
-  .header-title {
-    font-size: 1.2em;
-  }
-  .header-subtitle {
-    font-size: 0.9em;
-  }
-}
-
-/* Estilos para pantallas más pequeñas (móviles) */
-@media (max-width: 768px) {
-    .trending-bar {
-        flex-direction: column; /* En móviles, los elementos en columna */
-        align-items: stretch; /* Estirar los elementos para que ocupen todo el ancho */
-    }
-
-    .trending-title {
-        font-size: 0.5em;
-        margin-bottom: 1px;
-    }
-
-    .trending-item {
-        font-size: 0.4em;
-        padding: 0.1px;
-        text-align: center; /* Centrar el texto en móviles */
-    }
-}
