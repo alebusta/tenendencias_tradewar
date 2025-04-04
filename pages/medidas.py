@@ -22,15 +22,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Encabezado
-# CSS personalizado para el encabezado
-st.markdown("""
-
-<div class="trending-bar">
-        <div class="trending-title"><a href="https://tradewar-monitor.streamlit.app/" target="_blank"> < Volver al inicio  </a></div>
-        
-</div>
-""", unsafe_allow_html=True)
+if st.button("Ir a Inicio"):
+    st.switch_page("output_dia.py")
 
 # Aplicar estilo The Economist
 st.markdown("""
