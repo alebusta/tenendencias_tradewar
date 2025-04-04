@@ -101,6 +101,7 @@
 
         .trending-item:hover {
             color: #111;
+            font-weight: bold;    
         }
 
         .trending-number {
