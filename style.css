@@ -100,7 +100,7 @@
         }
 
         .trending-item:hover {
-            opacity: 0.5;
+            color: #111;
         }
 
         .trending-number {
