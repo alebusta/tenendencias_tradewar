@@ -281,4 +281,4 @@ La clasificación de noticias, análisis y reportes automatizados asistidos por 
 es fundamental la validación experta humana. Por lo tanto los resultados de los análisis deben tomarse con la debida cautela.*"
 
 """)
-st.markdown('<p class="small-text" text-align="right">©2025 Cepal Lab - Versión de prueba </p>', unsafe_allow_html=True)
+st.markdown('<p class="small-text" text-align="right">©2025 Cepal Lab</p>', unsafe_allow_html=True)
