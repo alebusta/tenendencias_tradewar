@@ -57,7 +57,7 @@
         }
 
         .header_short-title {
-            color: rgb(255, 255, 255);  
+            color: rgb(255, 255, 255) ! important;  
             font-size: 3rem;
             font-weight: 700;
             margin-left: 20px;
