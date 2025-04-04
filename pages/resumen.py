@@ -30,7 +30,7 @@ st.set_page_config(
 
 
 # Cargar CSS desde un archivo externo
-with open("../style.css", "r") as f:
+with open("style.css", "r") as f:
     css = f.read()
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
