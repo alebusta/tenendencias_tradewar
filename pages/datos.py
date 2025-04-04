@@ -33,15 +33,8 @@ with open("style.css", "r") as f:
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
 
-# Encabezado
-# CSS personalizado para el encabezado
-st.markdown("""
-
-<div class="trending-bar">
-        <div class="trending-title"><a href="https://tradewar-monitor.streamlit.app/" target="_blank"> < Volver al inicio  </a></div>
-        
-</div>
-""", unsafe_allow_html=True)
+if st.button("Ir a Inicio"):
+    st.switch_page("output_dia.py")
 
 # Título y descripción con estilo The Economist
 st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 5px'>La Guerra Comercial en Datos</h1>", unsafe_allow_html=True)
