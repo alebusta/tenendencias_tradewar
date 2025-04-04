@@ -35,26 +35,9 @@ with open("style.css", "r") as f:
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
 
+if st.button("Ir a Inicio"):
+    st.switch_page("output_dia.py")
 
-# Encabezado
-# CSS personalizado para el encabezado
-st.markdown("""
-
-<div class="header_short">
-        <h1 class="header_short-title">Resumen del período</h1>
-        <p class="header_short-subtitle">Síntesis de los principales hechos de la semana. Resumen al 3 de abril de 2025.</p>
-</div>
-
-
-""", unsafe_allow_html=True)
-
-st.markdown("""
-
-<div class="trending-bar">
-        <div class="trending-title"><a href="https://tradewar-monitor.streamlit.app/" target="_blank"> < Volver al inicio  </a></div>
-        
-</div>
-""", unsafe_allow_html=True)
 
 # Contenido de la aplicación
 
