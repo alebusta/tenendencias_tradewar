@@ -22,7 +22,8 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-
+st.page_link("https://tradewar-monitor.streamlit.app/", label="Ir a Inicio", icon="🏠")
+st.markdown("[Volver al inicio](./)")
 # Encabezado
 # CSS personalizado para el encabezado
 st.markdown("""
