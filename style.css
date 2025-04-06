@@ -2,8 +2,7 @@
         /* Barra superior principal con el slogan y botón */
         .header-banner {
             background-size: cover; /* cubre todo el ancho*/
-            background-position: center;
-            /*background-color: #0a1744;*/
+            background-position: center;         
             padding: 15px 0;
             text-align: center;
             display: flex;
@@ -73,32 +72,16 @@
             position: relative;
         }
 
-        /* Botón de menú para móviles */
-        .menu-toggle {
-            display: none;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-
         /* Barra de navegación secundaria */
         .trending-bar {
             display: flex;
-            /*flex-wrap: wrap;*/
             gap: 30px;
             background-color: #f3f3f3;
             padding: 10px 20px;
             font-family: 'Open Sans', sans-serif;
             height: 80px;
-            /*gap: 30px;*/
             align-items: flex-start;
             font-size: 1rem;
-            /*overflow: visible; /* Permite que todo el contenido sea visible */
         }
 
         .trending-title {
@@ -133,27 +116,42 @@
         /* Ocultar la trending-bar en móviles */
         @media (max-width: 768px) {
             .trending-bar {
-                display: none; /* Ocultar por defecto */
                 flex-direction: column; /* Apilar los elementos verticalmente */
                 gap: 10px;
+                flex-wrap: nowrap !important; /* Evitar que los elementos se envuelvan */
+                height: auto !important; /* Ajustar la altura según sea necesario */
+                padding: 15px 15px; /* Ajustar el padding según sea necesario */
             }
 
-            .menu-toggle {
-                display: block; /* Mostrar el botón de menú */
+          .trending-title {
+            all: unset; /* Elimina todos los estilos heredados */
+            font-weight: 700 !important;
+            min-width: 100% !important;
+            text-align: left !important;
+            font-size: 1.1rem !important;
+            white-space: nowrap !important; /* Evita el salto de línea */
+            }
+
+            .trending-item {
+                padding-left: 10px !important; /* Elimina el padding izquierdo */
+                flex-grow: 0 !important; /* Evita que crezca */
+                font-size: 1rem !important;
             }
         }
         
         /* Ocultar la trending-bar en móviles y en modo horizontal */
         @media (max-width: 1024px) {
             .trending-bar {
-                display: none; /* Ocultar por defecto */
-                flex-direction: column; /* Apilar los elementos verticalmente */
-                gap: 10px;
+                gap: 0px;
+                height: 95px; /* Ajustar la altura según sea necesario */
+                padding: 5px 5px;
             }
 
-            .menu-toggle {
-                display: block; /* Mostrar el botón de menú */
-            }
+           .trending-title {
+            text-align: left !important;
+            padding-left: 5px !important;
+            min-width: none;
+           }
         }
         
         /* Elementos adicionales y ajustes */
@@ -252,8 +250,8 @@
             }
         
             .news-block iframe {
-                height: 300px; /* Ajusta la altura del iframe para móviles */
-                width: 100%; /* Asegúrate de que el iframe ocupe todo el ancho del bloque */
+                height: 300px !important; /* Ajusta la altura del iframe para móviles */
+                width: 100% !important; /* Asegúrate de que el iframe ocupe todo el ancho del bloque */
             }
         }
         /* Responsive styles for news-grid on larger screens */

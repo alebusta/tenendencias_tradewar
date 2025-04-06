@@ -51,8 +51,6 @@ st.markdown(f"""
     </style>
 """, unsafe_allow_html=True)
 
-periodo = "Análisis de Noticias: Impacto de la Administración Trump en América Latina, el Caribe y el Mundo (3-16 de marzo de 2025)"
-
 # Encabezado
 # CSS personalizado para el encabezado
 st.markdown("""
@@ -66,9 +64,8 @@ st.markdown("""
 </div>
 
 <div class="trending-container">
-    <button class="menu-toggle" onclick="toggleMenu()">☰ Menú</button>
     <div class="trending-bar">
-        <div class="trending-title">PRINCIPALES<br>SUCESOS</div>
+        <div class="trending-title">PRINCIPALES SUCESOS</div>
         <div class="trending-item"><span class="trending-number">1</span> <a href="/medidas" target="_self">Últimas decisiones y amenazas en la guerra comercial</a></div>
         <div class="trending-item"><span class="trending-number">2</span> <a href="/base" target="_self">Reacciones en Latinoamérica y El Caribe</a></div>
         <div class="trending-item"><span class="trending-number">3</span> <a href="/mundo" target="_self">Reacciones en Estados Unidos y en el mundo</a></div>
@@ -76,24 +73,10 @@ st.markdown("""
     </div>
 </div>
 
-<script>
-    function toggleMenu() {
-        const menu = document.querySelector('.trending-bar');
-        if (menu.style.display === 'none' || menu.style.display === '') {
-            menu.style.display = 'flex'; // Mostrar el menú
-        } else {
-            menu.style.display = 'none'; // Ocultar el menú
-        }
-    }
-</script>
+
 """, unsafe_allow_html=True)
 
-# Contenido de la aplicación
-
-# Cargar la imagen como base64 para incrustarla directamente
-with open("assets/cars-exports.jpg", "rb") as f:
-    data = f.read()
-    imagen = base64.b64encode(data).decode()
+# Sección 1: Noticias destacadas
 
 st.markdown(f"""
 <div class="news-grid">
@@ -119,11 +102,10 @@ st.markdown(f"""
             
 """, unsafe_allow_html=True)
 
-# Segunda fila (texto + gráfico con columnas de Streamlit)
+# Sección 2: Mapa de impacto potencial en Latinoamérica
 col1, col2 = st.columns(2)
 
 with col2:
-    #st.markdown("<div style='margin-top: 100px'></div>", unsafe_allow_html=True)
     st.markdown("""
     <div class="news-text">
         <div class="news-title">Repercusiones en los principales medios de la América Latina y El Caribe</div>
@@ -133,7 +115,7 @@ with col2:
     """, unsafe_allow_html=True)
 
 with col1:
-    # Datos de ejemplo para países
+    # Datos  países traer de DataFrame
     paises_data = pd.DataFrame({
         'País': ['Argentina', 'Bolivia', 'Brazil', 'Chile', 'Colombia', 'Costa Rica', 'Cuba', 'Ecuador', 'El Salvador', 'Guatemala', 'Haiti', 'Mexico', 'Nicaragua', 'Panama', 'Peru', 'Dominican Republic', 'Uruguay', 'Venezuela'],
         'Menciones': [11, 2, 9, 7, 12, 4, 2, 5, 4, 4, 1, 6, 1, 3, 4, 4, 2, 8],
@@ -142,7 +124,6 @@ with col1:
 
     # Mapa interactivo de Latinoamérica
     
-    # Crear un mapa de calor para visualizar impacto por país
     impact_map = pd.DataFrame({
         'País': paises_data['País'],
         'Menciones': paises_data['Menciones'],
@@ -155,7 +136,7 @@ with col1:
         locationmode='country names',
         color='Menciones',
         color_continuous_scale='Blues',
-        height=700,
+        height=700 if st.session_state.get('screen_width',0) > 800 else 400,
         #title='Mapa de impacto potencial en Latinoamérica',
         # Añadir hover_data para mejorar los popups
         hover_name='País',
@@ -188,7 +169,7 @@ with col1:
 
     st.plotly_chart(fig, use_container_width=True)
 
-# Fila 1 (ahora también usando st.columns)
+# Sección 3: Tabla de aranceles
 col3, col4 = st.columns(2)
 
 with col4:
@@ -214,24 +195,6 @@ with col4:
     # Creación del dataframe
     df = pd.DataFrame(data)
 
-    # Usando método de Streamlit para estilizar la tabla
-
-    # Agregar CSS personalizado
-    st.markdown("""
-    <style>
-        .stDataFrame {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-        }
-        .stDataFrame thead tr th {
-            background-color: #1A476F !important;
-            color: white !important;
-        }
-        .stDataFrame tbody tr:nth-child(even) {
-            background-color: #f5f5f5;
-        }
-    </style>
-    """, unsafe_allow_html=True)
-
     # Mostrar la tabla
     st.dataframe(
         df, 
@@ -240,7 +203,7 @@ with col4:
         column_config={
             "PAÍS": st.column_config.TextColumn(
                 "PAÍS",
-                width="medium"
+                width="small",
             ),
             "TARIFA ESTIMADA CONTRA EE.UU. (%)": st.column_config.NumberColumn(
                 "TARIFA ESTIMADA CONTRA EE.UU. (%)",
@@ -289,7 +252,7 @@ st.markdown("""
 *Este reporte analiza las noticias de la semana centrándose en el impacto de las decisiones de la administración Trump en América Latina, el Caribe y el mundo. 
 Se utiliza un enfoque basado en la frecuencia de las noticias y su potencial impacto, prestando atención a los últimos desenlaces como indicadores de tendencias futuras.
 La clasificación de noticias, análisis y reportes automatizados asistidos por Inteligencia Artificial se encuentran en un proceso de desarrollo experimental en el cual
-es fundamental la validación experta humana. Por lo tanto los resultados de los análisis deben tomarse con la debida cautela.*"
+es fundamental la validación experta humana. Por lo tanto los resultados de los análisis deben tomarse con la debida cautela.*
 
 """)
 st.markdown('<p class="small-text" text-align="right">©2025 Cepal Lab</p>', unsafe_allow_html=True)
