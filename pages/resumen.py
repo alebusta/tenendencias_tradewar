@@ -128,7 +128,7 @@ st.markdown("""
 *Este reporte analiza las noticias de la semana centrándose en el impacto de las decisiones de la administración Trump en América Latina, el Caribe y el mundo. 
 Se utiliza un enfoque basado en la frecuencia de las noticias y su potencial impacto, prestando atención a los últimos desenlaces como indicadores de tendencias futuras.
 La clasificación de noticias, análisis y reportes automatizados asistidos por Inteligencia Artificial se encuentran en un proceso de desarrollo experimental en el cual
-es fundamental la validación experta humana. Por lo tanto los resultados de los análisis deben tomarse con la debida cautela.*"
+es fundamental la validación experta humana. Por lo tanto los resultados de los análisis deben tomarse con la debida cautela.*
 
 """)
 col1, col2, col3 = st.columns([1, 1, 1])
