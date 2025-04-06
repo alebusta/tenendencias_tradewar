@@ -68,24 +68,44 @@
             margin-left: 20px ! important;
         }
 
+        /* Contenedor del menú */
+        .trending-container {
+            position: relative;
+        }
+
+        /* Botón de menú para móviles */
+        .menu-toggle {
+            display: none;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
         /* Barra de navegación secundaria */
         .trending-bar {
+            display: flex;
+            /*flex-wrap: wrap;*/
+            gap: 30px;
             background-color: #f3f3f3;
             padding: 10px 20px;
             font-family: 'Open Sans', sans-serif;
-            display: flex;
-            height: 90px;
-            gap: 30px;
+            height: 80px;
+            /*gap: 30px;*/
             align-items: flex-start;
-            font-size: 16px;
-            border-radius: 5px;
+            font-size: 1rem;
+            /*overflow: visible; /* Permite que todo el contenido sea visible */
         }
 
         .trending-title {
             font-weight: 700;
-            min-width: 120px;
-            text-align: left;
-            padding-left: 30px;
+            min-width: 130px;
+            text-align: right;
+            padding-right: 3px;
         }
 
         .trending-item {
@@ -108,6 +128,32 @@
             color: #007bff;
             font-weight: bold;
             margin-right: 6px;
+        }
+
+        /* Ocultar la trending-bar en móviles */
+        @media (max-width: 768px) {
+            .trending-bar {
+                display: none; /* Ocultar por defecto */
+                flex-direction: column; /* Apilar los elementos verticalmente */
+                gap: 10px;
+            }
+
+            .menu-toggle {
+                display: block; /* Mostrar el botón de menú */
+            }
+        }
+        
+        /* Ocultar la trending-bar en móviles y en modo horizontal */
+        @media (max-width: 1024px) {
+            .trending-bar {
+                display: none; /* Ocultar por defecto */
+                flex-direction: column; /* Apilar los elementos verticalmente */
+                gap: 10px;
+            }
+
+            .menu-toggle {
+                display: block; /* Mostrar el botón de menú */
+            }
         }
         
         /* Elementos adicionales y ajustes */
@@ -153,14 +199,14 @@
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
+            justify-content: center; /* Centra verticalmente */
+            align-items: flex-start; /* Alinea el texto a la izquierda */
             box-sizing: border-box;
-            padding:50px 100px;
+            padding: 60px 30px; /* Ajusta el padding según sea necesario */
         }
 
         .news-title {
-            font-size: 1.7rem;
+            font-size: 1.8rem;
             font-weight: bold;
             line-height: 1.2;
             margin-bottom: 20px;
@@ -181,3 +227,53 @@
         .news-link:hover {
             text-decoration: underline;
         }
+
+        /* Responsive styles for news-grid */
+        @media (max-width: 768px) {
+            .news-grid {
+                flex-direction: column; /* Stack items vertically */
+            }
+
+            .news-block {
+                width: 100%; /* Make each block take full width */
+                height: auto; /* Adjust height automatically */
+            }
+
+            .news-text {
+                padding: 20px; /* Reduce el padding en móviles */
+            }
+
+            .news-title {
+                font-size: 1.5rem; /* Adjust title size */
+            }
+
+            .news-description {
+                font-size: 1.2rem; /* Adjust description size */
+            }
+        
+            .news-block iframe {
+                height: 300px; /* Ajusta la altura del iframe para móviles */
+                width: 100%; /* Asegúrate de que el iframe ocupe todo el ancho del bloque */
+            }
+        }
+        /* Responsive styles for news-grid on larger screens */
+
+                        /* Mantener los bloques apilados en pantallas pequeñas y en modo horizontal */
+            @media (max-width: 1024px) {
+                .news-grid {
+                    flex-direction: column; /* Apilar los bloques verticalmente */
+                }
+            
+                .news-block {
+                    width: 100%; /* Cada bloque ocupa el 100% del ancho */
+                    height: auto; /* Ajustar la altura automáticamente */
+                }
+                
+                .news-block iframe {
+                    width: 100%; /* Asegúrate de que el iframe ocupe todo el ancho del bloque */
+                    height: 400px; /* Ajusta la altura según sea necesario */
+                }
+                .news-text {
+                    padding: 20px; /* Reduce padding for smaller screens */
+                }
+            }
