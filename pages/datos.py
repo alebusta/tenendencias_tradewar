@@ -36,19 +36,12 @@ with open("style.css", "r") as f:
 if st.button("Ir a Inicio"):
     st.switch_page("app.py")
 
-# Título y descripción con estilo The Economist
+# Título y descripción 
 st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 5px'>La Guerra Comercial en Datos</h1>", unsafe_allow_html=True)
 st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 25px'>Datos relevantes de interés extraídos de la base de noticias</p>", unsafe_allow_html=True)
 st.markdown('---')
 
 # Contenido de la aplicación
-
-# Cargar la imagen como base64 para incrustarla directamente
-with open("assets/cars-exports.jpg", "rb") as f:
-    data = f.read()
-    imagen = base64.b64encode(data).decode()
-
-
 
 # Fila 1 (ahora también usando st.columns)
 col1, col2 = st.columns(2)
@@ -172,7 +165,7 @@ with col3:
     # Nota de fuente
     st.markdown("<p style='font-size: 0.9rem; color: gray;'>Adaptado de Capital Economics</p>", unsafe_allow_html=True)
 
-    #st.image("https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max", use_column_width=True)
+    
 
 with col4:
     st.markdown("""
@@ -198,4 +191,4 @@ with col1:
 with col2:
     st.markdown('<p class="small-text">Datos actualizados al 3 de abril de 2025</p>', unsafe_allow_html=True)
 with col3:
-    st.markdown('<p class="small-text">© Cepal Lab - Versión de prueba </p>', unsafe_allow_html=True)
+    st.markdown('<p class="small-text">©2025 Cepal Lab</p>', unsafe_allow_html=True)
