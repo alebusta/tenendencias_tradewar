@@ -23,7 +23,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 if st.button("Ir a Inicio"):
-    st.switch_page("output_dia.py")
+    st.switch_page("app.py")
 
 
 # Título y descripción con estilo The Economist
