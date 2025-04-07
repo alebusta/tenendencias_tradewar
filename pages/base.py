@@ -31,8 +31,9 @@ st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 
 st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 25px'>Listado de noticias en medios en español</p>", unsafe_allow_html=True)
 st.markdown('---')
 
-df = pd.read_csv('aranceles_2025-04-02.csv')
-df = df[['title','url','country']]
+df = pd.read_csv('../scrapers/output_data/database_2025-04-02_2025-04-07.csv')
+df = df[df['geo'] == 'latam']
+df = df[['date_process','title','url','country']]
 
 # Opción 1: Convertir la lista a string separado por comas
 # Función para manejar correctamente la conversión de listas a texto
@@ -53,10 +54,11 @@ def format_list(x):
 # Aplicar la función de formateo
 df['pais'] = df['country'].apply(format_list)
 
-show = ['title', 'url', 'pais']
+show = ['date_process','title', 'url', 'pais']
 st.dataframe(
     df[show],
     column_config={
+        "date_process": st.column_config.DateColumn("Fecha"),
         "title": "Titular",
         "url": st.column_config.LinkColumn("Enlace"),
         "pais": "Países"
