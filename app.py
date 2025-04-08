@@ -260,7 +260,7 @@ st.header("💬 Asistente IA")
 st.write("Asistente conversacional basado en inteligencia artificial para hacer consultas a la base de datos de noticias")
 
 with st.expander("Haz clic aquí para abrir"):
-    with open('../summaries/outputs/noticias_2025-04-07.json', 'r', encoding='utf-8') as file:
+    with open('noticias_2025-04-07.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     news_chatbot_component(
