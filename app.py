@@ -149,7 +149,7 @@ with col2:
 with col1:
     # Datos  países traer de DataFrame
     paises_data = pd.DataFrame({
-        'País': ['Antigua y Barbuda', 'Argentina', 'Bahamas', 'Barbados', 'Belice', 'Bolivia', 'Brazil', 'Chile', 'Colombia', 'Costa Rica', 'Cuba', 'Dominica', 'Ecuador', 'El Salvador', 'Granada', 'Guatemala', 'Guyana', 'Haiti', 'Honduras', 'Jamaica', 'Mexico', 'Nicaragua', 'Panama', 'Paraguay', 'Peru', 'Dominican Republic', 'Surinam', 'Trinidad y Tobago', 'Uruguay', 'Venezuela'],
+        'País': ['Antigua y Barbuda', 'Argentina', 'Bahamas', 'Barbados', 'Belice', 'Bolivia', 'Brazil', 'Chile', 'Colombia', 'Costa Rica', 'Cuba', 'Dominica', 'Ecuador', 'El Salvador', 'Granada', 'Guatemala', 'Guyana', 'Haití', 'Honduras', 'Jamaica', 'Mexico', 'Nicaragua', 'Panama', 'Paraguay', 'Peru', 'Dominican Republic', 'Surinam', 'Trinidad y Tobago', 'Uruguay', 'Venezuela'],
         'Menciones': [4, 40, 2, 4, 7, 14, 30, 26, 42, 6, 13, 2, 13, 11, 2, 16, 2, 6, 25, 1, 29, 5, 12, 8, 19, 22, 2, 2, 16, 23],
         #'Áreas Clave': [['desarrollo económico', 'economía', 'inclusión', 'integración regional', 'resiliencia'], ['gobierno', 'corrupción', 'sanciones', 'política', 'justicia'], ['gobierno', 'noticias de América Latina', 'política exterior', 'política internacional', 'relaciones diplomáticas'], ['Netflix', 'acuerdos comerciales', 'adquisiciones', 'cine', 'cooperación internacional'], ['cooperación internacional', 'desarrollo regional', 'economía', 'gobierno', 'gobierno migratorio'], ['música', 'política', 'economía', 'elecciones', 'gira musical'], ['gobierno', 'OEA', 'accidentes aéreos', 'desastres naturales', 'justicia'], ['migración', 'política migratoria', 'gobierno', 'inmigración', 'refugiados'], ['política', 'gobierno', 'diplomacia', 'elecciones', 'relaciones internacionales'], ['política migratoria', 'deportación', 'migración', 'inmigración', 'gobierno'], ['migración', 'seguridad fronteriza', 'tráfico de personas', 'conflicto comercial', 'corrupción'], ['economía', 'política migratoria', 'remesas', 'finanzas internacionales', 'migración'], ['economía', 'migración', 'aranceles', 'comercio internacional', 'moneda'], ['gobiernos autoritarios', 'libertad de prensa', 'medio ambiente', 'minería ilegal', 'periodismo'], ['relaciones internacionales', 'fútbol', 'política exterior', 'política internacional', 'comercio internacional'], ['política exterior', 'relaciones internacionales', 'conflicto internacional', 'guerra', 'historia'], ['aranceles', 'billetera digital', 'comercio internacional', 'criptomoneda', 'desastres naturales'], ['arte', 'autonomía', 'comunidad puertorriqueña', 'cultura', 'diáspora'], ['economía', 'espionaje', 'gobierno', 'inflación', 'moneda'], ['gobierno', 'organizaciones internacionales', 'OEA', 'deportación', 'política de la región'], ['Netflix', 'ataques cibernéticos', 'ciberataque', 'cine', 'confidencialidad'], ['petróleo', 'migración', 'gobierno', 'política migratoria', 'política energética']]
         })
@@ -206,56 +206,47 @@ col3, col4 = st.columns(2)
 
 with col4:
     # Datos de aranceles para países de Latinoamérica y el Caribe de la lista original
-    data = {
-        "PAÍS": [
-            "ARGENTINA", "BRASIL", "BOLIVIA", "CHILE", "COLOMBIA", "COSTA RICA", 
-            "REPÚBLICA DOMINICANA", "ECUADOR", "EL SALVADOR", "GUATEMALA", 
-            "HONDURAS", "NICARAGUA", "PERÚ", "PANAMÁ", "TRINIDAD Y TOBAGO", "URUGUAY", "VENEZUELA"
-        ],
-        "TARIFA ESTIMADA CONTRA EE.UU. (%)": [
-            10, 10, 20, 10, 10, 17, 
-            10, 12, 10, 10, 
-            10, 36, 10, 10, 12, 10, 29
-        ],
-        "TARIFA RECÍPROCA DE EE.UU. (%)": [
-            10, 10, 10, 10, 10, 10, 
-            10, 10, 10, 10, 
-            10, 18, 10, 10, 10, 10, 15
-        ]
-    }
+    # Datos
+    fechas = ['Feb 1', 'Feb 27', 'Abril 2', 'Abril 7']
+    aumentos = [10, 10, 34, 50]
 
-    # Creación del dataframe
-    df = pd.DataFrame(data)
+    # Colores similares a los del gráfico original
+    colores = ['#7a0c0a', '#d22c1e', '#ef4c48', '#ffa2a2']
 
-    # Mostrar la tabla
-    st.dataframe(
-        df, 
-        use_container_width=True,
-        hide_index=True,
-        column_config={
-            "PAÍS": st.column_config.TextColumn(
-                "PAÍS",
-                width="small",
-            ),
-            "TARIFA ESTIMADA CONTRA EE.UU. (%)": st.column_config.NumberColumn(
-                "TARIFA ESTIMADA CONTRA EE.UU. (%)",
-                format="%d%%",
-                width="small"
-            ),
-            "TARIFA RECÍPROCA DE EE.UU. (%)": st.column_config.NumberColumn(
-                "TARIFA RECÍPROCA DE EE.UU. (%)",
-                format="%d%%",
-                width="small"
-            )
-        }
+    # Crear figura con barras apiladas
+    fig = go.Figure()
+
+    for i in range(len(fechas)):
+        fig.add_trace(go.Bar(
+            x=["Aranceles a China"],
+            y=[aumentos[i]],
+            name=fechas[i],
+            marker=dict(color=colores[i]),
+            text=[f"{aumentos[i]}%"],
+            textposition="inside"
+        ))
+
+    # Configuración de diseño
+    fig.update_layout(
+        barmode='stack',
+        title="Desglose del 104% de Aranceles a China",
+        title_font=dict(size=22, family="Arial Black"),
+        xaxis_title="Gráfico adaptado de Yahoo Finance 9 de abril de 2025",
+        yaxis_title="Valor (%)",
+        yaxis=dict(range=[0, 110], ticksuffix="%"),
+        legend_title_text="Fecha de anuncio",
+        height=500
     )
+
+    # Mostrar en Streamlit
+    st.plotly_chart(fig)
 
 
 with col3:
     st.markdown("""
     <div class="news-text">
-        <div class="news-title">Guerra comercial en Datos: Países de la región afectados por aranceles recíprocos</div>
-        <div class="news-description">Aranceles anunciados el 2 de abril. La Casa Blanca informó más tarde que para México y Canadá, las órdenes ejecutivas anteriores siguen vigentes, lo que significa que los productos incluidos en el tratado de libre comercio "seguirá sujetos a un arancel del 0%, los que no lo cumplen, a un arancel del 25%, y los productos de energía y potasa que no lo cumplen, a un arancel del 10%".</div>
+        <div class="news-title">Guerra comercial en Datos: Escalada de aranceles de EEUU a China</div>
+        <div class="news-description">En un periodo de poco más de dos meses, Estados Unidos implementó un aumento acumulado del 104% en aranceles sobre importaciones chinas. Este incremento se dio en cuatro etapas: dos aumentos iniciales de 10% en febrero, seguidos por un alza significativa del 34% en abril 2 y un último salto del 50% apenas cinco días después. La secuencia y magnitud de estas medidas reflejan una escalada rápida en la política comercial, marcando un endurecimiento en la estrategia estadounidense hacia China y represalias de parte del gobierno chino.</div>
         <a class="news-link" href="https://www.elobservador.com.uy/estados-unidos/bbc-news-mundo/que-aranceles-les-ha-impuesto-trump-los-paises-america-latina-y-que-no-incluyen-mexico-n5992631">Ver más →</a>
     </div>
     """, unsafe_allow_html=True)
@@ -269,7 +260,7 @@ st.header("💬 Asistente IA")
 st.write("Asistente conversacional basado en inteligencia artificial para hacer consultas a la base de datos de noticias")
 
 with st.expander("Haz clic aquí para abrir"):
-    with open('noticias_2025-04-08.json', 'r', encoding='utf-8') as file:
+    with open('../summaries/outputs/noticias_2025-04-08.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     news_chatbot_component(
