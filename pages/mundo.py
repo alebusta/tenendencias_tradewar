@@ -33,7 +33,7 @@ st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 
 
 
 
-df = pd.read_csv('../scrapers/output_data/database_2025-04-02_2025-04-07.csv')
+df = pd.read_csv('database.csv')
 df = df[df['geo'] == 'mundo']
 df = df[['date_process','title','url','country']]
 
