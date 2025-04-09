@@ -33,7 +33,7 @@ st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 
 st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 25px'>Listado de noticias en medios en español</p>", unsafe_allow_html=True)
 
 
-df = pd.read_csv('../scrapers/output_data/database_2025-04-02_2025-04-07.csv')
+df = pd.read_csv('database.csv')
 df = df[df['geo'] == 'latam']
 df = df[['date_process','title','url','country']]
 
