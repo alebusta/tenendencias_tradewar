@@ -80,7 +80,16 @@ st.markdown("""
 #https://static01.nyt.com/images/2025/05/06/multimedia/06dc-tariffs-qmbv/06dc-tariffs-qmbv-superJumbo.jpg?quality=75&auto=webp
 st.markdown(f"""
 
-<div class="news-grid">
+    <div class="news-grid">
+    <div class="news-block news-text">
+            <div class="news-title">Trump Tariffs Live: China strikes back with 84% tariffs as investors 'sell America' amid escalating trade war</div>
+            <div class="news-date">Publicado el 9 de abril de 2025</div>
+            <div class="news-description">China will impose 84% tariffs on U.S. goods from Thursday, up from the 34% previously announced, its finance ministry said on Wednesday, firing the latest salvo in a global trade war sparked by U.S.</div>
+            <a class="news-link" href="https://www.devdiscourse.com/article/business/3335504-us-china-trade-tensions-escalate-with-new-round-of-tariffs">Ver más →</a>
+        </div>
+        <div class="news-block">
+            <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Czfv1.img?w=534&h=300&m=6" />
+        </div>
     <!-- Fila 1 -->
     <div class="news-block">
         <img class="news-image" src="https://static01.nyt.com/images/2025/04/06/multimedia/06trump-news-tariffs1-pfjc/06trump-news-tariffs1-pfjc-jumbo.jpg?quality=75&auto=webp" />
