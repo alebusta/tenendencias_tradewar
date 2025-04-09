@@ -19,7 +19,9 @@ st.markdown("""
         }
         [data-testid="collapsedControl"] {
             display: none;
+
         }
+            
     </style>
 """, unsafe_allow_html=True)
 
@@ -29,9 +31,9 @@ if st.button("Ir a Inicio"):
 # Título y descripción con estilo The Economist
 st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 5px'>Repercusiones en América Latina y El Caribe</h1>", unsafe_allow_html=True)
 st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 25px'>Listado de noticias en medios en español</p>", unsafe_allow_html=True)
-st.markdown('---')
 
-df = pd.read_csv('database.csv')
+
+df = pd.read_csv('../scrapers/output_data/database_2025-04-02_2025-04-07.csv')
 df = df[df['geo'] == 'latam']
 df = df[['date_process','title','url','country']]
 
@@ -55,8 +57,60 @@ def format_list(x):
 df['pais'] = df['country'].apply(format_list)
 
 show = ['date_process','title', 'url', 'pais']
+
+# Función para restablecer filtros
+def reset_filters():
+    st.session_state.title_filter = ""
+    st.session_state.country_filter = []
+
+# Inicializar valores en session_state si no existen
+if "title_filter" not in st.session_state:
+    st.session_state.title_filter = ""
+if "country_filter" not in st.session_state:
+    st.session_state.country_filter = []
+
+# Agregar filtros interactivos dentro de un desplegable
+with st.expander("### Filtros de búsqueda (haz clic para expandir)"):
+
+    col1, col2= st.columns(2)
+
+    with col1:
+        # Campo de texto para buscar por título
+        title_filter = st.text_input("Buscar por título:", value="", key="title_filter")
+
+        # Separar y obtener valores únicos de países
+        all_countries = set()
+        for paises in df['pais'].dropna():
+            if isinstance(paises, str):
+                all_countries.update(paises.split(', '))
+
+    with col2:
+        # Campo de selección múltiple para buscar por país
+        country_filter = st.multiselect(
+            "Filtrar por país:",
+            options=sorted(all_countries),
+            default=[],
+            key="country_filter"
+        )
+
+# Botón para restablecer filtros
+if st.button("Mostrar todo", on_click=reset_filters):
+    pass
+
+# Aplicar filtros
+filtered_df = df.copy()
+
+if st.session_state.title_filter:
+    filtered_df = filtered_df[filtered_df['title'].str.contains(st.session_state.title_filter, case=False, na=False)]
+
+if st.session_state.country_filter:
+    filtered_df = filtered_df[filtered_df['pais'].apply(lambda x: any(country in x for country in st.session_state.country_filter))]
+
+# Mostrar resultados filtrados
+st.markdown(f"### Total registros: {len(filtered_df)}")
+
 st.dataframe(
-    df[show],
+    filtered_df[show],
     column_config={
         "date_process": st.column_config.DateColumn("Fecha"),
         "title": "Titular",
@@ -64,12 +118,13 @@ st.dataframe(
         "pais": "Países"
     },
     hide_index=True,
-    height=600,
-    )
+
+)
 
 
 
-# Firma de The Economist
+
+# footer
 st.markdown("""
 <div style='font-family: Georgia; font-style: italic; text-align: right; margin-top: 40px; color: #666666;'>
 © 2025 CEPAL Lab.
