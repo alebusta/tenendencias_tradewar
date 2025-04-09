@@ -85,7 +85,7 @@ st.markdown(f"""
             <div class="news-title">Trump Tariffs Live: China strikes back with 84% tariffs as investors 'sell America' amid escalating trade war</div>
             <div class="news-date">Publicado el 9 de abril de 2025</div>
             <div class="news-description">China will impose 84% tariffs on U.S. goods from Thursday, up from the 34% previously announced, its finance ministry said on Wednesday, firing the latest salvo in a global trade war sparked by U.S.</div>
-            <a class="news-link" href="https://www.devdiscourse.com/article/business/3335504-us-china-trade-tensions-escalate-with-new-round-of-tariffs">Ver más →</a>
+            <a class="news-link" href="https://www.msn.com/en-us/money/markets/china-retaliates-as-trump-trade-tariffs-kick-in/ar-AA1CATwu">Ver más →</a>
         </div>
         <div class="news-block">
             <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Czfv1.img?w=534&h=300&m=6" />
