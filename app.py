@@ -85,10 +85,10 @@ st.markdown(f"""
             <div class="news-title">Trump suspende los aranceles recíprocos por 90 días, excepto los que afectan a China</div>
             <div class="news-date">Publicado el 10 de abril de 2025</div>
             <div class="news-description">Se mantienen aranceles base de 10%, se incrementa aranceles a China hasta 125%, Europa responde postponiendo los aranceles anunciados a EEUU.</div>
-            <a class="news-link" href="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CDrp0.img?w=768&h=514&m=6&x=568&y=126&s=137&d=137">Ver más →</a>
+            <a class="news-link" href="https://www.msn.com/en-us/money/markets/trump-pauses-all-tariffs-for-90-days-except-for-ones-affecting-china/ar-AA1CCfgk">Ver más →</a>
         </div>
         <div class="news-block">
-            <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Czfv1.img?w=534&h=300&m=6" />
+            <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CDrp0.img?w=768&h=514&m=6&x=568&y=126&s=137&d=137" />
         </div>
     <!-- Fila 1 -->
     <div class="news-block">
