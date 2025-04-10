@@ -82,10 +82,10 @@ st.markdown(f"""
 
     <div class="news-grid">
     <div class="news-block news-text">
-            <div class="news-title">Trump Tariffs Live: China strikes back with 84% tariffs as investors 'sell America' amid escalating trade war</div>
-            <div class="news-date">Publicado el 9 de abril de 2025</div>
-            <div class="news-description">China will impose 84% tariffs on U.S. goods from Thursday, up from the 34% previously announced, its finance ministry said on Wednesday, firing the latest salvo in a global trade war sparked by U.S.</div>
-            <a class="news-link" href="https://www.msn.com/en-us/money/markets/china-retaliates-as-trump-trade-tariffs-kick-in/ar-AA1CATwu">Ver más →</a>
+            <div class="news-title">Trump suspende los aranceles recíprocos por 90 días, excepto los que afectan a China</div>
+            <div class="news-date">Publicado el 10 de abril de 2025</div>
+            <div class="news-description">Se mantienen aranceles base de 10%, se incrementa aranceles a China hasta 125%, Europa responde postponiendo los aranceles anunciados a EEUU.</div>
+            <a class="news-link" href="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CDrp0.img?w=768&h=514&m=6&x=568&y=126&s=137&d=137">Ver más →</a>
         </div>
         <div class="news-block">
             <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Czfv1.img?w=534&h=300&m=6" />
