@@ -258,8 +258,10 @@ with col4:
 with col3:
     st.markdown("""
     <div class="news-text">
-        <div class="news-title">Guerra comercial en Datos: Escalada de aranceles de EEUU a China</div>
-        <div class="news-description">En un periodo de poco más de dos meses, Estados Unidos implementó un aumento acumulado del 104% en aranceles sobre importaciones chinas. Este incremento se dio en cuatro etapas: dos aumentos iniciales de 10% en febrero, seguidos por un alza significativa del 34% en abril 2 y un último salto del 50% apenas cinco días después. La secuencia y magnitud de estas medidas reflejan una escalada rápida en la política comercial, marcando un endurecimiento en la estrategia estadounidense hacia China y represalias de parte del gobierno chino.</div>
+        <div class="news-title">Guerra comercial en Datos: Lo último en la escalada de aranceles de EEUU - China</div>
+        <div class="news-description">EE.UU. a China: Los aranceles totales base de EE.UU. sobre las importaciones chinas son del 145%. Esto incluye un arancel recíproco del 125% más aranceles adicionales del 20% impuestos previamente por cuestiones de fentanilo e inmigración ilegal.
+        China a EE.UU.: China ha respondido elevando sus aranceles sobre bienes estadounidenses al 125%.
+        </div>
         <a class="news-link" href="https://www.elobservador.com.uy/estados-unidos/bbc-news-mundo/que-aranceles-les-ha-impuesto-trump-los-paises-america-latina-y-que-no-incluyen-mexico-n5992631">Ver más →</a>
     </div>
     """, unsafe_allow_html=True)
