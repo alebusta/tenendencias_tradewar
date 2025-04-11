@@ -259,8 +259,8 @@ with col3:
     st.markdown("""
     <div class="news-text">
         <div class="news-title">Guerra comercial en Datos: Lo último en la escalada de aranceles de EEUU - China</div>
-        <div class="news-description">EE.UU. a China: Los aranceles totales base de EE.UU. sobre las importaciones chinas son del 145%. Esto incluye un arancel recíproco del 125% más aranceles adicionales del 20% impuestos previamente por cuestiones de fentanilo e inmigración ilegal.
-        China a EE.UU.: China ha respondido elevando sus aranceles sobre bienes estadounidenses al 125%.
+        <div class="news-description">**EE.UU. a China:** Los aranceles totales base de EE.UU. sobre las importaciones chinas son del 145%. Esto incluye un arancel recíproco del 125% más aranceles adicionales del 20% impuestos previamente por cuestiones de fentanilo e inmigración ilegal.
+        **China a EE.UU.:** China ha respondido elevando sus aranceles sobre bienes estadounidenses al 125%.
         </div>
         <a class="news-link" href="https://www.elobservador.com.uy/estados-unidos/bbc-news-mundo/que-aranceles-les-ha-impuesto-trump-los-paises-america-latina-y-que-no-incluyen-mexico-n5992631">Ver más →</a>
     </div>
