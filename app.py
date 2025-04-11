@@ -81,6 +81,16 @@ st.markdown("""
 st.markdown(f"""
 
     <div class="news-grid">
+    <!-- Fila 1 -->
+    <div class="news-block">
+        <img class="news-image" src="https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/16_01_2024_15_39_34_3730227.jpg?width=920&format=webp" />
+    </div>
+    <div class="news-block news-text">  
+        <div class="news-title">China intensifica la guerra comercial mientras Trump aísla a Xi con un giro en los aranceles</div>
+        <div class="news-date">Publicado el 10 de abril de 2025</div>
+        <div class="news-description">China ha contraatacado a Estados Unidos después del drástico giro de Donald Trump respecto a las amenazas arancelarias, lo que aisló a Pekín como el principal objetivo de su ofensiva comercial, reduciendo las perspectivas de una desescalada inmediata.</div>
+        <a class="news-link" href="https://www.nytimes.com/2025/04/06/us/politics/trump-tariffs-aides-recession.html">Ver más →</a>
+    </div> 
     <div class="news-block news-text">
             <div class="news-title">Trump suspende los aranceles recíprocos por 90 días, excepto los que afectan a China</div>
             <div class="news-date">Publicado el 10 de abril de 2025</div>
@@ -90,46 +100,11 @@ st.markdown(f"""
         <div class="news-block">
             <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CDrp0.img?w=768&h=514&m=6&x=568&y=126&s=137&d=137" />
         </div>
-    <!-- Fila 1 -->
-    <div class="news-block">
-        <img class="news-image" src="https://static01.nyt.com/images/2025/04/06/multimedia/06trump-news-tariffs1-pfjc/06trump-news-tariffs1-pfjc-jumbo.jpg?quality=75&auto=webp" />
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">Trump dice que los aranceles se mantendrán hasta que desaparezca el déficit comercial</div>
-        <div class="news-date">Publicado el 6 de abril de 2025</div>
-        <div class="news-description">El presidente dijo que no revertirá rápidamente los fuertes aranceles impuestos la semana pasada, los cuales han generado resistencia y sacudido los mercados.</div>
-        <a class="news-link" href="https://www.nytimes.com/2025/04/06/us/politics/trump-tariffs-aides-recession.html">Ver más →</a>
-    </div>            
+           
     <!-- Fila 2 -->
-    <div class="news-block news-text">
-        <div class="news-title">Las tensiones comerciales entre EE. UU. y China se intensifican con una nueva ronda de aranceles</div>
-        <div class="news-date">Publicado el 5 de abril de 2025</div>
-        <div class="news-description">China responde a los recientes aranceles de EE. UU. imponiendo un impuesto del 34% a las importaciones estadounidenses, aplicando nuevos controles a la exportación de minerales raros e iniciando una demanda ante la OMC. Las tensiones comerciales reflejan disputas anteriores</div>
-        <a class="news-link" href="https://www.devdiscourse.com/article/business/3335504-us-china-trade-tensions-escalate-with-new-round-of-tariffs">Ver más →</a>
-    </div>
-    <div class="news-block">
-        <img class="news-image" src="https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/16_01_2024_15_39_34_3730227.jpg?width=920&format=webp" />
-    </div>
     <!-- Fila 3 -->   
-    <div class="news-block">
-        <iframe width="100%" height="110%" src="https://www.youtube.com/embed/xlNun19KbVw?si=-0XklfEgp-Y0LwkN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">Trump anuncia aranceles el 'Día de la Liberación' que afectarán a más de 150 países</div>
-        <div class="news-date">Publicado el 2 de abril de 2025</div>
-        <div class="news-description">Países enfrentarán un arancel de EE.UU. equivalente a la mitad de la tasa que ellos imponen a los productos estadounidenses, según lo determine la Casa Blanca, con un mínimo del 10%. Trump señaló que este cálculo incluye barreras comerciales no monetarias y la manipulación cambiaria.</div>
-        <a class="news-link" href="#">Ver más →</a>
-    </div>  
     <!-- Fila 4 -->
-    <div class="news-block news-text">
-        <div class="news-title">Así es como los países planean responder a los aranceles de Trump</div>
-        <div class="news-date">Publicado el 2 de abril de 2025</div>
-        <div class="news-description">Gobiernos de todo el mundo reaccionaron después de que las amplias medidas comerciales del presidente Trump afectaran a los principales socios comerciales de Estados Unidos con fuertes aranceles adicionales. Esto es lo que prometen hacer o no, según Reuters.</div>
-        <a class="news-link" href="https://finance.yahoo.com/news/factbox-trump-tariffs-draw-global-024705290.html">Ver más →</a>
-    </div>
-    <div class="news-block">
-        <img class="news-image" src="https://static01.nyt.com/images/2025/04/02/multimedia/02int-tariffs-diplo-lgchESP/02int-tariffs-diplo-lgch-mediumThreeByTwo440.jpg" />
-    </div>
+
 </div>
             
 """, unsafe_allow_html=True)
