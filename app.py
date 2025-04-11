@@ -100,11 +100,6 @@ st.markdown(f"""
         <div class="news-block">
             <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CDrp0.img?w=768&h=514&m=6&x=568&y=126&s=137&d=137" />
         </div>
-           
-    <!-- Fila 2 -->
-    <!-- Fila 3 -->   
-    <!-- Fila 4 -->
-
 </div>
             
 """, unsafe_allow_html=True)
