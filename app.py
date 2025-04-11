@@ -207,11 +207,11 @@ col3, col4 = st.columns(2)
 with col4:
     # Datos de aranceles para países de Latinoamérica y el Caribe de la lista original
     # Datos
-    fechas = ['Feb 1', 'Feb 27', 'Abril 2', 'Abril 7']
-    aumentos = [10, 10, 34, 50]
+    fechas = ['Feb 1', 'Feb 27', 'Abril 2', 'Abril 7','Abril 9']
+    aumentos = [10, 10, 34, 50, 21]
 
     # Colores similares a los del gráfico original
-    colores = ['#7a0c0a', '#d22c1e', '#ef4c48', '#ffa2a2']
+    colores = ['#7a0c0a', '#d22c1e', '#ef4c48', '#ffa2a2', '#ffc4c4']
 
     # Crear figura con barras apiladas
     fig = go.Figure()
@@ -226,14 +226,27 @@ with col4:
             textposition="inside"
         ))
 
+    # Calcular el total
+    total = sum(aumentos)
+
+    # Agregar anotación del total
+    fig.add_annotation(
+        x="Aranceles a China",
+        y=total,
+        text=f"<b>Total: {total}%</b>",
+        showarrow=False,
+        yshift=10,  # Ajusta la distancia vertical sobre la barra
+        font=dict(size=16),
+    )
+
     # Configuración de diseño
     fig.update_layout(
         barmode='stack',
-        title="Desglose del 104% de Aranceles a China",
+        title="Desglose de Aranceles de EEUU a China",
         title_font=dict(size=22, family="Arial Black"),
         xaxis_title="Gráfico adaptado de Yahoo Finance 9 de abril de 2025",
         yaxis_title="Valor (%)",
-        yaxis=dict(range=[0, 110], ticksuffix="%"),
+        yaxis=dict(range=[0, 150], ticksuffix="%"),
         legend_title_text="Fecha de anuncio",
         height=500
     )
