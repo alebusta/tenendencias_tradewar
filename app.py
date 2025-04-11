@@ -208,7 +208,7 @@ with col4:
     # Datos de aranceles para países de Latinoamérica y el Caribe de la lista original
     # Datos
     fechas = ['Feb 1', 'Feb 27', 'Abril 2', 'Abril 7','Abril 9']
-    aumentos = [10, 10, 34, 50, 21]
+    aumentos = [10, 10, 34, 50, 41]
 
     # Colores similares a los del gráfico original
     colores = ['#7a0c0a', '#d22c1e', '#ef4c48', '#ffa2a2', '#ffc4c4']
