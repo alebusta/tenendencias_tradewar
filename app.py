@@ -244,11 +244,11 @@ with col4:
         barmode='stack',
         title="Desglose de Aranceles de EEUU a China",
         title_font=dict(size=22, family="Arial Black"),
-        xaxis_title="Gráfico adaptado de Yahoo Finance 9 de abril de 2025",
+        xaxis_title="Gráfico adaptado de Yahoo Finance del 9 de abril de 2025 y actualizado con nuevos datos",
         yaxis_title="Valor (%)",
         yaxis=dict(range=[0, 150], ticksuffix="%"),
         legend_title_text="Fecha de anuncio",
-        height=500
+        height=600
     )
 
     # Mostrar en Streamlit
@@ -259,7 +259,7 @@ with col3:
     st.markdown("""
     <div class="news-text">
         <div class="news-title">Guerra comercial en Datos: Lo último en la escalada de aranceles</div>
-        <div class="news-description">EE.UU. a China: Los aranceles totales base de EE.UU. sobre las importaciones chinas son del 145%. Esto incluye un arancel recíproco del 125% más aranceles adicionales del 20% impuestos previamente por cuestiones de fentanilo e inmigración ilegal.
+        <div class="news-description">**EE.UU. a China:** Los aranceles totales base de EE.UU. sobre las importaciones chinas son del 145%. Esto incluye un arancel recíproco del 125% más aranceles adicionales del 20% impuestos previamente por cuestiones de fentanilo e inmigración ilegal.
         China a EE.UU.:China ha respondido elevando sus aranceles sobre bienes estadounidenses al 125%.<br>
         General:<br>
         - Trump había autorizado una pausa de 90 días en sus planes de aranceles recíprocos para todos los países excepto China.<br>
