@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-df = pd.read_csv('scrapers/output_data/database_2025-04-02_2025-04-11.csv')
+df = pd.read_csv('database.csv')
 
 # Crear un DataFrame con los recuentos de etiquetas países
 df['country'] = df['country'].apply(ast.literal_eval)
