@@ -7,6 +7,7 @@ from datetime import date
 import base64
 from news_chatbot import news_chatbot_component
 import json
+from map import impact_map
 
 
 # Configuración de página
@@ -37,12 +38,12 @@ def get_base64_of_bin_file(file_path):
 
 
 # Cargar CSS desde un archivo externo
-with open("style.css", "r") as f:
+with open("front/style.css", "r") as f:
     css = f.read()
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
 # Codificar la imagen
-img_base64 = get_base64_of_bin_file("assets/22130.jpg")
+img_base64 = get_base64_of_bin_file("front/assets/22130.jpg")
 st.markdown(f"""
     <style>
     .header-banner {{
@@ -51,7 +52,7 @@ st.markdown(f"""
     </style>
 """, unsafe_allow_html=True)
 
-# Encabezado
+###### SECCIÓN 1: ENCABEZADO ####### 
 # CSS personalizado para el encabezado
 st.markdown("""
 
@@ -76,8 +77,8 @@ st.markdown("""
 
 """, unsafe_allow_html=True)
 
-# Sección 1: Noticias destacadas
-#https://static01.nyt.com/images/2025/05/06/multimedia/06dc-tariffs-qmbv/06dc-tariffs-qmbv-superJumbo.jpg?quality=75&auto=webp
+###### SECCIÓN 2: NOTICIAS DESTACADAS #######
+
 st.markdown(f"""
 
     <div class="news-grid">
@@ -104,74 +105,24 @@ st.markdown(f"""
             
 """, unsafe_allow_html=True)
 
-# Sección 2: Mapa de impacto potencial en Latinoamérica
+###### SECCIÓN 3: MAPAS Y DATOS #######
+# Mapa
 col1, col2 = st.columns(2)
 
 with col2:
     st.markdown("""
     <div class="news-text">
-        <div class="news-title">Repercusiones en los principales medios de la América Latina y El Caribe</div>
+        <div class="news-title">Repercusiones en los medios de América Latina y El Caribe</div>
         <div class="news-description">Este mapa permite visualizar las repercusiones de los últimos eventos en los países de la región durante el período analizado.</div>
         <a class="news-link" href="/base" target="_self">Ver más →</a>
     </div>
     """, unsafe_allow_html=True)
 
 with col1:
-    # Datos  países traer de DataFrame
-    paises_data = pd.DataFrame({
-        'País': ['Antigua y Barbuda', 'Argentina', 'Bahamas', 'Barbados', 'Belice', 'Bolivia', 'Brazil', 'Chile', 'Colombia', 'Costa Rica', 'Cuba', 'Dominica', 'Ecuador', 'El Salvador', 'Granada', 'Guatemala', 'Guyana', 'Haiti', 'Honduras', 'Jamaica', 'Mexico', 'Nicaragua', 'Panama', 'Paraguay', 'Peru', 'Dominican Republic', 'San Vicente y las Granadinas', 'Surinam', 'Trinidad y Tobago', 'Uruguay', 'Venezuela'],
-        'Menciones': [4, 87, 2, 4, 6, 29, 51, 37, 69, 14, 15, 2, 18, 9, 2, 22, 2, 4, 60, 1, 57, 7, 11, 28, 32, 19, 1, 2, 7, 28, 45],
-        #'Áreas Clave': [['desarrollo económico', 'economía', 'inclusión', 'integración regional', 'resiliencia'], ['gobierno', 'corrupción', 'sanciones', 'política', 'justicia'], ['gobierno', 'noticias de América Latina', 'política exterior', 'política internacional', 'relaciones diplomáticas'], ['Netflix', 'acuerdos comerciales', 'adquisiciones', 'cine', 'cooperación internacional'], ['cooperación internacional', 'desarrollo regional', 'economía', 'gobierno', 'gobierno migratorio'], ['música', 'política', 'economía', 'elecciones', 'gira musical'], ['gobierno', 'OEA', 'accidentes aéreos', 'desastres naturales', 'justicia'], ['migración', 'política migratoria', 'gobierno', 'inmigración', 'refugiados'], ['política', 'gobierno', 'diplomacia', 'elecciones', 'relaciones internacionales'], ['política migratoria', 'deportación', 'migración', 'inmigración', 'gobierno'], ['migración', 'seguridad fronteriza', 'tráfico de personas', 'conflicto comercial', 'corrupción'], ['economía', 'política migratoria', 'remesas', 'finanzas internacionales', 'migración'], ['economía', 'migración', 'aranceles', 'comercio internacional', 'moneda'], ['gobiernos autoritarios', 'libertad de prensa', 'medio ambiente', 'minería ilegal', 'periodismo'], ['relaciones internacionales', 'fútbol', 'política exterior', 'política internacional', 'comercio internacional'], ['política exterior', 'relaciones internacionales', 'conflicto internacional', 'guerra', 'historia'], ['aranceles', 'billetera digital', 'comercio internacional', 'criptomoneda', 'desastres naturales'], ['arte', 'autonomía', 'comunidad puertorriqueña', 'cultura', 'diáspora'], ['economía', 'espionaje', 'gobierno', 'inflación', 'moneda'], ['gobierno', 'organizaciones internacionales', 'OEA', 'deportación', 'política de la región'], ['Netflix', 'ataques cibernéticos', 'ciberataque', 'cine', 'confidencialidad'], ['petróleo', 'migración', 'gobierno', 'política migratoria', 'política energética']]
-        })
+    impact_map()
 
-    # Mapa interactivo de Latinoamérica
-    
-    impact_map = pd.DataFrame({
-        'País': paises_data['País'],
-        'Menciones': paises_data['Menciones'],
-        #'Temas': paises_data['Áreas Clave']
-    })
 
-    fig = px.choropleth(
-        impact_map,
-        locations='País',
-        locationmode='country names',
-        color='Menciones',
-        color_continuous_scale='Blues',
-        height=700 if st.session_state.get('screen_width',0) > 800 else 400,
-        #title='Mapa de impacto potencial en Latinoamérica',
-        # Añadir hover_data para mejorar los popups
-        hover_name='País',
-        hover_data={'País': False, 'Menciones': True} #'Temas':True}
-    )
-
-    # Ajustar el mapa para mostrar Latinoamérica correctamente
-    fig.update_geos(
-        visible=False,  # Quita el fondo de océanos/tierra
-        lataxis_range=[-60, 35],
-        lonaxis_range=[-120, -30],
-        showcoastlines=True,
-        coastlinecolor="darkgray",
-        showland=True,
-        landcolor="lightgray",
-        showcountries=True,
-        countrycolor="darkgray",
-        framewidth=0  # Elimina el borde alrededor del mapa
-    )
-
-    fig.update_layout(
-        margin=dict(t=50, b=0, l=0, r=0),
-        coloraxis_colorbar_title='Cantidad de<br>artículos',
-        geo=dict(
-            showframe=False,  # Elimina el marco
-            projection_type='equirectangular'  # Proyección que funciona bien para mostrar países
-        ),
-        dragmode = False
-    )
-
-    st.plotly_chart(fig, use_container_width=True)
-
-# Sección 3: Tabla de aranceles
+# Datos
 col3, col4 = st.columns(2)
 
 with col4:
@@ -244,14 +195,14 @@ with col3:
 
 
 
-###### SECCIÓN 2: DETALLE DE IMPLICANCIAS ######
+###### SECCIÓN 4: CHATBOT ######
 
 
 st.header("💬 Asistente IA")
 st.write("Asistente conversacional basado en inteligencia artificial para hacer consultas a la base de datos de noticias")
 
 with st.expander("Haz clic aquí para abrir"):
-    with open('noticias.json', 'r', encoding='utf-8') as file:
+    with open('summaries/outputs/noticias_2025-04-11.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     news_chatbot_component(
