@@ -38,12 +38,12 @@ def get_base64_of_bin_file(file_path):
 
 
 # Cargar CSS desde un archivo externo
-with open("front/style.css", "r") as f:
+with open("style.css", "r") as f:
     css = f.read()
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
 # Codificar la imagen
-img_base64 = get_base64_of_bin_file("front/assets/22130.jpg")
+img_base64 = get_base64_of_bin_file("assets/22130.jpg")
 st.markdown(f"""
     <style>
     .header-banner {{
@@ -202,7 +202,7 @@ st.header("💬 Asistente IA")
 st.write("Asistente conversacional basado en inteligencia artificial para hacer consultas a la base de datos de noticias")
 
 with st.expander("Haz clic aquí para abrir"):
-    with open('summaries/outputs/noticias.json', 'r', encoding='utf-8') as file:
+    with open('noticias.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     news_chatbot_component(
