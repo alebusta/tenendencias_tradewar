@@ -19,51 +19,37 @@ st.set_page_config(
 )
 
 # Ocultar la sidebar con CSS
-st.markdown(f"""
+st.markdown("""
+    <style>
+        [data-testid="stSidebar"] {
+            display: none;
+        }
+        [data-testid="collapsedControl"] {
+            display: none;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
-    <div class="news-grid">
-    <!-- Fila 1 -->
-    <div class="news-block">
-        <img class="news-image" src="https://thewashingtoninquirer.com/wp-content/uploads/2025/04/Trump-Tarrifs-2048x1365.webp" />
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">La guerra comercial de Trump con China se intensifica, amenazando la estabilidad económica global.</div>
-        <div class="news-date">Publicado el 14 de abril de 2025</div>
-        <div class="news-description">La creciente guerra comercial del presidente Donald Trump con China se ha convertido en un enfrentamiento de alto riesgo, con profundas implicancias para las economías de Estados Unidos y del mundo. Los aranceles se elevan a niveles sin precedentes.</div>
-        <a class="news-link" href="https://thewashingtoninquirer.com/trumps-trade-war-with-china-intensifies-threatening-global-economic-stability/">Ver más →</a>
-    </div>
-    <!-- Fila 2 -->
-    <div class="news-block news-text">
-            <div class="news-title">China y Vietnam firman decenas de nuevos acuerdos para fortalecer lazos mientras Trump intenta renegociar el comercio</div>
-            <div class="news-date">Publicado el 14 de abril de 2025</div>
-            <div class="news-description">El presidente chino Xi Jinping firmó el lunes decenas de acuerdos de cooperación con Vietnam en un intento por profundizar los lazos económicos regionales.</div>
-            <a class="news-link" href="https://ijr.com/china-vietnam-sign-dozens-of-new-deals-strengthening-ties-as-trump-works-to-renegotiate-trade/">Ver más →</a>
-        </div>
-        <div class="news-block">
-            <img class="news-image" src="https://ijr.com/wp-content/uploads/2025/04/china-vietnam-sign-dozens-of-new-deals-strengthening-ties-as-trump-works-to-renegotiate-trade-750x375.jpg" />
-        </div>
-    <!-- Fila 3 -->
-    <div class="news-block">
-        <img class="news-image" src="https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/16_01_2024_15_39_34_3730227.jpg?width=920&format=webp" />
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">China intensifica la guerra comercial mientras Trump aísla a Xi con un giro en los aranceles</div>
-        <div class="news-date">Publicado el 10 de abril de 2025</div>
-        <div class="news-description">China ha contraatacado a Estados Unidos después del drástico giro de Donald Trump respecto a las amenazas arancelarias, lo que aisló a Pekín como el principal objetivo de su ofensiva comercial, reduciendo las perspectivas de una desescalada inmediata.</div>
-        <a class="news-link" href="https://www.nytimes.com/2025/04/06/us/politics/trump-tariffs-aides-recession.html">Ver más →</a>
-    </div>
-    <!-- Fila 4 -->
-    <div class="news-block news-text">
-            <div class="news-title">Trump suspende los aranceles recíprocos por 90 días, excepto los que afectan a China</div>
-            <div class="news-date">Publicado el 10 de abril de 2025</div>
-            <div class="news-description">Se mantienen aranceles base de 10%, se incrementa aranceles a China hasta 125%, Europa responde postponiendo los aranceles anunciados a EEUU.</div>
-            <a class="news-link" href="https://www.msn.com/en-us/money/markets/trump-pauses-all-tariffs-for-90-days-except-for-ones-affecting-china/ar-AA1CCfgk">Ver más →</a>
-        </div>
-        <div class="news-block">
-            <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CDrp0.img?w=768&h=514&m=6&x=568&y=126&s=137&d=137" />
-        </div>
-</div>
-            
+# Función para codificar la imagen en base64
+def get_base64_of_bin_file(file_path):
+    with open(file_path, 'rb') as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
+
+# Cargar CSS desde un archivo externo
+with open("style.css", "r") as f:
+    css = f.read()
+    st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
+
+# Codificar la imagen
+img_base64 = get_base64_of_bin_file("assets/22130.jpg")
+st.markdown(f"""
+    <style>
+    .header-banner {{
+        background-image: url("data:image/jpeg;base64,{img_base64}");
+    }}
+    </style>
 """, unsafe_allow_html=True)
 
 ###### SECCIÓN 1: ENCABEZADO ####### 
@@ -98,6 +84,26 @@ st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
     <div class="news-block">
+        <img class="news-image" src="https://thewashingtoninquirer.com/wp-content/uploads/2025/04/Trump-Tarrifs-2048x1365.webp" />
+    </div>
+    <div class="news-block news-text">  
+        <div class="news-title">La guerra comercial de Trump con China se intensifica, amenazando la estabilidad económica global.</div>
+        <div class="news-date">Publicado el 14 de abril de 2025</div>
+        <div class="news-description">La creciente guerra comercial del presidente Donald Trump con China se ha convertido en un enfrentamiento de alto riesgo, con profundas implicancias para las economías de Estados Unidos y del mundo. Los aranceles se elevan a niveles sin precedentes.</div>
+        <a class="news-link" href="https://thewashingtoninquirer.com/trumps-trade-war-with-china-intensifies-threatening-global-economic-stability/">Ver más →</a>
+    </div>
+    <!-- Fila 2 -->
+    <div class="news-block news-text">
+            <div class="news-title">China y Vietnam firman decenas de nuevos acuerdos para fortalecer lazos mientras Trump intenta renegociar el comercio</div>
+            <div class="news-date">Publicado el 14 de abril de 2025</div>
+            <div class="news-description">El presidente chino Xi Jinping firmó el lunes decenas de acuerdos de cooperación con Vietnam en un intento por profundizar los lazos económicos regionales.</div>
+            <a class="news-link" href="https://ijr.com/china-vietnam-sign-dozens-of-new-deals-strengthening-ties-as-trump-works-to-renegotiate-trade/">Ver más →</a>
+        </div>
+        <div class="news-block">
+            <img class="news-image" src="https://ijr.com/wp-content/uploads/2025/04/china-vietnam-sign-dozens-of-new-deals-strengthening-ties-as-trump-works-to-renegotiate-trade-750x375.jpg" />
+        </div>
+    <!-- Fila 3 -->
+    <div class="news-block">
         <img class="news-image" src="https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/16_01_2024_15_39_34_3730227.jpg?width=920&format=webp" />
     </div>
     <div class="news-block news-text">  
@@ -105,7 +111,8 @@ st.markdown(f"""
         <div class="news-date">Publicado el 10 de abril de 2025</div>
         <div class="news-description">China ha contraatacado a Estados Unidos después del drástico giro de Donald Trump respecto a las amenazas arancelarias, lo que aisló a Pekín como el principal objetivo de su ofensiva comercial, reduciendo las perspectivas de una desescalada inmediata.</div>
         <a class="news-link" href="https://www.nytimes.com/2025/04/06/us/politics/trump-tariffs-aides-recession.html">Ver más →</a>
-    </div> 
+    </div>
+    <!-- Fila 4 -->
     <div class="news-block news-text">
             <div class="news-title">Trump suspende los aranceles recíprocos por 90 días, excepto los que afectan a China</div>
             <div class="news-date">Publicado el 10 de abril de 2025</div>
