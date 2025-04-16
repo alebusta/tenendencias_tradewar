@@ -93,14 +93,14 @@ st.markdown(f"""
     </div>
     <!-- Fila 2 -->
     <div class="news-block news-text">
-            <div class="news-title">Trump ordena una investigación arancelaria sobre todas las importaciones de minerales críticos a Estados Unidos</div>
-            <div class="news-date">Publicado el 15 de abril de 2025</div>
-            <div class="news-description">El presidente de Estados Unidos, Donald Trump, ordenó el martes una investigación sobre posibles nuevos aranceles a todas las importaciones de minerales críticos del país, una importante escalada en su disputa con los socios comerciales globales.</div>
-            <a class="news-link" href="https://www.msn.com/en-gb/news/world/trump-orders-tariff-probe-on-all-us-critical-mineral-imports/ar-AA1CZtkX">Ver más →</a>
+        <div class="news-title">Trump ordena una investigación arancelaria sobre todas las importaciones de minerales críticos a Estados Unidos</div>
+        <div class="news-date">Publicado el 15 de abril de 2025</div>
+        <div class="news-description">El presidente de Estados Unidos, Donald Trump, ordenó el martes una investigación sobre posibles nuevos aranceles a todas las importaciones de minerales críticos del país, una importante escalada en su disputa con los socios comerciales globales.</div>
+        <a class="news-link" href="https://www.msn.com/en-gb/news/world/trump-orders-tariff-probe-on-all-us-critical-mineral-imports/ar-AA1CZtkX">Ver más →</a>
         </div>
-        <div class="news-block">
-            <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CZhmB.img?w=768&h=510&m=6" />
-        </div>
+    <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CZhmB.img?w=768&h=510&m=6" />
+    </div>
     <div class="news-grid">
     <!-- Fila 3 -->
     <div class="news-block">
