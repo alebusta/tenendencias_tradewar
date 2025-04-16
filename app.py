@@ -101,7 +101,6 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CZhmB.img?w=768&h=510&m=6" />
     </div>
-    <div class="news-grid">
     <!-- Fila 3 -->
     <div class="news-block">
         <img class="news-image" src="https://thewashingtoninquirer.com/wp-content/uploads/2025/04/Trump-Tarrifs-2048x1365.webp" />
