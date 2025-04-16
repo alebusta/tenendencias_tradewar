@@ -122,26 +122,6 @@ st.markdown(f"""
         <div class="news-block">
             <img class="news-image" src="https://ijr.com/wp-content/uploads/2025/04/china-vietnam-sign-dozens-of-new-deals-strengthening-ties-as-trump-works-to-renegotiate-trade-750x375.jpg" />
         </div>
-    <!-- Fila 5 -->
-    <div class="news-block">
-        <img class="news-image" src="https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/16_01_2024_15_39_34_3730227.jpg?width=920&format=webp" />
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">China intensifica la guerra comercial mientras Trump aísla a Xi con un giro en los aranceles</div>
-        <div class="news-date">Publicado el 10 de abril de 2025</div>
-        <div class="news-description">China ha contraatacado a Estados Unidos después del drástico giro de Donald Trump respecto a las amenazas arancelarias, lo que aisló a Pekín como el principal objetivo de su ofensiva comercial, reduciendo las perspectivas de una desescalada inmediata.</div>
-        <a class="news-link" href="https://www.nytimes.com/2025/04/06/us/politics/trump-tariffs-aides-recession.html">Ver más →</a>
-    </div>
-    <!-- Fila 6 -->
-    <div class="news-block news-text">
-            <div class="news-title">Trump suspende los aranceles recíprocos por 90 días, excepto los que afectan a China</div>
-            <div class="news-date">Publicado el 10 de abril de 2025</div>
-            <div class="news-description">Se mantienen aranceles base de 10%, se incrementa aranceles a China hasta 125%, Europa responde postponiendo los aranceles anunciados a EEUU.</div>
-            <a class="news-link" href="https://www.msn.com/en-us/money/markets/trump-pauses-all-tariffs-for-90-days-except-for-ones-affecting-china/ar-AA1CCfgk">Ver más →</a>
-        </div>
-        <div class="news-block">
-            <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CDrp0.img?w=768&h=514&m=6&x=568&y=126&s=137&d=137" />
-        </div>
 </div>
             
 """, unsafe_allow_html=True)
