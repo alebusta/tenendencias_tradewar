@@ -82,16 +82,6 @@ st.markdown("""
 st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
-    <div class="news-block">
-        <img class="news-image" src="https://www.aljazeera.com/wp-content/uploads/2025/04/AP25106223653950-1-1744790356.jpg?resize=770%2C513&quality=80" />
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">Xi llega a Malasia con un mensaje: China es un mejor socio que Trump</div>
-        <div class="news-date">Publicado el 15 de abril de 2025</div>
-        <div class="news-description">La visita del presidente chino Xi Jinping a Malasia es la segunda parada en el sudeste asiático en medio de los aranceles de Trump y la guerra comercial de Estados Unidos.</div>
-        <a class="news-link" href="https://www.aljazeera.com/news/2025/4/16/xi-arrives-in-malaysia-with-a-message-chinas-a-better-partner-than-trump">Ver más →</a>
-    </div>
-    <!-- Fila 2 -->
     <div class="news-block news-text">
         <div class="news-title">Trump ordena una investigación arancelaria sobre todas las importaciones de minerales críticos a Estados Unidos</div>
         <div class="news-date">Publicado el 15 de abril de 2025</div>
@@ -101,7 +91,27 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CZhmB.img?w=768&h=510&m=6" />
     </div>
+    <!-- Fila 2 -->
+    <div class="news-block">
+        <img class="news-image" src="https://www.aljazeera.com/wp-content/uploads/2025/04/AP25106223653950-1-1744790356.jpg?resize=770%2C513&quality=80" />
+    </div>
+    <div class="news-block news-text">  
+        <div class="news-title">Xi llega a Malasia con un mensaje: China es un mejor socio que Trump</div>
+        <div class="news-date">Publicado el 15 de abril de 2025</div>
+        <div class="news-description">La visita del presidente chino Xi Jinping a Malasia es la segunda parada en el sudeste asiático en medio de los aranceles de Trump y la guerra comercial de Estados Unidos.</div>
+        <a class="news-link" href="https://www.aljazeera.com/news/2025/4/16/xi-arrives-in-malaysia-with-a-message-chinas-a-better-partner-than-trump">Ver más →</a>
+    </div>
     <!-- Fila 3 -->
+    <div class="news-block news-text">
+        <div class="news-title">Trump ordena una investigación arancelaria sobre todas las importaciones de minerales críticos a Estados Unidos</div>
+        <div class="news-date">Publicado el 15 de abril de 2025</div>
+        <div class="news-description">El presidente de Estados Unidos, Donald Trump, ordenó el martes una investigación sobre posibles nuevos aranceles a todas las importaciones de minerales críticos del país, una importante escalada en su disputa con los socios comerciales globales.</div>
+        <a class="news-link" href="https://www.msn.com/en-gb/news/world/trump-orders-tariff-probe-on-all-us-critical-mineral-imports/ar-AA1CZtkX">Ver más →</a>
+        </div>
+    <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CZhmB.img?w=768&h=510&m=6" />
+    </div>
+    <!-- Fila 4 -->
     <div class="news-block">
         <img class="news-image" src="https://thewashingtoninquirer.com/wp-content/uploads/2025/04/Trump-Tarrifs-2048x1365.webp" />
     </div>
@@ -111,7 +121,7 @@ st.markdown(f"""
         <div class="news-description">La creciente guerra comercial del presidente Donald Trump con China se ha convertido en un enfrentamiento de alto riesgo, con profundas implicancias para las economías de Estados Unidos y del mundo. Los aranceles se elevan a niveles sin precedentes.</div>
         <a class="news-link" href="https://thewashingtoninquirer.com/trumps-trade-war-with-china-intensifies-threatening-global-economic-stability/">Ver más →</a>
     </div>
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block news-text">
             <div class="news-title">China y Vietnam firman decenas de nuevos acuerdos para fortalecer lazos mientras Trump intenta renegociar el comercio</div>
             <div class="news-date">Publicado el 14 de abril de 2025</div>
