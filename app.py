@@ -89,7 +89,7 @@ st.markdown(f"""
         <a class="news-link" href="https://www.msn.com/en-us/money/markets/global-trade-outlook-has-deteriorated-sharply-amid-trump-tariff-uncertainty-wto-warns/ar-AA1D29rV">Ver más →</a>
         </div>
     <div class="news-block">
-        <img class="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1D25Br.img?w=768&h=402&m=6" />
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1D25Br.img?w=768&h=402&m=6" />
     </div>
     <!-- Fila 2 -->
     <div class="news-block">
