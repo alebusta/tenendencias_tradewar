@@ -86,7 +86,7 @@ st.markdown(f"""
         <div class="news-title">La OMC advierte que la guerra comercial entre EE.UU. y China podría llevar al mundo a una recesión</div>
         <div class="news-date">Publicado el 16 de abril de 2025</div>
         <div class="news-description">La Organización Mundial del Comercio (OMC) advirtió este miércoles que las perspectivas para el comercio global se han "deteriorado drásticamente" a raíz de las medidas adoptadas por Estados Unidos.</div>
-        <a class="news-link" href="https://www.msn.com/en-gb/news/world/trump-orders-tariff-probe-on-all-us-critical-mineral-imports/ar-AA1CZtkX">Ver más →</a>
+        <a class="news-link" href="https://www.msn.com/en-us/money/markets/global-trade-outlook-has-deteriorated-sharply-amid-trump-tariff-uncertainty-wto-warns/ar-AA1D29rV">Ver más →</a>
         </div>
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CZhmB.img?w=768&h=510&m=6" />
