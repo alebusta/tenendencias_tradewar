@@ -83,13 +83,13 @@ st.markdown(f"""
     <div class="news-grid">
         <!-- Fila 2 -->
     <div class="news-block">
-        <img class="news-image" src="https://www.aljazeera.com/wp-content/uploads/2025/04/AP25106223653950-1-1744790356.jpg?resize=770%2C513&quality=80" />
+        <img class="news-image" src="https://i0.wp.com/efe.com/wp-content/uploads/2025/04/choque-de-Estados-Unidos-y-China-en-Latinoamerica.webp?w=900&ssl=1" />
     </div>
     <div class="news-block news-text">  
-        <div class="news-title">Xi llega a Malasia con un mensaje: China es un mejor socio que Trump</div>
-        <div class="news-date">Publicado el 15 de abril de 2025</div>
-        <div class="news-description">La visita del presidente chino Xi Jinping a Malasia es la segunda parada en el sudeste asiático en medio de los aranceles de Trump y la guerra comercial de Estados Unidos.</div>
-        <a class="news-link" href="https://www.aljazeera.com/news/2025/4/16/xi-arrives-in-malaysia-with-a-message-chinas-a-better-partner-than-trump">Ver más →</a>
+        <div class="news-title">Los aranceles de Trump abren oportunidades en Latinoamérica a UE o India, según expertos</div>
+        <div class="news-date">Publicado el 17 de abril de 2025</div>
+        <div class="news-description">La agresiva política arancelaria de Donald Trump va dirigida principalmente a China, por ello los países latinoamericanos, cuyos principales socios comerciales son las dos potencias enfrentadas, buscan reducir su dependencia de ambas y diversificar, en una dinámica que abre oportunidades a potencias intermedias.</div>
+        <a class="news-link" href="https://efe.com/euro-efe/2025-04-17/aranceles-trump-oportunidades-latinoamerica-ue/">Ver más →</a>
     </div>
     <!-- Fila 3 -->
     <div class="news-block news-text">
