@@ -81,6 +81,16 @@ st.markdown("""
 
 st.markdown(f"""
     <div class="news-grid">
+        <!-- Fila 2 -->
+    <div class="news-block">
+        <img class="news-image" src="https://www.aljazeera.com/wp-content/uploads/2025/04/AP25106223653950-1-1744790356.jpg?resize=770%2C513&quality=80" />
+    </div>
+    <div class="news-block news-text">  
+        <div class="news-title">Xi llega a Malasia con un mensaje: China es un mejor socio que Trump</div>
+        <div class="news-date">Publicado el 15 de abril de 2025</div>
+        <div class="news-description">La visita del presidente chino Xi Jinping a Malasia es la segunda parada en el sudeste asiático en medio de los aranceles de Trump y la guerra comercial de Estados Unidos.</div>
+        <a class="news-link" href="https://www.aljazeera.com/news/2025/4/16/xi-arrives-in-malaysia-with-a-message-chinas-a-better-partner-than-trump">Ver más →</a>
+    </div>
     <!-- Fila 3 -->
     <div class="news-block news-text">
         <div class="news-title">La OMC advierte que la guerra comercial entre EE.UU. y China podría llevar al mundo a una recesión</div>
