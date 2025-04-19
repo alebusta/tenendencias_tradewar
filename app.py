@@ -81,6 +81,16 @@ st.markdown("""
 
 st.markdown(f"""
     <div class="news-grid">
+    <!-- Fila 3 -->
+    <div class="news-block news-text">
+        <div class="news-title">La mayor víctima de una guerra comercial con China, temen los expertos, podría ser el lugar de Estados Unidos en el mundo</div>
+        <div class="news-date">Publicado el 18 de abril de 2025</div>
+        <div class="news-description">La guerra arancelaria de la administración Trump con China suele verse principalmente desde la perspectiva económica. Pero para muchos economistas, la amenaza más grande es que la apuesta comercial global de Trump podría erosionar la principal fuente de autoridad mundial de Estados Unidos: las relaciones geopolíticas a largo plazo que ha cultivado durante casi un siglo.</div>
+        <a class="news-link" href="https://www.msn.com/en-us/money/markets/the-biggest-casualty-of-a-china-trade-war-americas-place-in-the-world-experts-fear/ar-AA1DbwFI">Ver más →</a>
+        </div>
+    <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1DbFnA.img?w=768&h=612&m=6&x=222&y=247&s=600&d=158" />
+    </div>
         <!-- Fila 2 -->
     <div class="news-block">
         <img class="news-image" src="https://i0.wp.com/efe.com/wp-content/uploads/2025/04/choque-de-Estados-Unidos-y-China-en-Latinoamerica.webp?w=900&ssl=1" />
