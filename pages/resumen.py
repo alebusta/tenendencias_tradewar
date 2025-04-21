@@ -112,7 +112,7 @@ st.markdown("""
 st.markdown("""---""")	
 st.header("Resúmenes anteriores")
 
-with st.expander("Segunda semana de abril de 2025, expanded=False):
+with st.expander("Segunda semana de abril de 2025", expanded=False):
     st.markdown("""	
                 
         <div class="news-text">
