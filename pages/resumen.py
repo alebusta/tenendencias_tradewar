@@ -45,6 +45,97 @@ st.markdown("""
     <div class="news-text">
         <div class="div-news-description">
             
+# Tensiones comerciales, realineamientos geopolíticos y vulnerabilidades regionales: El impacto de la guerra comercial en América Latina y el mundo
+
+*Tercera semana de abril: 14 al 20 de abril de 2025*
+
+## Diagnóstico
+
+**Estados Unidos**
+Durante la semana, Estados Unidos, bajo la administración Trump, intensificó su postura en la guerra comercial, generando una ola de incertidumbre y reacciones a nivel global. Se implementaron aranceles más altos a productos chinos, alcanzando hasta un 145%, lo que provocó una respuesta inmediata de Pekín con aranceles recíprocos. Esta escalada llevó a la Organización Mundial del Comercio (OMC) a advertir sobre una posible contracción del comercio mundial y a revisar a la baja las previsiones de crecimiento económico. A pesar de este panorama sombrío, la administración Trump mantuvo su postura, argumentando la necesidad de proteger la industria estadounidense y corregir desequilibrios comerciales.
+
+En el frente interno, la administración Trump buscó mitigar el impacto de los aranceles en algunos sectores, anunciando exenciones temporales para productos tecnológicos y considerando medidas similares para la industria automotriz. Sin embargo, estas acciones no lograron calmar por completo la preocupación de los mercados y de diversos sectores económicos, que temen un aumento de la inflación y una desaceleración del crecimiento. Además, la política comercial de Trump generó tensiones con socios comerciales clave, como la Unión Europea, y provocó que algunos países buscaran alternativas para diversificar sus relaciones comerciales y reducir su dependencia de Estados Unidos.
+
+**China**
+China por su parte ha mantenido una postura firme frente a la creciente guerra comercial con Estados Unidos, aunque también ha dejado la puerta abierta a negociaciones bajo ciertas condiciones. El gobierno chino ha criticado las políticas arancelarias de Trump, calificándolas de "juego de números" y advirtiendo que tomará contramedidas si Estados Unidos persiste en socavar sus intereses. A pesar de estas tensiones, ha expresado su disposición a dialogar, siempre y cuando se respeten sus intereses y se aborden temas como las sanciones y Taiwán. Además de su postura diplomática, China ha tomado medidas concretas para mitigar el impacto de los aranceles estadounidenses. Ha impulsado la diversificación de sus mercados de exportación, buscando nuevos socios comerciales en Europa, el Sudeste Asiático, África y América Latina. También ha acelerado sus esfuerzos para lograr la autosuficiencia tecnológica, invirtiendo fuertemente en investigación y desarrollo en sectores clave como los semiconductores y la inteligencia artificial. Estas acciones reflejan la determinación de China de resistir la presión de Estados Unidos y mantener su posición como potencia económica global.
+
+**Organismos Internacionales**
+Los organismos internacionales han expresado una creciente preocupación por las consecuencias de la guerra comercial global. El Fondo Monetario Internacional (FMI) ha advertido sobre una desaceleración del crecimiento económico mundial y un aumento de la inflación como resultado de las tensiones comerciales y los aranceles impuestos por Estados Unidos. Kristalina Georgieva, directora gerente del FMI, ha señalado que las nuevas proyecciones de crecimiento incluirán reducciones significativas, aunque no se espera una recesión. La Organización Mundial del Comercio (OMC) también ha expresado su inquietud, advirtiendo sobre una posible contracción del comercio mundial debido a las políticas arancelarias y la incertidumbre que generan.
+
+
+**Latinoamérica y El Caribe**
+Además de las preocupaciones económicas, los organismos internacionales también han destacado los riesgos geopolíticos asociados con la guerra comercial. La imposición de aranceles y las represalias comerciales están generando tensiones entre las principales economías del mundo, lo que podría socavar la cooperación multilateral y la estabilidad global. Algunos expertos han advertido sobre la posibilidad de una fragmentación de la economía mundial en bloques comerciales rivales, lo que tendría consecuencias negativas para el crecimiento y el desarrollo a largo plazo.
+
+El impacto de las políticas de Donald Trump en América Latina y el Caribe es complejo y multifacético. Por un lado, la imposición de aranceles y la retórica proteccionista generan incertidumbre y preocupación en la región, especialmente en países con economías dependientes de las exportaciones a Estados Unidos. Se teme una desaceleración del crecimiento económico, la pérdida de empleos y el aumento de la inflación. Por otro lado, algunos países ven en esta situación una oportunidad para diversificar sus mercados y fortalecer sus lazos comerciales con otras regiones, como Asia y Europa.
+
+En respuesta a estas políticas, los países de América Latina y el Caribe están adoptando diversas estrategias. Algunos buscan negociar acuerdos bilaterales con Estados Unidos para mitigar el impacto de los aranceles, mientras que otros apuestan por fortalecer la integración regional y promover el comercio Sur-Sur. Además, se observa un creciente interés en diversificar las relaciones comerciales y buscar nuevos socios estratégicos. Por ejemplo, México, aunque ligado al T-MEC con EE.UU. y Canadá, busca alternativas en Asia. Chile, por su parte, ha expresado su intención de mantener los mejores vínculos con China, así como fortalecer el tratado de libre comercio con Estados Unidos, mientras que Brasil ha activado su "Ley de Reciprocidad Económica" para responder a las medidas proteccionistas de Trump. Estas acciones reflejan la búsqueda de un equilibrio entre la dependencia de Estados Unidos y la necesidad de adaptarse a un nuevo orden económico mundial.
+
+
+## Tendencias
+
+1.  **Fragmentación del comercio mundial:** La imposición de aranceles y la búsqueda de acuerdos bilaterales están fragmentando el comercio mundial en bloques, con China y Estados Unidos compitiendo por influencia.Varios países, incluyendo Japón, Reino Unido, Corea del Sur e India, están en negociaciones con Estados Unidos para buscar acuerdos comerciales que mitiguen el impacto de los aranceles.
+2.  **Realineamiento geopolítico:** Ante la imprevisibilidad de las políticas estadounidenses, los países de América Latina están buscando diversificar sus alianzas y fortalecer sus lazos con otras potencias, como China y la Unión Europea.
+3.  **Aumento de la incertidumbre económica:** La guerra comercial y la volatilidad de las políticas estadounidenses están generando incertidumbre en los mercados y afectando las decisiones de inversión de las empresas. Empresas de diversos sectores, como tecnología (Nvidia, ASML), automotriz (Ford), y productos de consumo (e.l.f. Beauty, Shein, Temu), se están viendo afectadas por los aranceles, lo que las está llevando a ajustar sus estrategias de producción, precios y cadenas de suministro.
+4.  **Reconfiguración de las Cadenas de Suministro:** Las empresas están buscando diversificar sus cadenas de suministro para reducir su dependencia de China y mitigar el impacto de los aranceles.
+5.  **Aumento del Proteccionismo:** Se observa una tendencia creciente hacia el proteccionismo en varios países, con medidas que buscan proteger las industrias locales de la competencia extranjera.
+
+## Implicaciones estratégicas
+
+*   **Para la Región:**
+    *   **Corto Plazo:** Mayor incertidumbre económica, volatilidad en los mercados financieros, y presión sobre las exportaciones.
+    *   **Mediano Plazo:** Necesidad de diversificar las relaciones comerciales, fortalecer la integración regional, y buscar nuevas fuentes de inversión.
+    *   **Largo Plazo:** Posible reconfiguración de la economía regional, con un mayor enfoque en la producción local y el desarrollo de nuevas industrias.
+*   **Para Estados Unidos:**
+    *   **Corto Plazo:** Aumento de la inflación, disrupción de las cadenas de suministro, y posible desaceleración económica.
+    *   **Mediano Plazo:** Erosión de la competitividad, pérdida de influencia en la región, y riesgo de aislamiento comercial.
+    *   **Largo Plazo:** Posible declive de su hegemonía económica y política a nivel global.
+*   **Para el Mundo:**
+    *   **Corto Plazo:** Mayor volatilidad en los mercados financieros, aumento de la incertidumbre económica, y riesgo de recesión global.
+    *   **Mediano Plazo:** Fragmentación del comercio global, reconfiguración de las alianzas geopolíticas, y posible surgimiento de nuevos centros de poder económico.
+    *   **Largo Plazo:** Un mundo más multipolar, con un sistema de comercio internacional menos basado en reglas y más en la correlación de fuerzas.
+
+## Factores clave a vigilar
+
+1.  **Impacto de los aranceles de Trump en las exportaciones latinoamericanas:** Monitorear de cerca cómo los aranceles impuestos por la administración Trump afectan a las exportaciones de la región, especialmente en sectores como la agroindustria, textiles y manufacturas. Observar si las empresas latinoamericanas pueden diversificar sus mercados o si se ven obligadas a reducir su producción.
+
+2.  **Reacciones de los gobiernos latinoamericanos a la política comercial de EE.UU.:** Seguir de cerca las respuestas de los gobiernos de la región a las políticas comerciales de Trump, incluyendo posibles negociaciones bilaterales, acuerdos con otros bloques comerciales (como la UE o China) y medidas de apoyo a los sectores afectados.
+
+3.  **Tensiones geopolíticas en la región:** Vigilar las tensiones entre Estados Unidos y China en América Latina, incluyendo la competencia por influencia económica y política, y el impacto en la soberanía de los países de la región.
+
+4.  **Situación económica en Venezuela:** Monitorear la situación económica y política en Venezuela, incluyendo el impacto de las sanciones estadounidenses, la migración y las próximas elecciones.
+
+5.  **Impacto en la industria tecnológica:** Observar cómo las restricciones comerciales de EE.UU. sobre semiconductores y otras tecnologías afectan a las empresas de la región, incluyendo posibles cambios en las cadenas de suministro y la inversión en innovación.
+
+---
+
+## Datos relevantes de la guerra comercial
+
+### *Ámbito Global* 
+La economía mundial se enfrenta a una creciente incertidumbre debido a las tensiones comerciales impulsadas por las políticas arancelarias de Estados Unidos. Organismos como el FMI y la OMC han advertido sobre una posible desaceleración del crecimiento global y un aumento de la inflación. Los precios de las materias primas, como el petróleo, han experimentado fluctuaciones debido a las tensiones geopolíticas y las sanciones. Las decisiones de política monetaria de los bancos centrales, como el BCE, están siendo influenciadas por la necesidad de mitigar los efectos negativos de la guerra comercial. Las proyecciones de crecimiento económico mundial están siendo revisadas a la baja, reflejando el impacto de las políticas proteccionistas en el comercio y la inversión.
+
+### *Latinoamérica y el Caribe*
+
+*   **Argentina:**
+    *   **62%** en **Participación del Malbec en las exportaciones de vino fraccionado** - 2024
+    *   **19.2%** en **Crecimiento de la superficie cultivada con Malbec** - 2015 a 2024
+*   **Brasil:**
+    *   **40%** en **Producción mundial de soja** - 2025
+*   **35%** en **Aumento de las importaciones anuales de soja brasileña por parte de China** - 2017 a 2024
+*   **Panamá:**
+    *   **15.1%** en **Caída del movimiento comercial en la Zona Libre de Colón** - Primer trimestre
+            </div>
+
+ """, unsafe_allow_html=True)
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("Segunda semana de abril de 2025", expanded=False):
+    st.markdown("""	
+                
+        <div class="news-text">
+            <div class="div-news-description">
+                
     # Tensiones comerciales y repercusiones regionales: 145% para China, 125% para EE.UU.: La incertidumbre se intensifica y sacude la economía mundial
     *Segunda semana de abril de 2025*
             
@@ -105,92 +196,6 @@ st.markdown("""
     *   **USD 271 millones** es el valor de los 263 productos exportados por Bolivia a EEUU (2024).
     *   **30%** de las exportaciones de Colombia tienen como destino el mercado de EEUU (2024).
     *   **70%** de las exportaciones peruanas se ven afectadas por aranceles de EEUU.
-            </div>
-
- """, unsafe_allow_html=True)
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
-
-with st.expander("Segunda semana de abril de 2025", expanded=False):
-    st.markdown("""	
-                
-        <div class="news-text">
-            <div class="div-news-description">
-                
-    # Tensiones comerciales, realineamientos geopolíticos y vulnerabilidades regionales: El impacto de la guerra comercial en América Latina y el mundo
-    
-    *Tercera semana de abril: 14 al 20 de abril de 2025*
-    
-    ## Diagnóstico
-    
-    Durante la semana, Estados Unidos, bajo la administración Trump, intensificó su postura en la guerra comercial, generando una ola de incertidumbre y reacciones a nivel global. Se implementaron aranceles más altos a productos chinos, alcanzando hasta un 145%, lo que provocó una respuesta inmediata de Pekín con aranceles recíprocos. Esta escalada llevó a la Organización Mundial del Comercio (OMC) a advertir sobre una posible contracción del comercio mundial y a revisar a la baja las previsiones de crecimiento económico. A pesar de este panorama sombrío, la administración Trump mantuvo su postura, argumentando la necesidad de proteger la industria estadounidense y corregir desequilibrios comerciales.
-    
-    En el frente interno, la administración Trump buscó mitigar el impacto de los aranceles en algunos sectores, anunciando exenciones temporales para productos tecnológicos y considerando medidas similares para la industria automotriz. Sin embargo, estas acciones no lograron calmar por completo la preocupación de los mercados y de diversos sectores económicos, que temen un aumento de la inflación y una desaceleración del crecimiento. Además, la política comercial de Trump generó tensiones con socios comerciales clave, como la Unión Europea, y provocó que algunos países buscaran alternativas para diversificar sus relaciones comerciales y reducir su dependencia de Estados Unidos.
-    
-    China por su parte ha mantenido una postura firme frente a la creciente guerra comercial con Estados Unidos, aunque también ha dejado la puerta abierta a negociaciones bajo ciertas condiciones. El gobierno chino ha criticado las políticas arancelarias de Trump, calificándolas de "juego de números" y advirtiendo que tomará contramedidas si Estados Unidos persiste en socavar sus intereses. A pesar de estas tensiones, ha expresado su disposición a dialogar, siempre y cuando se respeten sus intereses y se aborden temas como las sanciones y Taiwán. Además de su postura diplomática, China ha tomado medidas concretas para mitigar el impacto de los aranceles estadounidenses. Ha impulsado la diversificación de sus mercados de exportación, buscando nuevos socios comerciales en Europa, el Sudeste Asiático, África y América Latina. También ha acelerado sus esfuerzos para lograr la autosuficiencia tecnológica, invirtiendo fuertemente en investigación y desarrollo en sectores clave como los semiconductores y la inteligencia artificial. Estas acciones reflejan la determinación de China de resistir la presión de Estados Unidos y mantener su posición como potencia económica global.
-    
-    Los organismos internacionales han expresado una creciente preocupación por las consecuencias de la guerra comercial global. El Fondo Monetario Internacional (FMI) ha advertido sobre una desaceleración del crecimiento económico mundial y un aumento de la inflación como resultado de las tensiones comerciales y los aranceles impuestos por Estados Unidos. Kristalina Georgieva, directora gerente del FMI, ha señalado que las nuevas proyecciones de crecimiento incluirán reducciones significativas, aunque no se espera una recesión. La Organización Mundial del Comercio (OMC) también ha expresado su inquietud, advirtiendo sobre una posible contracción del comercio mundial debido a las políticas arancelarias y la incertidumbre que generan.
-    
-    Además de las preocupaciones económicas, los organismos internacionales también han destacado los riesgos geopolíticos asociados con la guerra comercial. La imposición de aranceles y las represalias comerciales están generando tensiones entre las principales economías del mundo, lo que podría socavar la cooperación multilateral y la estabilidad global. Algunos expertos han advertido sobre la posibilidad de una fragmentación de la economía mundial en bloques comerciales rivales, lo que tendría consecuencias negativas para el crecimiento y el desarrollo a largo plazo.
-    
-    El impacto de las políticas de Donald Trump en América Latina y el Caribe es complejo y multifacético. Por un lado, la imposición de aranceles y la retórica proteccionista generan incertidumbre y preocupación en la región, especialmente en países con economías dependientes de las exportaciones a Estados Unidos. Se teme una desaceleración del crecimiento económico, la pérdida de empleos y el aumento de la inflación. Por otro lado, algunos países ven en esta situación una oportunidad para diversificar sus mercados y fortalecer sus lazos comerciales con otras regiones, como Asia y Europa.
-    
-    En respuesta a estas políticas, los países de América Latina y el Caribe están adoptando diversas estrategias. Algunos buscan negociar acuerdos bilaterales con Estados Unidos para mitigar el impacto de los aranceles, mientras que otros apuestan por fortalecer la integración regional y promover el comercio Sur-Sur. Además, se observa un creciente interés en diversificar las relaciones comerciales y buscar nuevos socios estratégicos. Por ejemplo, México, aunque ligado al T-MEC con EE.UU. y Canadá, busca alternativas en Asia. Chile, por su parte, ha expresado su intención de mantener los mejores vínculos con China, mientras que Brasil ha activado su "Ley de Reciprocidad Económica" para responder a las medidas proteccionistas de Trump. Estas acciones reflejan la búsqueda de un equilibrio entre la dependencia de Estados Unidos y la necesidad de adaptarse a un nuevo orden económico mundial.
-    
-    
-    ## Tendencias
-    
-    1.  **Fragmentación del comercio mundial:** La imposición de aranceles y la búsqueda de acuerdos bilaterales están fragmentando el comercio mundial en bloques, con China y Estados Unidos compitiendo por influencia.Varios países, incluyendo Japón, Reino Unido, Corea del Sur e India, están en negociaciones con Estados Unidos para buscar acuerdos comerciales que mitiguen el impacto de los aranceles.
-    2.  **Realineamiento geopolítico:** Ante la imprevisibilidad de las políticas estadounidenses, los países de América Latina están buscando diversificar sus alianzas y fortalecer sus lazos con otras potencias, como China y la Unión Europea.
-    3.  **Aumento de la incertidumbre económica:** La guerra comercial y la volatilidad de las políticas estadounidenses están generando incertidumbre en los mercados y afectando las decisiones de inversión de las empresas. Empresas de diversos sectores, como tecnología (Nvidia, ASML), automotriz (Ford), y productos de consumo (e.l.f. Beauty, Shein, Temu), se están viendo afectadas por los aranceles, lo que las está llevando a ajustar sus estrategias de producción, precios y cadenas de suministro.
-    4.  **Reconfiguración de las Cadenas de Suministro:** Las empresas están buscando diversificar sus cadenas de suministro para reducir su dependencia de China y mitigar el impacto de los aranceles.
-    5.  **Aumento del Proteccionismo:** Se observa una tendencia creciente hacia el proteccionismo en varios países, con medidas que buscan proteger las industrias locales de la competencia extranjera.
-    
-    ## Implicaciones estratégicas
-    
-    *   **Para la Región:**
-        *   **Corto Plazo:** Mayor incertidumbre económica, volatilidad en los mercados financieros, y presión sobre las exportaciones.
-        *   **Mediano Plazo:** Necesidad de diversificar las relaciones comerciales, fortalecer la integración regional, y buscar nuevas fuentes de inversión.
-        *   **Largo Plazo:** Posible reconfiguración de la economía regional, con un mayor enfoque en la producción local y el desarrollo de nuevas industrias.
-    *   **Para Estados Unidos:**
-        *   **Corto Plazo:** Aumento de la inflación, disrupción de las cadenas de suministro, y posible desaceleración económica.
-        *   **Mediano Plazo:** Erosión de la competitividad, pérdida de influencia en la región, y riesgo de aislamiento comercial.
-        *   **Largo Plazo:** Posible declive de su hegemonía económica y política a nivel global.
-    *   **Para el Mundo:**
-        *   **Corto Plazo:** Mayor volatilidad en los mercados financieros, aumento de la incertidumbre económica, y riesgo de recesión global.
-        *   **Mediano Plazo:** Fragmentación del comercio global, reconfiguración de las alianzas geopolíticas, y posible surgimiento de nuevos centros de poder económico.
-        *   **Largo Plazo:** Un mundo más multipolar, con un sistema de comercio internacional menos basado en reglas y más en la correlación de fuerzas.
-    
-    ## Factores clave a vigilar
-    
-    1.  **Impacto de los aranceles de Trump en las exportaciones latinoamericanas:** Monitorear de cerca cómo los aranceles impuestos por la administración Trump afectan a las exportaciones de la región, especialmente en sectores como la agroindustria, textiles y manufacturas. Observar si las empresas latinoamericanas pueden diversificar sus mercados o si se ven obligadas a reducir su producción.
-    
-    2.  **Reacciones de los gobiernos latinoamericanos a la política comercial de EE.UU.:** Seguir de cerca las respuestas de los gobiernos de la región a las políticas comerciales de Trump, incluyendo posibles negociaciones bilaterales, acuerdos con otros bloques comerciales (como la UE o China) y medidas de apoyo a los sectores afectados.
-    
-    3.  **Tensiones geopolíticas en la región:** Vigilar las tensiones entre Estados Unidos y China en América Latina, incluyendo la competencia por influencia económica y política, y el impacto en la soberanía de los países de la región.
-    
-    4.  **Situación económica en Venezuela:** Monitorear la situación económica y política en Venezuela, incluyendo el impacto de las sanciones estadounidenses, la migración y las próximas elecciones.
-    
-    5.  **Impacto en la industria tecnológica:** Observar cómo las restricciones comerciales de EE.UU. sobre semiconductores y otras tecnologías afectan a las empresas de la región, incluyendo posibles cambios en las cadenas de suministro y la inversión en innovación.
-    
-    ---
-    
-    ## Datos relevantes de la guerra comercial
-    
-    ### *Ámbito Global* 
-    La economía mundial se enfrenta a una creciente incertidumbre debido a las tensiones comerciales impulsadas por las políticas arancelarias de Estados Unidos. Organismos como el FMI y la OMC han advertido sobre una posible desaceleración del crecimiento global y un aumento de la inflación. Los precios de las materias primas, como el petróleo, han experimentado fluctuaciones debido a las tensiones geopolíticas y las sanciones. Las decisiones de política monetaria de los bancos centrales, como el BCE, están siendo influenciadas por la necesidad de mitigar los efectos negativos de la guerra comercial. Las proyecciones de crecimiento económico mundial están siendo revisadas a la baja, reflejando el impacto de las políticas proteccionistas en el comercio y la inversión.
-    
-    ### *Latinoamérica y el Caribe*
-    
-    *   **Argentina:**
-        *   **62%** en **Participación del Malbec en las exportaciones de vino fraccionado** - 2024
-        *   **19.2%** en **Crecimiento de la superficie cultivada con Malbec** - 2015 a 2024
-    *   **Brasil:**
-        *   **40%** en **Producción mundial de soja** - 2025
-    *   **35%** en **Aumento de las importaciones anuales de soja brasileña por parte de China** - 2017 a 2024
-    *   **Panamá:**
-        *   **15.1%** en **Caída del movimiento comercial en la Zona Libre de Colón** - Primer trimestre
                 </div>
     
      """, unsafe_allow_html=True)
