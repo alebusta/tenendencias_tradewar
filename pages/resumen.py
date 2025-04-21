@@ -110,7 +110,78 @@ st.markdown("""
  """, unsafe_allow_html=True)
 
 st.markdown("""---""")	
-st.header("Resúmenes anteriores")    
+st.header("Resúmenes anteriores")
+
+with st.expander("Segunda semana de abril de 2025, expanded=False):
+    st.markdown("""	
+                
+        <div class="news-text">
+            <div class="div-news-description">
+                
+        # Tensiones comerciales y repercusiones regionales: 145% para China, 125% para EE.UU.: La incertidumbre se intensifica y sacude la economía mundial
+        *Segunda semana de abril de 2025*
+                
+        ## Diagnóstico
+    
+        El principal hecho noticioso de la semana es la escalada en la guerra comercial liderada por la administración Trump, caracterizada por la imposición y posterior modificación de aranceles a nivel global, con un foco particular en China. Esta situación ha generado una gran incertidumbre en los mercados financieros, con fuertes caídas en las bolsas y fluctuaciones en los precios de materias primas como el petróleo.
+    
+        La evolución de este conflicto se puede observar en los siguientes puntos:
+    
+        *   **Anuncio inicial de aranceles:** Trump anuncia aranceles "recíprocos" a más de 180 países, con un mínimo del 10% y hasta 104% para China, luego de medidas retaliatorias del país asiático.
+        *   **Reacciones globales:** La Unión Europea anuncia contramedidas pero mantiene una pausa en esta decisión, mientras que líderes de América Latina expresan preocupación y prometen unidad.
+        *   **Países exentos y afectados:** Se genera confusión sobre qué países están exentos de los aranceles, con cambios y aclaraciones constantes por parte de la administración Trump. México y Canadá inicialmente exentos, luego incluidos.
+        *   **Pausa temporal y aumento a China:** Trump anuncia una pausa de 90 días en los aranceles para la mayoría de los países, pero aumenta los aranceles a China hasta el 145%. China por su parte aumenta hasta
+            el 125% a las importaciones de productos estadounidenses, y suma restricciones a inversiones de empresas de EE.UU. en su territorio.
+        *   **Reacciones de los mercados:** Los mercados experimentan fuertes fluctuaciones, con caídas iniciales seguidas de repuntes tras el anuncio de la pausa, pero luego vuelven a caer ante la persistente incertidumbre.
+        *   **Preocupación por la recesión:** Economistas y líderes empresariales advierten sobre el riesgo de una recesión global como consecuencia de la guerra comercial.
+        *   **Búsqueda de alternativas:** Varios países hablan de fortalecer lazos comerciales con otras regiones, como Asia y la Unión Europea, para mitigar el impacto de los aranceles estadounidenses.
+        *   **Reacción en Latinoamérica:** La CELAC se reúne para discutir la situación y buscar una postura común, aunque persisten divisiones internas sobre cómo responder a las políticas de Trump.
+    
+        ## Tendencias
+    
+        1.  **Fragmentación del comercio global:** La imposición de aranceles por parte de Estados Unidos está generando una fragmentación del comercio global, con países buscando acuerdos bilaterales y regionales en lugar de un sistema multilateral.
+        2.  **Aumento de la incertidumbre:** La volatilidad en las políticas comerciales de la administración Trump está generando una gran incertidumbre para las empresas y los inversores, lo que dificulta la toma de decisiones a largo plazo.
+        3.  **Desplazamiento del poder económico:** La guerra comercial está acelerando el desplazamiento del poder económico hacia China, que busca fortalecer sus lazos con otros países y promover su propio modelo de desarrollo.
+    
+        ## Implicaciones estratégicas
+                 
+        *   **Para la región:**
+            *   **Corto plazo:** Impacto negativo en las exportaciones de algunos países, especialmente aquellos que dependen del mercado estadounidense.
+            *   **Mediano plazo:** Necesidad de diversificar mercados y fortalecer la integración regional para reducir la dependencia de Estados Unidos.
+            *   **Largo plazo:** Oportunidad para construir un modelo de desarrollo más autónomo y sostenible, basado en la cooperación regional y la diversificación económica.
+        *   **Para Estados Unidos:**
+            *   **Corto plazo:** Posible aumento de la inflación y desaceleración del crecimiento económico.
+            *   **Mediano plazo:** Riesgo de perder competitividad en el mercado global y de dañar sus relaciones con aliados tradicionales.
+            *   **Largo plazo:** Aislamiento económico y pérdida de influencia en el sistema internacional.
+        *   **Para el mundo:**
+            *   **Corto plazo:** Mayor volatilidad en los mercados financieros y aumento del riesgo de recesión global.
+            *   **Mediano plazo:** Reconfiguración de las cadenas de suministro y surgimiento de nuevos bloques comerciales.
+            *   **Largo plazo:** Debilitamiento del sistema multilateral de comercio y aumento de la inestabilidad geopolítica.
+    
+        ## Factores clave a vigilar
+    
+        *   La evolución de las negociaciones comerciales entre Estados Unidos y China.
+        *   La respuesta de la Unión Europea y otros socios comerciales a las políticas de Trump.
+        *   La capacidad de los países de América Latina y El Caribe para coordinar una respuesta conjunta.
+        *   El impacto de la guerra comercial en el crecimiento económico global y en los precios de las materias primas.
+        *   La evolución de la situación política en Estados Unidos y la posibilidad de un cambio de gobierno en las próximas elecciones.
+                
+        ---
+         ## Datos relevantes de la guerra comercial
+    
+        ### *Ámbito global*
+        La economía global se ve impactada por la guerra comercial entre EEUU y China, con aranceles que alcanzan el 145% para productos chinos y el 125% para productos estadounidenses. Esta situación genera volatilidad en los mercados, con el S&P 500 experimentando fuertes fluctuaciones y el Dow Jones Industrial Average mostrando un comportamiento similar. El rendimiento del bono del Tesoro a 10 años ha subido a su nivel más alto desde febrero, situándose alrededor del 4.5%, mientras que el oro ha superado los USD 3.200 por onza. Organismos como la Reserva Federal están preparados para estabilizar el mercado si es necesario, aunque se anticipa que los aranceles de Trump arrastrarán el crecimiento del PIB por debajo del 1% y elevarán la inflación hasta el 4%.         
+        
+        ### *Latinoamérica y el Caribe*
+            
+        *   **47%** de las exportaciones de Costa Rica destinadas a Estados Unidos, por un valor de USD 9.411,9 millones (2024).
+        *   **USD 271 millones** es el valor de los 263 productos exportados por Bolivia a EEUU (2024).
+        *   **30%** de las exportaciones de Colombia tienen como destino el mercado de EEUU (2024).
+        *   **70%** de las exportaciones peruanas se ven afectadas por aranceles de EEUU.
+                </div>
+    
+     """, unsafe_allow_html=True)
+    
 
 with st.expander("Primera semana de abril de 2025", expanded=False):
     st.markdown("""
