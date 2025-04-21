@@ -83,13 +83,13 @@ st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
     <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1DfAt2.img?w=768&h=512&m=6&x=397&y=124&s=251&d=251" />
+        <img class="news-image" src="https://static01.nyt.com/images/2025/04/18/multimedia/00biz-trade-soybean-wzfp/00biz-trade-soybean-wzfp-superJumbo.jpg?quality=75&auto=webp" />
     </div>
     <div class="news-block news-text">  
-        <div class="news-title">El enviado de China en EE.UU. pide el fin de la guerra comercial, pero advierte que Pekín está listo para luchar</div>
+        <div class="news-title">China está buscando alternativas para reemplazar a los agricultores estadounidenses</div>
         <div class="news-date">Publicado el 20 de abril de 2025</div>
-        <div class="news-description">El embajador de China en Estados Unidos, Xie Feng, instó a Washington a buscar puntos en común con Pekín y promover una convivencia pacífica, al tiempo que advirtió que China está preparada para tomar represalias en la creciente guerra comercial.</div>
-        <a class="news-link" href="https://www.msn.com/en-ca/money/topstories/chinas-us-envoy-urges-end-to-trade-war-but-warns-beijing-ready-to-fight/ar-AA1DfD32">Ver más →</a>
+        <div class="news-description">Durante mucho tiempo, China ha dependido de Estados Unidos para el suministro de soya. Pero con los nuevos aranceles elevados, es probable que aumente aún más su dependencia de Brasil y Argentina.</div>
+        <a class="news-link" href="https://www.nytimes.com/2025/04/20/business/tariffs-china-us-farmers.html">Ver más →</a>
     </div>
     <!-- Fila 2 -->
     <div class="news-block news-text">
