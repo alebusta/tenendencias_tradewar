@@ -66,7 +66,7 @@ Además de las preocupaciones económicas, los organismos internacionales tambi�
 
 **Latinoamérica y El Caribe:**
 El impacto de las políticas de Donald Trump en América Latina y el Caribe es complejo y multifacético. Por un lado, la imposición de aranceles y la retórica proteccionista generan incertidumbre y preocupación en la región, especialmente en países con economías dependientes de las exportaciones a Estados Unidos. Se teme una desaceleración del crecimiento económico, la pérdida de empleos y el aumento de la inflación. Por otro lado, algunos países ven en esta situación una oportunidad para diversificar sus mercados y fortalecer sus lazos comerciales con otras regiones, como Asia y Europa.
-
+La región enfrenta vulnerabilidades significativas ante la escalada de tensiones comerciales globales. Los aranceles impuestos por Estados Unidos amenazan exportaciones clave como el banano peruano, el vino Malbec argentino y productos agroindustriales colombianos. Al mismo tiempo, existe preocupación por una posible avalancha de productos chinos en mercados como el peruano, ante la búsqueda de nuevos destinos por parte de China. Además, la Zona Libre de Colón en Panamá se ve sometida a crecientes presiones logísticas y comerciales como efecto colateral del conflicto entre las dos principales potencias.
 En respuesta a estas políticas, los países de América Latina y el Caribe están adoptando diversas estrategias. Algunos buscan negociar acuerdos bilaterales con Estados Unidos para mitigar el impacto de los aranceles, mientras que otros apuestan por fortalecer la integración regional y promover el comercio Sur-Sur. Además, se observa un creciente interés en diversificar las relaciones comerciales y buscar nuevos socios estratégicos. Por ejemplo, México, aunque ligado al T-MEC con EE.UU. y Canadá, busca alternativas en Asia. Chile, por su parte, ha expresado su intención de mantener los mejores vínculos con China, así como fortalecer el tratado de libre comercio con Estados Unidos, mientras que Brasil ha activado su "Ley de Reciprocidad Económica" para responder a las medidas proteccionistas de Trump. Estas acciones reflejan la búsqueda de un equilibrio entre la dependencia de Estados Unidos y la necesidad de adaptarse a un nuevo orden económico mundial.
 
 
@@ -119,7 +119,7 @@ La economía mundial se enfrenta a una creciente incertidumbre debido a las tens
     *   **19.2%** en **Crecimiento de la superficie cultivada con Malbec** - 2015 a 2024
 *   **Brasil:**
     *   **40%** en **Producción mundial de soja** - 2025
-*   **35%** en **Aumento de las importaciones anuales de soja brasileña por parte de China** - 2017 a 2024
+    *   **35%** en **Aumento de las importaciones anuales de soja brasileña por parte de China** - 2017 a 2024
 *   **Panamá:**
     *   **15.1%** en **Caída del movimiento comercial en la Zona Libre de Colón** - Primer trimestre
             </div>
