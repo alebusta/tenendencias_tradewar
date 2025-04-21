@@ -81,7 +81,17 @@ st.markdown("""
 
 st.markdown(f"""
     <div class="news-grid">
-    <!-- Fila 3 -->
+    <!-- Fila 1 -->
+    <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1DfAt2.img?w=768&h=512&m=6&x=397&y=124&s=251&d=251" />
+    </div>
+    <div class="news-block news-text">  
+        <div class="news-title">El enviado de China en EE.UU. pide el fin de la guerra comercial, pero advierte que Pekín está listo para luchar</div>
+        <div class="news-date">Publicado el 20 de abril de 2025</div>
+        <div class="news-description">El embajador de China en Estados Unidos, Xie Feng, instó a Washington a buscar puntos en común con Pekín y promover una convivencia pacífica, al tiempo que advirtió que China está preparada para tomar represalias en la creciente guerra comercial.</div>
+        <a class="news-link" href="https://www.msn.com/en-ca/money/topstories/chinas-us-envoy-urges-end-to-trade-war-but-warns-beijing-ready-to-fight/ar-AA1DfD32">Ver más →</a>
+    </div>
+    <!-- Fila 2 -->
     <div class="news-block news-text">
         <div class="news-title">La mayor víctima de una guerra comercial con China, temen los expertos, podría ser el lugar de Estados Unidos en el mundo</div>
         <div class="news-date">Publicado el 18 de abril de 2025</div>
@@ -91,7 +101,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1DbFnA.img?w=768&h=612&m=6&x=222&y=247&s=600&d=158" />
     </div>
-        <!-- Fila 2 -->
+        <!-- Fila 3 -->
     <div class="news-block">
         <img class="news-image" src="https://i0.wp.com/efe.com/wp-content/uploads/2025/04/choque-de-Estados-Unidos-y-China-en-Latinoamerica.webp?w=900&ssl=1" />
     </div>
@@ -101,7 +111,7 @@ st.markdown(f"""
         <div class="news-description">La agresiva política arancelaria de Donald Trump va dirigida principalmente a China, por ello los países latinoamericanos, cuyos principales socios comerciales son las dos potencias enfrentadas, buscan reducir su dependencia de ambas y diversificar, en una dinámica que abre oportunidades a potencias intermedias.</div>
         <a class="news-link" href="https://efe.com/euro-efe/2025-04-17/aranceles-trump-oportunidades-latinoamerica-ue/">Ver más →</a>
     </div>
-    <!-- Fila 3 -->
+    <!-- Fila 4 -->
     <div class="news-block news-text">
         <div class="news-title">La OMC advierte que la guerra comercial entre EE.UU. y China podría llevar al mundo a una recesión</div>
         <div class="news-date">Publicado el 16 de abril de 2025</div>
@@ -111,7 +121,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1D25Br.img?w=768&h=402&m=6" />
     </div>
-    <!-- Fila 2 -->
+    <!-- Fila 5 -->
     <div class="news-block">
         <img class="news-image" src="https://www.aljazeera.com/wp-content/uploads/2025/04/AP25106223653950-1-1744790356.jpg?resize=770%2C513&quality=80" />
     </div>
@@ -121,7 +131,7 @@ st.markdown(f"""
         <div class="news-description">La visita del presidente chino Xi Jinping a Malasia es la segunda parada en el sudeste asiático en medio de los aranceles de Trump y la guerra comercial de Estados Unidos.</div>
         <a class="news-link" href="https://www.aljazeera.com/news/2025/4/16/xi-arrives-in-malaysia-with-a-message-chinas-a-better-partner-than-trump">Ver más →</a>
     </div>
-    <!-- Fila 3 -->
+    <!-- Fila 6 -->
     <div class="news-block news-text">
         <div class="news-title">Trump ordena una investigación arancelaria sobre todas las importaciones de minerales críticos a Estados Unidos</div>
         <div class="news-date">Publicado el 15 de abril de 2025</div>
@@ -131,7 +141,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CZhmB.img?w=768&h=510&m=6" />
     </div>
-    <!-- Fila 4 -->
+    <!-- Fila 7 -->
     <div class="news-block">
         <img class="news-image" src="https://thewashingtoninquirer.com/wp-content/uploads/2025/04/Trump-Tarrifs-2048x1365.webp" />
     </div>
@@ -141,16 +151,6 @@ st.markdown(f"""
         <div class="news-description">La creciente guerra comercial del presidente Donald Trump con China se ha convertido en un enfrentamiento de alto riesgo, con profundas implicancias para las economías de Estados Unidos y del mundo. Los aranceles se elevan a niveles sin precedentes.</div>
         <a class="news-link" href="https://thewashingtoninquirer.com/trumps-trade-war-with-china-intensifies-threatening-global-economic-stability/">Ver más →</a>
     </div>
-    <!-- Fila 5 -->
-    <div class="news-block news-text">
-            <div class="news-title">China y Vietnam firman decenas de nuevos acuerdos para fortalecer lazos mientras Trump intenta renegociar el comercio</div>
-            <div class="news-date">Publicado el 14 de abril de 2025</div>
-            <div class="news-description">El presidente chino Xi Jinping firmó el lunes decenas de acuerdos de cooperación con Vietnam en un intento por profundizar los lazos económicos regionales.</div>
-            <a class="news-link" href="https://ijr.com/china-vietnam-sign-dozens-of-new-deals-strengthening-ties-as-trump-works-to-renegotiate-trade/">Ver más →</a>
-        </div>
-        <div class="news-block">
-            <img class="news-image" src="https://ijr.com/wp-content/uploads/2025/04/china-vietnam-sign-dozens-of-new-deals-strengthening-ties-as-trump-works-to-renegotiate-trade-750x375.jpg" />
-        </div>
 </div>
             
 """, unsafe_allow_html=True)
