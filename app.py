@@ -82,6 +82,16 @@ st.markdown("""
 st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
+    <div class="news-block news-text">
+        <div class="news-title">Sheinbaum detalla que aún no se han logrado acuerdos sobre acero, aluminio y autos con Trump</div>
+        <div class="news-date">Publicado el 21 de abril de 2025</div>
+        <div class="news-description">La presidenta de México, Claudia Sheinbaum, informó que en la llamada que realizó con el presidente de Estados Unidos, Donald Trump, el pasado miércoles 16 de abril, se abordó la imposición de aranceles a las exportaciones mexicanas de acero, aluminio y productos automotrices. Detalló que, aunque no se alcanzaron acuerdos definitivos, se presentaron argumentos sólidos en defensa de la industria mexicana.</div>
+        <a class="news-link" href="https://www.eleconomista.com.mx/politica/sheinbaum-logrado-acuerdo-sobre-acero-aluminio-industria-automotriz-trump-20250421-755676.html">Ver más →</a>
+        </div>
+    <div class="news-block">
+        <img class="news-image" src="https://youtu.be/755qWbp6yYs" />
+    </div>
+    <!-- Fila 2 -->
     <div class="news-block">
         <img class="news-image" src="https://static01.nyt.com/images/2025/04/18/multimedia/00biz-trade-soybean-wzfp/00biz-trade-soybean-wzfp-superJumbo.jpg?quality=75&auto=webp" />
     </div>
@@ -91,7 +101,7 @@ st.markdown(f"""
         <div class="news-description">Durante mucho tiempo, China ha dependido de Estados Unidos para el suministro de soya. Pero con los nuevos aranceles elevados, es probable que aumente aún más su dependencia de Brasil y Argentina.</div>
         <a class="news-link" href="https://www.nytimes.com/2025/04/20/business/tariffs-china-us-farmers.html">Ver más →</a>
     </div>
-    <!-- Fila 2 -->
+    <!-- Fila 3 -->
     <div class="news-block news-text">
         <div class="news-title">La mayor víctima de una guerra comercial con China, temen los expertos, podría ser el lugar de Estados Unidos en el mundo</div>
         <div class="news-date">Publicado el 18 de abril de 2025</div>
@@ -101,7 +111,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1DbFnA.img?w=768&h=612&m=6&x=222&y=247&s=600&d=158" />
     </div>
-        <!-- Fila 3 -->
+        <!-- Fila 4 -->
     <div class="news-block">
         <img class="news-image" src="https://i0.wp.com/efe.com/wp-content/uploads/2025/04/choque-de-Estados-Unidos-y-China-en-Latinoamerica.webp?w=900&ssl=1" />
     </div>
@@ -111,7 +121,7 @@ st.markdown(f"""
         <div class="news-description">La agresiva política arancelaria de Donald Trump va dirigida principalmente a China, por ello los países latinoamericanos, cuyos principales socios comerciales son las dos potencias enfrentadas, buscan reducir su dependencia de ambas y diversificar, en una dinámica que abre oportunidades a potencias intermedias.</div>
         <a class="news-link" href="https://efe.com/euro-efe/2025-04-17/aranceles-trump-oportunidades-latinoamerica-ue/">Ver más →</a>
     </div>
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">La OMC advierte que la guerra comercial entre EE.UU. y China podría llevar al mundo a una recesión</div>
         <div class="news-date">Publicado el 16 de abril de 2025</div>
@@ -121,7 +131,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1D25Br.img?w=768&h=402&m=6" />
     </div>
-    <!-- Fila 5 -->
+    <!-- Fila 6 -->
     <div class="news-block">
         <img class="news-image" src="https://www.aljazeera.com/wp-content/uploads/2025/04/AP25106223653950-1-1744790356.jpg?resize=770%2C513&quality=80" />
     </div>
@@ -131,7 +141,7 @@ st.markdown(f"""
         <div class="news-description">La visita del presidente chino Xi Jinping a Malasia es la segunda parada en el sudeste asiático en medio de los aranceles de Trump y la guerra comercial de Estados Unidos.</div>
         <a class="news-link" href="https://www.aljazeera.com/news/2025/4/16/xi-arrives-in-malaysia-with-a-message-chinas-a-better-partner-than-trump">Ver más →</a>
     </div>
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
     <div class="news-block news-text">
         <div class="news-title">Trump ordena una investigación arancelaria sobre todas las importaciones de minerales críticos a Estados Unidos</div>
         <div class="news-date">Publicado el 15 de abril de 2025</div>
@@ -140,16 +150,6 @@ st.markdown(f"""
         </div>
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1CZhmB.img?w=768&h=510&m=6" />
-    </div>
-    <!-- Fila 7 -->
-    <div class="news-block">
-        <img class="news-image" src="https://thewashingtoninquirer.com/wp-content/uploads/2025/04/Trump-Tarrifs-2048x1365.webp" />
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">La guerra comercial de Trump con China se intensifica, amenazando la estabilidad económica global.</div>
-        <div class="news-date">Publicado el 14 de abril de 2025</div>
-        <div class="news-description">La creciente guerra comercial del presidente Donald Trump con China se ha convertido en un enfrentamiento de alto riesgo, con profundas implicancias para las economías de Estados Unidos y del mundo. Los aranceles se elevan a niveles sin precedentes.</div>
-        <a class="news-link" href="https://thewashingtoninquirer.com/trumps-trade-war-with-china-intensifies-threatening-global-economic-stability/">Ver más →</a>
     </div>
 </div>
             
