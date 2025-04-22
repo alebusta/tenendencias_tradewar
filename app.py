@@ -97,7 +97,7 @@ st.markdown(f"""
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
         </iframe>
-        </div.
+        </div>
     </div>
     <!-- Fila 2 -->
     <div class="news-block">
