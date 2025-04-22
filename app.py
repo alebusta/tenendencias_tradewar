@@ -89,7 +89,13 @@ st.markdown(f"""
         <a class="news-link" href="https://www.eleconomista.com.mx/politica/sheinbaum-logrado-acuerdo-sobre-acero-aluminio-industria-automotriz-trump-20250421-755676.html">Ver más →</a>
         </div>
     <div class="news-block">
-        <img class="news-image" src="https://youtu.be/755qWbp6yYs" />
+               <iframe 
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+            src="https://www.youtube.com/embed/755qWbp6yYs" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
     </div>
     <!-- Fila 2 -->
     <div class="news-block">
