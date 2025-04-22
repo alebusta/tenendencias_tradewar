@@ -88,7 +88,7 @@ st.markdown(f"""
         <div class="news-description">La presidenta de México, Claudia Sheinbaum, informó que en la llamada que realizó con el presidente de Estados Unidos, Donald Trump, el pasado miércoles 16 de abril, se abordó la imposición de aranceles a las exportaciones mexicanas de acero, aluminio y productos automotrices. Detalló que, aunque no se alcanzaron acuerdos definitivos, se presentaron argumentos sólidos en defensa de la industria mexicana.</div>
         <a class="news-link" href="https://www.eleconomista.com.mx/politica/sheinbaum-logrado-acuerdo-sobre-acero-aluminio-industria-automotriz-trump-20250421-755676.html">Ver más →</a>
         </div>
-   <div style="width:200;margin:0 auto;">
+   <div class="news-block">
     <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
                <iframe 
             style="position:absolute;top:0;left:0;width:100%;height:100%;" 
