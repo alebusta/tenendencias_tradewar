@@ -43,7 +43,78 @@ st.markdown('---')
 
 # Contenido de la aplicación
 
-# Fila 1 (ahora también usando st.columns)
+# Fila 1 
+col3, col4 = st.columns(2)
+
+with col4:
+    # Datos de aranceles para países de Latinoamérica y el Caribe de la lista original
+    # Datos
+    fechas = ['Feb 1', 'Feb 27', 'Abril 2', 'Abril 7','Abril 9']
+    aumentos = [10, 10, 34, 50, 41]
+
+    # Colores similares a los del gráfico original
+    colores = ['#7a0c0a', '#d22c1e', '#ef4c48', '#ffa2a2', '#ffc4c4']
+
+    # Crear figura con barras apiladas
+    fig = go.Figure()
+
+    for i in range(len(fechas)):
+        fig.add_trace(go.Bar(
+            x=["Aranceles a China"],
+            y=[aumentos[i]],
+            name=fechas[i],
+            marker=dict(color=colores[i]),
+            text=[f"{aumentos[i]}%"],
+            textposition="inside"
+        ))
+
+    # Calcular el total
+    total = sum(aumentos)
+
+    # Agregar anotación del total
+    fig.add_annotation(
+        x="Aranceles a China",
+        y=total,
+        text=f"<b>Total: {total}%</b>",
+        showarrow=False,
+        yshift=10,  # Ajusta la distancia vertical sobre la barra
+        font=dict(size=16),
+    )
+
+    # Configuración de diseño
+    fig.update_layout(
+        barmode='stack',
+        title="Desglose de Aranceles de EEUU a China",
+        title_font=dict(size=22, family="Arial Black"),
+        xaxis_title="Gráfico adaptado de Yahoo Finance del 9 de abril de 2025 y actualizado con nuevos datos",
+        yaxis_title="Valor (%)",
+        yaxis=dict(range=[0, 150], ticksuffix="%"),
+        legend_title_text="Fecha de anuncio",
+        height=600
+    )
+
+    # Mostrar en Streamlit
+    st.plotly_chart(fig)
+
+
+with col3:
+    st.markdown("""
+    <div class="news-text">
+        <div class="news-title">Guerra comercial en Datos: Lo último en la escalada de aranceles</div>
+        <div class="news-date">Actualizado al 11 de abril de 2025</div>
+        <div class="news-description">EE.UU. a China: Los aranceles totales base de EE.UU. sobre las importaciones chinas son del 145%. Esto incluye un arancel recíproco del 125% más aranceles adicionales del 20% impuestos previamente por cuestiones de fentanilo e inmigración ilegal.
+        China a EE.UU.:China ha respondido elevando sus aranceles sobre bienes estadounidenses al 125%.<br>
+        <gr>
+        Global:<br>
+        - Trump había autorizado una pausa de 90 días en sus planes de aranceles recíprocos para todos los países excepto China.<br>
+        - El arancel base del 10% que entró en vigor el 5 de abril permanece en vigor para todas las importaciones afectadas a EE.UU.<br>
+        - China ha indicado que no tiene intención de seguir subiendo los aranceles, incluso si EE.UU. continúa con sus escaladas, a menos que EE.UU. persista en infligir daño real a los intereses de China.<br>
+        </div>
+        <a class="news-link" href="/medidas">Ver más →</a>
+    </div>
+    """, unsafe_allow_html=True)
+
+
 col1, col2 = st.columns(2)
 
 with col2:
