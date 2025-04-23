@@ -144,7 +144,6 @@ with col2:
     # Usando método de Streamlit para estilizar la tabla
 
     # Agregar CSS personalizado
-    st.markdown(### Aranceles a países de la región)
     st.markdown("""
     <style>
         .stDataFrame {
@@ -159,7 +158,7 @@ with col2:
         }
     </style>
     """, unsafe_allow_html=True)
-
+    st.subheader("Países de la región")
     # Mostrar la tabla
     st.dataframe(
         df, 
