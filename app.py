@@ -8,6 +8,7 @@ import base64
 from news_chatbot import news_chatbot_component
 import json
 from map import impact_map
+from grafico import crear_grafico_fmi
 
 
 # Configuración de página
