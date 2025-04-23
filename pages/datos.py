@@ -181,8 +181,7 @@ with col2:
             )
         }
     )
-    st.markdown('<p class="small-text">Elaboración propia en base a información publicada por los medios a partir de anuncios del 2 de abril por el presidente Trump</p>', unsafe_allow_html=True)
-
+    st.markdown("<p style='font-size: 0.9rem; color: gray;'>Elaboración propia en base a información publicada por los medios a partir de anuncios del 2 de abril por el presidente Trump</p>", unsafe_allow_html=True)
 st.markdown("---")
 # Fila 2 
 col3, col4 = st.columns(2)
@@ -236,7 +235,7 @@ with col3:
 
     st.plotly_chart(fig2, use_container_width=True)
     # Nota de fuente
-    st.markdown("<p style='font-size: 0.9rem; color: gray;'>Adaptado de Capital Economics</p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size: 0.9rem; color: gray;'>Elaboración propia a partir de datos publicados en medios de noticias</p>", unsafe_allow_html=True)
 
     
 
