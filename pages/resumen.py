@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
-import plotly.graph_objects as go
 from datetime import date
 import base64
 import json
@@ -30,7 +28,7 @@ st.set_page_config(
 
 
 # Cargar CSS desde un archivo externo
-with open("style.css", "r") as f:
+with open("front/style.css", "r") as f:
     css = f.read()
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
@@ -52,15 +50,15 @@ st.markdown("""
 ## Diagnóstico
 
 **Estados Unidos:**
-Durante la semana, Estados Unidos, bajo la administración Trump, intensificó su postura en la guerra comercial, generando una ola de incertidumbre y reacciones a nivel global. Se implementaron aranceles más altos a productos chinos, alcanzando hasta un 145%, lo que provocó una respuesta inmediata de Pekín con aranceles recíprocos. Esta escalada llevó a la Organización Mundial del Comercio (OMC) a advertir sobre una posible contracción del comercio mundial y a revisar a la baja las previsiones de crecimiento económico. A pesar de este panorama sombrío, la administración Trump mantuvo su postura, argumentando la necesidad de proteger la industria estadounidense y corregir desequilibrios comerciales.
+Durante la semana, Estados Unidos, bajo la administración Trump, intensificó su postura en la guerra comercial, generando una ola de incertidumbre y reacciones a nivel global. Se implementaron aranceles más altos a productos chinos, alcanzando hasta un 145%, lo que provocó una respuesta inmediata de Pekín con aranceles recíprocos. Esta escalada llevó a la [Organización Mundial del Comercio (OMC)](https://www.msn.com/es-mx/dinero/econom%C3%ADa/el-comercio-mundial-caer%C3%A1-entre-0-2-y-1-5-este-a%C3%B1o-se%C3%B1ala-la-omc/ar-AA1D2C3t) a advertir sobre una posible contracción del comercio mundial y a revisar a la baja las previsiones de crecimiento económico. A pesar de este panorama sombrío, la administración Trump mantuvo su postura, argumentando la necesidad de proteger la industria estadounidense y corregir desequilibrios comerciales.
 
 En el frente interno, la administración Trump buscó mitigar el impacto de los aranceles en algunos sectores, anunciando exenciones temporales para productos tecnológicos y considerando medidas similares para la industria automotriz. Sin embargo, estas acciones no lograron calmar por completo la preocupación de los mercados y de diversos sectores económicos, que temen un aumento de la inflación y una desaceleración del crecimiento. Además, la política comercial de Trump generó tensiones con socios comerciales clave, como la Unión Europea, y provocó que algunos países buscaran alternativas para diversificar sus relaciones comerciales y reducir su dependencia de Estados Unidos.
 
 **China:**
-China por su parte ha mantenido una postura firme frente a la creciente guerra comercial con Estados Unidos, aunque también ha dejado la puerta abierta a negociaciones bajo ciertas condiciones. El gobierno chino ha criticado las políticas arancelarias de Trump, calificándolas de "juego de números" y advirtiendo que tomará contramedidas si Estados Unidos persiste en socavar sus intereses. A pesar de estas tensiones, ha expresado su disposición a dialogar, siempre y cuando se respeten sus intereses y se aborden temas como las sanciones y Taiwán. Además de su postura diplomática, China ha tomado medidas concretas para mitigar el impacto de los aranceles estadounidenses. Ha impulsado la diversificación de sus mercados de exportación, buscando nuevos socios comerciales en Europa, el Sudeste Asiático, África y América Latina. También ha acelerado sus esfuerzos para lograr la autosuficiencia tecnológica, invirtiendo fuertemente en investigación y desarrollo en sectores clave como los semiconductores y la inteligencia artificial. Estas acciones reflejan la determinación de China de resistir la presión de Estados Unidos y mantener su posición como potencia económica global.
+China por su parte ha mantenido una postura firme frente a la creciente guerra comercial con Estados Unidos, aunque también ha dejado la puerta abierta a negociaciones bajo ciertas condiciones. El gobierno chino ha criticado las políticas arancelarias de Trump, calificándolas de "[juego de números](https://www.prensa.com/mundo/china-declara-que-ignorara-los-juegos-de-numeros-arancelarios-de-estados-unidos/)" y advirtiendo que tomará contramedidas si Estados Unidos persiste en socavar sus intereses. A pesar de estas tensiones, ha expresado su disposición a dialogar, siempre y cuando se respeten sus intereses y se aborden temas como las sanciones y Taiwán. Además de su postura diplomática, China ha tomado medidas concretas para mitigar el impacto de los aranceles estadounidenses. Ha impulsado la diversificación de sus mercados de exportación, buscando nuevos socios comerciales en Europa, el Sudeste Asiático, África y América Latina. También ha acelerado sus esfuerzos para lograr la autosuficiencia tecnológica, invirtiendo fuertemente en investigación y desarrollo en sectores clave como los semiconductores y la inteligencia artificial. Estas acciones reflejan la determinación de China de resistir la presión de Estados Unidos y mantener su posición como potencia económica global.
 
 **Organismos Internacionales:**
-Los organismos internacionales han expresado una creciente preocupación por las consecuencias de la guerra comercial global. El Fondo Monetario Internacional (FMI) ha advertido sobre una desaceleración del crecimiento económico mundial y un aumento de la inflación como resultado de las tensiones comerciales y los aranceles impuestos por Estados Unidos. Kristalina Georgieva, directora gerente del FMI, ha señalado que las nuevas proyecciones de crecimiento incluirán reducciones significativas, aunque no se espera una recesión. La Organización Mundial del Comercio (OMC) también ha expresado su inquietud, advirtiendo sobre una posible contracción del comercio mundial debido a las políticas arancelarias y la incertidumbre que generan.
+Los organismos internacionales han expresado una creciente preocupación por las consecuencias de la guerra comercial global. [El Fondo Monetario Internacional (FMI)](https://www.financialexpress.com/world-news/global-recession-unlikely-even-as-trade-tensions-flare-amid-trump-tariffs-says-imf/3813416/) ha advertido sobre una desaceleración del crecimiento económico mundial y un aumento de la inflación como resultado de las tensiones comerciales y los aranceles impuestos por Estados Unidos. Kristalina Georgieva, directora gerente del FMI, ha señalado que las nuevas proyecciones de crecimiento incluirán reducciones significativas, aunque no se espera una recesión. La Organización Mundial del Comercio (OMC) también ha expresado su inquietud, advirtiendo sobre una posible contracción del comercio mundial debido a las políticas arancelarias y la incertidumbre que generan.
 
 Además de las preocupaciones económicas, los organismos internacionales también han destacado los riesgos geopolíticos asociados con la guerra comercial. La imposición de aranceles y las represalias comerciales están generando tensiones entre las principales economías del mundo, lo que podría socavar la cooperación multilateral y la estabilidad global. Algunos expertos han advertido sobre la posibilidad de una fragmentación de la economía mundial en bloques comerciales rivales, lo que tendría consecuencias negativas para el crecimiento y el desarrollo a largo plazo.
 
@@ -69,7 +67,7 @@ El impacto de las políticas de Donald Trump en América Latina y el Caribe es c
 
 La región enfrenta vulnerabilidades significativas ante la escalada de tensiones comerciales globales. Los aranceles impuestos por Estados Unidos amenazan exportaciones clave como el banano peruano, el vino Malbec argentino y productos agroindustriales colombianos. Al mismo tiempo, existe preocupación por una posible avalancha de productos chinos en mercados como el peruano, ante la búsqueda de nuevos destinos por parte de China. Además, la Zona Libre de Colón en Panamá se ve sometida a crecientes presiones logísticas y comerciales como efecto colateral del conflicto entre las dos principales potencias.
 
-En respuesta a estas políticas, los países de América Latina y el Caribe están adoptando diversas estrategias. Algunos buscan negociar acuerdos bilaterales con Estados Unidos para mitigar el impacto de los aranceles, mientras que otros apuestan por fortalecer la integración regional y promover el comercio Sur-Sur. Además, se observa un creciente interés en diversificar las relaciones comerciales y buscar nuevos socios estratégicos. Por ejemplo, México, aunque ligado al T-MEC con EE.UU. y Canadá, busca alternativas en Asia. Chile, por su parte, ha expresado su intención de mantener los mejores vínculos con China, así como fortalecer el tratado de libre comercio con Estados Unidos, mientras que Brasil ha activado su "Ley de Reciprocidad Económica" para responder a las medidas proteccionistas de Trump. Estas acciones reflejan la búsqueda de un equilibrio entre la dependencia de Estados Unidos y la necesidad de adaptarse a un nuevo orden económico mundial.
+En respuesta a estas políticas, los países de América Latina y el Caribe están adoptando diversas estrategias. Algunos buscan negociar acuerdos bilaterales con Estados Unidos para mitigar el impacto de los aranceles, mientras que otros apuestan por fortalecer la integración regional y promover el comercio Sur-Sur. Además, se observa un creciente interés en diversificar las relaciones comerciales y buscar nuevos socios estratégicos. Por ejemplo, México, aunque ligado al T-MEC con EE.UU. y Canadá, busca alternativas en Asia. Chile, por su parte, ha expresado su intención de mantener los mejores vínculos con China, así como fortalecer el tratado de libre comercio con Estados Unidos, mientras que Brasil ha activado su "[Ley de Reciprocidad Económica](https://www.nodal.am/2025/04/brasil-el-gobierno-activa-la-ley-de-reciprocidad-economica-en-respuesta-a-los-aranceles-de-trump/)" para responder a las medidas proteccionistas de Trump. Estas acciones reflejan la búsqueda de un equilibrio entre la dependencia de Estados Unidos y la necesidad de adaptarse a un nuevo orden económico mundial.
 
 
 ## Tendencias
@@ -117,13 +115,11 @@ La economía mundial se enfrenta a una creciente incertidumbre debido a las tens
 ### *Latinoamérica y el Caribe*
 
 *   **Argentina:**
-    *   **62%** en **Participación del Malbec en las exportaciones de vino fraccionado** - 2024
-    *   **19.2%** en **Crecimiento de la superficie cultivada con Malbec** - 2015 a 2024
+    *   **62%** [Participación del Malbec en las exportaciones de vino fraccionado, poco más de la mitad tiene como destine Estados Unidos](https://www.diariodecuyo.com.ar/economia/aranceles-de-donald-trum-que-puede-pasar-con-las-exportaciones-de-malbec-1723279.html) - 2024
 *   **Brasil:**
-    *   **40%** en **Producción mundial de soja** - 2025
-    *   **35%** en **Aumento de las importaciones anuales de soja brasileña por parte de China** - 2017 a 2024
+    *   **40%** en [Producción mundial de soja](https://www.nytimes.com/2025/04/20/business/tariffs-china-us-farmers.html)
 *   **Panamá:**
-    *   **15.1%** en **Caída del movimiento comercial en la Zona Libre de Colón** - Primer trimestre
+    *   **15.1%** [Caída del movimiento comercial (en dólares)](https://www.prensa.com/economia/zona-libre-de-colon-sufre-los-coletazos-del-conflicto-comercial-entre-trump-y-china/) durante el primer trimestre de 2025 en la Zona Libre de Colón producto de las tensiones comerciales EEUU-China
             </div>
 
  """, unsafe_allow_html=True)
