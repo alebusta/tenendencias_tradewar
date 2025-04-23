@@ -86,7 +86,7 @@ with col4:
         barmode='stack',
         title="Desglose de Aranceles de EEUU a China",
         title_font=dict(size=22, family="Arial Black"),
-        xaxis_title="Gráfico adaptado de Yahoo Finance del 9 de abril de 2025 y actualizado con nuevos datos",
+        xaxis_title="Gráfico adaptado de Yahoo Finance del 9 de abril de 2025 y actualizado con nuevos datos hasta el 11 de abril",
         yaxis_title="Valor (%)",
         yaxis=dict(range=[0, 150], ticksuffix="%"),
         legend_title_text="Fecha de anuncio",
