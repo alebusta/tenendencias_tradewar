@@ -144,6 +144,7 @@ with col2:
     # Usando método de Streamlit para estilizar la tabla
 
     # Agregar CSS personalizado
+    st.markdown(### Aranceles a países de la región)
     st.markdown("""
     <style>
         .stDataFrame {
@@ -189,6 +190,7 @@ with col1:
     st.markdown("""
     <div class="news-text">
         <div class="news-title">Guerra comercial en Datos: Países de la región afectados por aranceles recíprocos</div>
+         <div class="news-date">Publicado el 2 de abril de 2025</div>
         <div class="news-description">Aranceles anunciados el 2 de abril. La Casa Blanca informó más tarde que para México y Canadá, las órdenes ejecutivas anteriores siguen vigentes, lo que significa que los productos incluidos en el tratado de libre comercio "seguirá sujetos a un arancel del 0%, los que no lo cumplen, a un arancel del 25%, y los productos de energía y potasa que no lo cumplen, a un arancel del 10%".</div>
         <a class="news-link" href="https://www.elobservador.com.uy/estados-unidos/bbc-news-mundo/que-aranceles-les-ha-impuesto-trump-los-paises-america-latina-y-que-no-incluyen-mexico-n5992631">Ver más →</a>
     </div>
