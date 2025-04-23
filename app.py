@@ -193,7 +193,7 @@ with col3:
     st.markdown("""
     <div class="news-text">
         <div class="news-title">Guerra comercial en Datos: Nuevas previsiones del FMI</div>
-        <div class="news-date">Actualizado al 22 de abril de 2025</div>
+        <div class="news-date">Publicado el 22 de abril de 2025</div>
         <div class="news-description">   Estos datos representan las previsiones de crecimiento económico del Fondo Monetario Internacional (FMI) 
     para el año 2025, publicados el 22 de abril de 2025. El FMI recortó en medio punto la previsión del crecimiento económico global para 2025, hasta el 2.8%, 
     debido principalmente a la guerra comercial iniciada por el presidente de Estados Unidos.Para América Latina y el Caribe, el FMI pronostica que el crecimiento económico se modere al 2% en 2025, 
