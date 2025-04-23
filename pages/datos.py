@@ -158,7 +158,7 @@ with col2:
         }
     </style>
     """, unsafe_allow_html=True)
-    st.subheader("Países de la región")
+    st.subheader("Aranceles aplicados a países de la región")
     # Mostrar la tabla
     st.dataframe(
         df, 
@@ -181,9 +181,10 @@ with col2:
             )
         }
     )
+    st.markdown('<p class="small-text">Elaboración propia en base a información publicada por los medios a partir de anuncios del 2 de abril por el presidente Trump</p>', unsafe_allow_html=True)
 
 st.markdown("---")
-# Fila 2 (ahora también usando st.columns)
+# Fila 2 
 col3, col4 = st.columns(2)
 with col1:
     st.markdown("""
