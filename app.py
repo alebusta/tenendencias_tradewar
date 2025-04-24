@@ -87,7 +87,7 @@ st.markdown(f"""
         <div class="news-title"La verdadera amenaza tras la guerra comercial de Trump: la ofensiva monetaria de China</div>
         <div class="news-date">Publicado el 23 de abril de 2025</div>
         <div class="news-description">China ha trabajado incansablemente para elevar el perfil internacional del RMB. Si bien el progreso ha sido gradual, conlleva riesgos reales para el dominio del dólar estadounidense.</div>
-        <a class="news-link" href="https://www.msn.com/en-us/money/markets/the-biggest-casualty-of-a-china-trade-war-americas-place-in-the-world-experts-fear/ar-AA1DbwFI">Ver más →</a>
+        <a class="news-link" href="https://thediplomat.com/2025/04/the-real-threat-behind-trumps-trade-war-chinas-currency-offensive/">Ver más →</a>
         </div>
     <div class="news-block">
         <img class="news-image" src="https://thediplomat.com/wp-content/uploads/2021/04/sizes/medium/thediplomat-2021-04-19-6.jpg" />
