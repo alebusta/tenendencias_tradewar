@@ -82,6 +82,16 @@ st.markdown("""
 
 st.markdown(f"""
     <div class="news-grid">
+    <!-- Fila 2 -->
+    <div class="news-block">
+        <img class="news-image" src="https://apicms.thestar.com.my/uploads/images/2025/04/25/thumbs/700/3282854.webp" />
+    </div>
+    <div class="news-block news-text">  
+        <div class="news-title">Funcionarios estadounidenses evalúan reducir las tarifas de importación de automóviles</div>
+        <div class="news-date">Publicado el 24 de abril de 2025</div>
+        <div class="news-description">La administración Trump está considerando la posibilidad de reducir ciertos aranceles dirigidos a la industria automotriz que, según advirtieron los ejecutivos de los fabricantes de automóviles, supondrían un duro golpe a las ganancias y al empleo.</div>
+        <a class="news-link" href="https://www.thestar.com.my/business/business-news/2025/04/25/us-officials-weigh-reducing-auto-import-fees#goog_rewarded">Ver más →</a>
+    </div>    
     <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">La verdadera amenaza tras la guerra comercial de Trump: la ofensiva monetaria de China</div>
