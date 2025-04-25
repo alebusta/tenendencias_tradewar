@@ -160,16 +160,6 @@ st.markdown(f"""
         <div class="news-description">La agresiva política arancelaria de Donald Trump va dirigida principalmente a China, por ello los países latinoamericanos, cuyos principales socios comerciales son las dos potencias enfrentadas, buscan reducir su dependencia de ambas y diversificar, en una dinámica que abre oportunidades a potencias intermedias.</div>
         <a class="news-link" href="https://efe.com/euro-efe/2025-04-17/aranceles-trump-oportunidades-latinoamerica-ue/">Ver más →</a>
     </div>
-    <!-- Fila 7 -->
-    <div class="news-block news-text">
-        <div class="news-title">La OMC advierte que la guerra comercial entre EE.UU. y China podría llevar al mundo a una recesión</div>
-        <div class="news-date">Publicado el 16 de abril de 2025</div>
-        <div class="news-description">La Organización Mundial del Comercio (OMC) advirtió este miércoles que las perspectivas para el comercio global se han "deteriorado drásticamente" a raíz de las medidas adoptadas por Estados Unidos.</div>
-        <a class="news-link" href="https://www.msn.com/en-us/money/markets/global-trade-outlook-has-deteriorated-sharply-amid-trump-tariff-uncertainty-wto-warns/ar-AA1D29rV">Ver más →</a>
-        </div>
-    <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1D25Br.img?w=768&h=402&m=6" />
-    </div>
 </div>
             
 """, unsafe_allow_html=True)
