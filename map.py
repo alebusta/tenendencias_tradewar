@@ -10,7 +10,7 @@ import streamlit as st
 
 def impact_map():
 
-    df = pd.read_csv('scrapers/output_data/database.csv')
+    df = pd.read_csv('database.csv')
 
     # Crear un DataFrame con los recuentos de etiquetas países
     df['country'] = df['country'].apply(ast.literal_eval)
