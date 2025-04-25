@@ -6,71 +6,73 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-df = pd.read_csv('database.csv')
-
-# Crear un DataFrame con los recuentos de etiquetas países
-df['country'] = df['country'].apply(ast.literal_eval)
-tags_exploded = df.explode('country')
-tag_counts = tags_exploded["country"].value_counts()
-
-# Lista de países LAC
-paises_alc = [
-    # América del Sur
-    "Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Ecuador",
-    "Guyana", "Paraguay", "Perú", "Surinam", "Uruguay", "Venezuela",
-
-    # América Central
-    "Belice", "Costa Rica", "El Salvador", "Guatemala", "Honduras",
-    "Nicaragua", "Panamá",
-
-    # Caribe
-    "Antigua y Barbuda", "Bahamas", "Barbados", "Cuba", "Dominica",
-    "Granada", "Haití", "Jamaica", "República Dominicana",
-    "Saint Kitts y Nevis", "San Vicente y las Granadinas", "Santa Lucía",
-    "Trinidad y Tobago",
-
-    # México
-    "México",
-
-    # Territorios del Caribe frecuentemente incluidos en análisis regionales
-    "Puerto Rico", "Guayana Francesa", "Islas Caimán", "Aruba",
-    "Curazao", "Martinica", "Guadalupe", "Islas Vírgenes Británicas",
-    "Montserrat", "Sint Maarten", "Turks y Caicos"]
-
-tags_lac = tags_exploded[tags_exploded['country'].isin(paises_alc)]
-
-tag_counts = tags_lac["country"].value_counts()
-
-# Orden alfabético por nombre de país:
-cuenta_paises_ordenado = tag_counts.sort_index()
-
-# Diccionario de mapeo español-inglés
-country_names_mapping = {
-    'México': 'Mexico',
-    'Argentina': 'Argentina',
-    'Belice': 'Belize',
-    'Brasil': 'Brazil',
-    'Haití': 'Haiti',
-    'Panamá': 'Panama',
-    'Perú': 'Peru',
-    'República Dominicana': 'Dominican Republic',
-    'Trinidad y Tobago': 'Trinidad and Tobago'
-}
-
-# Aplicar el mapeo a los índices
-cuenta_paises_ordenado.index = cuenta_paises_ordenado.index.map(lambda x: country_names_mapping.get(x, x))
-
-
-paises = []
-menciones = []
-for pais, mencion in cuenta_paises_ordenado.items():
-    paises.append(pais)
-    menciones.append(mencion)
-
-
-# Crear el mapa
+    # Crear el mapa
 
 def impact_map():
+
+    df = pd.read_csv('scrapers/output_data/database.csv')
+
+    # Crear un DataFrame con los recuentos de etiquetas países
+    df['country'] = df['country'].apply(ast.literal_eval)
+    tags_exploded = df.explode('country')
+    tag_counts = tags_exploded["country"].value_counts()
+
+    # Lista de países LAC
+    paises_alc = [
+        # América del Sur
+        "Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Ecuador",
+        "Guyana", "Paraguay", "Perú", "Surinam", "Uruguay", "Venezuela",
+
+        # América Central
+        "Belice", "Costa Rica", "El Salvador", "Guatemala", "Honduras",
+        "Nicaragua", "Panamá",
+
+        # Caribe
+        "Antigua y Barbuda", "Bahamas", "Barbados", "Cuba", "Dominica",
+        "Granada", "Haití", "Jamaica", "República Dominicana",
+        "Saint Kitts y Nevis", "San Vicente y las Granadinas", "Santa Lucía",
+        "Trinidad y Tobago",
+
+        # México
+        "México",
+
+        # Territorios del Caribe frecuentemente incluidos en análisis regionales
+        "Puerto Rico", "Guayana Francesa", "Islas Caimán", "Aruba",
+        "Curazao", "Martinica", "Guadalupe", "Islas Vírgenes Británicas",
+        "Montserrat", "Sint Maarten", "Turks y Caicos"]
+
+    tags_lac = tags_exploded[tags_exploded['country'].isin(paises_alc)]
+
+    tag_counts = tags_lac["country"].value_counts()
+
+    # Orden alfabético por nombre de país:
+    cuenta_paises_ordenado = tag_counts.sort_index()
+
+    # Diccionario de mapeo español-inglés
+    country_names_mapping = {
+        'México': 'Mexico',
+        'Argentina': 'Argentina',
+        'Belice': 'Belize',
+        'Brasil': 'Brazil',
+        'Haití': 'Haiti',
+        'Panamá': 'Panama',
+        'Perú': 'Peru',
+        'República Dominicana': 'Dominican Republic',
+        'Trinidad y Tobago': 'Trinidad and Tobago'
+    }
+
+    # Aplicar el mapeo a los índices
+    cuenta_paises_ordenado.index = cuenta_paises_ordenado.index.map(lambda x: country_names_mapping.get(x, x))
+
+
+    paises = []
+    menciones = []
+    for pais, mencion in cuenta_paises_ordenado.items():
+        paises.append(pais)
+        menciones.append(mencion)
+
+
+
    
     impact_map = pd.DataFrame({
         'País': paises,
