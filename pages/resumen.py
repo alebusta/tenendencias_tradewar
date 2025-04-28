@@ -60,7 +60,6 @@ Durante la última semana de abril de 2025, el mundo ha sido testigo de la inten
     *   **Ecuador:** Se espera un crecimiento del 1.7%, impulsado por programas respaldados por el FMI.
     *   **Argentina:** Se espera un repunte importante en su economía, con un crecimiento del 5.5%, también impulsado por programas del FMI.
     *   **Uruguay:** La industria cárnica se adapta a la amenaza de los aranceles, buscando nuevos mercados en China.
-    *   **Bolivia:** Se opuso a la iniciativa continental para negociar el Área de Libre Comercio de las Américas (ALCA) y a la posibilidad de negociar un Tratado de Libre Comercio (TLC) bilateral con los EE.UU. y con la Unión Europea.
 *   **Demandas y Desafíos Internos en EE.UU.:** Una coalición de estados demócratas ha demandado a la administración Trump por los aranceles, argumentando que son ilegales y afectan las importaciones. Además, empresas estadounidenses enfrentan dificultades para encontrar alternativas a China como proveedor, lo que podría generar escasez y aumento de precios.
 *   **Expansión Territorial y Control de Recursos:**
     *   **Canal de Panamá y Suez:** Trump exige paso libre para buques estadounidenses, generando controversia internacional.
@@ -98,7 +97,6 @@ Durante la última semana de abril de 2025, el mundo ha sido testigo de la inten
 
 *   **Evolución de la guerra comercial EE.UU.-China:** Cualquier señal de escalada o desescalada tendrá un impacto inmediato en los mercados y en las decisiones de inversión.
 *   **Reacciones de los países de la región:** Es clave observar si los países de América Latina y el Caribe logran coordinar una respuesta conjunta a los desafíos planteados por la administración Trump.
-*   **Elecciones en EE.UU. en 2028:** El resultado de las próximas elecciones presidenciales en EE.UU. podría marcar un cambio radical en la política comercial y exterior del país, con consecuencias significativas para el mundo.
 *   **Acuerdos bilaterales y regionales:** Es importante monitorear los acuerdos que EE.UU. logre negociar con otros países, así como los esfuerzos de integración regional en América Latina y otras partes del mundo.
 *   **Indicadores económicos clave:** Prestar atención a los datos de crecimiento, inflación, desempleo, y balanza comercial en EE.UU., China, y los principales países de América Latina y el Caribe.
             </div>
