@@ -82,6 +82,16 @@ st.markdown("""
 
 st.markdown(f"""
     <div class="news-grid">
+    <!-- Fila 5 -->
+    <div class="news-block news-text">
+        <div class="news-title">Aranceles, aunque bajos tienden a ser más nocivos para la región</div>
+        <div class="news-date">Publicado el 27 de abril de 2025</div>
+        <div class="news-description">El FMI advierte que una desaceleración del crecimiento mundial podría afectar a la demanda de productos básicos.</div>
+        <a class="news-link" href="https://www.expreso.ec/actualidad/economia/aranceles-bajos-tienden-nocivos-region-240508.html">Ver más →</a>
+        </div>
+    <div class="news-block">
+        <img class="news-image" src="https://imagenes.expreso.ec/files/image_780_477/uploads/2025/04/27/680eba744a9fe.jpeg" />
+    </div>
     <!-- Fila 2 -->
     <div class="news-block">
         <img class="news-image" src="https://apicms.thestar.com.my/uploads/images/2025/04/25/thumbs/700/3282854.webp" />
