@@ -35,7 +35,7 @@ st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 
 
 df = pd.read_csv('database.csv')
 df = df[df['geo'] == 'mundo']
-df = df[['date_process','title','url','country']]
+df = df[['date_process','title','content', 'url','country']]
 
 # Opción 1: Convertir la lista a string separado por comas
 # Función para manejar correctamente la conversión de listas a texto
@@ -56,7 +56,7 @@ def format_list(x):
 # Aplicar la función de formateo
 df['pais'] = df['country'].apply(format_list)
 
-show = ['date_process','title', 'url', 'pais']
+show = ['date_process','title','content', 'url', 'pais']
 
 # Función para restablecer filtros
 def reset_filters():
@@ -114,6 +114,7 @@ st.dataframe(
     column_config={
         "date_process": st.column_config.DateColumn("Fecha"),
         "title": "Titular",
+        "content": "Avance",
         "url": st.column_config.LinkColumn("Enlace"),
         "pais": "Países"
     },
