@@ -12,7 +12,7 @@ from grafico import crear_grafico_fmi
 import locale
 
 # Configurar locale en español
-locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
+locale.setlocale(locale.LC_TIME, 'es_ES.utf8')
 
 
 # Configuración de página
