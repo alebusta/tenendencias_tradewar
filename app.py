@@ -82,6 +82,16 @@ st.markdown("""
 
 st.markdown(f"""
     <div class="news-grid">
+    <!-- Fila 2 -->
+    <div class="news-block">
+        <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/KYM6WPM7E2SWYLJQN655ERPBXE.jpg?auth=407f003f1762af940440d383c4b2d5ee868345e0e3d71c10959635bb0b12c772&width=1200" />
+    </div>
+    <div class="news-block news-text">  
+        <div class="news-title">Los BRICS debaten en Brasil su respuesta a la guerra arancelaria declarada por Trump</div>
+        <div class="news-date">Publicado el 28 de abril de 2025</div>
+        <div class="news-description">El canciller Vieira, el anfitrión, insta al bloque del sur global a centrarse en la defensa del multilateralismo sin ser “un bloque de enfrentamiento”.</div>
+        <a class="news-link" href="https://elpais.com/america/2025-04-28/los-brics-debaten-en-brasil-su-respuesta-a-la-guerra-arancelaria-declarada-por-trump.html">Ver más →</a>
+    </div>    
     <!-- Fila 1 -->
     <div class="news-block news-text">
         <div class="news-title">Aranceles, aunque bajos tienden a ser más nocivos para la región</div>
