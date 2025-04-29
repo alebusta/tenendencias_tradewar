@@ -9,10 +9,7 @@ from news_chatbot import news_chatbot_component
 import json
 from map import impact_map
 from grafico import crear_grafico_fmi
-import locale
-
-# Configurar locale en español
-locale.setlocale(locale.LC_TIME, '')
+from babel.dates import format_date
 
 
 # Configuración de página
@@ -89,8 +86,9 @@ df = pd.read_csv('database.csv')
 # Primero, calcula los valores necesarios del DataFrame
 
 df['date_process'] = pd.to_datetime(df['date_process'])
-fecha_min = df['date_process'].min().strftime('%d de %B de %Y').lower()
-fecha_max = df['date_process'].max().strftime('%d de %B de %Y').lower()
+# Usar babel para formatear las fechas en español
+fecha_min = format_date(df['date_process'].min(), format="d 'de' MMMM 'de' y", locale='es').lower()
+fecha_max = format_date(df['date_process'].max(), format="d 'de' MMMM 'de' y", locale='es').lower()
 total_noticias = len(df)
 
 st.markdown(f"""
