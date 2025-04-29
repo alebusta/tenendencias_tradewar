@@ -78,6 +78,26 @@ st.markdown("""
 
 """, unsafe_allow_html=True)
 
+## Ticker con contador de noticias
+
+df = pd.read_csv('scrapers/output_data/database.csv')
+
+# Primero, calcula los valores necesarios del DataFrame
+
+df['date_process'] = pd.to_datetime(df['date_process'])
+fecha_min = df['date_process'].min().strftime('%d de %B de %Y').lower()
+fecha_max = df['date_process'].max().strftime('%d de %B de %Y').lower()
+total_noticias = len(df)
+
+st.markdown(f"""
+<div class="news-ticker">
+    <div class="ticker-content">
+        Base de datos actual: {total_noticias} noticias registradas entre el {fecha_min} y el {fecha_max} 
+    </div>
+</div>           
+""", unsafe_allow_html=True)
+
+
 ###### SECCIÓN 2: NOTICIAS DESTACADAS #######
 
 st.markdown(f"""
