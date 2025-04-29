@@ -96,7 +96,7 @@ total_noticias = len(df)
 st.markdown(f"""
 <div class="news-ticker">
     <div class="ticker-content">
-        Base de datos actual: {total_noticias} noticias registradas entre el {fecha_min} y el {fecha_max} 
+        Base de datos con {total_noticias} noticias relacionadas con la guerra comercial registradas entre el {fecha_min} y el {fecha_max} 
     </div>
 </div>           
 """, unsafe_allow_html=True)
