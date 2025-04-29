@@ -3,12 +3,16 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
-from datetime import date
+from datetime import date, datetime
 import base64
 from news_chatbot import news_chatbot_component
 import json
 from map import impact_map
 from grafico import crear_grafico_fmi
+import locale
+
+# Configurar locale en español
+locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
 
 
 # Configuración de página
