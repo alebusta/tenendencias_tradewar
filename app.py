@@ -80,7 +80,7 @@ st.markdown("""
 
 ## Ticker con contador de noticias
 
-df = pd.read_csv('scrapers/output_data/database.csv')
+df = pd.read_csv('database.csv')
 
 # Primero, calcula los valores necesarios del DataFrame
 
