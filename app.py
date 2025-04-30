@@ -112,7 +112,7 @@ st.markdown(f"""
         <a class="news-link" href="https://www.rte.ie/news/world/2025/0429/1510018-trump-100-days/">Ver más →</a>
         </div>
     <div class="news-block">
-        <img class="news-image" src="https://imagenes.expreso.ec/files/image_780_477/uploads/2025/04/27/680eba744a9fe.jpeg" />
+        <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/KYM6WPM7E2SWYLJQN655ERPBXE.jpg?auth=407f003f1762af940440d383c4b2d5ee868345e0e3d71c10959635bb0b12c772&width=1200" />
     </div>
     <!-- Fila 2 -->
     <div class="news-block">
