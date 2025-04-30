@@ -112,11 +112,12 @@ st.markdown(f"""
         <a class="news-link" href="https://www.rte.ie/news/world/2025/0429/1510018-trump-100-days/">Ver más →</a>
         </div>
     <div class="news-block">
-        <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/KYM6WPM7E2SWYLJQN655ERPBXE.jpg?auth=407f003f1762af940440d383c4b2d5ee868345e0e3d71c10959635bb0b12c772&width=1200" />
+        <img class="news-image" src="https://img.rasset.ie/00226317-800.jpg" />
+    https://img.rasset.ie/00226317-800.jpg
     </div>
     <!-- Fila 2 -->
     <div class="news-block">
-        <img class="news-image" src="https://img.rasset.ie/00226317-800.jpg" />
+        <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/KYM6WPM7E2SWYLJQN655ERPBXE.jpg?auth=407f003f1762af940440d383c4b2d5ee868345e0e3d71c10959635bb0b12c772&width=1200" />
     </div>
     <div class="news-block news-text">  
         <div class="news-title">Los BRICS debaten en Brasil su respuesta a la guerra arancelaria declarada por Trump</div>
