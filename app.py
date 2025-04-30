@@ -62,7 +62,7 @@ st.markdown("""
     <div class="header-content">
         <h1 class="header-title">Monitor de tendencias: guerra comercial</h1>
         <p class="header-subtitle">Análisis estratégico de los principales sucesos de la nueva política comercial de Estados Unidos y sus implicaciones en América Latina y El Caribe.</p>
-        <a href="/resumen" target="_self" class="header-link">Ver resumen &rarr;</a>
+        <a href="/resumen" target="_self" class="header-link">Ver resúmenes semanales &rarr;</a>
     </div>
 </div>
 
