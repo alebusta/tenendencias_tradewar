@@ -105,6 +105,16 @@ st.markdown(f"""
 st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
+    <div class="news-block">
+        <img class="news-image" src="https://images-tools.cadena3.com/tools/r/e64d9f61-9e44-4217-9809-1cfa0de9a93d.jpg?width=1200&height=646" />
+    </div>
+    <div class="news-block news-text">  
+        <div class="news-title">Trump promulga medida que reduce aranceles sobre autos ensamblados en Estados Unidos por dos años</div>
+        <div class="news-date">Publicado el 30 de abril de 2025</div>
+        <div class="news-description">El presidente Trump firmó un decreto que permitirá una disminución del 15% en los aranceles sobre vehículos ensamblados en Estados Unidos durante el primer año. Esta medida busca fomentar la producción local.</div>
+        <a class="news-link" href="https://www.cadena3.com/noticia/internacionales/trump-promulga-medida-que-reduce-aranceles-sobre-autos-ensamblados-en-estados-unidos-por-dos-anos_418768">Ver más →</a>
+    </div>    
+    <!-- Fila 1 -->
     <div class="news-block news-text">
         <div class="news-title">Los primeros 100 días de Trump: el presidente de "Estados Unidos Primero" está trastocando el orden mundial</div>
         <div class="news-date">Publicado el 29 de abril de 2025</div>
