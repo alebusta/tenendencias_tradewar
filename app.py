@@ -105,6 +105,16 @@ st.markdown(f"""
 st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
+    <div class="news-block news-text">
+        <div class="news-title">Impactos arancelarios en el triángulo de la soya entre Estados Unidos, Brasil y China.</div>
+        <div class="news-date">Publicado el 01 de mayo de 2025</div>
+        <div class="news-description">China trasladó una parte importante de sus compras de soya a Brasil cuando comenzó la guerra comercial de 2018. ¿Qué podrían implicar nuevos aranceles?</div>
+        <a class="news-link" href="https://www.agrinews-pubs.com/business/2025/05/01/tariff-impacts-on-us-brazil-china-soybean-triangle/">Ver más →</a>
+        </div>
+    <div class="news-block">
+        <img class="news-image" src="https://www.agrinews-pubs.com/resizer/8kq6uvIHjjNU25p4d2i6ZKmLUf4=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WLBWZSEQ75HHHCVT2EHZTCK3RQ.jpg" />
+    </div>
+    <!-- Fila 1 -->
     <div class="news-block">
         <img class="news-image" src="https://images-tools.cadena3.com/tools/r/e64d9f61-9e44-4217-9809-1cfa0de9a93d.jpg?width=1200&height=646" />
     </div>
