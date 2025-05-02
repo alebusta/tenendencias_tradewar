@@ -114,7 +114,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://www.agrinews-pubs.com/resizer/8kq6uvIHjjNU25p4d2i6ZKmLUf4=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WLBWZSEQ75HHHCVT2EHZTCK3RQ.jpg" />
     </div>
-    <!-- Fila 1 -->
+    <!-- Fila 2 -->
     <div class="news-block">
         <img class="news-image" src="https://images-tools.cadena3.com/tools/r/e64d9f61-9e44-4217-9809-1cfa0de9a93d.jpg?width=1200&height=646" />
     </div>
@@ -124,7 +124,7 @@ st.markdown(f"""
         <div class="news-description">El presidente Trump firmó un decreto que permitirá una disminución del 15% en los aranceles sobre vehículos ensamblados en Estados Unidos durante el primer año. Esta medida busca fomentar la producción local.</div>
         <a class="news-link" href="https://www.cadena3.com/noticia/internacionales/trump-promulga-medida-que-reduce-aranceles-sobre-autos-ensamblados-en-estados-unidos-por-dos-anos_418768">Ver más →</a>
     </div>    
-    <!-- Fila 2 -->
+    <!-- Fila 3 -->
     <div class="news-block news-text">
         <div class="news-title">Los primeros 100 días de Trump: el presidente de "Estados Unidos Primero" está trastocando el orden mundial</div>
         <div class="news-date">Publicado el 29 de abril de 2025</div>
@@ -135,7 +135,7 @@ st.markdown(f"""
         <img class="news-image" src="https://img.rasset.ie/00226317-800.jpg" />
     https://img.rasset.ie/00226317-800.jpg
     </div>
-    <!-- Fila 3 -->
+    <!-- Fila 4 -->
     <div class="news-block">
         <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/KYM6WPM7E2SWYLJQN655ERPBXE.jpg?auth=407f003f1762af940440d383c4b2d5ee868345e0e3d71c10959635bb0b12c772&width=1200" />
     </div>
@@ -145,7 +145,7 @@ st.markdown(f"""
         <div class="news-description">El canciller Vieira, el anfitrión, insta al bloque del sur global a centrarse en la defensa del multilateralismo sin ser “un bloque de enfrentamiento”.</div>
         <a class="news-link" href="https://elpais.com/america/2025-04-28/los-brics-debaten-en-brasil-su-respuesta-a-la-guerra-arancelaria-declarada-por-trump.html">Ver más →</a>
     </div>    
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">Aranceles, aunque bajos tienden a ser más nocivos para la región</div>
         <div class="news-date">Publicado el 27 de abril de 2025</div>
@@ -155,7 +155,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://imagenes.expreso.ec/files/image_780_477/uploads/2025/04/27/680eba744a9fe.jpeg" />
     </div>
-    <!-- Fila 5 -->
+    <!-- Fila 6 -->
     <div class="news-block">
         <img class="news-image" src="https://apicms.thestar.com.my/uploads/images/2025/04/25/thumbs/700/3282854.webp" />
     </div>
@@ -165,7 +165,7 @@ st.markdown(f"""
         <div class="news-description">La administración Trump está considerando la posibilidad de reducir ciertos aranceles dirigidos a la industria automotriz que, según advirtieron los ejecutivos de los fabricantes de automóviles, supondrían un duro golpe a las ganancias y al empleo.</div>
         <a class="news-link" href="https://www.thestar.com.my/business/business-news/2025/04/25/us-officials-weigh-reducing-auto-import-fees#goog_rewarded">Ver más →</a>
     </div>    
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
     <div class="news-block news-text">
         <div class="news-title">La verdadera amenaza tras la guerra comercial de Trump: la ofensiva monetaria de China</div>
         <div class="news-date">Publicado el 23 de abril de 2025</div>
@@ -174,17 +174,7 @@ st.markdown(f"""
         </div>
     <div class="news-block">
         <img class="news-image" src="https://thediplomat.com/wp-content/uploads/2021/04/sizes/medium/thediplomat-2021-04-19-6.jpg" />
-    </div>
-    <!-- Fila 7 -->
-    <div class="news-block">
-        <img class="news-image" src="https://www.swissinfo.ch/content/wp-content/uploads/sites/13/2025/04/cc4cebbe3922faad5d22a2fc52c49349-89198880.jpg?crop=8px,0px,1009px,673px&w=880&ver=d0310119" />
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">La guerra comercial golpea a México y castiga a América Latina</div>
-        <div class="news-date">Publicado el 22 de abril de 2025</div>
-        <div class="news-description">México será la única gran economía mundial en contracción este año debido a la guerra comercial abierta por Estados Unidos, que tira a la baja el crecimiento del resto de América Latina con la excepción de Argentina, según el Fondo Monetario Internacional.</div>
-        <a class="news-link" href="https://www.swissinfo.ch/spa/la-guerra-comercial-golpea-a-m%c3%a9xico-y-castiga-a-am%c3%a9rica-latina/89198919">Ver más →</a>
-    </div>    
+    </div>  
 </div>
             
 """, unsafe_allow_html=True)
