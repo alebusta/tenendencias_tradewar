@@ -43,62 +43,47 @@ st.markdown("""
     <div class="news-text">
         <div class="div-news-description">
             
-# Tensiones comerciales y realineamientos geopolíticos: El impacto de la administración Trump en América Latina y el mundo
+# Tensiones comerciales y repercusiones regionales: Implicancias del nuevo proteccionismo estadounidense
 
-*Semana del reporte: 20 al 27 de abril de 2025*
+*Reporte del 28 de abril al 04 de mayo de 2025* 
 
 ## Diagnóstico
 
-Durante la última semana de abril de 2025, el mundo ha sido testigo de la intensificación de las tensiones comerciales lideradas por la administración Trump, con repercusiones significativas en América Latina y a nivel global. La imposición de aranceles, la renegociación de acuerdos comerciales y las amenazas de expansión territorial han generado incertidumbre y volatilidad en los mercados, así como realineamientos geopolíticos.
+Durante la primera semana de mayo de 2025, las noticias estuvieron marcadas por la intensificación de las tensiones comerciales a nivel global, principalmente impulsadas por las políticas arancelarias de la administración Trump. Se observó una clara preocupación en diversos sectores económicos y regiones, especialmente en Latinoamérica y el Caribe, ante el impacto de estas medidas.
 
-**Política Comercial y Tensiones Geopolíticas:**
+*   **Estados Unidos y China:** La guerra comercial entre estas dos potencias continuó siendo un tema central. Se reportaron señales contradictorias, con China mostrando disposición a negociar, pero exigiendo el retiro previo de los aranceles estadounidenses. Mientras tanto, Estados Unidos mantenía una postura firme, generando incertidumbre y volatilidad en los mercados.
+*   **Impacto en Latinoamérica y el Caribe:** Varios artículos mencionaron el impacto negativo de las políticas de Trump en la región, con la Cepal recortando las previsiones de crecimiento para varios países. Se destacó la vulnerabilidad de las economías latinoamericanas ante las decisiones unilaterales de Estados Unidos y la necesidad de diversificar mercados y fortalecer la integración regional.
+*   **Reacciones y medidas en la región:** Algunos países, como México, buscan acuerdos bilaterales con Estados Unidos para mitigar el impacto de los aranceles. Otros, como Uruguay, reportan mejoras en sus exportaciones a otros mercados como China y la Unión Europea. Los países del Mercosur también discutieron medidas para flexibilizar el comercio interno y enfrentar la situación.
+*   **Impacto en otros países y sectores:** Se observaron efectos negativos en diversos sectores a nivel global, como la industria automotriz, la tecnología y el transporte marítimo. Empresas como Apple y General Motors advirtieron sobre el impacto de los aranceles en sus costos y ganancias.
+*   **Reacciones de otros actores globales:** La Unión Europea continúa expresando su preocupación por las políticas de Trump y busca alternativas para fortalecer su autonomía comercial. China, por su parte, sigue promoviendo la cooperación con otros países del Sur Global y la búsqueda de alternativas al sistema financiero dominado por el dólar.
 
-*   **Guerra Comercial EE.UU.-China:** La imposición de aranceles por parte de EE.UU. a productos chinos ha provocado una respuesta recíproca de China, afectando a empresas de ambos países y generando preocupación por una posible paralización de la economía mundial. Economistas españoles como Santiago Niño Becerra advierten sobre una posible "situación Covid" si las negociaciones entre ambas potencias no avanzan.
-*   **Impacto en América Latina:** Los aranceles de Trump, aunque bajos para la región, amenazan con afectar la demanda de productos básicos y depreciar los tipos de cambio. El FMI proyecta una moderación del crecimiento en América Latina y el Caribe, con excepción de Argentina y Ecuador, que se espera tengan un repunte importante gracias a programas respaldados por el FMI.
-*   **Reacciones Regionales:**
-    *   **México:** Se espera una contracción del PIB debido al impacto de los aranceles. La presidenta Claudia Sheinbaum ha expresado su desacuerdo con las políticas de Trump y ha buscado alternativas para mantener la integración a la economía norteamericana.
-    *   **Ecuador:** Se espera un crecimiento del 1.7%, impulsado por programas respaldados por el FMI.
-    *   **Argentina:** Se espera un repunte importante en su economía, con un crecimiento del 5.5%, también impulsado por programas del FMI.
-    *   **Uruguay:** La industria cárnica se adapta a la amenaza de los aranceles, buscando nuevos mercados en China.
-*   **Demandas y Desafíos Internos en EE.UU.:** Una coalición de estados demócratas ha demandado a la administración Trump por los aranceles, argumentando que son ilegales y afectan las importaciones. Además, empresas estadounidenses enfrentan dificultades para encontrar alternativas a China como proveedor, lo que podría generar escasez y aumento de precios.
-*   **Expansión Territorial y Control de Recursos:**
-    *   **Canal de Panamá y Suez:** Trump exige paso libre para buques estadounidenses, generando controversia internacional.
+**Algunos hecho noticiosos destacados:**
 
-
-**Realineamientos Geopolíticos:**
-
-*   **Acercamiento a China:** Países como España y Uruguay buscan fortalecer lazos económicos con China ante la incertidumbre con EE.UU.
-*   **Tensiones con aliados tradicionales:** Alemania y Francia buscan mayor autonomía militar y económica ante la política de "America First". Canadá fortalece lazos con Europa.
-*   **Elecciones en Canadá:** La elección de un nuevo primer ministro en Canadá se ve influenciada por la necesidad de "plantar cara" a Trump y su política comercial.
-*   **Críticas internas en EE.UU.:** Figuras como Gary Cohn, exasesor económico de Trump, critican los aranceles por ser "altamente regresivos" y afectar a la clase baja.
+*   Se reportó la ralentización del puerto de Los Ángeles debido a la guerra comercial, evidenciando el impacto en la economía estadounidense. [ver noticia](https://www.elfinancierocr.com/internacionales/los-angeles-el-mayor-puerto-de-ee-uu-baja-el-ritmo/GNNEJ3EFTFFSHGZRGQQJR6BQUY/story/)
+*   La embajadora de China en Costa Rica acusó a Estados Unidos de utilizar la cancelación de visas como presión política, mostrando la escalada de tensiones diplomáticas. [ver noticia]( https://www.nacion.com/politica/embajadora-de-china-en-costa-rica-acusa-a-estados/5I3PYYDKKFCXBJ66ZBUGHNQ4QY/story/)
+*   El CEO de Apple, Tim Cook, estimó que los aranceles de Trump le costarán a Apple 900 millones de dólares este trimestre, lo que llevó a la empresa a trasladar la producción de iPhones a la India.[ver noticia]( https://https://www.thestar.com.my/aseanplus/aseanplus-news/2025/05/03/apple-estimates-tariffs-will-add-us900-million-to-costs-in-june-quarter-business-in-vietnam-to-be-affected#goog_rewarded)
+*   Se destacó la creciente influencia de China en América Latina, con inversiones que superan a las de Estados Unidos en algunos sectores. [ver noticia](https://www.elnacional.com/opinion/la-influencia-de-china-en-america-latina/)
+*   Warren Buffett anunció su retiro y advirtió que la guerra comercial perjudicará a Estados Unidos, generando preocupación en los mercados.[ver noticia](https://www.ijpr.org/npr-news/2025-05-03/warren-buffett-announces-his-retirement-and-warns-the-trade-war-will-hurt-america)
+*   El gobernador de California afirmó que el estado continuará abierto al comercio con China, desafiando la política arancelaria del gobierno federal.[ver noticia](http://www.spanish.xinhuanet.com/20250504/b46fae9a6c3f42fe92511280022184da/c.html)
+*   Se conoció la decisión de China de evaluar las propuestas de negociación de Estados Unidos, pero exigiendo concesiones previas.[ver noticia](https://www.jamaicaobserver.com/2025/05/04/things-stand-us-china-trade-war/)
 
 ## Tendencias
 
-1.  **Fragmentación del comercio global:** La imposición de aranceles y el proteccionismo estadounidense están fragmentando el comercio global en bloques regionales, generando ineficiencias y riesgos para el crecimiento.
-2.  **Aumento de la incertidumbre geopolítica:** Las acciones unilaterales de la administración Trump, como las amenazas de expansión territorial y el desconocimiento de acuerdos internacionales, están generando desconfianza y volatilidad en las relaciones internacionales.
-3.  **Realineamiento de alianzas:** Los países están buscando diversificar sus relaciones económicas y de seguridad, fortaleciendo lazos con otras potencias como China y la Unión Europea, en respuesta a la política de "America First".
+1.  **Aumento del proteccionismo:** La administración Trump continúa implementando políticas proteccionistas, generando tensiones comerciales y disrupciones en las cadenas de suministro globales.
+2.  **Reconfiguración de alianzas:** Los países de la región buscan diversificar sus socios comerciales y fortalecer la integración regional para reducir su dependencia de Estados Unidos.
+3.  **Impacto en la economía global:** Las tensiones comerciales y la incertidumbre política están afectando el crecimiento económico mundial, generando volatilidad en los mercados financieros y aumentando el riesgo de recesión.
 
 ## Implicaciones estratégicas
 
-*   **Para América Latina y El Caribe:**
-    *   **Corto plazo:** Mayor vulnerabilidad a shocks externos, depreciación de monedas, y posible aumento de la pobreza.
-    *   **Mediano plazo:** Necesidad de diversificar mercados, fortalecer la integración regional, y mejorar la competitividad.
-    *   **Largo plazo:** Riesgo de quedar atrapada en la disputa entre EE.UU. y China, con limitada capacidad de influir en el nuevo orden global.
-*   **Para Estados Unidos:**
-    *   **Corto plazo:** Posible recesión, aumento de la inflación, y pérdida de competitividad.
-    *   **Mediano plazo:** Aislamiento diplomático, erosión de su liderazgo global, y debilitamiento de su economía.
-    *   **Largo plazo:** Riesgo de perder su hegemonía económica y política frente a China y otras potencias.
-*   **Para el Mundo:**
-    *   **Corto plazo:** Mayor volatilidad en los mercados financieros, disrupciones en las cadenas de suministro, y aumento de la pobreza en países en desarrollo.
-    *   **Mediano plazo:** Fragmentación del sistema multilateral de comercio, aumento de las tensiones geopolíticas, y riesgo de conflictos armados.
-    *   **Largo plazo:** Un mundo multipolar con reglas menos claras y mayor competencia entre potencias, con consecuencias impredecibles para la paz y la prosperidad global.
+*   **Para la región:** En el corto plazo, la región enfrenta desafíos económicos y sociales debido a la incertidumbre comercial y las políticas migratorias de Estados Unidos. A mediano y largo plazo, la región podría beneficiarse de la diversificación de sus socios comerciales y el fortalecimiento de la integración regional, lo que aumentaría su resiliencia ante futuras crisis.
+*   **Para Estados Unidos:** En el corto plazo, las políticas de Trump podrían generar beneficios para algunos sectores de la economía estadounidense, como la industria manufacturera. Sin embargo, a mediano y largo plazo, el proteccionismo podría perjudicar la competitividad de Estados Unidos y su liderazgo en el mundo.
+*   **Para el mundo:** La intensificación de las tensiones comerciales y la erosión del multilateralismo podrían generar un mundo más fragmentado y conflictivo, con un mayor riesgo de crisis económicas y políticas.
 
 ## Factores clave a vigilar
 
-*   **Evolución de la guerra comercial EE.UU.-China:** Cualquier señal de escalada o desescalada tendrá un impacto inmediato en los mercados y en las decisiones de inversión.
-*   **Reacciones de los países de la región:** Es clave observar si los países de América Latina y el Caribe logran coordinar una respuesta conjunta a los desafíos planteados por la administración Trump.
-*   **Acuerdos bilaterales y regionales:** Es importante monitorear los acuerdos que EE.UU. logre negociar con otros países, así como los esfuerzos de integración regional en América Latina y otras partes del mundo.
-*   **Indicadores económicos clave:** Prestar atención a los datos de crecimiento, inflación, desempleo, y balanza comercial en EE.UU., China, y los principales países de América Latina y el Caribe.
+*   La evolución de las negociaciones comerciales entre Estados Unidos y China.
+*   Las medidas que tomen los países de la región para diversificar sus socios comerciales y fortalecer la integración regional.
+*   El impacto de las políticas de Trump en la economía estadounidense y mundial.
             </div>
 
  """, unsafe_allow_html=True)
@@ -108,7 +93,7 @@ Durante la última semana de abril de 2025, el mundo ha sido testigo de la inten
 st.markdown("""---""")	
 st.header("Resúmenes anteriores")
 
-with st.expander("Primera semana de mayo de 2025", expanded=False):
+with st.expander("Cuarta semana de abril de 2025", expanded=False):
     st.markdown("""	
             
     <div class="news-text">
