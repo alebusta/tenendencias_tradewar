@@ -31,9 +31,13 @@ if st.button("Ir a Inicio"):
 st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 5px'>Repercusiones en Estados Unidos y en el mundo</h1>", unsafe_allow_html=True)
 st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 25px'>Listado de noticias en medios de Estados Unidos y de habla inglesa</p>", unsafe_allow_html=True)
 
+file_id = '1C5w6w3u-pFKv3-l7iLAGhphyO9nn4Xmc'
+url = f'https://drive.google.com/uc?id={file_id}'
+
+df = pd.read_csv(url)
 
 
-df = pd.read_csv('database.csv')
+#df = pd.read_csv('database.csv')
 df = df[df['geo'] == 'mundo']
 df = df[['date_process','title','content', 'url','country']]
 
