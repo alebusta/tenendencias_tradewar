@@ -123,7 +123,7 @@ st.markdown(f"""
     </div>    
     <!-- Fila 1 -->
     <div class="news-block">
-        <img class="news-image" src="https://static01.nyt.com/images/2025/05/05/multimedia/05int-elections-trump-02-pjhl/05int-elections-trump-02-pjhl-superJumbo.jpg?quality=75&auto=webp" />
+        <img class="news-image" src="https://s.rfi.fr/media/display/043bf16e-19e6-11f0-b4cb-005056bf30b7/w:980/p:16x9/15248f8203b511812c4b2d6b3fcd5460be434102.webp" />
     </div>
     <div class="news-block news-text">  
         <div class="news-title">Una nueva tendencia en las elecciones mundiales: el impulso anti-Trump</div>
