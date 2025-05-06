@@ -111,6 +111,16 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
+    <!-- Fila 2 -->
+    <div class="news-block news-text">
+        <div class="news-title">EEUU impondrá casi un 21% de aranceles a la mayoría de los tomates mexicanos</div>
+        <div class="news-date">Publicado el 05 de mayo de 2025</div>
+        <div class="news-description">El gobierno del presidente estadounidense Donald Trump anunció este lunes que impondrá tarifas aduaneras del 20,91% sobre la mayoría de las importaciones de tomates mexicanos</div>
+        <a class="news-link" href="https://www.rfi.fr/es/m%C3%A1s-noticias/20250415-eeuu-impondr%C3%A1-casi-un-21-de-aranceles-a-la-mayor%C3%ADa-de-los-tomates-mexicanos">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://s.rfi.fr/media/display/043bf16e-19e6-11f0-b4cb-005056bf30b7/w:246/p:16x9/15248f8203b511812c4b2d6b3fcd5460be434102.webp 246w" />
+    </div>    
     <!-- Fila 1 -->
     <div class="news-block">
         <img class="news-image" src="https://static01.nyt.com/images/2025/05/05/multimedia/05int-elections-trump-02-pjhl/05int-elections-trump-02-pjhl-superJumbo.jpg?quality=75&auto=webp" />
