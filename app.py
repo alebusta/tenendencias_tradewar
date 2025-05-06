@@ -81,7 +81,14 @@ st.markdown("""
 
 ## Ticker con contador de noticias
 
-df = pd.read_csv('database.csv')
+# ID del archivo en Google Drive (extraído del enlace compartido)
+file_id = '1C5w6w3u-pFKv3-l7iLAGhphyO9nn4Xmc'
+url = f'https://drive.google.com/uc?id={file_id}'
+
+df = pd.read_csv(url)
+print(df.head())
+
+#df = pd.read_csv('database.csv')
 
 # Primero, calcula los valores necesarios del DataFrame
 
