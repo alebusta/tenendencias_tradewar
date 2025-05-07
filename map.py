@@ -5,6 +5,8 @@ import ast
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+from shared_data import get_dataframe
+
 
     # Crear el mapa
 
@@ -13,7 +15,7 @@ def impact_map():
     file_id = '1C5w6w3u-pFKv3-l7iLAGhphyO9nn4Xmc'
     url = f'https://drive.google.com/uc?id={file_id}'
 
-    df = pd.read_csv(url)
+    df = get_dataframe()
    
 
     #df = pd.read_csv('database.csv')
