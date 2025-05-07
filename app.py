@@ -10,7 +10,7 @@ import json
 from map import impact_map
 from grafico import crear_grafico_fmi
 from babel.dates import format_date
-from shared_data import get_dataframe
+from shared-data import get_dataframe
 
 
 # Configuración de página
