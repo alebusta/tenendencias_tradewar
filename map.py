@@ -5,19 +5,14 @@ import ast
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
-from shared_data import get_dataframe
+from shared-data import get_dataframe
 
 
     # Crear el mapa
 
 def impact_map():
-    # ID del archivo en Google Drive (extraído del enlace compartido)
-    file_id = '1C5w6w3u-pFKv3-l7iLAGhphyO9nn4Xmc'
-    url = f'https://drive.google.com/uc?id={file_id}'
 
-    df = pd.read_csv(url)
-
-    #df = get_dataframe()
+    df = get_dataframe()
 
     # Crear un DataFrame con los recuentos de etiquetas países
     df['country'] = df['country'].apply(ast.literal_eval)
