@@ -105,7 +105,7 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
-    <!-- Fila 2 -->
+    <!-- Fila 1 -->
     <div class="news-block">
         <img class="news-image" src="https://static01.nyt.com/images/2025/05/06/multimedia/06dc-trade-fpvc/06dc-trade-fpvc-jumbo.jpg?quality=75&auto=webp" />
     </div>
@@ -115,7 +115,7 @@ st.markdown(f"""
         <div class="news-description">Scott Bessent, secretario del Tesoro, y Jamieson Greer, representante comercial de Estados Unidos, discutirán asuntos comerciales y económicos con los funcionarios esta semana.</div>
         <a class="news-link" href="https://www.nytimes.com/2025/05/06/business/economy/us-china-trade-talks.html">Ver más →</a>
     </div>        
-    <!-- Fila 1 -->
+    <!-- Fila 2 -->
     <div class="news-block news-text">
         <div class="news-title">EEUU impondrá casi un 21% de aranceles a la mayoría de los tomates mexicanos</div>
         <div class="news-date">Publicado el 05 de mayo de 2025</div>
@@ -125,7 +125,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://s.rfi.fr/media/display/043bf16e-19e6-11f0-b4cb-005056bf30b7/w:980/p:16x9/15248f8203b511812c4b2d6b3fcd5460be434102.webp" />
     </div>    
-    <!-- Fila 2 -->
+    <!-- Fila 3 -->
     <div class="news-block">
         <img class="news-image" src="https://static01.nyt.com/images/2025/05/05/multimedia/05int-elections-trump-02-pjhl/05int-elections-trump-02-pjhl-superJumbo.jpg?quality=75&auto=webp" />
     </div>
@@ -135,7 +135,7 @@ st.markdown(f"""
         <div class="news-description">En las elecciones de Canadá y Australia, los partidos de derecha que imitaron el manual de MAGA fueron castigados. En otros países, el presidente Trump está teniendo un impacto más complejo.</div>
         <a class="news-link" href="https://www.nytimes.com/2025/05/04/world/canada/global-elections-trump.html">Ver más →</a>
     </div>        
-    <!-- Fila 3 -->
+    <!-- Fila 4 -->
     <div class="news-block news-text">
         <div class="news-title">Impactos arancelarios en el triángulo de la soya entre Estados Unidos, Brasil y China.</div>
         <div class="news-date">Publicado el 01 de mayo de 2025</div>
@@ -145,7 +145,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://www.agrinews-pubs.com/resizer/8kq6uvIHjjNU25p4d2i6ZKmLUf4=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WLBWZSEQ75HHHCVT2EHZTCK3RQ.jpg" />
     </div>
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block">
         <img class="news-image" src="https://images-tools.cadena3.com/tools/r/e64d9f61-9e44-4217-9809-1cfa0de9a93d.jpg?width=1200&height=646" />
     </div>
@@ -155,7 +155,7 @@ st.markdown(f"""
         <div class="news-description">El presidente Trump firmó un decreto que permitirá una disminución del 15% en los aranceles sobre vehículos ensamblados en Estados Unidos durante el primer año. Esta medida busca fomentar la producción local.</div>
         <a class="news-link" href="https://www.cadena3.com/noticia/internacionales/trump-promulga-medida-que-reduce-aranceles-sobre-autos-ensamblados-en-estados-unidos-por-dos-anos_418768">Ver más →</a>
     </div>    
-    <!-- Fila 5 -->
+    <!-- Fila 6 -->
     <div class="news-block news-text">
         <div class="news-title">Los primeros 100 días de Trump: el presidente de "Estados Unidos Primero" está trastocando el orden mundial</div>
         <div class="news-date">Publicado el 29 de abril de 2025</div>
@@ -166,7 +166,7 @@ st.markdown(f"""
         <img class="news-image" src="https://img.rasset.ie/00226317-800.jpg" />
     https://img.rasset.ie/00226317-800.jpg
     </div>
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
     <div class="news-block">
         <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/KYM6WPM7E2SWYLJQN655ERPBXE.jpg?auth=407f003f1762af940440d383c4b2d5ee868345e0e3d71c10959635bb0b12c772&width=1200" />
     </div>
@@ -176,16 +176,6 @@ st.markdown(f"""
         <div class="news-description">El canciller Vieira, el anfitrión, insta al bloque del sur global a centrarse en la defensa del multilateralismo sin ser “un bloque de enfrentamiento”.</div>
         <a class="news-link" href="https://elpais.com/america/2025-04-28/los-brics-debaten-en-brasil-su-respuesta-a-la-guerra-arancelaria-declarada-por-trump.html">Ver más →</a>
     </div>    
-    <!-- Fila 7 -->
-    <div class="news-block news-text">
-        <div class="news-title">Aranceles, aunque bajos tienden a ser más nocivos para la región</div>
-        <div class="news-date">Publicado el 27 de abril de 2025</div>
-        <div class="news-description">El FMI advierte que una desaceleración del crecimiento mundial podría afectar a la demanda de productos básicos.</div>
-        <a class="news-link" href="https://www.expreso.ec/actualidad/economia/aranceles-bajos-tienden-nocivos-region-240508.html">Ver más →</a>
-        </div>
-    <div class="news-block">
-        <img class="news-image" src="https://imagenes.expreso.ec/files/image_780_477/uploads/2025/04/27/680eba744a9fe.jpeg" />
-    </div>
 </div>
             
 """, unsafe_allow_html=True)
