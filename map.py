@@ -12,13 +12,8 @@ from shared_data import get_dataframe
 
 def impact_map():
 
-    file_id = '1C5w6w3u-pFKv3-l7iLAGhphyO9nn4Xmc'
-    url = f'https://drive.google.com/uc?id={file_id}'
 
     df = get_dataframe()
-   
-
-    #df = pd.read_csv('database.csv')
 
     # Crear un DataFrame con los recuentos de etiquetas países
     df['country'] = df['country'].apply(ast.literal_eval)
