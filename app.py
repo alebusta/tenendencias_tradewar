@@ -105,6 +105,16 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
+    <!-- Fila 2 -->
+    <div class="news-block">
+        <img class="news-image" src="https://static01.nyt.com/images/2025/05/06/multimedia/06dc-trade-fpvc/06dc-trade-fpvc-jumbo.jpg?quality=75&auto=webp" />
+    </div>
+    <div class="news-block news-text">  
+        <div class="news-title">Funcionarios de Trump se reunirán con sus homólogos chinos en medio del estancamiento comercial</div>
+        <div class="news-date">Publicado el 06 de mayo de 2025</div>
+        <div class="news-description">Scott Bessent, secretario del Tesoro, y Jamieson Greer, representante comercial de Estados Unidos, discutirán asuntos comerciales y económicos con los funcionarios esta semana.</div>
+        <a class="news-link" href="https://www.nytimes.com/2025/05/06/business/economy/us-china-trade-talks.html">Ver más →</a>
+    </div>        
     <!-- Fila 1 -->
     <div class="news-block news-text">
         <div class="news-title">EEUU impondrá casi un 21% de aranceles a la mayoría de los tomates mexicanos</div>
