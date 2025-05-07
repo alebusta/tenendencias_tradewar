@@ -10,6 +10,7 @@ import json
 from map import impact_map
 from grafico import crear_grafico_fmi
 from babel.dates import format_date
+from shared_data import get_dataframe
 
 
 # Configuración de página
@@ -81,14 +82,7 @@ st.markdown("""
 
 ## Ticker con contador de noticias
 
-# ID del archivo en Google Drive (extraído del enlace compartido)
-file_id = '1C5w6w3u-pFKv3-l7iLAGhphyO9nn4Xmc'
-url = f'https://drive.google.com/uc?id={file_id}'
-
-df = pd.read_csv(url)
-print(df.head())
-
-#df = pd.read_csv('database.csv')
+df = get_dataframe()
 
 # Primero, calcula los valores necesarios del DataFrame
 
