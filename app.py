@@ -107,7 +107,7 @@ st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
     <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Er3k7.img?w=360&h=320&m=6&x=44&y=67&s=47&d=47" />
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Er3k7.img?"/>
     </div>
     <div class="news-block news-text">  
         <div class="news-title">Trump anuncia acuerdo comercial “histórico” con Reino Unido: bajan aranceles y se eliminan barreras</div>
