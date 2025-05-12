@@ -106,6 +106,16 @@ st.markdown(f"""
 st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
+    <div class="news-block news-text">
+        <div class="news-title">EE UU anuncia “progresos sustanciales” tras la primera reunión sobre aranceles con China desde el inicio de la guerra comercial</div>
+        <div class="news-date">Publicado el 11 de mayo de 2025</div>
+        <div class="news-description">El secretario del Tesoro califica de “productivo” el encuentro de dos días, celebrado en Ginebra, y aplaza al lunes los detalles sobre lo acordado</div>
+        <a class="news-link" href="https://elpais.com/internacional/2025-05-11/ee-uu-califica-de-productivas-sus-primeras-conversaciones-arancelarias-con-china-desde-el-inicio-de-la-guerra-comercial.html">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/3Q4CCGTT3VNDBF33VMA5UB4U2M.jpg?auth=541b7af5b845bfdc04264b6c5130b7cd2f414d920b10a16714b79f1e0e59f55e&width=1200" />
+    </div>     
+    <!-- Fila 2 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Er3k7.img?"/>
     </div>
@@ -115,7 +125,7 @@ st.markdown(f"""
         <div class="news-description">El presidente estadunidense, Donald Trump, anunció este jueves que, como parte del acuerdo comercial recién alcanzado con Reino Unido, Londres eliminará "numerosas barreras no arancelarias" que permitirán un mayor acceso al mercado británico de productos agrícolas y químicos estadunidenses.</div>
         <a class="news-link" href="https://www.msn.com/es-mx/pol%C3%ADtica/gobierno/trump-anuncia-acuerdo-comercial-hist%C3%B3rico-con-reino-unido-bajan-aranceles-y-se-eliminan-barreras/ar-AA1Er7TM">Ver más →</a>
     </div>        
-    <!-- Fila 2 -->
+    <!-- Fila 3 -->
     <div class="news-block news-text">
         <div class="news-title">Lo que han dicho los líderes mundiales sobre los aranceles estadounidenses y cómo van las negociaciones con Trump hasta ahora</div>
         <div class="news-date">Publicado el 07 de mayo de 2025</div>
@@ -125,7 +135,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EmOoC.img?w=768&h=459&m=6&x=3440&y=620&s=602&d=602" />
     </div>     
-    <!-- Fila 3 -->
+    <!-- Fila 4 -->
     <div class="news-block">
         <img class="news-image" src="https://static01.nyt.com/images/2025/05/06/multimedia/06dc-trade-fpvc/06dc-trade-fpvc-jumbo.jpg?quality=75&auto=webp" />
     </div>
@@ -135,7 +145,7 @@ st.markdown(f"""
         <div class="news-description">Scott Bessent, secretario del Tesoro, y Jamieson Greer, representante comercial de Estados Unidos, discutirán asuntos comerciales y económicos con los funcionarios esta semana.</div>
         <a class="news-link" href="https://www.nytimes.com/2025/05/06/business/economy/us-china-trade-talks.html">Ver más →</a>
     </div>        
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">EEUU impondrá casi un 21% de aranceles a la mayoría de los tomates mexicanos</div>
         <div class="news-date">Publicado el 05 de mayo de 2025</div>
@@ -145,7 +155,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://s.rfi.fr/media/display/043bf16e-19e6-11f0-b4cb-005056bf30b7/w:980/p:16x9/15248f8203b511812c4b2d6b3fcd5460be434102.webp" />
     </div>    
-    <!-- Fila 5 -->
+    <!-- Fila 6 -->
     <div class="news-block">
         <img class="news-image" src="https://static01.nyt.com/images/2025/05/05/multimedia/05int-elections-trump-02-pjhl/05int-elections-trump-02-pjhl-superJumbo.jpg?quality=75&auto=webp" />
     </div>
@@ -155,7 +165,7 @@ st.markdown(f"""
         <div class="news-description">En las elecciones de Canadá y Australia, los partidos de derecha que imitaron el manual de MAGA fueron castigados. En otros países, el presidente Trump está teniendo un impacto más complejo.</div>
         <a class="news-link" href="https://www.nytimes.com/2025/05/04/world/canada/global-elections-trump.html">Ver más →</a>
     </div>        
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
     <div class="news-block news-text">
         <div class="news-title">Impactos arancelarios en el triángulo de la soya entre Estados Unidos, Brasil y China.</div>
         <div class="news-date">Publicado el 01 de mayo de 2025</div>
@@ -165,16 +175,6 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://www.agrinews-pubs.com/resizer/8kq6uvIHjjNU25p4d2i6ZKmLUf4=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WLBWZSEQ75HHHCVT2EHZTCK3RQ.jpg" />
     </div>
-    <!-- Fila 7 -->
-    <div class="news-block">
-        <img class="news-image" src="https://images-tools.cadena3.com/tools/r/e64d9f61-9e44-4217-9809-1cfa0de9a93d.jpg?width=1200&height=646" />
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">Trump promulga medida que reduce aranceles sobre autos ensamblados en Estados Unidos por dos años</div>
-        <div class="news-date">Publicado el 30 de abril de 2025</div>
-        <div class="news-description">El presidente Trump firmó un decreto que permitirá una disminución del 15% en los aranceles sobre vehículos ensamblados en Estados Unidos durante el primer año. Esta medida busca fomentar la producción local.</div>
-        <a class="news-link" href="https://www.cadena3.com/noticia/internacionales/trump-promulga-medida-que-reduce-aranceles-sobre-autos-ensamblados-en-estados-unidos-por-dos-anos_418768">Ver más →</a>
-    </div>    
 </div>
             
 """, unsafe_allow_html=True)
