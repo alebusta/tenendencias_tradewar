@@ -45,6 +45,67 @@ st.markdown("""
             
 # Tensiones comerciales y repercusiones regionales: Implicancias del nuevo proteccionismo estadounidense
 
+*Semana del reporte: 11 de mayo de 2025*
+
+## Diagnóstico
+
+Durante la semana del 11 de mayo de 2025, el panorama noticioso estuvo dominado por las tensiones comerciales impulsadas por la administración Trump, especialmente en lo que respecta a la relación entre Estados Unidos y China. A pesar de los anuncios de "progresos sustanciales" y la promesa de un "reinicio total" en las relaciones comerciales, la realidad es que la incertidumbre persiste y las medidas proteccionistas de Trump están generando ondas expansivas en la economía global, con implicaciones particulares para Latinoamérica y el Caribe.
+
+*   **Negociaciones EEUU-China:** La semana estuvo marcada por la reanudación de las negociaciones comerciales entre Estados Unidos y China en Suiza (11 de mayo). Si bien ambas partes expresaron optimismo y hablaron de "progresos sustanciales", los detalles concretos del acuerdo siguen siendo vagos. Trump incluso sugirió una posible reducción de aranceles al 80%, aunque su equipo aclaró que esto dependerá de concesiones por parte de China. La cautela china se reflejó en la declaración de su agencia oficial de noticias, que insistió en que rechazarán cualquier propuesta que comprometa sus principios fundamentales.
+*   **Impacto en el comercio EEUU-China:** Las noticias revelan que la guerra comercial ya está afectando el flujo de bienes entre ambas potencias. Las exportaciones chinas a Estados Unidos cayeron un 21% en abril, mientras que las exportaciones estadounidenses a China también se vieron afectadas. Este estancamiento comercial está generando preocupación en los mercados financieros y entre las pequeñas empresas estadounidenses que dependen de las importaciones chinas.
+*   **Reacciones en Latinoamérica y el Caribe:** Ante este escenario, los países de la región están evaluando su autonomía geopolítica y buscando diversificar sus relaciones comerciales. El IV Foro Ministerial China-Celac, que se celebrará el 13 de mayo en Pekín, se presenta como una oportunidad clave para definir el rumbo político de la región y consolidar una plataforma de cooperación multilateral que no esté subordinada a las potencias tradicionales. Sin embargo, la región no acude al foro con una voz unificada, ya que algunos países, como Argentina, han dado un giro drástico en favor de Washington, mientras que otros, como Brasil y Chile, buscan una relación estratégica con China sin romper puentes con Occidente.
+*   **Impacto en otros países:** La guerra comercial también está afectando a otros países, como Canadá, donde el aumento del desempleo se atribuye a las políticas arancelarias de Trump. En Europa, la Unión Europea está preparando medidas de represalia contra Estados Unidos en caso de que las negociaciones comerciales fracasen.
+*   **Acuerdo comercial EEUU-Reino Unido:** En medio de este panorama de tensiones comerciales, Trump anunció un acuerdo comercial con el Reino Unido (11 de mayo), que incluye cuotas que protegen las exportaciones británicas de acero y automóviles, además de una reducción arancelaria general. Este acuerdo, si bien es un logro para la administración Trump, también genera interrogantes sobre el futuro de las relaciones comerciales entre Estados Unidos y la Unión Europea.
+*   **Cierre de fronteras a importaciones de ganado:** Estados Unidos suspenderá las exportaciones mexicanas de ganado bovino en pie durante 15 días para revisar la estrategia conjunta en el combate del gusano barrenador (11 de mayo).
+
+## Tendencias
+
+1.  **Regionalización del comercio:** Ante la incertidumbre generada por las políticas proteccionistas de Trump, los países de Latinoamérica y el Caribe están buscando fortalecer sus lazos comerciales entre sí y con otras regiones del mundo, como Asia y Europa.
+2.  **Aumento de la influencia china:** China se está posicionando como un socio estratégico para Latinoamérica y el Caribe, ofreciendo inversiones en infraestructura, tecnología y energía limpia.
+3.  **Debilitamiento del multilateralismo:** La administración Trump está erosionando el multilateralismo y el libre comercio, lo que genera un clima de creciente incertidumbre económica internacional.
+4.  **Reestructuración de las cadenas de suministro:** Las empresas están buscando diversificar sus cadenas de suministro para reducir su dependencia de China y otros países afectados por las políticas arancelarias de Trump.
+5.  **Aumento de la volatilidad en los mercados financieros:** La incertidumbre generada por las tensiones comerciales está provocando una mayor volatilidad en los mercados financieros, lo que dificulta la toma de decisiones de inversión.
+
+## Implicaciones estratégicas
+
+*   **Para la región:**
+    *   **Corto plazo:** Aumento de la incertidumbre económica y la volatilidad en los mercados financieros.
+    *   **Mediano plazo:** Necesidad de diversificar las relaciones comerciales y fortalecer la integración regional.
+    *   **Largo plazo:** Oportunidad de construir una relación más equilibrada y autónoma con China y Estados Unidos.
+*   **Para Estados Unidos:**
+    *   **Corto plazo:** Posible desaceleración del crecimiento económico y aumento de la inflación.
+    *   **Mediano plazo:** Riesgo de perder influencia en la economía global y de erosionar sus alianzas tradicionales.
+    *   **Largo plazo:** Incertidumbre sobre el futuro del liderazgo económico estadounidense en un mundo multipolar.
+*   **Para el mundo:**
+    *   **Corto plazo:** Aumento de las tensiones geopolíticas y riesgo de una guerra comercial a gran escala.
+    *   **Mediano plazo:** Reconfiguración del orden económico global y surgimiento de nuevos bloques comerciales.
+    *   **Largo plazo:** Incertidumbre sobre el futuro del sistema multilateral y la gobernanza global.
+
+## Factores clave a vigilar
+
+*   **Evolución de las negociaciones comerciales entre Estados Unidos y China:** Los resultados de estas negociaciones tendrán un impacto significativo en la economía global y en las relaciones geopolíticas.
+*   **Reacciones de los países de Latinoamérica y el Caribe:** Es clave observar cómo los países de la región están respondiendo a las políticas proteccionistas de Trump y cómo están buscando diversificar sus relaciones comerciales. En ese mismo sentido será clave analizar los resultados de la cumbre CELAC China a efectuarse durante la semana.
+*   **Impacto de las políticas de Trump en la economía estadounidense:** Es importante monitorear los indicadores económicos de Estados Unidos para evaluar el impacto de las políticas de Trump en el crecimiento, la inflación y el empleo.
+*   **Evolución del sistema multilateral:** Es fundamental observar cómo la Organización Mundial del Comercio (OMC) y otras instituciones multilaterales están respondiendo a los desafíos planteados por el nuevo proteccionismo estadounidense.
+
+
+            </div>
+
+ """, unsafe_allow_html=True)
+
+#### Resúmenes anteriores
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("Primera semana de mayo de 2025", expanded=False):
+    st.markdown("""	
+            
+    <div class="news-text">
+        <div class="div-news-description">
+            
+# Tensiones comerciales y repercusiones regionales: Implicancias del nuevo proteccionismo estadounidense
+
 *Reporte del 28 de abril al 04 de mayo de 2025* 
 
 ## Diagnóstico
@@ -86,12 +147,8 @@ Durante la primera semana de mayo de 2025, las noticias estuvieron marcadas por 
 *   El impacto de las políticas de Trump en la economía estadounidense y mundial.
             </div>
 
- """, unsafe_allow_html=True)
-
-#### Resúmenes anteriores
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
+ """, unsafe_allow_html=True)    
+    
 
 with st.expander("Cuarta semana de abril de 2025", expanded=False):
     st.markdown("""	
