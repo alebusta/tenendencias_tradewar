@@ -88,8 +88,7 @@ Durante la semana del 11 de mayo de 2025, el panorama noticioso estuvo dominado 
 *   **Impacto de las políticas de Trump en la economía estadounidense:** Es importante monitorear los indicadores económicos de Estados Unidos para evaluar el impacto de las políticas de Trump en el crecimiento, la inflación y el empleo.
 *   **Evolución del sistema multilateral:** Es fundamental observar cómo la Organización Mundial del Comercio (OMC) y otras instituciones multilaterales están respondiendo a los desafíos planteados por el nuevo proteccionismo estadounidense.
 
-
-            </div>
+</div>
 
  """, unsafe_allow_html=True)
 
