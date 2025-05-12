@@ -99,7 +99,7 @@ def parse_spanish_date(date_string):
         raise ValueError(f"Formato de fecha no reconocido: '{date_string}'")
 
 # Leer CSV con medidas arancelarias
-df = pd.read_csv('aranceles.csv', encoding='utf-8')
+df = pd.read_csv('aranceles.csv') #, encoding='utf-8')
 
 # Agregar columnas de fecha parseadas para ordenamiento
 df['Anuncio_fecha'] = df['Fecha de Anuncio'].apply(parse_spanish_date)
