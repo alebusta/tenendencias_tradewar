@@ -152,8 +152,8 @@ st.markdown("""
 # Nota metodológica con estilo The Economist
 st.markdown("""
 <div style='font-family: Georgia; font-size: 12px; color: #666666; margin-top: 30px;'>
-<strong>Metodología:</strong> Los datos presentados han sido compilados a partir de información de Yahoo Finance publicada el 2 de abril de 2025. 
-Las fechas aproximadas ("Esta semana", "Mediados de abril") se han incluido tal como aparecen en la fuente original.
+<strong>Metodología:</strong> Los datos presentados han sido compilados a partir de información de Yahoo Finance publicada el 2 de abril de 2025 y actualizados desde ese sitio, Financial Times y el sitio oficial de la casa blanca. 
+
 </div>
 """, unsafe_allow_html=True)
 
