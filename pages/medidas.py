@@ -106,7 +106,7 @@ df['Anuncio_fecha'] = df['Fecha de Anuncio'].apply(parse_spanish_date)
 
 
 # Ordenar por fecha de entrada en vigor
-df = df.sort_values(by='Anuncio_fecha')
+df = df.sort_values(by='Anuncio_fecha', descending=True)
 
 # Crear versión para mostrar (sin columnas de fecha parseadas y sin índice)
 display_df = df.drop(columns=['Anuncio_fecha'])
