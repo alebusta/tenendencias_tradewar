@@ -8,7 +8,7 @@ import base64
 from news_chatbot import news_chatbot_component
 import json
 from map import impact_map
-from grafico import crear_grafico_fmi
+from grafico import crear_grafico_fmi, X_latam_china
 from babel.dates import format_date
 from shared_data import get_dataframe
 
