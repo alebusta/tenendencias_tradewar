@@ -5,6 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import date
 import base64
+from grafico import crear_grafico_fmi, X_latam_china
 
 
 # Configuración de página
