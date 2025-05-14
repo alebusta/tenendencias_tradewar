@@ -201,20 +201,17 @@ col3, col4 = st.columns(2)
 
 with col4:
 
-    crear_grafico_fmi()
+    X_latam_china()
 
 
 with col3:
     st.markdown("""
     <div class="news-text">
-        <div class="news-title">Guerra comercial en Datos: Nuevas previsiones del FMI</div>
-        <div class="news-date">Publicado el 22 de abril de 2025</div>
-        <div class="news-description">   Estos datos representan las previsiones de crecimiento económico del Fondo Monetario Internacional (FMI) 
-    para el año 2025, publicados el 22 de abril de 2025. El FMI recortó en medio punto la previsión del crecimiento económico global para 2025, hasta el 2.8%, 
-    debido principalmente a la guerra comercial iniciada por el presidente de Estados Unidos.Para América Latina y el Caribe, el FMI pronostica que el crecimiento económico se modere al 2% en 2025, 
-    antes de repuntar al 2.4% en 2026.
+        <div class="news-title">Guerra comercial en Datos: Volumen del comercio con China</div>
+        <div class="news-date">Actualizado al 12 de mayo de 2025</div>
+        <div class="news-description"> En medio de la guerra comercial de Trump, China y Latinoamérica buscan fortalecer sus lazos económicos, con un intercambio comercial que alcanzó los 500.000 millones de dólares en 2024 y que podría superar a Estados Unidos en el futuro cercano. Esta creciente relación se presenta como una oportunidad para la región, impulsada por la imposición de aranceles que impactan las relaciones comerciales entre Washington y Pekín.
         </div>
-        <a class="news-link" href="https://larepublica.pe/economia/2025/04/22/culpan-a-trump-fmi-alerta-sobre-recesion-en-eeuu-y-menor-crecimiento-global-como-se-traduce-a-peru-hnews-700964">Ver más →</a>
+        <a class="news-link" href="https://www.elperiodico.com/es/internacional/20250511/china-latinoamerica-profundizar-relaciones-guerra-comercial-trump-117218567">Ver más →</a>
     </div>
     """, unsafe_allow_html=True)
 
