@@ -85,3 +85,40 @@ def crear_grafico_fmi(titulo='Previsiones de Crecimiento Económico del FMI para
     # Mostrar en Streamlit
     st.plotly_chart(fig, use_container_width=True)
 
+def X_latam_china():
+    # Datos extraídos del artículo
+    data = {
+        'País': ['Latinoamérica','Brasil', 'México', 'Argentina', 'Perú', 'Colombia', 'Ecuador', 'Venezuela'],
+        'Comercio_China_2024_USD_Billones': [500,150, 100, 80, 40, None, None, None]
+    }
+
+    # Limpiar los datos eliminando los países sin datos de comercio
+    data_clean = {k: [v[i] for i in range(len(data['País'])) if data['Comercio_China_2024_USD_Billones'][i] is not None] for k, v in data.items()}
+
+    # Crear el gráfico de barras
+    fig = go.Figure(data=[go.Bar(x=data_clean['País'], y=data_clean['Comercio_China_2024_USD_Billones'],
+                                text=[f'~{x:.0f}' for x in data_clean['Comercio_China_2024_USD_Billones']],
+                                textposition='outside')])
+
+    # Personalizar el diseño del gráfico
+    fig.update_layout(
+        title='Volumen de Comercio entre China y Latinoamérica en 2024, países seleccionados',
+        #xaxis_title='País',
+        yaxis_title='Volumen de Comercio\n (miles de millones de USD)',
+        template='plotly_white',
+        annotations=[
+            dict(
+                text='Elaboración propia basada en información publicada en medios',
+                xref='paper',
+                yref='paper',
+                x=0.5,
+                y=-0.15,
+                showarrow=False,
+                font=dict(size=10, color='gray'),
+                align='center'
+            )
+        ]
+    )
+
+    # Mostrar el gráfico
+    st.plotly_chart(fig, use_container_width=True)
