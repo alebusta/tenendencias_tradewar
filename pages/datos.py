@@ -43,6 +43,28 @@ st.markdown('---')
 
 # Contenido de la aplicación
 
+col3, col4 = st.columns(2)
+
+with col4:
+
+    crear_grafico_fmi()
+
+
+with col3:
+    st.markdown("""
+    <div class="news-text">
+        <div class="news-title">Guerra comercial en Datos: Nuevas previsiones del FMI</div>
+        <div class="news-date">Actualizado al 22 de abril de 2025</div>
+        <div class="news-description">   Estos datos representan las previsiones de crecimiento económico del Fondo Monetario Internacional (FMI) 
+    para el año 2025, publicados el 22 de abril de 2025. El FMI recortó en medio punto la previsión del crecimiento económico global para 2025, hasta el 2.8%, 
+    debido principalmente a la guerra comercial iniciada por el presidente de Estados Unidos.Para América Latina y el Caribe, el FMI pronostica que el crecimiento económico se modere al 2% en 2025, 
+    antes de repuntar al 2.4% en 2026.
+        </div>
+        <a class="news-link" href="https://larepublica.pe/economia/2025/04/22/culpan-a-trump-fmi-alerta-sobre-recesion-en-eeuu-y-menor-crecimiento-global-como-se-traduce-a-peru-hnews-700964">Ver más →</a>
+    </div>
+    """, unsafe_allow_html=True)
+
+
 # Fila 1 
 col3, col4 = st.columns(2)
 
