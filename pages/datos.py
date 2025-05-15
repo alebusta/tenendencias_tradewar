@@ -64,7 +64,7 @@ with col3:
         <a class="news-link" href="https://larepublica.pe/economia/2025/04/22/culpan-a-trump-fmi-alerta-sobre-recesion-en-eeuu-y-menor-crecimiento-global-como-se-traduce-a-peru-hnews-700964">Ver más →</a>
     </div>
     """, unsafe_allow_html=True)
-
+st.markdown('---')
 
 # Fila 1 
 col3, col4 = st.columns(2)
