@@ -281,10 +281,4 @@ st.markdown("---")
 st.markdown("""
 
 """)
-col1, col2, col3 = st.columns([1, 1, 1])
-with col1:
-    #st.markdown('<p class="small-text">Reporte preparado por CEPAL Lab para el Trade Emergency Team</p>', unsafe_allow_html=True)
-with col2:
-    #st.markdown('<p class="small-text">Datos actualizados al 3 de abril de 2025</p>', unsafe_allow_html=True)
-with col3:
-    st.markdown('<p class="small-text">©2025 Cepal Lab</p>', unsafe_allow_html=True)
+st.markdown('<p class="small-text">©2025 Cepal Lab</p>', unsafe_allow_html=True)
