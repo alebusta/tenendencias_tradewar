@@ -105,7 +105,17 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
-     <!-- Fila 1 -->
+    <!-- Fila 1 -->
+    <div class="news-block news-text">
+        <div class="news-title">Ruta de la Seda “calentó” a Colombia con Estados Unidos: ¿qué esperar tras dura advertencia del gobierno Trump?</div>
+        <div class="news-date">Publicado el 15 de mayo de 2025</div>
+        <div class="news-description">Mientras Washington dijo que bloqueará a bancos multilaterales que financien proyectos chinos en el país, persiste el estancamiento en las negociaciones sobre el arancel del 10% para productos colombianos.</div>
+        <a class="news-link" href="https://www.elcolombiano.com/negocios/estados-unidos-bloqueo-bancos-empresas-chinas-en-colombia-aranceles-EA27413227">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://estaticos.elcolombiano.com/binrepository/780x565/0c0/780d565/none/11101/TSCH/petro-trump-y-xian_47877334_20250515174621.jpg" />
+    </div>     
+     <!-- Fila 2 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EKMct.img?"/>
     </div>
@@ -115,7 +125,7 @@ st.markdown(f"""
         <div class="news-description">Aunque el presidente estadounidense Donald Trump ha hablado de victoria tras alcanzar un acuerdo el fin de semana con China para reducir los altísimos aranceles impuestos a los productos de ambos países, las empresas en China están reaccionando al acuerdo temporal con cautela.</div>
         <a class="news-link" href="https://www.msn.com/en-us/money/markets/chinese-businesses-view-tariff-pause-with-caution-and-uncertainty/ar-AA1EKTcR">Ver más →</a>
     </div>            
-    <!-- Fila 2 -->
+    <!-- Fila 3 -->
     <div class="news-block news-text">
         <div class="news-title">China busca contrarrestar influencia de EE.UU. con alianza latinoamericana y línea de crédito de 9.200 millones de dólares</div>
         <div class="news-date">Publicado el 13 de mayo de 2025</div>
@@ -125,7 +135,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://businessmirror.com.ph/wp-content/uploads/2025/05/world04-051425.jpg" />
     </div>     
-     <!-- Fila 3 -->
+     <!-- Fila 4 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EEa9m.img?"/>
     </div>
@@ -135,7 +145,7 @@ st.markdown(f"""
         <div class="news-description">Lula da Silva está de visita en Beijing esta semana, y se espera un foro China-CELAC en el que habrá altos funcionarios de países como Colombia, Chile y México.</div>
         <a class="news-link" href="https://www.msn.com/es-cl/noticias/other/china-se-acerca-a-brasil-y-am%C3%A9rica-latina-en-medio-de-crisis-por-aranceles/ar-AA1EEeYh">Ver más →</a>
     </div>        
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">EE UU anuncia “progresos sustanciales” tras la primera reunión sobre aranceles con China desde el inicio de la guerra comercial</div>
         <div class="news-date">Publicado el 11 de mayo de 2025</div>
@@ -145,7 +155,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/3Q4CCGTT3VNDBF33VMA5UB4U2M.jpg?auth=541b7af5b845bfdc04264b6c5130b7cd2f414d920b10a16714b79f1e0e59f55e&width=1200" />
     </div>     
-    <!-- Fila 5 -->
+    <!-- Fila 6 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Er3k7.img?"/>
     </div>
@@ -155,7 +165,7 @@ st.markdown(f"""
         <div class="news-description">El presidente estadunidense, Donald Trump, anunció este jueves que, como parte del acuerdo comercial recién alcanzado con Reino Unido, Londres eliminará "numerosas barreras no arancelarias" que permitirán un mayor acceso al mercado británico de productos agrícolas y químicos estadunidenses.</div>
         <a class="news-link" href="https://www.msn.com/es-mx/pol%C3%ADtica/gobierno/trump-anuncia-acuerdo-comercial-hist%C3%B3rico-con-reino-unido-bajan-aranceles-y-se-eliminan-barreras/ar-AA1Er7TM">Ver más →</a>
     </div>        
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
     <div class="news-block news-text">
         <div class="news-title">Lo que han dicho los líderes mundiales sobre los aranceles estadounidenses y cómo van las negociaciones con Trump hasta ahora</div>
         <div class="news-date">Publicado el 07 de mayo de 2025</div>
@@ -165,16 +175,6 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EmOoC.img?w=768&h=459&m=6&x=3440&y=620&s=602&d=602" />
     </div>     
-    <!-- Fila 7 -->
-    <div class="news-block">
-        <img class="news-image" src="https://static01.nyt.com/images/2025/05/06/multimedia/06dc-trade-fpvc/06dc-trade-fpvc-jumbo.jpg?quality=75&auto=webp" />
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">Funcionarios de Trump se reunirán con sus homólogos chinos en medio del estancamiento comercial</div>
-        <div class="news-date">Publicado el 06 de mayo de 2025</div>
-        <div class="news-description">Scott Bessent, secretario del Tesoro, y Jamieson Greer, representante comercial de Estados Unidos, discutirán asuntos comerciales y económicos con los funcionarios esta semana.</div>
-        <a class="news-link" href="https://www.nytimes.com/2025/05/06/business/economy/us-china-trade-talks.html">Ver más →</a>
-    </div>        
 </div>
             
 """, unsafe_allow_html=True)
