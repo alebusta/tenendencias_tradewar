@@ -111,7 +111,7 @@ st.markdown(f"""
     </div>
     <div class="news-block news-text">  
         <div class="news-title">El Gobierno de Estados Unidos contempla llegar a acuerdos arancelarios regionales</div>
-        <div class="news-date">Publicado el 17 de mayo de 2025</div>
+        <div class="news-date">Publicado el 18 de mayo de 2025</div>
         <div class="news-description">El secretario del Tesoro de Estados Unidos, Scott Bessent, señaló este domingo que su Gobierno contempla llegar a acuerdos arancelarios por regiones en la actual negociación</div>
         <a class="news-link" href="https://www.prensa.com/mundo/el-gobierno-de-estados-unidos-contempla-llegar-a-acuerdos-arancelarios-regionales/">Ver más →</a>
     </div>            
