@@ -38,7 +38,74 @@ if st.button("Ir a Inicio"):
 
 
 # Contenido de la aplicación
-st.markdown("""	
+
+st.markdown("""
+
+<div class="news-text">
+        <div class="div-news-description">
+        
+# Tensiones comerciales y reconfiguración geopolítica: América Latina en la mira de EE.UU. y China
+
+*Semana del reporte: 18 de mayo de 2025*
+
+## Diagnóstico
+
+Durante la semana del 18 de mayo de 2025, el panorama noticioso se centró en las tensiones comerciales impulsadas por la administración Trump y la creciente influencia de China en América Latina y el mundo. Los hechos más relevantes incluyen la evaluación de Estados Unidos de acuerdos arancelarios regionales, la reacción de Trump ante el aumento de precios de Walmart debido a los aranceles, y la intensificación de la competencia entre China y Estados Unidos por el liderazgo global, especialmente en América Latina.
+
+**Hechos Noticiosos Clave y su Evolución:**
+
+1.  **Evaluación de Acuerdos Arancelarios Regionales por EE.UU.:** El secretario del Tesoro de EE. UU., Scott Bessent, confirmó que el Gobierno evalúa acuerdos arancelarios regionales como parte de su estrategia de reforma comercial, incluyendo a América Central. Guatemala busca ser incluida en estos acuerdos para revertir el arancel del 10% impuesto desde abril. Se espera una reunión clave en Washington D.C. el 27 de mayo para discutir posibles ajustes arancelarios y la inclusión de Guatemala en un acuerdo regional. Esta noticia se repite varias veces a lo largo de la semana, lo que indica su importancia.
+2.  **Reacción de Trump ante el Aumento de Precios de Walmart:** Trump arremetió contra Walmart por subir los precios debido a los aranceles impuestos a China, acusando a la cadena de usar las tarifas como excusa. Trump exigió que Walmart y China absorbieran el costo de los aranceles en lugar de trasladarlo a los consumidores. El secretario del Tesoro de EE. UU., Scott Bessent, dialogó con el CEO de Walmart, Doug McMillon, sobre el impacto de los aranceles. Esta disputa destaca la presión sobre las empresas estadounidenses y el posible impacto inflacionario de las políticas comerciales de Trump.
+3.  **Foro Celac-China y la Influencia China en América Latina:** El Foro Celac-China es una muestra de los avances de la influencia de China en el continente americano. China compite con Norteamérica, sin interferir en asuntos políticos, enfocándose en comercio e inversión. Xi Jinping destacó la importancia de la cooperación, la inversión y la Ruta de la Seda en Latinoamérica que asciende a los 500.000 millones de dólares, comprometiéndose a importar más productos de calidad de la región y animar a sus empresas a aumentar las inversiones en América Latina, la implementación de 100 proyectos de cooperación en 3 años, y anunció 20 medidas para apoyar el desarrollo de América Latina. Estados Unidos observa con preocupación la presencia económica, diplomática y tecnológica de China a través de la Celac y advierte a los gobiernos del continente los riesgos de endeudarse con China.
+4.  **Tregua Comercial EE.UU.-China y sus Consecuencias:** Se anuncia una tregua de 90 días en la guerra comercial entre EE.UU. y China, con una reducción de aranceles de 145% a 30% por parte de EE.UU. y de 125% a 10% por parte de China. A pesar de la tregua, analistas advierten que la incertidumbre persiste y que los efectos inflacionarios podrían continuar. Algunos sectores, como el de vehículos eléctricos, siguen afectados por los aranceles.
+5.  **Acercamiento de China a los Aliados de EE.UU.:** China está cortejando a los aliados de Estados Unidos, como la Unión Europea, Japón, Corea del Sur y países de América Latina, ofreciendo cooperación y ocupando espacios dejados por Estados Unidos. China ha intensificado su presencia en el Indo-Pacífico y ha intentado posicionarse como defensor del multilateralismo.
+
+**Movimientos de los Principales Actores del Comercio Global:**
+
+*   **China:** Fortalecimiento de lazos con América Latina a través del Foro Celac-China, ofreciendo inversiones y cooperación. Expansión de su influencia en el Indo-Pacífico y promoción del multilateralismo.
+*   **Estados Unidos:** Evaluación de acuerdos arancelarios regionales, imposición de aranceles a China y otros países, y negociaciones comerciales bilaterales.
+*   **Unión Europea:** Preocupación por la posible inundación de productos chinos en su mercado debido a la guerra comercial entre EE.UU. y China. Búsqueda de acuerdos comerciales con otros socios, incluyendo India y Mercosur.
+
+**Acercamientos e Intercambios de Países de la Región:**
+
+*   Guatemala busca ser incluida en los acuerdos arancelarios regionales de EE.UU.
+*   Honduras sigue trabajando para lograr un Tratado de Libre Comercio (TLC) con China.
+*   Ecuador recibe luz verde para iniciar negociaciones comerciales con EE. UU.
+*   El canciller panameño afirma que varios países reconocen la soberanía de Panamá sobre el Canal.
+*   Lula da Silva de Brasil, Gustavo Petro de Colombia y Gabriel Boric de Chile se reunieron con Xi Jinping en Beijing.
+
+## Tendencias
+
+1.  **Regionalización del Comercio:** EE.UU. está considerando acuerdos arancelarios regionales, lo que podría fragmentar el comercio global en bloques más pequeños.
+2.  **Competencia Geopolítica:** China y EE.UU. compiten por influencia en América Latina, ofreciendo diferentes modelos de desarrollo y cooperación.
+3.  **Incertidumbre Comercial:** Las políticas comerciales de Trump generan incertidumbre y volatilidad en los mercados, afectando las decisiones de inversión y consumo.
+4.  **Presión Inflacionaria:** Los aranceles podrían aumentar los precios al consumidor, especialmente en productos importados de China.
+5.  **Diversificación de Mercados:** Los países de la región buscan diversificar sus mercados y reducir la dependencia de EE.UU. y China.
+
+## Implicaciones Estratégicas
+
+*   **Para la Región:** América Latina enfrenta el desafío de equilibrar las relaciones con EE.UU. y China, aprovechando las oportunidades de inversión y comercio sin comprometer su soberanía. La integración regional se vuelve crucial para fortalecer la posición negociadora de los países latinoamericanos.
+*   **Para Estados Unidos:** La política comercial de Trump podría dañar la credibilidad de EE.UU. como socio comercial confiable y abrir espacio para que China expanda su influencia en la región.
+*   **Para el Mundo:** La guerra comercial entre EE.UU. y China podría fragmentar el sistema de comercio global y generar inestabilidad económica.
+
+## Factores Clave a Vigilar
+
+1.  **Negociaciones Arancelarias:** El resultado de las negociaciones entre EE.UU. y China, así como los acuerdos arancelarios regionales que EE.UU. pueda establecer.
+2.  **Reacciones de los Países de la Región:** La respuesta de los países latinoamericanos a las políticas comerciales de EE.UU. y China, incluyendo la búsqueda de nuevos socios comerciales y la profundización de la integración regional.
+3.  **Impacto en los Precios al Consumidor:** La evolución de los precios al consumidor en EE.UU. y otros países debido a los aranceles.
+4.  **Inversión China en la Región:** El aumento de la inversión china en América Latina y su impacto en el desarrollo económico de la región.
+</div>
+
+ """, unsafe_allow_html=True)
+
+
+#### Resúmenes anteriores
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("Segunda semana de mayo de 2025", expanded=False):
+    st.markdown("""	
             
     <div class="news-text">
         <div class="div-news-description">
@@ -92,10 +159,6 @@ Durante la semana del 11 de mayo de 2025, el panorama noticioso estuvo dominado 
 
  """, unsafe_allow_html=True)
 
-#### Resúmenes anteriores
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
 
 with st.expander("Primera semana de mayo de 2025", expanded=False):
     st.markdown("""	
