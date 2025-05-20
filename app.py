@@ -105,15 +105,15 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
-    <!-- Fila 3 -->
+    <!-- Fila 1 -->
     <div class="news-block news-text">
-        <div class="news-title">Ruta de la Seda “calentó” a Colombia con Estados Unidos: ¿qué esperar tras dura advertencia del gobierno Trump?</div>
-        <div class="news-date">Publicado el 15 de mayo de 2025</div>
-        <div class="news-description">Mientras Washington dijo que bloqueará a bancos multilaterales que financien proyectos chinos en el país, persiste el estancamiento en las negociaciones sobre el arancel del 10% para productos colombianos.</div>
-        <a class="news-link" href="https://www.elcolombiano.com/negocios/estados-unidos-bloqueo-bancos-empresas-chinas-en-colombia-aranceles-EA27413227">Ver más →</a>
+        <div class="news-title">Costa Rica negocia con Estados Unidos para suspender arancel impuesto por Trump</div>
+        <div class="news-date">Publicado el 19 de mayo de 2025</div>
+        <div class="news-description">Jerarca de Comex confirmó que en junio habrá dos reuniones más con la participación de la viceministra Indiana Trejos.</div>
+        <a class="news-link" href="https://www.nacion.com/economia/costa-rica-tuvo-primera-reunion-en-estados-unidos/RUSWHFI47NF3XBY2RZIZF27PZU/story/">Ver más →</a>
         </div>   
     <div class="news-block">
-        <img class="news-image" src="https://estaticos.elcolombiano.com/binrepository/780x565/0c0/780d565/none/11101/TSCH/petro-trump-y-xian_47877334_20250515174621.jpg" />
+        <img class="news-image" src="https://www.nacion.com/resizer/v2/OCIK3GTS2ZFNDOPSSI6WP3REOQ.png?smart=true&auth=a15d112d8239367bba32c74d49122ff20cd1121ff4555ecd67603ba6e815af4e&width=1440&height=753" />
     </div>     
      <!-- Fila 2 -->
     <div class="news-block">
