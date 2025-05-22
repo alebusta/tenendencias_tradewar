@@ -105,7 +105,17 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
-     <!-- Fila 1 -->
+    <!-- Fila 1 -->
+    <div class="news-block news-text">
+        <div class="news-title">La UE envía una propuesta comercial a EE.UU. para cerrar un acuerdo</div>
+        <div class="news-date">Publicado el 21 de mayo de 2025</div>
+        <div class="news-description">Se esperaba que la Unión Europea compartiera una propuesta comercial revisada con Estados Unidos, con el objetivo de dar nuevo impulso a las negociaciones con el gobierno del presidente Donald Trump en medio de un persistente escepticismo.</div>
+        <a class="news-link" href="https://www.bloomberg.com/news/articles/2025-05-21/eu-prepares-trade-proposal-for-us-to-steer-momentum-into-talks">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/irWxnkl3wBxg/v1/1200x800.webp"/>
+    </div>     
+     <!-- Fila 2 -->
     <div class="news-block">
         <img class="news-image" src="https://imgmedia.larepublica.pe/640x371/larepublica/original/2025/05/20/682ca61ccb9d4fa2b60d7709.webp"/>
     </div>
@@ -115,7 +125,7 @@ st.markdown(f"""
         <div class="news-description">Apple ha intensificado su producción en India, mientras el presidente de los Estados Unidos, Donald Trump, critica esta estrategia. Las caídas de exportación reflejan la fragilidad de las cadenas de suministro.</div>
         <a class="news-link" href="https://larepublica.pe/economia/2025/05/20/exportaciones-de-iphone-desde-china-a-eeuu-caen-72-en-abril-por-aranceles-hnews-1762880">Ver más →</a>
     </div>          
-    <!-- Fila 2 -->
+    <!-- Fila 3 -->
     <div class="news-block news-text">
         <div class="news-title">Costa Rica negocia con Estados Unidos para suspender arancel impuesto por Trump</div>
         <div class="news-date">Publicado el 19 de mayo de 2025</div>
@@ -125,7 +135,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://www.nacion.com/resizer/v2/OCIK3GTS2ZFNDOPSSI6WP3REOQ.png?smart=true&auth=a15d112d8239367bba32c74d49122ff20cd1121ff4555ecd67603ba6e815af4e&width=1440&height=753" />
     </div>     
-     <!-- Fila 3 -->
+     <!-- Fila 4 -->
     <div class="news-block">
         <img class="news-image" src="https://prensa.com/resizer/v2/POWLAF6KYZCOJE2DSWXIUU6BPY.jpg?auth=0b49f6e0201eec0fefd958f09e51dba6ef4be7b587c97beb816cbbbe4af7782f&width=1200"/>
     </div>
@@ -135,7 +145,7 @@ st.markdown(f"""
         <div class="news-description">El secretario del Tesoro de Estados Unidos, Scott Bessent, señaló este domingo que su Gobierno contempla llegar a acuerdos arancelarios por regiones en la actual negociación</div>
         <a class="news-link" href="https://www.prensa.com/mundo/el-gobierno-de-estados-unidos-contempla-llegar-a-acuerdos-arancelarios-regionales/">Ver más →</a>
     </div>            
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">Ruta de la Seda “calentó” a Colombia con Estados Unidos: ¿qué esperar tras dura advertencia del gobierno Trump?</div>
         <div class="news-date">Publicado el 15 de mayo de 2025</div>
@@ -145,7 +155,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://estaticos.elcolombiano.com/binrepository/780x565/0c0/780d565/none/11101/TSCH/petro-trump-y-xian_47877334_20250515174621.jpg" />
     </div>     
-     <!-- Fila 5 -->
+     <!-- Fila 6 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EKMct.img?"/>
     </div>
@@ -155,7 +165,7 @@ st.markdown(f"""
         <div class="news-description">Aunque el presidente estadounidense Donald Trump ha hablado de victoria tras alcanzar un acuerdo el fin de semana con China para reducir los altísimos aranceles impuestos a los productos de ambos países, las empresas en China están reaccionando al acuerdo temporal con cautela.</div>
         <a class="news-link" href="https://www.msn.com/en-us/money/markets/chinese-businesses-view-tariff-pause-with-caution-and-uncertainty/ar-AA1EKTcR">Ver más →</a>
     </div>            
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
     <div class="news-block news-text">
         <div class="news-title">China busca contrarrestar influencia de EE.UU. con alianza latinoamericana y línea de crédito de 9.200 millones de dólares</div>
         <div class="news-date">Publicado el 13 de mayo de 2025</div>
@@ -164,17 +174,7 @@ st.markdown(f"""
         </div>   
     <div class="news-block">
         <img class="news-image" src="https://businessmirror.com.ph/wp-content/uploads/2025/05/world04-051425.jpg" />
-    </div>     
-     <!-- Fila 7 -->
-    <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EEa9m.img?"/>
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">China se acerca a Brasil y América Latina en medio de crisis por aranceles</div>
-        <div class="news-date">Publicado el 12 de mayo de 2025</div>
-        <div class="news-description">Lula da Silva está de visita en Beijing esta semana, y se espera un foro China-CELAC en el que habrá altos funcionarios de países como Colombia, Chile y México.</div>
-        <a class="news-link" href="https://www.msn.com/es-cl/noticias/other/china-se-acerca-a-brasil-y-am%C3%A9rica-latina-en-medio-de-crisis-por-aranceles/ar-AA1EEeYh">Ver más →</a>
-    </div>     
+    </div>         
 </div>
             
 """, unsafe_allow_html=True)
