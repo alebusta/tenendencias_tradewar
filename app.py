@@ -110,7 +110,7 @@ st.markdown(f"""
         <img class="news-image" src="https://admin.gfmreview.com/images/custom_content/1747911948.png"/>
     </div>
     <div class="news-block news-text">  
-        <div class="news-title">"El acto de equilibrio de Brasil entre EE. UU. y China</div>
+        <div class="news-title">El acto de equilibrio de Brasil entre EE. UU. y China</div>
         <div class="news-date">Publicado el 22 de mayo de 2025</div>
         <div class="news-description">La diplomacia de doble vía de Brasil —favoreciendo los lazos políticos con Pekín y los vínculos comerciales con Estados Unidos— puede ser su única ruta viable.</div>
         <a class="news-link" href="https://www.gfmreview.com/breaking/brazil-s-balancing-act-between-us-china">Ver más →</a>
