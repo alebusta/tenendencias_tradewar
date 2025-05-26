@@ -118,7 +118,7 @@ Durante la semana del 25 de mayo de 2025, las noticias estuvieron marcadas por l
 st.markdown("""---""")	
 st.header("Resúmenes anteriores")
 
-with st.expander("Segunda semana de mayo de 2025", expanded=False):
+with st.expander("Tercera semana de mayo de 2025", expanded=False):
     
     st.markdown("""
 
@@ -179,11 +179,6 @@ Durante la semana del 18 de mayo de 2025, el panorama noticioso se centró en la
 
  """, unsafe_allow_html=True)
 
-
-#### Resúmenes anteriores
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
 
 with st.expander("Segunda semana de mayo de 2025", expanded=False):
     st.markdown("""	
