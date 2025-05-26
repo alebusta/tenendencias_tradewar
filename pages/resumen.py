@@ -43,6 +43,87 @@ st.markdown("""
 
 <div class="news-text">
         <div class="div-news-description">
+
+# Tensiones comerciales y migratorias: El impacto de las políticas de Trump en Latinoamérica y el mundo
+
+*Semana del reporte:* Semana del 25 de mayo de 2025
+
+## Diagnóstico
+
+Durante la semana del 25 de mayo de 2025, las noticias estuvieron marcadas por la persistente incertidumbre en torno a las políticas comerciales y migratorias de la administración Trump, con un impacto notable en Latinoamérica y el Caribe, así como en las relaciones globales.
+
+**1. Aranceles y Guerra Comercial:**
+
+*   **Prórroga de aranceles a la UE:** La noticia más recurrente fue la decisión de Trump de prorrogar hasta el 9 de julio la aplicación de aranceles del 50% a productos de la Unión Europea, tras una conversación con Ursula von der Leyen. Este anuncio generó reacciones mixtas, con algunos celebrando la pausa en la escalada comercial y otros expresando escepticismo sobre la duración y el propósito de la tregua.
+*   **Impacto en la industria francesa:** Se reportó cómo las industrias francesas se están adaptando a los aranceles estadounidenses, buscando absorber los costos adicionales o reestructurando sus cadenas de valor.
+*   **Consecuencias para Florida:** Los aranceles de Trump ya están impactando a Florida, elevando los precios de productos importados como café y materiales de construcción, afectando a pequeñas empresas y consumidores.
+*   **Reacción de ASEAN:** Malasia, en nombre de la ASEAN, instó a una mayor integración económica regional para enfrentar las consecuencias de las interrupciones del comercio global y los aranceles de EE.UU.
+*   **Tensiones con China:** Persisten las tensiones comerciales y tecnológicas entre EE.UU. y China, con advertencias sobre el uso de chips de Huawei y restricciones a proveedores de Apple.
+*   **Efecto en el precio del café:** Se anticipa que el precio del café seguirá subiendo debido a la sequía y los aranceles.
+*   **Postura de Colombia:** Se analiza si Colombia podría adoptar medidas fiscales y monetarias agresivas para impulsar oportunidades ante la guerra comercial.
+*   **Paraguay:** Se destaca que el país debe priorizar sus relaciones con los países de la región, específicamente con el Mercosur y muy especialmente con Brasil.
+
+**2. Impacto en Remesas:**
+
+*   **Impuesto a las remesas:** Se destaca la preocupación en Honduras por el posible impuesto a las remesas aprobado en primera instancia por el gobierno de Donald Trump, que podría reducir significativamente los ingresos del país.
+*   **Análisis en Colombia:** Se menciona que el dólar en Colombia está en una fase de consolidación estructurada, influenciado por la guerra arancelaria de Trump.
+*   **Efectos en El Salvador:** Periodistas de El Salvador denuncian una "escalada autoritaria" de Bukele, mientras activistas lo acusan de crear un "clima de terror" en el país.
+
+**3. Hegemonía y Relaciones Geopolíticas:**
+
+*   **Hegemonía de EE.UU.:** Se cuestiona la hegemonía de EE.UU. y se analiza cómo las políticas de Trump podrían fracturarla, beneficiando a otros países como China.
+*   **Relaciones con China:** Indonesia y China amplían la cooperación económica y defienden el libre comercio, mientras que México se ofrece como puente para reforzar los lazos de Europa con América.
+*   **Interés en Mercosur:** Indonesia centra su atención en el Mercosur, buscando nuevos socios comerciales.
+*   **Neutralidad en guerra comercial:** El canciller de Perú destaca la dificultad de mantener la neutralidad en la guerra comercial.
+*   **Paraguay y Emiratos Árabes Unidos:** El Presidente de Paraguay se reúne con el presidente de DP World para discutir proyectos portuarios y logísticos.
+
+**4. Crisis en Haití e Inmigración:**
+
+*   **Crisis haitiana:** Se menciona un diálogo en República Dominicana sobre la crisis de Haití y la inmigración indocumentada.
+
+**5. Otros temas relevantes:**
+
+*   **Aprobación de Trump:** El índice de aprobación de Trump se sitúa en el 47%, según una encuesta.
+*   **Críticas a la Fed:** El presidente de la Fed, Jerome Powell, defiende la integridad y el servicio público en medio de los ataques de Trump.
+*   **Reunión ASEAN:** Malasia se prepara para la cumbre de la ASEAN con énfasis en la guerra comercial, Gaza y Birmania.
+
+## Tendencias
+
+1.  **Proteccionismo selectivo:** La administración Trump continúa aplicando políticas proteccionistas, pero de manera selectiva, priorizando acuerdos bilaterales y ejerciendo presión sobre socios comerciales clave.
+2.  **Desglobalización regionalizada:** Se observa una tendencia hacia la regionalización del comercio, con países buscando fortalecer lazos dentro de sus regiones geográficas para mitigar los riesgos de la guerra comercial.
+3.  **Debilitamiento de instituciones multilaterales:** La falta de consenso en foros como el G7 y la crítica a organismos internacionales como la OEA sugieren un debilitamiento del multilateralismo y un enfoque más unilateral por parte de EE.UU.
+4.  **Reconfiguración de cadenas de suministro:** Las empresas están reevaluando sus cadenas de suministro para reducir la dependencia de China y diversificar sus fuentes de producción.
+5.  **Aumento de la inestabilidad económica:** La incertidumbre generada por las políticas de Trump está afectando la confianza de los inversores y generando volatilidad en los mercados financieros.
+
+## Implicaciones estratégicas
+
+*   **Para la región:** Los países de Latinoamérica y el Caribe enfrentan el desafío de diversificar sus socios comerciales y fortalecer la integración regional para reducir su dependencia de EE.UU. y China.
+*   **Para Estados Unidos:** Las políticas proteccionistas de Trump podrían generar un aislamiento económico y una pérdida de influencia en la región, así como un aumento de la inflación y una desaceleración del crecimiento.
+*   **Para el mundo:** La guerra comercial y la crisis migratoria podrían desestabilizar la economía global y generar tensiones geopolíticas.
+
+## Factores clave a vigilar
+
+1.  **Negociaciones comerciales entre EE.UU. y la UE:** La evolución de estas negociaciones será determinante para el futuro del comercio global.
+2.  **Relaciones entre EE.UU. y China:** La escalada o desescalada de las tensiones comerciales y tecnológicas entre estas dos potencias tendrá un impacto significativo en la economía mundial.
+3.  **Situación en Haití:** La crisis humanitaria y política en Haití podría generar una mayor presión migratoria en la región y requerir una respuesta coordinada de la comunidad internacional.
+4.  **Reacciones de los países de la región:** Es clave observar las medidas que tomen los países de Latinoamérica y el Caribe para mitigar los riesgos y aprovechar las oportunidades generadas por el nuevo contexto global.
+
+</div>
+
+ """, unsafe_allow_html=True)
+
+
+#### Resúmenes anteriores
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("Segunda semana de mayo de 2025", expanded=False):
+    
+    st.markdown("""
+
+<div class="news-text">
+        <div class="div-news-description">
         
 # Tensiones comerciales y reconfiguración geopolítica: América Latina en la mira de EE.UU. y China
 
