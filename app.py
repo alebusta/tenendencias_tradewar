@@ -105,7 +105,17 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
-     <!-- Fila 1 -->
+    <!-- Fila 1 -->
+    <div class="news-block news-text">
+        <div class="news-title">Trump anuncia que retrasará un arancel del 50 % a la Unión Europea hasta julio</div>
+        <div class="news-date">Publicado el 25 de mayo de 2025</div>
+        <div class="news-description">El presidente Donald Trump anunció el domingo que Estados Unidos retrasará la implementación de un arancel del 50% sobre productos de la Unión Europea del 1 de junio al 9 de julio.</div>
+        <a class="news-link" href="https://www.msn.com/es-ar/noticias/other/trump-anuncia-que-retrasar%C3%A1-un-arancel-del-50-a-la-uni%C3%B3n-europea-hasta-julio/ar-AA1FsCtG">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FsCtD.img?w=768&h=512&m=6"/>
+    </div>        
+     <!-- Fila 2 -->
     <div class="news-block">
         <img class="news-image" src="https://admin.gfmreview.com/images/custom_content/1747911948.png"/>
     </div>
@@ -115,7 +125,7 @@ st.markdown(f"""
         <div class="news-description">La diplomacia de doble vía de Brasil —favoreciendo los lazos políticos con Pekín y los vínculos comerciales con Estados Unidos— puede ser su única ruta viable.</div>
         <a class="news-link" href="https://www.gfmreview.com/breaking/brazil-s-balancing-act-between-us-china">Ver más →</a>
     </div>          
-    <!-- Fila 2 -->
+    <!-- Fila 3 -->
     <div class="news-block news-text">
         <div class="news-title">La UE envía una propuesta comercial a EE.UU. para cerrar un acuerdo</div>
         <div class="news-date">Publicado el 21 de mayo de 2025</div>
@@ -125,7 +135,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/irWxnkl3wBxg/v1/1200x800.webp"/>
     </div>     
-     <!-- Fila 3 -->
+     <!-- Fila 4 -->
     <div class="news-block">
         <img class="news-image" src="https://imgmedia.larepublica.pe/640x371/larepublica/original/2025/05/20/682ca61ccb9d4fa2b60d7709.webp"/>
     </div>
@@ -135,7 +145,7 @@ st.markdown(f"""
         <div class="news-description">Apple ha intensificado su producción en India, mientras el presidente de los Estados Unidos, Donald Trump, critica esta estrategia. Las caídas de exportación reflejan la fragilidad de las cadenas de suministro.</div>
         <a class="news-link" href="https://larepublica.pe/economia/2025/05/20/exportaciones-de-iphone-desde-china-a-eeuu-caen-72-en-abril-por-aranceles-hnews-1762880">Ver más →</a>
     </div>          
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">Costa Rica negocia con Estados Unidos para suspender arancel impuesto por Trump</div>
         <div class="news-date">Publicado el 19 de mayo de 2025</div>
@@ -145,7 +155,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://www.nacion.com/resizer/v2/OCIK3GTS2ZFNDOPSSI6WP3REOQ.png?smart=true&auth=a15d112d8239367bba32c74d49122ff20cd1121ff4555ecd67603ba6e815af4e&width=1440&height=753" />
     </div>     
-     <!-- Fila 5 -->
+     <!-- Fila 6 -->
     <div class="news-block">
         <img class="news-image" src="https://prensa.com/resizer/v2/POWLAF6KYZCOJE2DSWXIUU6BPY.jpg?auth=0b49f6e0201eec0fefd958f09e51dba6ef4be7b587c97beb816cbbbe4af7782f&width=1200"/>
     </div>
@@ -155,7 +165,7 @@ st.markdown(f"""
         <div class="news-description">El secretario del Tesoro de Estados Unidos, Scott Bessent, señaló este domingo que su Gobierno contempla llegar a acuerdos arancelarios por regiones en la actual negociación</div>
         <a class="news-link" href="https://www.prensa.com/mundo/el-gobierno-de-estados-unidos-contempla-llegar-a-acuerdos-arancelarios-regionales/">Ver más →</a>
     </div>            
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
     <div class="news-block news-text">
         <div class="news-title">Ruta de la Seda “calentó” a Colombia con Estados Unidos: ¿qué esperar tras dura advertencia del gobierno Trump?</div>
         <div class="news-date">Publicado el 15 de mayo de 2025</div>
@@ -165,16 +175,6 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://estaticos.elcolombiano.com/binrepository/780x565/0c0/780d565/none/11101/TSCH/petro-trump-y-xian_47877334_20250515174621.jpg" />
     </div>     
-     <!-- Fila 7 -->
-    <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EKMct.img?"/>
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">Las empresas chinas ven la pausa arancelaria con cautela e incertidumbre</div>
-        <div class="news-date">Publicado el 14 de mayo de 2025</div>
-        <div class="news-description">Aunque el presidente estadounidense Donald Trump ha hablado de victoria tras alcanzar un acuerdo el fin de semana con China para reducir los altísimos aranceles impuestos a los productos de ambos países, las empresas en China están reaccionando al acuerdo temporal con cautela.</div>
-        <a class="news-link" href="https://www.msn.com/en-us/money/markets/chinese-businesses-view-tariff-pause-with-caution-and-uncertainty/ar-AA1EKTcR">Ver más →</a>
-    </div>          
 </div>
             
 """, unsafe_allow_html=True)
