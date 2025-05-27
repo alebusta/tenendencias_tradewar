@@ -123,7 +123,7 @@ st.markdown(f"""
         <a class="news-link" href="https://www.msn.com/es-ar/noticias/other/trump-anuncia-que-retrasar%C3%A1-un-arancel-del-50-a-la-uni%C3%B3n-europea-hasta-julio/ar-AA1FsCtG">Ver más →</a>
         </div>   
     <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FsCtD.img?w=768&h=512&m=6"/>
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FsCtD.img?w=614&h=409&m=6"/>
     </div>        
      <!-- Fila 3 -->
     <div class="news-block">
