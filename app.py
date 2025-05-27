@@ -107,7 +107,7 @@ st.markdown(f"""
     <div class="news-grid">
      <!-- Fila 1 -->
     <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FwUCk.img? style="max-width: 70%; height: auto;""/>
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FwUCk.img? style="max-width: 70%; height: auto !important;"/>
     </div>
     <div class="news-block news-text">  
         <div class="news-title">BMI: Latinoamérica no se ha visto golpeada por aranceles de Trump; economía colombiana se recuperaría</div>
