@@ -105,7 +105,17 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
-     <!-- Fila 1 -->
+    <!-- Fila 1 -->
+    <div class="news-block news-text">
+        <div class="news-title">Los líderes de la ASEAN coinciden en que los acuerdos arancelarios con Estados Unidos no deben perjudicar a los demás miembros.</div>
+        <div class="news-date">Publicado el 28 de mayo de 2025</div>
+        <div class="news-description">Los líderes del Sudeste Asiático llegaron a un entendimiento el martes de que cualquier acuerdo bilateral que puedan alcanzar con Estados Unidos sobre aranceles comerciales no dañará las economías de los demás miembros</div>
+        <a class="news-link" href="https://www.bworldonline.com/top-stories/2025/05/28/675435/asean-leaders-agree-tariff-deals-with-us-should-not-harm-fellow-members/">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://www.bworldonline.com/wp-content/uploads/2023/10/ASEAN-logo.jpg"/>
+    </div>        
+     <!-- Fila 2 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FwUCk.img? style="width: 200px !important; height: auto !important;"/>
     </div>
@@ -115,7 +125,7 @@ st.markdown(f"""
         <div class="news-description">Sus cálculos anticipan una recuperación del Producto Interno Bruto (PIB) este año alrededor del 3 % y el siguiente, gracias, principalmente, al aporte del consumo y las exportaciones.</div>
         <a class="news-link" href="https://www.msn.com/es-co/noticias/other/bmi-latinoam%C3%A9rica-no-se-ha-visto-golpeada-por-aranceles-de-trump-econom%C3%ADa-colombiana-se-recuperar%C3%ADa/ar-AA1FwUCM">Ver más →</a>
     </div>          
-    <!-- Fila 2 -->
+    <!-- Fila 3 -->
     <div class="news-block news-text">
         <div class="news-title">Trump anuncia que retrasará un arancel del 50 % a la Unión Europea hasta julio</div>
         <div class="news-date">Publicado el 25 de mayo de 2025</div>
@@ -125,7 +135,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FsCtD.img?w=614&h=409&m=6"/>
     </div>        
-     <!-- Fila 3 -->
+     <!-- Fila 4 -->
     <div class="news-block">
         <img class="news-image" src="https://admin.gfmreview.com/images/custom_content/1747911948.png"/>
     </div>
@@ -135,7 +145,7 @@ st.markdown(f"""
         <div class="news-description">La diplomacia de doble vía de Brasil —favoreciendo los lazos políticos con Pekín y los vínculos comerciales con Estados Unidos— puede ser su única ruta viable.</div>
         <a class="news-link" href="https://www.gfmreview.com/breaking/brazil-s-balancing-act-between-us-china">Ver más →</a>
     </div>          
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">La UE envía una propuesta comercial a EE.UU. para cerrar un acuerdo</div>
         <div class="news-date">Publicado el 21 de mayo de 2025</div>
@@ -145,7 +155,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/irWxnkl3wBxg/v1/1200x800.webp"/>
     </div>     
-     <!-- Fila 5 -->
+     <!-- Fila 6 -->
     <div class="news-block">
         <img class="news-image" src="https://imgmedia.larepublica.pe/640x371/larepublica/original/2025/05/20/682ca61ccb9d4fa2b60d7709.webp"/>
     </div>
@@ -155,7 +165,7 @@ st.markdown(f"""
         <div class="news-description">Apple ha intensificado su producción en India, mientras el presidente de los Estados Unidos, Donald Trump, critica esta estrategia. Las caídas de exportación reflejan la fragilidad de las cadenas de suministro.</div>
         <a class="news-link" href="https://larepublica.pe/economia/2025/05/20/exportaciones-de-iphone-desde-china-a-eeuu-caen-72-en-abril-por-aranceles-hnews-1762880">Ver más →</a>
     </div>          
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
     <div class="news-block news-text">
         <div class="news-title">Costa Rica negocia con Estados Unidos para suspender arancel impuesto por Trump</div>
         <div class="news-date">Publicado el 19 de mayo de 2025</div>
@@ -164,17 +174,7 @@ st.markdown(f"""
         </div>   
     <div class="news-block">
         <img class="news-image" src="https://www.nacion.com/resizer/v2/OCIK3GTS2ZFNDOPSSI6WP3REOQ.png?smart=true&auth=a15d112d8239367bba32c74d49122ff20cd1121ff4555ecd67603ba6e815af4e&width=1440&height=753" />
-    </div>     
-     <!-- Fila 7 -->
-    <div class="news-block">
-        <img class="news-image" src="https://prensa.com/resizer/v2/POWLAF6KYZCOJE2DSWXIUU6BPY.jpg?auth=0b49f6e0201eec0fefd958f09e51dba6ef4be7b587c97beb816cbbbe4af7782f&width=1200"/>
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">El Gobierno de Estados Unidos contempla llegar a acuerdos arancelarios regionales</div>
-        <div class="news-date">Publicado el 18 de mayo de 2025</div>
-        <div class="news-description">El secretario del Tesoro de Estados Unidos, Scott Bessent, señaló este domingo que su Gobierno contempla llegar a acuerdos arancelarios por regiones en la actual negociación</div>
-        <a class="news-link" href="https://www.prensa.com/mundo/el-gobierno-de-estados-unidos-contempla-llegar-a-acuerdos-arancelarios-regionales/">Ver más →</a>
-    </div>             
+    </div>       
 </div>
             
 """, unsafe_allow_html=True)
