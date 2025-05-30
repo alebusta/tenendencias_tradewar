@@ -107,7 +107,7 @@ st.markdown(f"""
     <div class="news-grid">
      <!-- Fila 1 -->
     <div class="news-block">
-        <img class="https://www.nacion.com/resizer/v2/QIEXGH4LOBC2JNELGL2U6WYEQU.jpeg"/>
+        <img class="https://www.nacion.com/resizer/v2/QIEXGH4LOBC2JNELGL2U6WYEQU.jpeg?smart=true&auth=961e267e4beaed86d16720fb0a4e109eb9921b6108a7ca2ce5a3c26d2a007d66&width=720&height=405"/>
     </div>
     <div class="news-block news-text">  
         <div class="news-title">Tribunal de Estados Unidos bloquea la mayoría de los aranceles: ‘Trump se extralimitó’</div>
