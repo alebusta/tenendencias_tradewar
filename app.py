@@ -123,11 +123,11 @@ st.markdown(f"""
         <a class="news-link" href="https://www.antena3.com/noticias/mundo/asi-quedan-aranceles-trump-fallo-judicial-tarifas-anuladas-medidas-que-siguen-vigentes_2025052968389e04812a8f1e6a09309e.html">Ver más →</a>
         </div>   
     <div class="news-block">
-        <img class="news-image" src=https://fotografias.antena3.com/clipping/cmsimages02/2025/05/26/21EE7D1A-FBB5-4E26-A54C-273F7CEBDB85/97.jpg?crop=1920,1080,x0,y0&width=1600&height=900&optimize=low&format=webply"/>
+        <img class="news-image" src="https://fotografias.antena3.com/clipping/cmsimages02/2025/05/26/21EE7D1A-FBB5-4E26-A54C-273F7CEBDB85/97.jpg?crop=1920,1080,x0,y0&width=1600&height=900&optimize=low&format=webply"/>
     </div>           
      <!-- Fila 3 -->
     <div class="news-block">
-        <img class="https://www.nacion.com/resizer/v2/QIEXGH4LOBC2JNELGL2U6WYEQU.jpeg?smart=true&auth=961e267e4beaed86d16720fb0a4e109eb9921b6108a7ca2ce5a3c26d2a007d66&width=720&height=405"/>
+        <img class="news-image" src="https://www.nacion.com/resizer/v2/QIEXGH4LOBC2JNELGL2U6WYEQU.jpeg?smart=true&auth=961e267e4beaed86d16720fb0a4e109eb9921b6108a7ca2ce5a3c26d2a007d66&width=720&height=405"/>
     </div>
     <div class="news-block news-text">  
         <div class="news-title">Tribunal de Estados Unidos bloquea la mayoría de los aranceles: ‘Trump se extralimitó’</div>
