@@ -107,7 +107,7 @@ st.markdown(f"""
     <div class="news-grid">
      <!-- Fila 1 -->
     <div class="news-block">
-        <img class="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FU1S7.img?w=768&h=402&m=6"/>
+        <img class="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FU1S7.img"/>
     </div>
     <div class="news-block news-text">  
         <div class="news-title">China dice que EE. UU. socavó el acuerdo comercial de Ginebra tras acusaciones de Trump sobre violaciones por parte de Pekín</div>
