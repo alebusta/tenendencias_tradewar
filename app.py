@@ -107,13 +107,13 @@ st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
     <div class="news-block news-text">
-        <div class="news-title">Así quedan los aranceles de Trump tras el fallo judicial: tarifas anuladas y medidas que siguen vigentes</div>
-        <div class="news-date">Publicado el 29 de mayo de 2025</div>
-        <div class="news-description">El Tribunal de Comercio Internacional declaró ilegales los aranceles generalizados basados en la ley IEEPA, pero se mantienen las tarifas impuestas bajo la Sección 232</div>
-        <a class="news-link" href="https://www.antena3.com/noticias/mundo/asi-quedan-aranceles-trump-fallo-judicial-tarifas-anuladas-medidas-que-siguen-vigentes_2025052968389e04812a8f1e6a09309e.html">Ver más →</a>
+        <div class="news-title">Trump duplica aranceles al acero y aluminio: alerta en la industria argentina</div>
+        <div class="news-date">Publicado el 2 de junio de 2025</div>
+        <div class="news-description">La duplicación de aranceles al acero y aluminio por parte de Trump pone en jaque a la industria metalúrgica argentina, afectando exportaciones por US$600 millones y generando incertidumbre en el sector</div>
+        <a class="news-link" href="https://aceroyroca.com/2025/06/02/trump-duplica-aranceles-al-acero-y-aluminio-alerta-en-la-industria-argentina/">Ver más →</a>
         </div>   
     <div class="news-block">
-        <img class="news-image" src="https://fotografias.antena3.com/clipping/cmsimages02/2025/05/26/21EE7D1A-FBB5-4E26-A54C-273F7CEBDB85/97.jpg?crop=1920,1080,x0,y0&width=1600&height=900&optimize=low&format=webply"/>
+        <img class="news-image" src="https://aceroyroca.com/wp-content/uploads/2025/06/ACERO-Y-ROCA.TRUMP_.avif"/>
     </div>           
      <!-- Fila 2 -->
     <div class="news-block">
