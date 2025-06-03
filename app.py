@@ -105,17 +105,7 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
-     <!-- Fila 1 -->
-    <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FU1S7.img"/>
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">China dice que EE. UU. socavó el acuerdo comercial de Ginebra tras acusaciones de Trump sobre violaciones por parte de Pekín</div>
-        <div class="news-date">Publicado el 01 de junio de 2025</div>
-        <div class="news-description">Las fricciones comerciales entre Washington y Pekín se reavivaron después de una pausa que siguió a una reunión entre el Secretario del Tesoro de EE. UU., Scott Bessent, y su homólogo chino.</div>
-        <a class="news-link" href="https://www.msn.com/en-us/money/markets/china-says-the-u-s-undermined-geneva-trade-deal-after-trump-accuses-beijing-of-violations/ar-AA1FTXKH">Ver más →</a>
-    </div>      
-    <!-- Fila 2 -->
+    <!-- Fila 1 -->
     <div class="news-block news-text">
         <div class="news-title">Así quedan los aranceles de Trump tras el fallo judicial: tarifas anuladas y medidas que siguen vigentes</div>
         <div class="news-date">Publicado el 29 de mayo de 2025</div>
@@ -125,7 +115,27 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://fotografias.antena3.com/clipping/cmsimages02/2025/05/26/21EE7D1A-FBB5-4E26-A54C-273F7CEBDB85/97.jpg?crop=1920,1080,x0,y0&width=1600&height=900&optimize=low&format=webply"/>
     </div>           
-     <!-- Fila 3 -->
+     <!-- Fila 2 -->
+    <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FU1S7.img"/>
+    </div>
+    <div class="news-block news-text">  
+        <div class="news-title">China dice que EE. UU. socavó el acuerdo comercial de Ginebra tras acusaciones de Trump sobre violaciones por parte de Pekín</div>
+        <div class="news-date">Publicado el 01 de junio de 2025</div>
+        <div class="news-description">Las fricciones comerciales entre Washington y Pekín se reavivaron después de una pausa que siguió a una reunión entre el Secretario del Tesoro de EE. UU., Scott Bessent, y su homólogo chino.</div>
+        <a class="news-link" href="https://www.msn.com/en-us/money/markets/china-says-the-u-s-undermined-geneva-trade-deal-after-trump-accuses-beijing-of-violations/ar-AA1FTXKH">Ver más →</a>
+    </div>      
+    <!-- Fila 3 -->
+    <div class="news-block news-text">
+        <div class="news-title">Así quedan los aranceles de Trump tras el fallo judicial: tarifas anuladas y medidas que siguen vigentes</div>
+        <div class="news-date">Publicado el 29 de mayo de 2025</div>
+        <div class="news-description">El Tribunal de Comercio Internacional declaró ilegales los aranceles generalizados basados en la ley IEEPA, pero se mantienen las tarifas impuestas bajo la Sección 232</div>
+        <a class="news-link" href="https://www.antena3.com/noticias/mundo/asi-quedan-aranceles-trump-fallo-judicial-tarifas-anuladas-medidas-que-siguen-vigentes_2025052968389e04812a8f1e6a09309e.html">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://fotografias.antena3.com/clipping/cmsimages02/2025/05/26/21EE7D1A-FBB5-4E26-A54C-273F7CEBDB85/97.jpg?crop=1920,1080,x0,y0&width=1600&height=900&optimize=low&format=webply"/>
+    </div>           
+     <!-- Fila 4 -->
     <div class="news-block">
         <img class="news-image" src="https://www.nacion.com/resizer/v2/QIEXGH4LOBC2JNELGL2U6WYEQU.jpeg?smart=true&auth=961e267e4beaed86d16720fb0a4e109eb9921b6108a7ca2ce5a3c26d2a007d66&width=720&height=405"/>
     </div>
@@ -135,7 +145,7 @@ st.markdown(f"""
         <div class="news-description">El fallo prohíbe la mayoría de las categorías de nuevos aranceles (aquellos impuestos a países, incluidos China, Canadá y México).</div>
         <a class="news-link" href="https://www.nacion.com/el-mundo/tribunal-de-estados-unidos-bloquea-la-mayoria-de/EGDIR43RNBH6HDB3CDA4TY6NBU/story/">Ver más →</a>
     </div>      
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">Los líderes de la ASEAN coinciden en que los acuerdos arancelarios con Estados Unidos no deben perjudicar a los demás miembros.</div>
         <div class="news-date">Publicado el 28 de mayo de 2025</div>
@@ -145,7 +155,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://www.bworldonline.com/wp-content/uploads/2023/10/ASEAN-logo.jpg"/>
     </div>        
-     <!-- Fila 5 -->
+     <!-- Fila 6 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FwUCk.img? style="width: 200px !important; height: auto !important;"/>
     </div>
@@ -155,7 +165,7 @@ st.markdown(f"""
         <div class="news-description">Sus cálculos anticipan una recuperación del Producto Interno Bruto (PIB) este año alrededor del 3 % y el siguiente, gracias, principalmente, al aporte del consumo y las exportaciones.</div>
         <a class="news-link" href="https://www.msn.com/es-co/noticias/other/bmi-latinoam%C3%A9rica-no-se-ha-visto-golpeada-por-aranceles-de-trump-econom%C3%ADa-colombiana-se-recuperar%C3%ADa/ar-AA1FwUCM">Ver más →</a>
     </div>          
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
     <div class="news-block news-text">
         <div class="news-title">Trump anuncia que retrasará un arancel del 50 % a la Unión Europea hasta julio</div>
         <div class="news-date">Publicado el 25 de mayo de 2025</div>
@@ -165,16 +175,6 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FsCtD.img?w=614&h=409&m=6"/>
     </div>        
-     <!-- Fila 7 -->
-    <div class="news-block">
-        <img class="news-image" src="https://admin.gfmreview.com/images/custom_content/1747911948.png"/>
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">El acto de equilibrio de Brasil entre EE. UU. y China</div>
-        <div class="news-date">Publicado el 22 de mayo de 2025</div>
-        <div class="news-description">La diplomacia de doble vía de Brasil —favoreciendo los lazos políticos con Pekín y los vínculos comerciales con Estados Unidos— puede ser su única ruta viable.</div>
-        <a class="news-link" href="https://www.gfmreview.com/breaking/brazil-s-balancing-act-between-us-china">Ver más →</a>
-    </div>          
 </div>
             
 """, unsafe_allow_html=True)
