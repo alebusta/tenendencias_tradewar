@@ -38,8 +38,52 @@ if st.button("Ir a Inicio"):
 
 
 # Contenido de la aplicación
-
 st.markdown("""
+# Repercusiones Globales de la Política Comercial de Trump: Tensiones y Adaptaciones
+
+*Semana del reporte: Última semana de mayo*
+
+## Diagnóstico
+
+Durante la semana del 25 al 1 de junio de 2025, la política comercial de la administración Trump continuó generando tensiones y reacciones a nivel global. Los principales hechos noticiosos se centraron en la imposición y posterior suspensión de aranceles, las negociaciones comerciales en curso y las respuestas de diversos países y bloques económicos a las políticas proteccionistas de Estados Unidos.
+
+*   **Escalada y distensión en la guerra comercial EEUU-China:** Se destacan las acusaciones mutuas entre Estados Unidos y China sobre el incumplimiento de acuerdos comerciales previos. Trump acusó a China de "violar totalmente" el acuerdo arancelario de mayo, mientras que China rechazó estas acusaciones y acusó a EE. UU. de "socavar gravemente" la tregua arancelaria de Ginebra (01 de junio). Sin embargo, funcionarios de la Casa Blanca sugirieron que una conversación entre Trump y Xi Jinping podría ocurrir pronto para resolver las tensiones comerciales (01 de junio).
+*   **Aumento de aranceles al acero y aluminio:** Trump anunció un aumento del 25% al 50% en los aranceles al acero y aluminio, efectivo a partir del 4 de junio (01 de junio). Esta medida generó preocupación en Japón, que vigila de cerca la situación (02 de junio), y provocó que el secretario del Tesoro de EE. UU., Scott Bessent, defendiera los aranceles como necesarios para la seguridad nacional y la estabilidad laboral en la industria siderúrgica estadounidense (01 de junio).
+*   **Tensiones comerciales con Europa:** La administración Trump también mantuvo la presión sobre Europa, con el secretario de Comercio, Howard Lutnick, afirmando que "los aranceles no van a desaparecer" (01 de junio). Esto ocurrió a pesar de un fallo judicial que declaraba ilegales muchos de los aranceles de la administración Trump, aunque este fallo fue apelado (01 de junio). La Unión Europea amenazó con contramedidas ante la subida arancelaria del acero y el aluminio (01 de junio). Finalmente, Trump acordó extender el plazo para un posible acuerdo con la UE hasta el 9 de julio (01 de junio).
+*   **Acercamientos y negociaciones bilaterales:** En medio de las tensiones comerciales, Argentina buscó profundizar su relación con Estados Unidos, con la probable visita del secretario de Energía, Chris Wright, para discutir inversiones en Vaca Muerta (01 de junio). Argentina también negocia con Estados Unidos un acuerdo para atenuar el impacto de los aranceles recíprocos.
+
+
+## Tendencias
+
+1.  **Volatilidad en la política comercial estadounidense:** La administración Trump muestra una tendencia a tomar decisiones comerciales drásticas e impredecibles, generando incertidumbre en los mercados y entre los socios comerciales.
+2.  **Énfasis en la seguridad nacional como justificación para el proteccionismo:** La administración Trump utiliza la seguridad nacional como argumento para justificar medidas proteccionistas, como los aranceles al acero y aluminio.
+3.  **Búsqueda de acuerdos bilaterales en detrimento del multilateralismo:** Estados Unidos prioriza las negociaciones bilaterales sobre los acuerdos multilaterales, buscando obtener ventajas específicas en cada negociación.
+4.  **Reconfiguración de las relaciones comerciales globales:** Las tensiones comerciales impulsadas por Estados Unidos están llevando a otros países a buscar nuevos socios comerciales y a fortalecer la integración regional.
+5.  **Impacto diferenciado en América Latina:** La política comercial de Trump afecta de manera desigual a los países de América Latina, generando tanto oportunidades como desafíos para la región.
+
+## Implicaciones estratégicas
+
+*   **Para la región:** Los países de América Latina y el Caribe deben diversificar sus socios comerciales y fortalecer la integración regional para reducir su dependencia de Estados Unidos y mitigar el impacto de las políticas proteccionistas.
+*   **Para Estados Unidos:** La política comercial de Trump podría dañar la reputación de Estados Unidos como un socio comercial confiable y socavar su influencia en la región.
+*   **Para el mundo:** La persistente incertidumbre en la política comercial global podría frenar el crecimiento económico mundial y aumentar la volatilidad en los mercados financieros.
+
+## Factores clave a vigilar
+
+*   **Evolución de las negociaciones comerciales entre Estados Unidos y China:** Un acuerdo entre las dos potencias podría aliviar las tensiones comerciales globales, mientras que un fracaso en las negociaciones podría intensificarlas.
+*   **Decisiones judiciales sobre los aranceles de Trump:** Los fallos judiciales podrían limitar la capacidad de la administración Trump para imponer aranceles y afectar su estrategia comercial.
+*   **Reacciones de los países de América Latina y el Caribe:** Es importante observar cómo los países de la región responden a las políticas comerciales de Estados Unidos y qué medidas toman para proteger sus economías.
+
+
+ """, unsafe_allow_html=True)
+
+#### Resúmenes anteriores
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("Cuarta semana de mayo de 2025", expanded=False):
+
+    st.markdown("""
 
 <div class="news-text">
         <div class="div-news-description">
@@ -113,10 +157,6 @@ Durante la semana del 25 de mayo de 2025, las noticias estuvieron marcadas por l
  """, unsafe_allow_html=True)
 
 
-#### Resúmenes anteriores
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
 
 with st.expander("Tercera semana de mayo de 2025", expanded=False):
     
