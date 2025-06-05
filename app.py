@@ -105,6 +105,16 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
+    <!-- Fila 2 -->
+    <div class="news-block news-text">
+        <div class="news-title">China contra Trump. ¿Quién va ganando en América Latina?</div>
+        <div class="news-date">Publicado el 5 de junio de 2025</div>
+        <div class="news-description">Mientras China anuncia préstamos, inversiones, visas y turismo político, Trump sólo proyecta una imagen negativa de América Latina.</div>
+        <a class="news-link" href="https://www.elespanol.com/opinion/columnas/20250604/china-trump-va-ganando-america-latina/1003743789567_12.html">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://s1.elespanol.com/2025/06/02/mundo/1003743784704_256091305_1706x960.jpg"/>
+    </div>         
      <!-- Fila 1 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1G0OxP.img?w=768&h=512&m=6"/>
