@@ -105,6 +105,13 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
+    <!-- Fila 1 -->
+    <div class="news-block news-text">
+        <div class="news-title">Estados Unidos y China mantienen conversaciones comerciales en Londres tras la llamada telefónica entre Trump y Xi</div>
+        <div class="news-date">Publicado el 8 de junio de 2025</div>
+        <div class="news-description">Delegaciones de alto nivel de Estados Unidos y China se reunirán el lunes en Londres para intentar apuntalar una frágil tregua en una disputa comercial que ha sacudido la economía global.</div>
+        <a class="news-link" href="https://www.msn.com/en-us/money/markets/us-and-china-hold-trade-talks-in-london-after-trump-xi-phone-call/ar-AA1Gm4ly">Ver más →</a>
+        </div>   
     <!-- Fila 2 -->
     <div class="news-block news-text">
         <div class="news-title">China contra Trump. ¿Quién va ganando en América Latina?</div>
@@ -115,7 +122,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://s1.elespanol.com/2025/06/02/mundo/1003743784704_256091305_1706x960.jpg"/>
     </div>         
-     <!-- Fila 1 -->
+     <!-- Fila 3 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1G0OxP.img?w=768&h=512&m=6"/>
     </div>
@@ -125,7 +132,7 @@ st.markdown(f"""
         <div class="news-description">El pronóstico de crecimiento económico de Estados Unidos fue recortado drásticamente el martes por la Organización para la Cooperación y el Desarrollo Económicos, u OCDE, que atribuyó el sombrío panorama en parte a los aranceles emitidos por el presidente Donald Trump.</div>
         <a class="news-link" href="https://www.msn.com/en-us/money/markets/us-economic-outlook-slashed-by-oecd-as-trumps-tariffs-upend-global-growth/ar-AA1G0D1b">Ver más →</a>
     </div>  
-    <!-- Fila 2 -->
+    <!-- Fila 4 -->
     <div class="news-block news-text">
         <div class="news-title">Trump duplica aranceles al acero y aluminio: alerta en la industria argentina</div>
         <div class="news-date">Publicado el 2 de junio de 2025</div>
@@ -135,7 +142,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://aceroyroca.com/wp-content/uploads/2025/06/ACERO-Y-ROCA.TRUMP_.avif"/>
     </div>           
-     <!-- Fila 3 -->
+     <!-- Fila 5 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FU1S7.img"/>
     </div>
@@ -145,7 +152,7 @@ st.markdown(f"""
         <div class="news-description">Las fricciones comerciales entre Washington y Pekín se reavivaron después de una pausa que siguió a una reunión entre el Secretario del Tesoro de EE. UU., Scott Bessent, y su homólogo chino.</div>
         <a class="news-link" href="https://www.msn.com/en-us/money/markets/china-says-the-u-s-undermined-geneva-trade-deal-after-trump-accuses-beijing-of-violations/ar-AA1FTXKH">Ver más →</a>
     </div>      
-    <!-- Fila 4 -->
+    <!-- Fila 6 -->
     <div class="news-block news-text">
         <div class="news-title">Así quedan los aranceles de Trump tras el fallo judicial: tarifas anuladas y medidas que siguen vigentes</div>
         <div class="news-date">Publicado el 29 de mayo de 2025</div>
@@ -155,7 +162,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://fotografias.antena3.com/clipping/cmsimages02/2025/05/26/21EE7D1A-FBB5-4E26-A54C-273F7CEBDB85/97.jpg?crop=1920,1080,x0,y0&width=1600&height=900&optimize=low&format=webply"/>
     </div>           
-     <!-- Fila 5 -->
+     <!-- Fila 7 -->
     <div class="news-block">
         <img class="news-image" src="https://www.nacion.com/resizer/v2/QIEXGH4LOBC2JNELGL2U6WYEQU.jpeg?smart=true&auth=961e267e4beaed86d16720fb0a4e109eb9921b6108a7ca2ce5a3c26d2a007d66&width=720&height=405"/>
     </div>
@@ -164,27 +171,7 @@ st.markdown(f"""
         <div class="news-date">Publicado el 28 de mayo de 2025</div>
         <div class="news-description">El fallo prohíbe la mayoría de las categorías de nuevos aranceles (aquellos impuestos a países, incluidos China, Canadá y México).</div>
         <a class="news-link" href="https://www.nacion.com/el-mundo/tribunal-de-estados-unidos-bloquea-la-mayoria-de/EGDIR43RNBH6HDB3CDA4TY6NBU/story/">Ver más →</a>
-    </div>      
-    <!-- Fila 6 -->
-    <div class="news-block news-text">
-        <div class="news-title">Los líderes de la ASEAN coinciden en que los acuerdos arancelarios con Estados Unidos no deben perjudicar a los demás miembros.</div>
-        <div class="news-date">Publicado el 28 de mayo de 2025</div>
-        <div class="news-description">Los líderes del Sudeste Asiático llegaron a un entendimiento el martes de que cualquier acuerdo bilateral que puedan alcanzar con Estados Unidos sobre aranceles comerciales no dañará las economías de los demás miembros</div>
-        <a class="news-link" href="https://www.bworldonline.com/top-stories/2025/05/28/675435/asean-leaders-agree-tariff-deals-with-us-should-not-harm-fellow-members/">Ver más →</a>
-        </div>   
-    <div class="news-block">
-        <img class="news-image" src="https://www.bworldonline.com/wp-content/uploads/2023/10/ASEAN-logo.jpg"/>
-    </div>        
-     <!-- Fila 7 -->
-    <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FwUCk.img? style="width: 200px !important; height: auto !important;"/>
-    </div>
-    <div class="news-block news-text">  
-        <div class="news-title">BMI: Latinoamérica no se ha visto golpeada por aranceles de Trump; economía colombiana se recuperaría</div>
-        <div class="news-date">Publicado el 26 de mayo de 2025</div>
-        <div class="news-description">Sus cálculos anticipan una recuperación del Producto Interno Bruto (PIB) este año alrededor del 3 % y el siguiente, gracias, principalmente, al aporte del consumo y las exportaciones.</div>
-        <a class="news-link" href="https://www.msn.com/es-co/noticias/other/bmi-latinoam%C3%A9rica-no-se-ha-visto-golpeada-por-aranceles-de-trump-econom%C3%ADa-colombiana-se-recuperar%C3%ADa/ar-AA1FwUCM">Ver más →</a>
-    </div>          
+    </div>                  
 </div>
             
 """, unsafe_allow_html=True)
