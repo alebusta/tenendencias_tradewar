@@ -106,6 +106,9 @@ st.markdown(f"""
 st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
+        <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GmdaE.img?w=768&h=512&m=6"/>
+    </div>
     <div class="news-block news-text">
         <div class="news-title">Estados Unidos y China mantienen conversaciones comerciales en Londres tras la llamada telefónica entre Trump y Xi</div>
         <div class="news-date">Publicado el 8 de junio de 2025</div>
