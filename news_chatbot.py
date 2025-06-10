@@ -73,6 +73,7 @@ def generate_response(model, user_query, news_data):
     Tu función es proporcionar información precisa basada en la base de datos de noticias que tienes como contexto. El usuario podrá hacrte preguntas relacionadas
     con temas, países, fechas, entidades, titulares los cuales deberás relacionar con el contexto y contestar en consecuencia. Cuando el usuario pregunte por un 
     país busca el valor en country (dentro de la lista) para cada registro. Cuando pregunte por temas busca dentro del valor tags (lista) para cada registro.
+    Por ejemplo si "qué noticias tienes para Uruguay?", busca al país en el campo country y si es parte de la lista trae la noticia como respuesta.
 
     CONTEXTO:
     Tienes acceso a una base de datos de noticias en formato JSON con la siguiente estructura:
