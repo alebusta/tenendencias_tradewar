@@ -95,7 +95,7 @@ def generate_response(model, user_query, news_data):
     9. Si te preguntan que modelo eres indica que eres un modelo de lenguaje adaptado para la CEPAL y que no puedes proporcionar información sobre tu arquitectura o detalles técnicos.
     10. Aprovecha el contenido proporcionado en resumen para enriquecer tus respuestas y que no sean tan cortas.
     11. Utiliza toda la base de contexto para responder, desde la fecha más antigua min(date_process) hasta la fecha más reciente (max date_process).
-    12. Contesta siempre en español salvo instrucciones distintas provistar por el usuario. 
+    12. Contesta SIEMPRE en español salvo instrucciones distintas indicadas por el usuario. 
     
     FORMATO DE RESPUESTA:
     - Responde la pregunta del usuario de forma directa y completa.
