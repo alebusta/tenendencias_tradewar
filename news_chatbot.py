@@ -81,7 +81,7 @@ def generate_response(model, user_query, news_data):
     - title: str - titular de la noticia
     - content: str - contenido completo de la noticia
     - resumen: str - resumen de la noticia (no siempre disponible)
-    - url: str- enlace a la fuente original
+    - url:  enlace a la fuente original
     - tags: list - etiquetas o keyword temáticos de las noticias
     - country: list - países a los que hace referencia la noticia
 
