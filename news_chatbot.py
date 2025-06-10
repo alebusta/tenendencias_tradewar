@@ -60,7 +60,7 @@ def setup_genai(api_key=None):
         return None
     
     genai.configure(api_key=api_key)
-    return genai.GenerativeModel("gemini-1.5-flash-8b") #("gemini-2.0-flash")
+    return genai.GenerativeModel("gemini-2.0-flash") #("gemini-2.0-flash")
 
 # Función para generar respuestas
 def generate_response(model, user_query, news_data):
