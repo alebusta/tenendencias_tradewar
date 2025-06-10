@@ -112,6 +112,9 @@ st.markdown(f"""
         <div class="news-description">Latinoamérica ha emergido como un importante destino de inversión en momentos en que las guerras en curso, tanto de tipo militar como comercial, hacen que los inversores busquen opciones en una región que consideran refrescantemente libre de aranceles y grandes conflictos.</div>
         <a class="news-link" href="https://www.msn.com/es-mx/dinero/econom%C3%ADa/latinoam%C3%A9rica-se-beneficiar%C3%A1-de-los-cambios-en-el-mercado-estadounidense-aseguran-inversores/ar-AA1Gov16">Ver más →</a>
         </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1oaZFU.img?w=534&h=334&m=6"/>
+    </div>    
     <!-- Fila 2 -->
         <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GmdaE.img?w=768&h=512&m=6"/>
