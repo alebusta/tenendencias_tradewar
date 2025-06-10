@@ -63,7 +63,7 @@ def setup_genai(api_key=None):
     return genai.GenerativeModel("gemini-2.0-flash") #("gemini-2.0-flash")
 
 # Función para generar respuestas
-def generate_response(model, user_query, news_data):
+def generate_response(model, news_data, user_query):
     if not model or not news_data:
         return "Lo siento, no puedo procesar tu pregunta en este momento."
     
@@ -203,7 +203,7 @@ def news_chatbot_component(api_key=None, news_data=None, title="Chatbot de Notic
         
         # Generar respuesta
         with st.spinner("Analizando noticias..."):
-            response = generate_response(model, user_query, news_data)
+            response = generate_response(model,news_data,user_query)
         
         # Añadir respuesta al historial
         st.session_state.news_chat_messages.append({"role": "assistant", "content": response})
