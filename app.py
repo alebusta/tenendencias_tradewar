@@ -114,6 +114,7 @@ st.markdown(f"""
         </div>   
     <div class="news-block">
         <img class="news-image" src="https://media.zenfs.com/es/el_tiempo_latino_378/1c5d2fd2db866326826cd44afddd3517"/>
+        </div>
     <!-- Fila 2 -->
         <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GvE6Z.img?w=768&h=432&m=6&x=130&y=115&s=770&d=328"/>
