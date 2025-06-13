@@ -113,7 +113,7 @@ st.markdown(f"""
         <a class="news-link" href="https:/https://es-us.noticias.yahoo.com/ca%C3%ADda-hist%C3%B3rica-puertos-ee-uu-155018871.html">Ver más →</a>
         </div>   
     <div class="news-block">
-        <img class="news-image" src="https://s.yimg.com/ny/api/res/1.2/Ueij6rggOEVMg3.BeJj2SQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xOTIwO2NmPXdlYnA-/https://media.zenfs.com/es/el_tiempo_latino_378/1c5d2fd2db866326826cd44afddd3517"/>
+        <img class="news-image" src="https://media.zenfs.com/es/el_tiempo_latino_378/1c5d2fd2db866326826cd44afddd3517"/>
     <!-- Fila 2 -->
         <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GvE6Z.img?w=768&h=432&m=6&x=130&y=115&s=770&d=328"/>
