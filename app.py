@@ -133,7 +133,7 @@ st.markdown(f"""
         <a class="news-link" href="https://www.msn.com/es-mx/dinero/econom%C3%ADa/latinoam%C3%A9rica-se-beneficiar%C3%A1-de-los-cambios-en-el-mercado-estadounidense-aseguran-inversores/ar-AA1Gov16">Ver más →</a>
         </div>   
     <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1oaZFU.img?w=534&h=334&m=6"/>
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1oaZFU.img?w=300&h=200&m=6"/>
     </div>    
     <!-- Fila 4 -->
         <div class="news-block">
