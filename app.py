@@ -106,6 +106,16 @@ st.markdown(f"""
 st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
+        <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GM9l9.img?w=768&h=512&m=6"/>
+    </div>
+    <div class="news-block news-text">
+        <div class="news-title">Los líderes del G7 se reúnen en Canadá para una cumbre ensombrecida por la crisis entre Israel e Irán y las guerras comerciales</div>
+        <div class="news-date">Publicado el 15 de junio de 2025</div>
+        <div class="news-description">Los líderes de algunas de las mayores potencias económicas del mundo llegaron el domingo a las Montañas Rocosas canadienses para una cumbre del Grupo de los Siete , ensombrecida por un creciente conflicto entre Israel e Irán y la guerra comercial no resuelta del presidente estadounidense Donald Trump.</div>
+        <a class="news-link" href="https://www.msn.com/en-us/money/companies/g7-leaders-gather-in-canada-for-summit-overshadowed-by-middle-east-crisis-and-trump-s-tariffs/ar-AA1GJs5W">Ver más →</a>
+        </div>   
+    <!-- Fila 2 -->
     <div class="news-block news-text">
         <div class="news-title">Caída histórica en puertos de EE. UU.: Importaciones Chinas se desploman 28.5% en mayo por aranceles de Trump</div>
         <div class="news-date">Publicado el 12 de junio de 2025</div>
@@ -115,7 +125,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://media.zenfs.com/es/el_tiempo_latino_378/1c5d2fd2db866326826cd44afddd3517??w=534&h=334&m=6"/>
         </div>
-    <!-- Fila 2 -->
+    <!-- Fila 3 -->
         <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GvE6Z.img?w=768&h=432&m=6&x=130&y=115&s=770&d=328"/>
     </div>
@@ -125,7 +135,7 @@ st.markdown(f"""
         <div class="news-description">El presidente de EEUU da algunos detalles del acuerdo comercial alcanzado para desescalar las tensiones con China, que incluye también levantar restricciones para la matriculación de estudiantes chinos en EEUU</div>
         <a class="news-link" href="https://www.msn.com/es-es/noticias/internacional/trump-afirma-que-el-acuerdo-con-china-recoge-que-eeuu-imponga-aranceles-del-55-y-pek%C3%ADn-del-10/ar-AA1GvGyZ">Ver más →</a>
         </div>   
-    <!-- Fila 3 -->
+    <!-- Fila 4 -->
     <div class="news-block news-text">
         <div class="news-title">Latinoamérica se beneficiará de los cambios en el mercado estadounidense, aseguran inversores</div>
         <div class="news-date">Publicado el 09 de junio de 2025</div>
@@ -135,7 +145,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1oaZFU.img?w=300&h=200&m=6"/>
     </div>    
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
         <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GmdaE.img?w=768&h=512&m=6"/>
     </div>
@@ -145,7 +155,7 @@ st.markdown(f"""
         <div class="news-description">Delegaciones de alto nivel de Estados Unidos y China se reunirán el lunes en Londres para intentar apuntalar una frágil tregua en una disputa comercial que ha sacudido la economía global.</div>
         <a class="news-link" href="https://www.msn.com/en-us/money/markets/us-and-china-hold-trade-talks-in-london-after-trump-xi-phone-call/ar-AA1Gm4ly">Ver más →</a>
         </div>   
-    <!-- Fila 5 -->
+    <!-- Fila 6 -->
     <div class="news-block news-text">
         <div class="news-title">China contra Trump. ¿Quién va ganando en América Latina?</div>
         <div class="news-date">Publicado el 5 de junio de 2025</div>
@@ -155,7 +165,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://s1.elespanol.com/2025/06/02/mundo/1003743784704_256091305_1706x960.jpg"/>
     </div>         
-     <!-- Fila 6 -->
+     <!-- Fila 7 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1G0OxP.img?w=768&h=512&m=6"/>
     </div>
@@ -164,17 +174,7 @@ st.markdown(f"""
         <div class="news-date">Publicado el 03 de junio de 2025</div>
         <div class="news-description">El pronóstico de crecimiento económico de Estados Unidos fue recortado drásticamente el martes por la Organización para la Cooperación y el Desarrollo Económicos, u OCDE, que atribuyó el sombrío panorama en parte a los aranceles emitidos por el presidente Donald Trump.</div>
         <a class="news-link" href="https://www.msn.com/en-us/money/markets/us-economic-outlook-slashed-by-oecd-as-trumps-tariffs-upend-global-growth/ar-AA1G0D1b">Ver más →</a>
-    </div>  
-    <!-- Fila 7 -->
-    <div class="news-block news-text">
-        <div class="news-title">Trump duplica aranceles al acero y aluminio: alerta en la industria argentina</div>
-        <div class="news-date">Publicado el 2 de junio de 2025</div>
-        <div class="news-description">La duplicación de aranceles al acero y aluminio por parte de Trump pone en jaque a la industria metalúrgica argentina, afectando exportaciones por US$600 millones y generando incertidumbre en el sector</div>
-        <a class="news-link" href="https://aceroyroca.com/2025/06/02/trump-duplica-aranceles-al-acero-y-aluminio-alerta-en-la-industria-argentina/">Ver más →</a>
-        </div>   
-    <div class="news-block">
-        <img class="news-image" src="https://aceroyroca.com/wp-content/uploads/2025/06/ACERO-Y-ROCA.TRUMP_.avif"/>
-    </div>                              
+    </div>                            
 </div>
             
 """, unsafe_allow_html=True)
