@@ -37,20 +37,112 @@ if st.button("Ir a Inicio"):
     st.switch_page("app.py")
 
 
-# Contenido de la aplicación
+#========== Contenido de la aplicación ===========
 
+st.markdown("""
+
+<div class="news-text">
+        <div class="div-news-description">
+
+# Reconfiguración del Comercio Global: Tensiones, Adaptaciones y Nuevas Alianzas en la Era Trump
+
+*Semana del reporte: 15 de junio de 2025*
+
+## Diagnóstico
+
+Durante la semana del 15 de junio de 2025, el panorama económico global se caracterizó por la persistencia de tensiones comerciales, principalmente impulsadas por las políticas de la administración Trump, y la búsqueda de nuevas estrategias por parte de los países para mitigar sus efectos. Los principales hechos noticiosos se centraron en:
+
+1.  **Tensiones Comerciales y Aranceles:** La administración Trump continuó aplicando aranceles unilaterales, generando incertidumbre y volatilidad en los mercados. Se observó una fuerte presión sobre la Unión Europea y China, con amenazas de aumentar los aranceles existentes. Por ejemplo, Trump amenazó con imponer aranceles del 50% a las importaciones de acero y aluminio de la UE, lo que provocó una respuesta de la presidenta de la Comisión Europea, Ursula von der Leyen, quien reiteró el compromiso de la UE de alcanzar un acuerdo comercial con Estados Unidos antes del 9 de julio.
+2.  **Reacciones y Adaptaciones Regionales:** Los países de América Latina y el Caribe, así como otras economías emergentes, están adaptando sus estrategias comerciales para enfrentar el proteccionismo estadounidense. México, por ejemplo, ha visto una disminución en sus exportaciones a Estados Unidos debido a los aranceles, pero está buscando diversificar sus mercados y fortalecer su competitividad. Perú también está explorando nuevos mercados en Asia, aprovechando la infraestructura del Puerto de Chancay.
+3.  **Conflictos Geopolíticos y su Impacto Económico:** La crisis en Medio Oriente, particularmente las tensiones entre Israel e Irán, añadió otra capa de complejidad al panorama económico. Estos conflictos provocaron un aumento en los precios del petróleo y mayores costos logísticos, afectando el comercio global. Los líderes del G7 se reunieron en Canadá para discutir estas tensiones y buscar una desescalada.
+4.  **China y su Estrategia Comercial:** China, enfrentada a las políticas proteccionistas de Estados Unidos, está fortaleciendo sus lazos comerciales con otros países, especialmente en África y Asia. China ofreció acceso libre de aranceles a 53 países africanos y está promoviendo el uso del yuan digital en transacciones internacionales. Vietnam, como miembro del BRICS, se ha convertido en un aliado clave de China para eludir los aranceles estadounidenses.
+5.  **Impacto en la Migración y el Trabajo:** Las políticas migratorias restrictivas de la administración Trump están generando temor e inseguridad en las comunidades inmigrantes en Estados Unidos, afectando a sectores como la agricultura, la hostelería y la construcción. Las redadas del ICE en Los Ángeles provocaron protestas y una disminución en las ventas de restaurantes y supermercados latinos.
+
+## Tendencias
+
+1.  **Fragmentación del Comercio Global:** Las políticas proteccionistas de Estados Unidos están llevando a una fragmentación del comercio global, con países buscando acuerdos bilaterales y regionales en lugar de depender de un sistema multilateral.
+2.  **Desdolarización:** Algunos países están explorando alternativas al dólar estadounidense en el comercio internacional, como el uso del yuan digital o acuerdos bilaterales en monedas locales.
+3.  **Regionalización de las Cadenas de Suministro:** Las empresas están reevaluando sus cadenas de suministro para reducir su dependencia de un solo país o región, buscando diversificar sus fuentes de producción y distribución.
+4.  **Aumento de la Inversión en Infraestructura Regional:** Países como Perú están invirtiendo en infraestructura portuaria para facilitar el comercio con nuevos mercados, especialmente en Asia.
+5.  **Mayor Intervención Estatal en la Economía:** Los gobiernos están adoptando un papel más activo en la economía, implementando políticas industriales, ofreciendo subsidios y regulando el comercio para proteger sus industrias nacionales.
+
+## Implicaciones Estratégicas
+
+*   **Para la Región:** América Latina y el Caribe enfrentan el desafío de adaptarse a un entorno comercial global más fragmentado e incierto. La diversificación de mercados, la promoción de la integración regional y la inversión en infraestructura son estrategias clave para mitigar los riesgos y aprovechar las oportunidades.
+*   **Para Estados Unidos:** Las políticas proteccionistas de la administración Trump pueden generar beneficios a corto plazo para algunas industrias nacionales, pero también conllevan riesgos de inflación, disrupción de las cadenas de suministro y pérdida de competitividad a largo plazo.
+*   **Para el Mundo:** El auge del proteccionismo y la fragmentación del comercio global pueden llevar a una menor eficiencia económica, mayores precios y un aumento de las tensiones geopolíticas. La cooperación internacional y la búsqueda de soluciones multilaterales son esenciales para evitar una escalada de conflictos comerciales.
+
+## Factores Clave a Vigilar
+
+1.  **Decisiones de la Reserva Federal:** Las decisiones de la Reserva Federal sobre las tasas de interés tendrán un impacto significativo en la economía estadounidense y en los flujos de capital hacia los mercados emergentes.
+2.  **Negociaciones Comerciales:** El resultado de las negociaciones comerciales entre Estados Unidos y la Unión Europea, China y otros países será determinante para el futuro del comercio global.
+3.  **Conflictos Geopolíticos:** La evolución de los conflictos en Medio Oriente y Ucrania, así como las tensiones entre China y Taiwán, pueden tener un impacto significativo en los precios de la energía, las cadenas de suministro y la estabilidad financiera.
+4.  **Políticas Migratorias:** Las políticas migratorias de Estados Unidos y su impacto en la disponibilidad de mano de obra y en las remesas hacia América Latina y el Caribe.
+
+
+</div>
+ """, unsafe_allow_html=True)
 
 #### Resúmenes anteriores
 
 st.markdown("""---""")	
 st.header("Resúmenes anteriores")
 
-with st.expander("Cuarta semana de mayo de 2025", expanded=False):
+with st.expander("Segunda semana de junio de 2025", expanded=False):
 
     st.markdown("""
 
 <div class="news-text">
         <div class="div-news-description">
+        
+# Reconfiguración del Comercio Global: Tensiones Arancelarias y Adaptación Regional en América Latina y El Caribe
+
+*Semana del reporte: Semana del 02 al 08 de junio de 2025*
+
+## Diagnóstico
+
+Durante la semana analizada, la administración Trump intensificó su política comercial proteccionista, generando una onda expansiva de incertidumbre y adaptación en la economía global, con particular énfasis en América Latina y El Caribe. Los principales hechos noticiosos se centran en:
+
+1.  **Escalada de Tensiones Arancelarias:** Trump duplicó los aranceles sobre las importaciones de acero y aluminio al 50% (04 de junio), afectando a socios comerciales clave como México, Canadá, Brasil, Corea del Sur y Vietnam. Esta medida, justificada bajo la premisa de seguridad nacional, provocó fuertes críticas y promesas de represalias.
+2.  **Negociaciones Comerciales en Juego:** En medio de la escalada arancelaria, se llevaron a cabo negociaciones comerciales entre Estados Unidos y China en Londres (08 y 09 de junio). Si bien se buscaba una tregua, las tensiones persistieron debido a desacuerdos sobre el cumplimiento de acuerdos previos y restricciones en el comercio de tierras raras y semiconductores.
+3.  **Impacto en la Región:** Los aranceles estadounidenses generaron preocupación en América Latina y El Caribe, con advertencias sobre posibles efectos negativos en el crecimiento económico, el empleo y la estabilidad social. Costa Rica, por ejemplo, alertó sobre los efectos en sus zonas francas (08 de junio), mientras que la Coparmex en México condenó el aumento de aranceles (08 de junio).
+4.  **Búsqueda de Alternativas:** Ante la incertidumbre generada por las políticas de Trump, países de la región exploraron alternativas para diversificar sus relaciones comerciales y fortalecer la cooperación regional. Se destacó la importancia de acuerdos como el Mercosur-UE y la necesidad de generar certezas jurídicas para atraer inversión extranjera (08 de junio).
+5.  **Reacciones y Adaptación:** Los países de la región tomaron diversas medidas para mitigar el impacto de las políticas estadounidenses. México y Canadá expresaron su rechazo a los aranceles y buscaron revertir la medida (09 de junio), mientras que Uruguay impulsó la firma del acuerdo Mercosur-UE (08 de junio). En España, la agencia gubernamental ICEX lanzó un paquete de medidas para contrarrestar el impacto de la guerra arancelaria (08 de junio).
+
+## Tendencias
+
+1.  **Aumento del Proteccionismo:** La administración Trump reafirmó su política proteccionista, priorizando los intereses nacionales y utilizando aranceles como herramienta de presión en las negociaciones comerciales.
+2.  **Fragmentación del Comercio Global:** Las tensiones comerciales y la imposición de aranceles generaron una fragmentación del comercio global, con países buscando acuerdos bilaterales y regionales en lugar de soluciones multilaterales.
+3.  **Reconfiguración de las Cadenas de Suministro:** Las empresas se vieron obligadas a reevaluar sus cadenas de suministro, buscando proveedores alternativos y relocalizando la producción para mitigar el impacto de los aranceles.
+4.  **Mayor Incertidumbre Económica:** La incertidumbre generada por las políticas comerciales de Trump afectó la confianza de los inversores y las perspectivas de crecimiento económico, tanto a nivel global como regional.
+5.  **Fortalecimiento de la Cooperación Regional:** Los países de América Latina y El Caribe buscaron fortalecer la cooperación regional y diversificar sus relaciones comerciales para hacer frente a los desafíos del nuevo orden comercial global.
+
+## Implicaciones estratégicas
+
+*   **Para la región:** En el corto plazo, los países de América Latina y El Caribe enfrentan el desafío de adaptarse a un entorno comercial más volátil e incierto. A mediano y largo plazo, la región podría beneficiarse de la reconfiguración de las cadenas de suministro y el aumento de la cooperación regional, siempre y cuando logre generar certezas jurídicas y reglas claras para atraer inversión extranjera.
+*   **Para Estados Unidos:** La política proteccionista de Trump podría generar beneficios a corto plazo para algunas industrias nacionales, pero a largo plazo podría perjudicar la competitividad de la economía estadounidense y su liderazgo en el comercio global.
+*   **Para el mundo:** La intensificación de las tensiones comerciales y la fragmentación del comercio global podrían tener efectos negativos en el crecimiento económico mundial y la estabilidad geopolítica.
+
+## Factores clave a vigilar
+
+1.  **Evolución de las negociaciones comerciales entre Estados Unidos y China:** El resultado de estas negociaciones será determinante para el futuro del comercio global y las perspectivas económicas de la región.
+2.  **Reacciones de los países afectados por los aranceles estadounidenses:** Las medidas que tomen estos países en respuesta a los aranceles podrían intensificar las tensiones comerciales o abrir la puerta a nuevas negociaciones.
+3.  **Impacto de las políticas estadounidenses en la inversión extranjera directa en la región:** La incertidumbre generada por las políticas de Trump podría desincentivar la inversión extranjera directa en América Latina y El Caribe, afectando su crecimiento económico.
+4.  **Avances en la integración regional y la diversificación comercial:** Los esfuerzos de los países de la región por fortalecer la cooperación regional y diversificar sus relaciones comerciales serán clave para mitigar el impacto de las políticas estadounidenses.
+5.  **Decisiones de la Reserva Federal de Estados Unidos sobre las tasas de interés:** Las decisiones de la Reserva Federal sobre las tasas de interés podrían tener un impacto significativo en los flujos de capitales hacia las economías emergentes, incluyendo las de América Latina y El Caribe.
+
+
+</div>
+ """, unsafe_allow_html=True)
+        
+
+with st.expander("Primera semana de junio de 2025", expanded=False):
+
+    st.markdown("""
+
+<div class="news-text">
+        <div class="div-news-description">
+        
 # Repercusiones Globales de la Política Comercial de Trump: Tensiones y Adaptaciones
 
 *Semana del reporte: Última semana de mayo*
@@ -88,10 +180,6 @@ Durante la semana del 25 al 1 de junio de 2025, la política comercial de la adm
 </div>
  """, unsafe_allow_html=True)
 
-#### Resúmenes anteriores
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
 
 with st.expander("Cuarta semana de mayo de 2025", expanded=False):
 
@@ -106,7 +194,7 @@ with st.expander("Cuarta semana de mayo de 2025", expanded=False):
 
 ## Diagnóstico
 
-Durante la semana del 25 de mayo de 2025, las noticias estuvieron marcadas por la persistente incertidumbre en torno a las políticas comerciales y migratorias de la administración Trump, con un impacto notable en Latinoamérica y el Caribe, así como en las relaciones globales.
+Durante la semana del 18 al 25 de mayo de 2025, las noticias estuvieron marcadas por la persistente incertidumbre en torno a las políticas comerciales y migratorias de la administración Trump, con un impacto notable en Latinoamérica y el Caribe, así como en las relaciones globales.
 
 **1. Aranceles y Guerra Comercial:**
 
