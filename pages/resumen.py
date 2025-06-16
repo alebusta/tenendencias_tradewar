@@ -38,7 +38,19 @@ if st.button("Ir a Inicio"):
 
 
 # Contenido de la aplicación
-st.markdown("""
+
+
+#### Resúmenes anteriores
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("Cuarta semana de mayo de 2025", expanded=False):
+
+    st.markdown("""
+
+<div class="news-text">
+        <div class="div-news-description">
 # Repercusiones Globales de la Política Comercial de Trump: Tensiones y Adaptaciones
 
 *Semana del reporte: Última semana de mayo*
@@ -73,7 +85,7 @@ Durante la semana del 25 al 1 de junio de 2025, la política comercial de la adm
 *   **Decisiones judiciales sobre los aranceles de Trump:** Los fallos judiciales podrían limitar la capacidad de la administración Trump para imponer aranceles y afectar su estrategia comercial.
 *   **Reacciones de los países de América Latina y el Caribe:** Es importante observar cómo los países de la región responden a las políticas comerciales de Estados Unidos y qué medidas toman para proteger sus economías.
 
-
+</div>
  """, unsafe_allow_html=True)
 
 #### Resúmenes anteriores
