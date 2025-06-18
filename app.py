@@ -107,13 +107,13 @@ st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
         <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GM9l9.img?w=768&h=512&m=6"/>
+        <img class="news-image" src="https://static01.nyt.com/images/2025/06/13/espanol/00Biz-New-China-Shock-02-wfvl-ES-copy1/00Biz-New-China-Shock-02-wfvl-jumbo.jpg?quality=75&auto=webp"/>
     </div>
     <div class="news-block news-text">
-        <div class="news-title">Los líderes del G7 se reúnen en Canadá para una cumbre ensombrecida por la crisis entre Israel e Irán y las guerras comerciales</div>
-        <div class="news-date">Publicado el 15 de junio de 2025</div>
-        <div class="news-description">Los líderes de algunas de las mayores potencias económicas del mundo llegaron el domingo a las Montañas Rocosas canadienses para una cumbre del Grupo de los Siete , ensombrecida por un creciente conflicto entre Israel e Irán y la guerra comercial no resuelta del presidente estadounidense Donald Trump.</div>
-        <a class="news-link" href="https://www.msn.com/en-us/money/companies/g7-leaders-gather-in-canada-for-summit-overshadowed-by-middle-east-crisis-and-trump-s-tariffs/ar-AA1GJs5W">Ver más →</a>
+        <div class="news-title">China desata una nueva avalancha de exportaciones que está reconfigurando al mundo</div>
+        <div class="news-date">Publicado el 17 de junio de 2025</div>
+        <div class="news-description">A medida que los aranceles del presidente Trump cierran el mercado estadounidense, los productos chinos inundan países desde el Sudeste Asiático hasta Europa y Latinoamérica.</div>
+        <a class="news-link" href="https://www.nytimes.com/es/2025/06/17/espanol/negocios/exportaciones-chinas-aranceles.html">Ver más →</a>
         </div>   
     <!-- Fila 2 -->
     <div class="news-block news-text">
