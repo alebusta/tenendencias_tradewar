@@ -44,6 +44,7 @@ st.markdown("""
 
 <div class="news-text">
         <div class="div-news-description">
+        
 # Tensiones comerciales, conflictos geopolíticos y la economía global: Un análisis de la semana
 
 *Semana del reporte*: 22 de junio de 2025
