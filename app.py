@@ -105,7 +105,17 @@ st.markdown(f"""
 
 st.markdown(f"""
     <div class="news-grid">
-    <!-- Fila 1 -->
+   <!-- Fila 1 -->
+    <div class="news-block news-text">
+        <div class="news-title">Estrecho de Ormuz: EE. UU. insta a China a impedir que Irán bloquee una ruta marítima crucial</div>
+        <div class="news-date">Publicado el 22 de junio de 2025</div>
+        <div class="news-description">Los analistas han dicho que Irán podría optar por tomar represalias al ataque de Washington del domingo por la mañana cerrando el Estrecho, una vía fluvial por la que pasa una quinta parte de la producción mundial de petróleo.</div>
+        <a class="news-link" href="https://www.forbesindia.com/article/news/strait-of-hormuz-us-urges-china-to-stop-iran-from-blocking-critical-shipping-lane/96255/1">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://images.forbesindia.com/media/images/2025/Jun/img_246275_irancapitaleconomy.jpg"/>
+        </div>
+    <!-- Fila 2 -->
         <div class="news-block">
         <img class="news-image" src="https://static01.nyt.com/images/2025/06/13/espanol/00Biz-New-China-Shock-02-wfvl-ES-copy1/00Biz-New-China-Shock-02-wfvl-jumbo.jpg?quality=75&auto=webp"/>
     </div>
@@ -115,7 +125,7 @@ st.markdown(f"""
         <div class="news-description">A medida que los aranceles del presidente Trump cierran el mercado estadounidense, los productos chinos inundan países desde el Sudeste Asiático hasta Europa y Latinoamérica.</div>
         <a class="news-link" href="https://www.nytimes.com/es/2025/06/17/espanol/negocios/exportaciones-chinas-aranceles.html">Ver más →</a>
         </div>   
-    <!-- Fila 2 -->
+    <!-- Fila 3 -->
     <div class="news-block news-text">
         <div class="news-title">Trump y Starmer acuerdan implementar partes del acuerdo comercial sobre automóviles, acero y aviones</div>
         <div class="news-date">Publicado el 16 de junio de 2025</div>
@@ -125,7 +135,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://static01.nyt.com/images/2025/05/09/multimedia/16trump-news-uk-trade1/16trump-news-uk-trade1-jumbo.jpg?quality=75&auto=webp"/>
         </div>
-    <!-- Fila 3 -->
+    <!-- Fila 4 -->
         <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GM9l9.img?w=768&h=512&m=6"/>
     </div>
@@ -135,7 +145,7 @@ st.markdown(f"""
         <div class="news-description">Los líderes de algunas de las mayores potencias económicas del mundo llegaron el domingo a las Montañas Rocosas canadienses para una cumbre del Grupo de los Siete , ensombrecida por un creciente conflicto entre Israel e Irán y la guerra comercial no resuelta del presidente estadounidense Donald Trump.</div>
         <a class="news-link" href="https://www.msn.com/en-us/money/companies/g7-leaders-gather-in-canada-for-summit-overshadowed-by-middle-east-crisis-and-trump-s-tariffs/ar-AA1GJs5W">Ver más →</a>
         </div>   
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">Caída histórica en puertos de EE. UU.: Importaciones Chinas se desploman 28.5% en mayo por aranceles de Trump</div>
         <div class="news-date">Publicado el 12 de junio de 2025</div>
@@ -145,7 +155,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://media.zenfs.com/es/el_tiempo_latino_378/1c5d2fd2db866326826cd44afddd3517??w=534&h=334&m=6"/>
         </div>
-    <!-- Fila 5 -->
+    <!-- Fila 6 -->
         <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GvE6Z.img?w=768&h=432&m=6&x=130&y=115&s=770&d=328"/>
     </div>
@@ -155,7 +165,7 @@ st.markdown(f"""
         <div class="news-description">El presidente de EEUU da algunos detalles del acuerdo comercial alcanzado para desescalar las tensiones con China, que incluye también levantar restricciones para la matriculación de estudiantes chinos en EEUU</div>
         <a class="news-link" href="https://www.msn.com/es-es/noticias/internacional/trump-afirma-que-el-acuerdo-con-china-recoge-que-eeuu-imponga-aranceles-del-55-y-pek%C3%ADn-del-10/ar-AA1GvGyZ">Ver más →</a>
         </div>   
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
     <div class="news-block news-text">
         <div class="news-title">Latinoamérica se beneficiará de los cambios en el mercado estadounidense, aseguran inversores</div>
         <div class="news-date">Publicado el 09 de junio de 2025</div>
@@ -165,16 +175,6 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1oaZFU.img?w=300&h=200&m=6"/>
     </div>    
-    <!-- Fila 7 -->
-        <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GmdaE.img?w=768&h=512&m=6"/>
-    </div>
-    <div class="news-block news-text">
-        <div class="news-title">Estados Unidos y China mantienen conversaciones comerciales en Londres tras la llamada telefónica entre Trump y Xi</div>
-        <div class="news-date">Publicado el 8 de junio de 2025</div>
-        <div class="news-description">Delegaciones de alto nivel de Estados Unidos y China se reunirán el lunes en Londres para intentar apuntalar una frágil tregua en una disputa comercial que ha sacudido la economía global.</div>
-        <a class="news-link" href="https://www.msn.com/en-us/money/markets/us-and-china-hold-trade-talks-in-london-after-trump-xi-phone-call/ar-AA1Gm4ly">Ver más →</a>
-        </div>   
 </div>
             
 """, unsafe_allow_html=True)
