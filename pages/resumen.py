@@ -39,45 +39,12 @@ if st.button("Ir a Inicio"):
 
 #========== Contenido de la aplicación ===========
 
+
 st.markdown("""
 
 <div class="news-text">
         <div class="div-news-description">
 
-# Reconfiguración del Comercio Global: Tensiones, Adaptaciones y Nuevas Alianzas en la Era Trump
-
-*Semana del reporte: 15 de junio de 2025*
-
-## Diagnóstico
-
-Durante la semana culminada el 15 de junio de 2025, el panorama económico global se caracterizó por la persistencia de tensiones comerciales, principalmente impulsadas por las políticas de la administración Trump, y la búsqueda de nuevas estrategias por parte de los países para mitigar sus efectos. Los principales hechos noticiosos se centraron en:
-
-1.  **Tensiones Comerciales y Aranceles:** La administración Trump continuó aplicando aranceles unilaterales, generando incertidumbre y volatilidad en los mercados. Se observó una fuerte presión sobre la Unión Europea y China, con amenazas de aumentar los aranceles existentes. Por ejemplo, Trump amenazó con imponer aranceles del 50% a las importaciones de acero y aluminio de la UE, lo que provocó una respuesta de la presidenta de la Comisión Europea, Ursula von der Leyen, quien reiteró el compromiso de la UE de alcanzar un acuerdo comercial con Estados Unidos antes del 9 de julio.
-2.  **Reacciones y Adaptaciones Regionales:** Los países de América Latina y el Caribe, así como otras economías emergentes, están adaptando sus estrategias comerciales para enfrentar el proteccionismo estadounidense. México, por ejemplo, ha visto una disminución en sus exportaciones a Estados Unidos debido a los aranceles, pero está buscando diversificar sus mercados y fortalecer su competitividad. Perú también está explorando nuevos mercados en Asia, aprovechando la infraestructura del Puerto de Chancay.
-3.  **Conflictos Geopolíticos y su Impacto Económico:** La crisis en Medio Oriente, particularmente las tensiones entre Israel e Irán, añadió otra capa de complejidad al panorama económico. Estos conflictos provocaron un aumento en los precios del petróleo y mayores costos logísticos, afectando el comercio global. Los líderes del G7 se reunieron en Canadá para discutir estas tensiones y buscar una desescalada.
-4.  **China y su Estrategia Comercial:** China, enfrentada a las políticas proteccionistas de Estados Unidos, está fortaleciendo sus lazos comerciales con otros países, especialmente en África y Asia. China ofreció acceso libre de aranceles a 53 países africanos y está promoviendo el uso del yuan digital en transacciones internacionales. Vietnam, como miembro del BRICS, se ha convertido en un aliado clave de China para eludir los aranceles estadounidenses.
-5.  **Impacto en la Migración y el Trabajo:** Las políticas migratorias restrictivas de la administración Trump están generando temor e inseguridad en las comunidades inmigrantes en Estados Unidos, afectando a sectores como la agricultura, la hostelería y la construcción. Las redadas del ICE en Los Ángeles provocaron protestas y una disminución en las ventas de restaurantes y supermercados latinos.
-
-## Tendencias
-
-1.  **Fragmentación del Comercio Global:** Las políticas proteccionistas de Estados Unidos están llevando a una fragmentación del comercio global, con países buscando acuerdos bilaterales y regionales en lugar de depender de un sistema multilateral.
-2.  **Desdolarización:** Algunos países están explorando alternativas al dólar estadounidense en el comercio internacional, como el uso del yuan digital o acuerdos bilaterales en monedas locales.
-3.  **Regionalización de las Cadenas de Suministro:** Las empresas están reevaluando sus cadenas de suministro para reducir su dependencia de un solo país o región, buscando diversificar sus fuentes de producción y distribución.
-4.  **Aumento de la Inversión en Infraestructura Regional:** Países como Perú están invirtiendo en infraestructura portuaria para facilitar el comercio con nuevos mercados, especialmente en Asia.
-5.  **Mayor Intervención Estatal en la Economía:** Los gobiernos están adoptando un papel más activo en la economía, implementando políticas industriales, ofreciendo subsidios y regulando el comercio para proteger sus industrias nacionales.
-
-## Implicaciones Estratégicas
-
-*   **Para la Región:** América Latina y el Caribe enfrentan el desafío de adaptarse a un entorno comercial global más fragmentado e incierto. La diversificación de mercados, la promoción de la integración regional y la inversión en infraestructura son estrategias clave para mitigar los riesgos y aprovechar las oportunidades.
-*   **Para Estados Unidos:** Las políticas proteccionistas de la administración Trump pueden generar beneficios a corto plazo para algunas industrias nacionales, pero también conllevan riesgos de inflación, disrupción de las cadenas de suministro y pérdida de competitividad a largo plazo.
-*   **Para el Mundo:** El auge del proteccionismo y la fragmentación del comercio global pueden llevar a una menor eficiencia económica, mayores precios y un aumento de las tensiones geopolíticas. La cooperación internacional y la búsqueda de soluciones multilaterales son esenciales para evitar una escalada de conflictos comerciales.
-
-## Factores Clave a Vigilar
-
-1.  **Decisiones de la Reserva Federal:** Las decisiones de la Reserva Federal sobre las tasas de interés tendrán un impacto significativo en la economía estadounidense y en los flujos de capital hacia los mercados emergentes.
-2.  **Negociaciones Comerciales:** El resultado de las negociaciones comerciales entre Estados Unidos y la Unión Europea, China y otros países será determinante para el futuro del comercio global.
-3.  **Conflictos Geopolíticos:** La evolución de los conflictos en Medio Oriente y Ucrania, así como las tensiones entre China y Taiwán, pueden tener un impacto significativo en los precios de la energía, las cadenas de suministro y la estabilidad financiera.
-4.  **Políticas Migratorias:** Las políticas migratorias de Estados Unidos y su impacto en la disponibilidad de mano de obra y en las remesas hacia América Latina y el Caribe.
 
 
 </div>
@@ -87,6 +54,69 @@ Durante la semana culminada el 15 de junio de 2025, el panorama económico globa
 
 st.markdown("""---""")	
 st.header("Resúmenes anteriores")
+
+with st.expander("tercera semana de junio de 2025", expanded=False):
+
+    st.markdown("""
+    <div class="news-text">
+        <div class="div-news-description">
+
+# Tensiones comerciales, conflictos geopolíticos y la economía global: Un análisis de la semana
+
+*Semana del reporte*: 22 de junio de 2025
+
+## Diagnóstico
+
+Durante la semana terminada el 22 de junio de 2025, el panorama noticioso estuvo dominado por la persistente tensión comercial impulsada por las políticas de la administración Trump, la escalada del conflicto entre Israel e Irán, y sus consecuentes efectos en la economía global. Se observó una clara división entre las potencias mundiales respecto a cómo abordar estos desafíos, con implicaciones significativas para Latinoamérica y el Caribe.
+
+**Tensiones Comerciales y Aranceles:**
+
+*   **EE.UU. vs. China:** La administración Trump continuó implementando políticas arancelarias agresivas contra China, afectando a exportadores chinos y a gigantes del comercio electrónico. Se mencionó la posibilidad de reducir los aranceles del 145% al 80% antes de una reunión entre funcionarios de ambos países, aunque esto no se concretó de manera unilateral.
+*   **Impacto en Vietnam:** Las tarifas "recíprocas" de EE.UU. sobre las exportaciones vietnamitas, aunque pausadas temporalmente, amenazan el objetivo de crecimiento del PIB de Vietnam para 2025.
+*   **Desvío de Comercio:** Se observó un desvío de comercio, con empresas chinas buscando nuevos mercados en el Sudeste Asiático, Europa y Latinoamérica debido a las restricciones en EE.UU. Esto generó preocupación en algunos países sobre la competencia desleal y el dumping de productos chinos.
+*   **Impacto en Latinoamérica:** Se advirtió que el aumento de los aranceles podría afectar a la región, incrementando los precios y desacelerando el crecimiento global. Se destacó la necesidad de que Latinoamérica refuerce su integración económica para enfrentar la guerra comercial.
+*   **Acuerdo EE.UU. y México:** Se anunció un acuerdo entre EE.UU. y México para un pacto global que contemple seguridad, migración y comercio.
+
+**Conflicto Israel-Irán y Repercusiones:**
+
+*   **Escalada del Conflicto:** Los ataques entre Israel e Irán se intensificaron, con EE.UU. involucrándose directamente al bombardear instalaciones nucleares iraníes. Esto generó temores de una guerra más amplia en Medio Oriente.
+*   **Impacto Económico:** El conflicto provocó volatilidad en los mercados financieros, aumento de los precios del petróleo y fortalecimiento del dólar como activo refugio. Se temía el cierre del Estrecho de Ormuz, lo que podría causar un shock en el suministro de petróleo y un aumento de la inflación global.
+*   **Reacciones Internacionales:** La comunidad internacional se dividió ante los ataques de EE.UU. a Irán. China y Rusia condenaron las acciones, mientras que algunos países europeos llamaron a la desescalada.
+*   **Postura de Latinoamérica:** El presidente de Chile, Gabriel Boric, condenó el bombardeo de EE.UU. a Irán, generando un debate entre el oficialismo y la oposición en su país.
+*   **Implicaciones para la Política Monetaria:** El conflicto complicó las deliberaciones de la Reserva Federal (Fed) sobre las tasas de interés, ya que añadió incertidumbre a las perspectivas de inflación y crecimiento económico.
+
+**Acercamientos y Medidas en Latinoamérica y El Caribe:**
+
+*   **Colombia y el Nuevo Banco de Desarrollo (NBD):** Colombia fue aceptada como miembro del NBD de los BRICS, buscando diversificar sus alianzas y fortalecer su economía.
+*   **República Dominicana:** Se observó un aumento en las remesas recibidas por República Dominicana, lo que podría verse afectado por la crisis global.
+*   **Ecuador:** El gobierno de Ecuador impuso un arancel a las compras por Amazon y Temu para proteger la producción nacional.
+*   **Chile:** Se destacó que Chile se posicionó como el mayor exportador mundial de 24 productos en 2024.
+
+## Tendencias
+
+1.  **Fragmentación del Comercio Global:** Las políticas proteccionistas de EE.UU. están llevando a una fragmentación del comercio mundial, con la formación de bloques regionales y acuerdos bilaterales.
+2.  **Reconfiguración de las Cadenas de Suministro:** Las empresas están buscando diversificar sus cadenas de suministro fuera de China para mitigar los riesgos asociados con la guerra comercial y las tensiones geopolíticas.
+3.  **Aumento de la Incertidumbre Económica:** Los conflictos geopolíticos y las políticas comerciales impredecibles están generando incertidumbre en los mercados financieros y afectando las decisiones de inversión.
+4.  **Presión Inflacionaria:** Los aranceles y el aumento de los precios del petróleo están ejerciendo presión sobre la inflación global, lo que complica las decisiones de los bancos centrales sobre las tasas de interés.
+5.  **Búsqueda de Alternativas al Dólar:** Algunos países están explorando el uso de monedas alternativas en el comercio internacional para reducir su dependencia del dólar estadounidense.
+
+## Implicaciones Estratégicas
+
+*   **Para Latinoamérica y el Caribe:** La región enfrenta el desafío de adaptarse a un entorno global más fragmentado e incierto. Es crucial fortalecer la integración regional, diversificar los mercados de exportación e invertir en sectores estratégicos como la tecnología y la energía renovable.
+*   **Para Estados Unidos:** Las políticas proteccionistas de la administración Trump podrían tener consecuencias negativas a largo plazo para la economía estadounidense, incluyendo el aumento de la inflación, la reducción del crecimiento y el aislamiento político.
+*   **Para el Mundo:** La escalada de las tensiones comerciales y geopolíticas amenaza la estabilidad del sistema multilateral y podría conducir a una mayor fragmentación del orden internacional.
+
+## Factores Clave a Vigilar
+
+*   **Evolución del Conflicto Israel-Irán:** La escalada o desescalada del conflicto tendrá un impacto significativo en los precios del petróleo y la estabilidad de la región.
+*   **Decisiones de la Reserva Federal:** Las decisiones de la Fed sobre las tasas de interés influirán en la inflación y el crecimiento económico global.
+*   **Negociaciones Comerciales:** El resultado de las negociaciones comerciales entre EE.UU. y sus socios comerciales determinará el futuro del comercio global y la estabilidad de las cadenas de suministro.
+*   **Reacciones de China:** La respuesta de China a las políticas comerciales de EE.UU. y su estrategia para contrarrestar la presión económica serán cruciales para el futuro del comercio global.
+
+
+</div>
+ """, unsafe_allow_html=True)
+
 
 with st.expander("Segunda semana de junio de 2025", expanded=False):
 
