@@ -107,7 +107,7 @@ st.markdown(f"""
     <div class="news-grid">
     <!-- Fila 1 -->
         <div class="news-block">
-        <img class="news-image" src="https://americaeconomica.com/noticia/mexico/mexico-y-eeuu-a-punto-de-cerrar-un-acuerdo-sobre-los-aranceles-al-acero-y-aluminio-impuestos-por-trump.html"/>
+        <img class="news-image" src="https://i0.wp.com/efe.com/wp-content/uploads/2025/06/Acero_Fabrica.webp?w=900&ssl=1"/>
     </div>
     <div class="news-block news-text">
         <div class="news-title">México y EEUU, a punto de cerrar un acuerdo sobre los aranceles al acero y aluminio impuestos por Trump</div>
