@@ -39,8 +39,60 @@ if st.button("Ir a Inicio"):
 
 #========== Contenido de la aplicación ===========
 
-
 st.markdown("""
+
+<div class="news-text">
+        <div class="div-news-description">
+
+# Tensiones comerciales y realineamientos geopolíticos: La era Trump 2.0 en América Latina y el mundo
+
+*Semana del reporte: 2025-06-29*
+
+## Diagnóstico
+
+La semana se ha caracterizado por una intensificación de las tensiones comerciales lideradas por la administración Trump, con un enfoque particular en aranceles y acuerdos bilaterales. Se observa una clara estrategia de "divide y vencerás" donde EE.UU. busca acuerdos individuales, generando incertidumbre y presión sobre sus socios comerciales. Esta situación ha provocado reacciones diversas en la región de América Latina y el Caribe, así como en otras potencias globales.
+
+*   **EE.UU. y Canadá:** La relación comercial entre EE.UU. y Canadá experimentó altibajos. Trump amenazó con imponer aranceles a Canadá debido a su impuesto sobre servicios digitales, lo que llevó a Canadá a revocar dicho impuesto para reanudar las negociaciones comerciales. El Primer Ministro canadiense, Mark Carney, confirmó la reanudación de las conversaciones con el objetivo de alcanzar un acuerdo antes del 21 de julio de 2025.
+*   **EE.UU. y China:** Las tensiones comerciales entre EE.UU. y China persisten, con advertencias de China sobre acuerdos que perjudiquen sus intereses. A pesar de esto, hubo indicios de progreso en las negociaciones comerciales, con un acuerdo para reanudar las exportaciones de tierras raras a EE.UU. y la firma de un pacto para consolidar el entendimiento comercial alcanzado en Ginebra en mayo.
+*   **EE.UU. y Europa:** Europa redobló esfuerzos para evitar una guerra comercial con EE.UU., evaluando propuestas de Washington en busca de un acuerdo comercial. Sin embargo, Trump criticó a la Unión Europea por aplicar impuestos "muy injustos" a las compañías estadounidenses. La UE se prepara para un acuerdo limitado que no satisfaga completamente los objetivos de ambas partes, con la posibilidad de mantener aranceles sectoriales en automóviles, acero y aluminio.
+*   **EE.UU. y España:** La relación entre EE.UU. y España se tensó debido a la negativa de España a comprometerse con el objetivo de gasto militar de la OTAN. Trump amenazó con imponer aranceles a España, lo que generó preocupación en el sector agroalimentario español, especialmente en el sector del aceite de oliva.
+*   **Mercosur:** Ante el incierto panorama del comercio global, Mercosur busca mayor margen de maniobra y dinamizar su agenda comercial. El Banco de Pagos Internacionales (BPI) considera urgente aumentar el alcance de Mercosur dadas las tensiones comerciales.
+*   **Latinoamérica y China:** Algunos países de la región, como Colombia, están buscando fortalecer sus lazos con China, integrándose a iniciativas como la Franja y la Ruta y el Nuevo Banco de Desarrollo de los BRICS. Panamá se ofrece como facilitador clave para el acercamiento entre la CELAC y la UE.
+*   **Reacciones y medidas en Latinoamérica:** Algunos países de la región han expresado su preocupación por las políticas de Trump y sus posibles efectos negativos en la economía regional. México lanzó el programa "Hecho en México" para reducir la dependencia de importaciones estadounidenses.
+
+## Tendencias
+
+1.  **Fragmentación del comercio global:** La política de aranceles unilaterales de Trump está fragmentando el comercio global, generando incertidumbre y obligando a los países a buscar acuerdos bilaterales o regionales.
+2.  **Realineamiento geopolítico:** Las tensiones comerciales están impulsando a algunos países de América Latina a acercarse a China como alternativa a EE.UU., lo que podría alterar el equilibrio de poder en la región.
+3.  **Aumento del proteccionismo:** La administración Trump está utilizando los aranceles como herramienta para proteger la industria nacional y fomentar la relocalización de empresas en EE.UU., lo que podría afectar negativamente a las economías de otros países.
+4.  **Debilitamiento del multilateralismo:** La postura de EE.UU. está socavando el sistema multilateral de comercio y las instituciones internacionales como la OMC, lo que dificulta la resolución de conflictos comerciales y la promoción del desarrollo sostenible.
+5.  **Mayor volatilidad en los mercados:** La incertidumbre generada por las políticas de Trump está provocando una mayor volatilidad en los mercados financieros, lo que dificulta la toma de decisiones de inversión y aumenta el riesgo de crisis económicas.
+
+## Implicaciones estratégicas
+
+*   **Para la región:** América Latina y el Caribe enfrentan el desafío de adaptarse a un entorno comercial más fragmentado e incierto. Los países de la región deben diversificar sus socios comerciales, fortalecer la integración regional y promover políticas que fomenten la competitividad y la innovación.
+*   **Para Estados Unidos:** Las políticas de Trump podrían tener efectos negativos en la economía estadounidense, como el aumento de la inflación, la reducción del crecimiento y la pérdida de empleos. Además, podrían dañar las relaciones de EE.UU. con sus aliados tradicionales y fortalecer a sus competidores estratégicos.
+*   **Para el mundo:** La intensificación de las tensiones comerciales y el debilitamiento del multilateralismo podrían tener consecuencias negativas para la economía global, como la reducción del comercio, la inversión y el crecimiento, así como el aumento del riesgo de conflictos geopolíticos.
+
+## Factores clave a vigilar
+
+*   **Fecha límite del 9 de julio:** Es crucial observar si EE.UU. extiende la tregua arancelaria o si impone nuevos aranceles a sus socios comerciales.
+*   **Reacciones de China y la UE:** Es importante seguir de cerca las medidas que tomen China y la UE en respuesta a las políticas de Trump, ya que podrían desencadenar una guerra comercial a gran escala.
+*   **Cumbre de los BRICS en Río:** La cumbre de los BRICS podría ser una oportunidad para que los países emergentes fortalezcan su cooperación y promuevan un sistema multilateral más justo y equitativo.
+*   **Negociaciones comerciales bilaterales:** Es fundamental monitorear el progreso de las negociaciones comerciales bilaterales entre EE.UU. y sus socios, ya que podrían tener un impacto significativo en la economía global y en las relaciones geopolíticas.
+*   **Evolución del conflicto entre Israel e Irán:** Es importante seguir de cerca la situación en Medio Oriente, ya que una escalada del conflicto podría tener graves consecuencias para la economía mundial y la seguridad energética.
+
+</div>
+ """, unsafe_allow_html=True)
+
+#### Resúmenes anteriores
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("cuarta semana de junio de 2025", expanded=False):
+
+    st.markdown("""
 
 <div class="news-text">
         <div class="div-news-description">
@@ -101,10 +153,6 @@ Durante la semana terminada el 22 de junio de 2025, el panorama noticioso estuvo
 </div>
  """, unsafe_allow_html=True)
 
-#### Resúmenes anteriores
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
 
 with st.expander("tercera semana de junio de 2025", expanded=False):
 
