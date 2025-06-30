@@ -104,9 +104,10 @@ st.markdown(f"""
 ###### SECCIÓN 2: NOTICIAS DESTACADAS #######
 
 st.markdown(f"""
-    <!-- Fila 1 -->
+
     <div class="news-grid">
-        <div class="news-block">
+    <!-- Fila 1 -->
+    <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1HEi9k.img?w=768&h=512&m=6&x=262&y=136&s=142&d=142"/>
     </div>
     <div class="news-block news-text">
