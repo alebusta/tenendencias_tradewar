@@ -105,6 +105,7 @@ st.markdown(f"""
 
 st.markdown(f"""
     <!-- Fila 1 -->
+    <div class="news-grid">
         <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1HEi9k.img?w=768&h=512&m=6&x=262&y=136&s=142&d=142"/>
     </div>
@@ -112,9 +113,8 @@ st.markdown(f"""
         <div class="news-title">Trump asegura que no planea extender suspensión de aranceles globales más allá del 9 de julio</div>
         <div class="news-date">Publicado el 29 de junio de 2025</div>
         <div class="news-description">El presidente Donald Trump asegura que no tiene planeado extender una pausa de 90 días a la entrada en vigor de aranceles sobre la mayoría de las naciones más allá del 9 de julio.</div>
-        <a class="news-link" href="https://americaeconomica.com/wp-content/uploads/2025/02/Designer-1-1-1024x585.jpeg">Ver más →</a>
-        </div>   
-    <div class="news-grid">
+        <a class="news-link" href="https://www.msn.com/es-mx/noticias/mundo/trump-asegura-que-no-planea-extender-suspensi%C3%B3n-de-aranceles-globales-m%C3%A1s-all%C3%A1-del-9-de-julio/ar-AA1HExAm">Ver más →</a>
+        </div>
    <!-- Fila 2 -->
     <div class="news-block news-text">
         <div class="news-title">Francia recrudece su presión contra el acuerdo UE-Mercosur ante etapa clave</div>
