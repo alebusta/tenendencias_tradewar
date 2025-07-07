@@ -43,6 +43,7 @@ st.markdown("""
 
 <div class="news-text">
         <div class="div-news-description">
+        
 # Tensiones comerciales y realineamientos globales: La era del proteccionismo estadounidense
 
 *Semana del reporte*: 1ra semana de Julio de 2025
