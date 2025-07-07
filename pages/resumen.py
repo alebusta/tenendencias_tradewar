@@ -43,6 +43,71 @@ st.markdown("""
 
 <div class="news-text">
         <div class="div-news-description">
+# Tensiones comerciales y realineamientos globales: La era del proteccionismo estadounidense
+
+*Semana del reporte*: 1ra semana de Julio de 2025
+
+## Diagnóstico
+
+Durante la primera semana de julio de 2025, el panorama económico global se caracterizó por la intensificación de las tensiones comerciales lideradas por la administración Trump, con un enfoque particular en la imposición de nuevos esquemas arancelarios y la reconfiguración de alianzas comerciales. La amenaza de nuevos aranceles por parte de Estados Unidos generó incertidumbre y reacciones diversas en la región de América Latina y el Caribe, así como en otras potencias económicas mundiales.
+
+**Hechos Noticiosos Clave:**
+
+*   **Anuncio de nuevos aranceles:** El presidente Trump anunció el envío de cartas a una docena de países notificando la imposición de nuevos aranceles, que entrarían en vigor a partir del 1 de agosto. Los aranceles oscilarían entre el 10% y el 70%, dependiendo del país y el producto. Esta medida generó una ola de preocupación y preparativos para posibles represalias comerciales.
+*   **Cumbre de los BRICS:** En Río de Janeiro, los países del BRICS (Brasil, Rusia, India, China y Sudáfrica) se reunieron para discutir alternativas al dólar en el comercio internacional y criticar las políticas arancelarias de Estados Unidos. La cumbre, marcada por la ausencia de Xi Jinping y Vladimir Putin, reflejó la creciente presión sobre el multilateralismo y la búsqueda de un nuevo orden económico global.
+*   **Negociaciones comerciales bilaterales:** Varios países de la región, como Argentina, Colombia y Ecuador, se encuentran en negociaciones con Estados Unidos para evitar la imposición de aranceles adicionales. Argentina, en particular, busca un acuerdo comercial con EE. UU. y ha ofrecido su apoyo como aliado estratégico en América Latina.
+*   **Reacciones regionales:** La imposición de aranceles por parte de Estados Unidos generó diversas reacciones en la región. México, Colombia y Ecuador, los principales socios comerciales de EE. UU. en la región, se vieron particularmente afectados. Algunos países, como Paraguay y Argentina, buscaron resolver problemas de trasbordo de combustible en la hidrovía Paraguay-Paraná.
+*   **Expansión de los BRICS:** El Nuevo Banco de Desarrollo (NBD), conocido como el banco de los BRICS, anunció la incorporación de Colombia y Uzbekistán como miembros plenos, lo que refuerza la influencia del bloque en el financiamiento de proyectos de desarrollo sostenible.
+*   **Tensiones diplomáticas:** Las relaciones entre Estados Unidos y algunos países de la región, como Colombia, se vieron afectadas por tensiones diplomáticas, incluyendo el llamado a consultas de embajadores y la amenaza de descertificación en la lucha antidrogas.
+
+**Evolución de los Hechos:**
+
+*   El anuncio inicial de Trump sobre el envío de cartas arancelarias generó incertidumbre y especulación sobre los países afectados y los niveles de los aranceles.
+*   La cumbre de los BRICS se convirtió en un foro para criticar las políticas comerciales de Estados Unidos y explorar alternativas al sistema financiero dominado por el dólar.
+*   Las negociaciones bilaterales entre Estados Unidos y varios países de la región se intensificaron, con el objetivo de evitar la imposición de aranceles adicionales y buscar acuerdos comerciales más favorables.
+
+**Acercamientos e Intercambios:**
+
+*   El primer ministro de la India, Narendra Modi, realizó una visita oficial a Argentina, centrada en el comercio bilateral e inversiones en sectores estratégicos.
+*   El presidente de Uruguay, Yamandú Orsi, participó en la Cumbre de los BRICS, buscando fortalecer las relaciones comerciales con los países del bloque.
+*   El secretario del Tesoro de Estados Unidos, Scott Bessent, visitó Buenos Aires para reunirse con el presidente Javier Milei y su equipo económico, con el objetivo de iniciar conversaciones formales sobre comercio recíproco.
+
+## Tendencias
+
+1.  **Aumento del proteccionismo:** La administración Trump continúa implementando políticas proteccionistas, con la imposición de aranceles y la renegociación de acuerdos comerciales.
+2.  **Debilitamiento del multilateralismo:** Las acciones de Estados Unidos desafían el sistema multilateral de comercio y generan tensiones con organizaciones internacionales como la OMC.
+3.  **Reconfiguración de alianzas:** Los países buscan diversificar sus relaciones comerciales y fortalecer alianzas alternativas, como los BRICS, para reducir su dependencia de Estados Unidos.
+4.  **Mayor uso de monedas locales:** Los países del BRICS y otros están explorando el uso de monedas locales en el comercio internacional para reducir su dependencia del dólar estadounidense.
+5.  **Incertidumbre económica:** Las tensiones comerciales y la volatilidad de los mercados generan incertidumbre económica y dificultan la planificación a largo plazo para las empresas y los gobiernos.
+
+## Implicaciones estratégicas
+
+*   **Para la región:** Los países de América Latina y el Caribe enfrentan el desafío de adaptarse a un entorno comercial global más proteccionista y volátil. La diversificación de las relaciones comerciales y la búsqueda de acuerdos bilaterales y regionales son estrategias clave para mitigar los riesgos.
+*   **Para Estados Unidos:** Las políticas proteccionistas de la administración Trump pueden generar represalias comerciales y dañar las relaciones con socios clave, lo que podría afectar la competitividad de las empresas estadounidenses y el crecimiento económico.
+*   **Para el mundo:** La intensificación de las tensiones comerciales y la fragmentación del sistema multilateral de comercio podrían tener un impacto negativo en el crecimiento económico global y la estabilidad financiera.
+
+## Factores clave a vigilar
+
+*   **Decisiones de la administración Trump:** Es fundamental seguir de cerca las decisiones de la administración Trump en materia de política comercial, incluyendo la imposición de aranceles y la renegociación de acuerdos comerciales.
+*   **Reacciones de los países afectados:** Es importante monitorear las reacciones de los países afectados por las políticas comerciales de Estados Unidos, incluyendo la imposición de represalias comerciales y la búsqueda de alternativas al sistema financiero dominado por el dólar.
+*   **Negociaciones comerciales bilaterales:** Es crucial seguir el progreso de las negociaciones comerciales bilaterales entre Estados Unidos y varios países de la región, así como los términos de los acuerdos alcanzados.
+*   **Cumbre de los BRICS:** Es importante analizar las conclusiones de la Cumbre de los BRICS y las medidas adoptadas por el bloque para fortalecer la cooperación económica y financiera entre sus miembros.
+*   **Indicadores económicos:** Es fundamental monitorear los indicadores económicos clave, como el crecimiento del PIB, la inflación, el desempleo y la balanza comercial, para evaluar el impacto de las tensiones comerciales en la economía global y regional.
+
+
+</div>
+ """, unsafe_allow_html=True)
+
+#### Resúmenes anteriores #################
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("última semana de junio de 2025", expanded=False):
+    st.markdown("""
+
+<div class="news-text">
+        <div class="div-news-description">
 
 # Tensiones comerciales y realineamientos geopolíticos: La era Trump 2.0 en América Latina y el mundo
 
@@ -84,11 +149,7 @@ La semana se ha caracterizado por una intensificación de las tensiones comercia
 
 </div>
  """, unsafe_allow_html=True)
-
-#### Resúmenes anteriores
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
+    
 
 with st.expander("cuarta semana de junio de 2025", expanded=False):
 
