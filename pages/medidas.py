@@ -81,7 +81,7 @@ st.markdown("""
 - **Mayo 8, 2025**: Se anunciaron los lineamientos de un acuerdo con el Reino Unido que mantendría el arancel "recíproco" del **10%**, pero reduciría el arancel del **25% al 10%** en las primeras **100,000 importaciones** de automóviles, y eliminaría los aranceles del 25% sobre acero y aluminio.
 """)
 
-
+st.markdown("---")
 
 
 st.markdown("<h2 style='font-family: Georgia; font-weight: bold; margin-bottom: 5px'>Tabla de Aranceles de los primeros 60 días de la guerra comercial (hasta 8 de mayo de 2025)</h1>", unsafe_allow_html=True)
