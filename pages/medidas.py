@@ -54,7 +54,7 @@ st.markdown("""
 
 # Título y descripción con estilo The Economist
 st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 5px'>Guerra Comercial: Cronología de Aranceles Trump</h1>", unsafe_allow_html=True)
-st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 25px'>Una visión detallada de las medidas arancelarias de la administración Trump en 2025</p>", unsafe_allow_html=True)
+
 st.markdown("""
 ### Cronología de medidas arancelarias de EE.UU. – 2025
 
