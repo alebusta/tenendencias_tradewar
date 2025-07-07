@@ -106,7 +106,17 @@ st.markdown(f"""
 st.markdown(f"""
 
     <div class="news-grid">
-   <!-- Fila 1 -->
+    <!-- Fila 1 -->
+    <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1I2aFe.img?w=768&h=432&m=6"/>
+    </div>
+    <div class="news-block news-text">
+        <div class="news-title">Guerra comercial escalada: BRICS y otros países rechazan ultimátum de aranceles de Trump</div>
+        <div class="news-date">Publicado el 6 de julio de 2025</div>
+        <div class="news-description">El influyente grupo intergubernamental BRICS, que reúne a Brasil, India, Rusia, China, Sudáfrica y otros cinco países miembros, se prepara para emitir una declaración formal que critique la actual situación arancelaria de Estados Unidos.</div>
+        <a class="news-link" href="https://www.msn.com/es-mx/pol%C3%ADtica/relaciones-internacionales/guerra-comercial-escalada-brics-y-otros-pa%C3%ADses-rechazan-ultim%C3%A1tum-de-aranceles-de-trump/ar-AA1I2k9U">Ver más →</a>
+        </div>
+   <!-- Fila 2 -->
     <div class="news-block news-text">
         <div class="news-title">México logra pequeños avances en negociaciones con Estados Unidos ante la avalancha de ataques de Trump</div>
         <div class="news-date">Publicado el 2 de julio de 2025</div>
@@ -116,7 +126,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/EQ3R4AULWSQTVRXZM5FTU3MILE.jpg?auth=19b34b484a703038a929f87314b2de3f9533b447d195812c33ee2e8a986ffebe&width=1200"/>
         </div>
-    <!-- Fila 2 -->
+    <!-- Fila 3 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1HEi9k.img?w=768&h=512&m=6&x=262&y=136&s=142&d=142"/>
     </div>
@@ -126,7 +136,7 @@ st.markdown(f"""
         <div class="news-description">El presidente Donald Trump asegura que no tiene planeado extender una pausa de 90 días a la entrada en vigor de aranceles sobre la mayoría de las naciones más allá del 9 de julio.</div>
         <a class="news-link" href="https://www.msn.com/es-mx/noticias/mundo/trump-asegura-que-no-planea-extender-suspensi%C3%B3n-de-aranceles-globales-m%C3%A1s-all%C3%A1-del-9-de-julio/ar-AA1HExAm">Ver más →</a>
         </div>
-   <!-- Fila 3 -->
+   <!-- Fila 4 -->
     <div class="news-block news-text">
         <div class="news-title">Francia recrudece su presión contra el acuerdo UE-Mercosur ante etapa clave</div>
         <div class="news-date">Publicado el 26 de junio de 2025</div>
@@ -136,7 +146,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://www.lanacion.com.ar/resizer/v2/francia-recrudece-su-presion-contra-el-acuerdo-ue-C4DZYPM2UNGU3DALOAAO6LNTWQ.jpg?auth=fc6b28e5e2300c522eaa917feedb078c9006c0037eab4e0b768a17e3c8c5f5e8&width=880&height=586&quality=70&smart=true"/>
         </div>
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
         <div class="news-block">
         <img class="news-image" src="https://i0.wp.com/efe.com/wp-content/uploads/2025/06/Acero_Fabrica.webp?w=900&ssl=1"/>
     </div>
@@ -146,7 +156,7 @@ st.markdown(f"""
         <div class="news-description">Marcelo Ebrard confirma que las negociaciones con Washington están en su fase final, tras el aumento de aranceles al 50% decretado por el Gobierno de EEUU a inicios de junio.</div>
         <a class="news-link" href="https://americaeconomica.com/wp-content/uploads/2025/02/Designer-1-1-1024x585.jpeg">Ver más →</a>
         </div>   
-   <!-- Fila 5 -->
+   <!-- Fila 6 -->
     <div class="news-block news-text">
         <div class="news-title">Estrecho de Ormuz: EE. UU. insta a China a impedir que Irán bloquee una ruta marítima crucial</div>
         <div class="news-date">Publicado el 22 de junio de 2025</div>
@@ -156,7 +166,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://images.forbesindia.com/media/images/2025/Jun/img_246275_irancapitaleconomy.jpg"/>
         </div>
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
         <div class="news-block">
         <img class="news-image" src="https://static01.nyt.com/images/2025/06/13/espanol/00Biz-New-China-Shock-02-wfvl-ES-copy1/00Biz-New-China-Shock-02-wfvl-jumbo.jpg?quality=75&auto=webp"/>
     </div>
@@ -166,16 +176,6 @@ st.markdown(f"""
         <div class="news-description">A medida que los aranceles del presidente Trump cierran el mercado estadounidense, los productos chinos inundan países desde el Sudeste Asiático hasta Europa y Latinoamérica.</div>
         <a class="news-link" href="https://www.nytimes.com/es/2025/06/17/espanol/negocios/exportaciones-chinas-aranceles.html">Ver más →</a>
         </div>   
-    <!-- Fila 7 -->
-    <div class="news-block news-text">
-        <div class="news-title">Trump y Starmer acuerdan implementar partes del acuerdo comercial sobre automóviles, acero y aviones</div>
-        <div class="news-date">Publicado el 16 de junio de 2025</div>
-        <div class="news-description">Los líderes de Gran Bretaña y Estados Unidos anunciaron un acuerdo el mes pasado, pero no estaba claro cuándo entraría en vigor. Gran Bretaña celebró el anuncio como "una gran victoria".</div>
-        <a class="news-link" href="https://www.nytimes.com/2025/06/16/us/uk-trade-trump-starmer-tariffs.html">Ver más →</a>
-        </div>   
-    <div class="news-block">
-        <img class="news-image" src="https://static01.nyt.com/images/2025/05/09/multimedia/16trump-news-uk-trade1/16trump-news-uk-trade1-jumbo.jpg?quality=75&auto=webp"/>
-        </div>
 </div>
             
 """, unsafe_allow_html=True)
