@@ -1,3 +1,8 @@
+# Urls a seguir: 
+# https://www.tradecomplianceresourcehub.com/2025/07/03/trump-2-0-tariff-tracker/
+# https://www.ft.com/trump-tariffs (paywall)
+# https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/#timeline
+
 import streamlit as st
 import pandas as pd
 from datetime import datetime
