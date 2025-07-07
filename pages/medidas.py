@@ -55,7 +55,36 @@ st.markdown("""
 # Título y descripción con estilo The Economist
 st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 5px'>Guerra Comercial: Cronología de Aranceles Trump</h1>", unsafe_allow_html=True)
 st.markdown("<p style='font-family: Georgia; font-style: italic; margin-bottom: 25px'>Una visión detallada de las medidas arancelarias de la administración Trump en 2025</p>", unsafe_allow_html=True)
+st.markdown("""
+### Cronología de medidas arancelarias de EE.UU. – 2025
 
+- **Julio 2, 2025**: El presidente anunció que Estados Unidos llegó a un acuerdo con Vietnam. Se mantendrá un arancel base del **20%** sobre las importaciones de Vietnam, mientras que se impondrá un arancel del **40%** sobre cualquier transbordo. No se ha programado una fecha de entrada en vigor para el acuerdo.
+
+- **Junio 30, 2025**: Entró en vigor el acuerdo entre Estados Unidos y el Reino Unido. El arancel del **25%** sobre las importaciones de acero y aluminio del Reino Unido permanecerá en vigor.
+
+- **Junio 11, 2025**: Trump anunció un acuerdo comercial con China que mantendría los aranceles actuales del **20%** sobre el *fentanilo* y del **10%** *recíprocos*, pausando los aranceles más altos durante 90 días.
+
+- **Junio 10, 2025**: El Tribunal de Apelaciones para el Circuito Federal de Washington, DC, permitió que los aranceles IEEPA de Trump permanezcan en vigor hasta que se emita un fallo definitivo. Audiencia programada para el **31 de julio de 2025**.
+
+- **Mayo 30, 2025**: Trump anunció que los aranceles sobre acero y aluminio se duplicarían al **50%** a partir del **4 de junio**, excepto para el Reino Unido.
+
+- **Mayo 29, 2025**: Un segundo tribunal federal falló en contra de los aranceles IEEPA.
+
+- **Mayo 28, 2025**: Un panel del Tribunal Internacional de Comercio dictaminó por unanimidad que los aranceles IEEPA eran **ilegales**. La administración Trump apeló. El fallo dio al presidente **10 días** para comenzar a detener el cobro de los aranceles IEEPA. No afecta los aranceles de las **Secciones 232 y 301**. Los importadores podrían recibir compensación retroactiva.
+
+- **Mayo 25, 2025**: Se anunció que estos aranceles entrarían en vigor el **9 de julio**.
+
+- **Mayo 23, 2025**: Trump anunció un arancel recíproco del **50%** a la UE desde el **1 de junio**.
+
+- **Mayo 12, 2025**: El Secretario del Tesoro anunció una pausa de **90 días** en las escaladas con China, reduciendo el arancel del **125% al 10%**.
+
+- **Mayo 8, 2025**: Se anunciaron los lineamientos de un acuerdo con el Reino Unido que mantendría el arancel "recíproco" del **10%**, pero reduciría el arancel del **25% al 10%** en las primeras **100,000 importaciones** de automóviles, y eliminaría los aranceles del 25% sobre acero y aluminio.
+""")
+
+
+
+
+st.markdown("<h2 style='font-family: Georgia; font-weight: bold; margin-bottom: 5px'>Tabla de Aranceles de los primeros 60 días de la guerra comercial (hasta 8 de mayo de 2025)</h1>", unsafe_allow_html=True)
 # Función para convertir fechas textuales a objetos datetime
 def parse_spanish_date(date_string):
     """
