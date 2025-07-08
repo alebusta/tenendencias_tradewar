@@ -115,7 +115,7 @@ st.markdown(f"""
         </div>   
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1IafdA.img?w=500&h=400&m=6"
-            style="width: 70%; height: 70%; object-fit: cover;"/>
+            style="width: 80%; height: 80%; object-fit: cover;"/>
         </div>    
     <!-- Fila 2 -->
     <div class="news-block">
