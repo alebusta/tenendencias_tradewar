@@ -114,7 +114,7 @@ st.markdown(f"""
         <a class="news-link" href="https://www.msn.com/es-co/noticias/other/presidente-donald-trump-amenaz%C3%B3-a-14-pa%C3%ADses-con-nuevos-aranceles-de-hasta-40/ar-AA1IacUS">Ver más →</a>
         </div>   
     <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1IafdA.img?w=768&h=432&m=6"
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1IafdA.img?w=768&h=400&m=6"
             style="width: 100%; height: 100%; object-fit: contain;"/>
         </div>    
     <!-- Fila 2 -->
