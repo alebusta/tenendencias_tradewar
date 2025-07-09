@@ -106,6 +106,17 @@ st.markdown(f"""
 st.markdown(f"""
 
     <div class="news-grid">
+   <!-- Fila 2 -->
+    <div class="news-block news-text">
+        <div class="news-title">Trump promete aranceles del 50% contra Brasil, alegando una "caza de brujas" contra Bolsonaro</div>
+        <div class="news-date">Publicado el 9 de julio de 2025</div>
+        <div class="news-description">Las tensiones entre Estados Unidos y Brasil han estallado repentinamente. En respuesta a las críticas del presidente Trump, el presidente brasileño declaró: «No queremos un emperador».</div>
+        <a class="news-link" href="https://www.nytimes.com/2025/07/09/world/americas/brazil-trump-bolsonaro-lula-coup-tariff.html">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://static01.nyt.com/images/2025/07/09/multimedia/09int-brazil-trump-qthb/09int-brazil-trump-qthb-superJumbo.jpg?quality=75&auto=webp"
+            style="width: 100%; height: 100%; object-fit: contain;"/>
+        </div>    
     <!-- Fila 1 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Ie8D5.img?w=768&h=405&m=6&x=852&y=111&s=152&d=152"/>
