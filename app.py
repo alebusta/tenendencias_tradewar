@@ -106,6 +106,16 @@ st.markdown(f"""
 st.markdown(f"""
 
     <div class="news-grid">
+    <!-- Fila 1 -->
+    <div class="news-block">
+        <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/https%3A%2F%2Fvdmedia.elpais.com%2Felpaistop%2F20257%2F10%2F1752109347_still.jpg?auth=7c953f2247295d4fd31f1a7fc92c0b8ddda6699aa6f2dc5973e5e18f1f94c0d0&width=1200&height=675&smart=true"/>
+    </div>
+    <div class="news-block news-text">
+        <div class="news-title">Brasil responde con aranceles recíprocos al alza de aranceles de Trump por el juicio a Bolsonaro</div>
+        <div class="news-date">Publicado el 10 de julio de 2025</div>
+        <div class="news-description">Estados Unidos impuso al país un impuesto del 50%, más que cualquier otra nación, mientras el presidente republicano califica el juicio del exlíder como una "caza de brujas".</div>
+        <a class="news-link" href="https://english.elpais.com/economy-and-business/2025-07-10/brazil-responds-with-reciprocal-tariffs-to-trumps-tariff-hike-over-bolsonaro-trial.html">Ver más →</a>
+        </div>
    <!-- Fila 2 -->
     <div class="news-block news-text">
         <div class="news-title">Trump promete aranceles del 50% contra Brasil, alegando una "caza de brujas" contra Bolsonaro</div>
@@ -168,26 +178,6 @@ st.markdown(f"""
         <div class="news-description">El presidente Donald Trump asegura que no tiene planeado extender una pausa de 90 días a la entrada en vigor de aranceles sobre la mayoría de las naciones más allá del 9 de julio.</div>
         <a class="news-link" href="https://www.msn.com/es-mx/noticias/mundo/trump-asegura-que-no-planea-extender-suspensi%C3%B3n-de-aranceles-globales-m%C3%A1s-all%C3%A1-del-9-de-julio/ar-AA1HExAm">Ver más →</a>
         </div>
-   <!-- Fila 6 -->
-    <div class="news-block news-text">
-        <div class="news-title">Francia recrudece su presión contra el acuerdo UE-Mercosur ante etapa clave</div>
-        <div class="news-date">Publicado el 26 de junio de 2025</div>
-        <div class="news-description">Francia redobla sus esfuerzos con otros países europeos para intentar bloquear o modificar el acuerdo comercial con el Mercosur, cuando la Comisión Europea se dispone a lanzar.</div>
-        <a class="news-link" href="https://www.lanacion.com.ar/agencias/francia-recrudece-su-presion-contra-el-acuerdo-ue-mercosur-ante-etapa-clave-nid26062025/">Ver más →</a>
-        </div>   
-    <div class="news-block">
-        <img class="news-image" src="https://www.lanacion.com.ar/resizer/v2/francia-recrudece-su-presion-contra-el-acuerdo-ue-C4DZYPM2UNGU3DALOAAO6LNTWQ.jpg?auth=fc6b28e5e2300c522eaa917feedb078c9006c0037eab4e0b768a17e3c8c5f5e8&width=880&height=586&quality=70&smart=true"/>
-        </div>
-    <!-- Fila 7 -->
-        <div class="news-block">
-        <img class="news-image" src="https://i0.wp.com/efe.com/wp-content/uploads/2025/06/Acero_Fabrica.webp?w=900&ssl=1"/>
-    </div>
-    <div class="news-block news-text">
-        <div class="news-title">México y EEUU, a punto de cerrar un acuerdo sobre los aranceles al acero y aluminio impuestos por Trump</div>
-        <div class="news-date">Publicado el 24 de junio de 2025</div>
-        <div class="news-description">Marcelo Ebrard confirma que las negociaciones con Washington están en su fase final, tras el aumento de aranceles al 50% decretado por el Gobierno de EEUU a inicios de junio.</div>
-        <a class="news-link" href="https://americaeconomica.com/wp-content/uploads/2025/02/Designer-1-1-1024x585.jpeg">Ver más →</a>
-        </div>   
 </div>
             
 """, unsafe_allow_html=True)
