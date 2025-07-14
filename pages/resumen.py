@@ -44,7 +44,7 @@ st.markdown("""
 <div class="news-text">
         <div class="div-news-description">
         
-        # Tensiones comerciales globales y realineamientos regionales: El impacto de las políticas de Trump en América Latina y el mundo
+# Tensiones comerciales globales y realineamientos regionales: El impacto de las políticas de Trump en América Latina y el mundo
 
 *Semana del reporte: 7 de julio al 13 de julio de 2025*
 
