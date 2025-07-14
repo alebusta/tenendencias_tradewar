@@ -113,7 +113,7 @@ Durante la semana del 7 al 13 de julio de 2025, el panorama económico global es
 3.  **Evolución de los BRICS:** Es clave analizar el papel de los BRICS como alternativa al sistema multilateral liderado por Estados Unidos y su capacidad para ofrecer nuevas oportunidades de cooperación económica y financiera.
 4.  **Impacto en la inflación y el crecimiento económico global:** Es fundamental monitorear los indicadores económicos para evaluar si las tensiones comerciales están afectando la estabilidad de la economía mundial.
 5.  **Decisiones de política monetaria de la Reserva Federal:** Es importante seguir de cerca las decisiones de la Fed sobre las tasas de interés, ya que estas podrían tener un impacto significativo en los mercados financieros y en la economía global.
-        </div>        
+    </div>        
  """, unsafe_allow_html=True)
 
 
@@ -124,6 +124,9 @@ st.header("Resúmenes anteriores")
 
 with st.expander("Primera semana de julio de 2025", expanded=False):
     st.markdown("""
+
+    <div class="news-text">
+        <div class="div-news-description">
         
 # Tensiones comerciales y realineamientos globales: La era del proteccionismo estadounidense
 
