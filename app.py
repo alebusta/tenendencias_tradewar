@@ -106,7 +106,18 @@ st.markdown(f"""
 st.markdown(f"""
 
     <div class="news-grid">
-    <!-- Fila 1 -->
+  <!-- Fila 1 -->
+    <div class="news-block news-text">
+        <div class="news-title">Trump exige más concesiones mientras la UE posterga las contramedidas arancelarias estadounidenses</div>
+        <div class="news-date">Publicado el 13 de julio de 2025</div>
+        <div class="news-description">La Unión Europea dijo el domingo que extenderá su suspensión de contramedidas a los aranceles estadounidenses hasta principios de agosto y continuará presionando para un acuerdo negociado, mientras el gobierno del presidente estadounidense Donald Trump exige más concesiones de sus socios comerciales.</div>
+        <a class="news-link" href="https://www.msn.com/en-gb/news/world/trump-demands-more-concessions-as-eu-holds-off-on-us-tariff-countermeasures/ar-AA1IwGs7">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Iw2m3.img?w=768&h=511&m=6&x=258&y=200&s=235&d=235"
+            style="width: 100%; height: 100%; object-fit: contain;"/>
+        </div>    
+    <!-- Fila 2 -->
     <div class="news-block">
         <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/https%3A%2F%2Fvdmedia.elpais.com%2Felpaistop%2F20257%2F10%2F1752109347_still.jpg?auth=7c953f2247295d4fd31f1a7fc92c0b8ddda6699aa6f2dc5973e5e18f1f94c0d0&width=1200&height=675&smart=true"/>
     </div>
@@ -116,7 +127,7 @@ st.markdown(f"""
         <div class="news-description">Estados Unidos impuso al país un impuesto del 50%, más que cualquier otra nación, mientras el presidente republicano califica el juicio del exlíder como una "caza de brujas".</div>
         <a class="news-link" href="https://english.elpais.com/economy-and-business/2025-07-10/brazil-responds-with-reciprocal-tariffs-to-trumps-tariff-hike-over-bolsonaro-trial.html">Ver más →</a>
         </div>
-   <!-- Fila 2 -->
+   <!-- Fila 3 -->
     <div class="news-block news-text">
         <div class="news-title">Trump promete aranceles del 50% contra Brasil, alegando una "caza de brujas" contra Bolsonaro</div>
         <div class="news-date">Publicado el 9 de julio de 2025</div>
@@ -127,7 +138,7 @@ st.markdown(f"""
         <img class="news-image" src="https://static01.nyt.com/images/2025/07/09/multimedia/09int-brazil-trump-qthb/09int-brazil-trump-qthb-superJumbo.jpg?quality=75&auto=webp"
             style="width: 100%; height: 100%; object-fit: contain;"/>
         </div>    
-    <!-- Fila 1 -->
+    <!-- Fila 4 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Ie8D5.img?w=768&h=405&m=6&x=852&y=111&s=152&d=152"/>
     </div>
@@ -137,7 +148,7 @@ st.markdown(f"""
         <div class="news-description">En abril el escenario mundial era de incertidumbre, cuando el presidente de los Estados Unidos, Donald Trump, salió a exponer acompañado de una icónica tabla en donde anunciaba aranceles generales a una lista de más de 100 países, entre los que destacaba Chile casi al final, con un arancel del 10%.</div>
         <a class="news-link" href="https://www.msn.com/es-cl/noticias/otras/lleg%C3%B3-el-d%C3%ADa-trump-anuncia-arancel-al-cobre-y-en-chile-el-sector-minero-llama-a-la-prudencia/ar-AA1Ie1XI">Ver más →</a>
         </div>
-   <!-- Fila 2 -->
+   <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">Presidente Donald Trump amenazó a 14 países con nuevos aranceles de hasta 40%</div>
         <div class="news-date">Publicado el 8 de julio de 2025</div>
@@ -148,7 +159,7 @@ st.markdown(f"""
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1IafdA.img?w=768&h=500&m=6"
             style="width: 100%; height: 100%; object-fit: contain;"/>
         </div>    
-    <!-- Fila 3 -->
+    <!-- Fila 6 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1I2aFe.img?w=768&h=432&m=6"/>
     </div>
@@ -158,7 +169,7 @@ st.markdown(f"""
         <div class="news-description">El influyente grupo intergubernamental BRICS, que reúne a Brasil, India, Rusia, China, Sudáfrica y otros cinco países miembros, se prepara para emitir una declaración formal que critique la actual situación arancelaria de Estados Unidos.</div>
         <a class="news-link" href="https://www.msn.com/es-mx/pol%C3%ADtica/relaciones-internacionales/guerra-comercial-escalada-brics-y-otros-pa%C3%ADses-rechazan-ultim%C3%A1tum-de-aranceles-de-trump/ar-AA1I2k9U">Ver más →</a>
         </div>
-   <!-- Fila 4 -->
+   <!-- Fila 7 -->
     <div class="news-block news-text">
         <div class="news-title">México logra pequeños avances en negociaciones con Estados Unidos ante la avalancha de ataques de Trump</div>
         <div class="news-date">Publicado el 2 de julio de 2025</div>
@@ -167,16 +178,6 @@ st.markdown(f"""
         </div>   
     <div class="news-block">
         <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/EQ3R4AULWSQTVRXZM5FTU3MILE.jpg?auth=19b34b484a703038a929f87314b2de3f9533b447d195812c33ee2e8a986ffebe&width=1200"/>
-        </div>
-    <!-- Fila 5 -->
-    <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1HEi9k.img?w=768&h=512&m=6&x=262&y=136&s=142&d=142"/>
-    </div>
-    <div class="news-block news-text">
-        <div class="news-title">Trump asegura que no planea extender suspensión de aranceles globales más allá del 9 de julio</div>
-        <div class="news-date">Publicado el 29 de junio de 2025</div>
-        <div class="news-description">El presidente Donald Trump asegura que no tiene planeado extender una pausa de 90 días a la entrada en vigor de aranceles sobre la mayoría de las naciones más allá del 9 de julio.</div>
-        <a class="news-link" href="https://www.msn.com/es-mx/noticias/mundo/trump-asegura-que-no-planea-extender-suspensi%C3%B3n-de-aranceles-globales-m%C3%A1s-all%C3%A1-del-9-de-julio/ar-AA1HExAm">Ver más →</a>
         </div>
 </div>
             
