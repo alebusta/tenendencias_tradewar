@@ -114,8 +114,7 @@ st.markdown(f"""
         <a class="news-link" href="https://www.msn.com/en-gb/news/world/trump-demands-more-concessions-as-eu-holds-off-on-us-tariff-countermeasures/ar-AA1IwGs7">Ver más →</a>
         </div>   
     <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Iw2m3.img?w=768&h=511&m=6&x=258&y=200&s=235&d=235"
-            style="width: 100%; height: 100%; object-fit: contain;"/>
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Iw2m3.img?w=768&h=511&m=6&x=258&y=200&s=235&d=235"/>
         </div>    
     <!-- Fila 2 -->
     <div class="news-block">
