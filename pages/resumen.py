@@ -43,6 +43,87 @@ st.markdown("""
 
 <div class="news-text">
         <div class="div-news-description">
+        # Tensiones comerciales globales y realineamientos regionales: El impacto de las políticas de Trump en América Latina y el mundo
+
+*Semana del reporte: 7 de julio al 13 de julio de 2025*
+
+## Diagnóstico
+
+Durante la semana del 7 al 13 de julio de 2025, el panorama económico global estuvo dominado por la intensificación de las tensiones comerciales lideradas por la administración Trump, con un enfoque particular en la imposición de aranceles y la reconfiguración de alianzas comerciales. Los principales hechos noticiosos y su evolución fueron:
+
+1.  **Imposición de Aranceles por Estados Unidos:**
+    *   El presidente Trump anunció aranceles del 30% a México y la Unión Europea, generando críticas y llamados a la unidad por parte de líderes de la UE y México.
+    *   Se impusieron aranceles del 50% a productos brasileños, lo que provocó la reacción de Brasil y la búsqueda de alternativas comerciales con China y otros bloques.
+    *   Se anunciaron aranceles del 25% a Japón y Corea del Sur, generando preocupación en Asia y llevando a estos países a buscar negociaciones.
+    *   Trump amenazó con aranceles adicionales del 10% a países que se alineen con los BRICS, lo que generó condena y preocupación por el futuro del multilateralismo.
+    *   Se impusieron aranceles a productos de cobre, lo que afectó a Chile y Perú, principales exportadores de este metal.
+
+2.  **Reacciones y Negociaciones:**
+    *   La Unión Europea pospuso medidas de represalia contra Estados Unidos, buscando negociar con Trump hasta agosto.
+    *   México expresó su desacuerdo con los aranceles y confió en alcanzar un acuerdo con Estados Unidos.
+    *   Chile y Estados Unidos acordaron nuevas conversaciones tras los anuncios de aranceles al cobre.
+    *   España se alineó con la UE frente a los aranceles de Trump, mostrando apoyo a las negociaciones.
+
+3.  **Impacto en América Latina y el Caribe:**
+    *   Economistas advirtieron sobre las consecuencias para América Latina y Uruguay de las amenazas de Trump a Brasil.
+    *   Se destacó el aumento del costo de la visa de EUA por una nueva “tasa de integridad”, lo que podría afectar el turismo y los negocios en la región.
+    *   Se mencionó la crisis haitiana y la cautela de Danilo Medina al respecto.
+    *   Se resaltó el boom de compras en la Triple Frontera, con argentinos cruzando a Brasil y Paraguay en busca de precios más bajos.
+
+4.  **Reconfiguración de Alianzas y Estrategias:**
+    *   Países de la región buscaron alternativas en el mercado indio ante la subida arancelaria de EEUU.
+    *   Se observó un fortalecimiento de los BRICS como bloque, con la incorporación de nuevos miembros y la búsqueda de un nuevo sistema de transacciones financieras.
+    *   Se destacó la importancia de diversificar las relaciones comerciales ante las tensiones con Estados Unidos.
+    *   Se mencionó el interés de China en ampliar su influencia en América Latina, especialmente en el sector minero.
+
+5.  **Impacto Global y Reacciones:**
+    *   Se criticó el estilo negociador de Trump, considerándolo más de coerción que de acuerdos.
+    *   Se advirtió sobre el impacto de los aranceles en la inflación y el crecimiento económico global.
+    *   Se señaló la preocupación de la UE por la seguridad de las cadenas de suministro transatlánticas.
+    *   Se destacó la importancia de que Europa aumente su capacidad militar y coordine una estrategia común de defensa.
+
+## Tendencias
+
+1.  **Aumento del Proteccionismo Estadounidense:** La administración Trump intensificó su política proteccionista mediante la imposición de aranceles a diversos países y productos, generando incertidumbre y tensiones comerciales a nivel global.
+2.  **Reconfiguración de Alianzas Comerciales:** Ante la presión de Estados Unidos, los países buscan diversificar sus relaciones comerciales y fortalecer alianzas alternativas, como los BRICS.
+3.  **Impacto en el Sector Agroalimentario:** El sector agroalimentario español y latinoamericano se vio particularmente afectado por la subida de aranceles, buscando alternativas en mercados como India.
+4.  **Desdolarización de la Economía Global:** Los BRICS avanzaron en la creación de un nuevo sistema de transacciones financieras para reducir la dependencia del dólar estadounidense.
+5.  **Aumento de la Inestabilidad Geopolítica:** Las tensiones comerciales se combinaron con conflictos geopolíticos, como la crisis haitiana y las tensiones en Medio Oriente, generando un panorama global complejo y desafiante.
+
+## Implicaciones estratégicas
+
+*   **Para América Latina y el Caribe:**
+    *   **Corto plazo:** Mayor incertidumbre económica, búsqueda de nuevos mercados y diversificación de exportaciones.
+    *   **Mediano plazo:** Posible reconfiguración de las relaciones comerciales con Estados Unidos, fortalecimiento de la integración regional y alianzas con otros bloques.
+    *   **Largo plazo:** Mayor autonomía económica y diversificación de socios comerciales, pero también posibles desafíos para el crecimiento y el desarrollo.
+*   **Para Estados Unidos:**
+    *   **Corto plazo:** Aumento de la inflación y posibles disrupciones en las cadenas de suministro.
+    *   **Mediano plazo:** Posible pérdida de influencia económica y política en la región, así como desafíos para mantener su competitividad global.
+    *   **Largo plazo:** Aislamiento comercial y debilitamiento de su liderazgo en el sistema multilateral.
+*   **Para el Mundo:**
+    *   **Corto plazo:** Mayor volatilidad en los mercados financieros y aumento de las tensiones geopolíticas.
+    *   **Mediano plazo:** Fragmentación del sistema multilateral de comercio y surgimiento de nuevos bloques económicos.
+    *   **Largo plazo:** Reconfiguración del orden económico global, con un posible declive del poderío estadounidense y un aumento de la influencia de China y otros actores emergentes.
+
+## Factores clave a vigilar
+
+1.  **Negociaciones comerciales entre Estados Unidos y sus socios:** Es crucial seguir de cerca las negociaciones bilaterales y multilaterales para evaluar si se lograrán acuerdos que eviten una escalada de las tensiones comerciales.
+2.  **Reacciones de los países de América Latina y el Caribe:** Es importante observar las medidas que tomarán los países de la región para mitigar el impacto de las políticas de Trump y fortalecer su autonomía económica.
+3.  **Evolución de los BRICS:** Es clave analizar el papel de los BRICS como alternativa al sistema multilateral liderado por Estados Unidos y su capacidad para ofrecer nuevas oportunidades de cooperación económica y financiera.
+4.  **Impacto en la inflación y el crecimiento económico global:** Es fundamental monitorear los indicadores económicos para evaluar si las tensiones comerciales están afectando la estabilidad de la economía mundial.
+5.  **Decisiones de política monetaria de la Reserva Federal:** Es importante seguir de cerca las decisiones de la Fed sobre las tasas de interés, ya que estas podrían tener un impacto significativo en los mercados financieros y en la economía global.
+
+        </div>
+ """, unsafe_allow_html=True)
+
+
+#### Resúmenes anteriores #################
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("Primera semana de julio de 2025", expanded=False):
+    st.markdown("""
         
 # Tensiones comerciales y realineamientos globales: La era del proteccionismo estadounidense
 
@@ -99,10 +180,6 @@ Durante la primera semana de julio de 2025, el panorama económico global se car
 </div>
  """, unsafe_allow_html=True)
 
-#### Resúmenes anteriores #################
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
 
 with st.expander("última semana de junio de 2025", expanded=False):
     st.markdown("""
