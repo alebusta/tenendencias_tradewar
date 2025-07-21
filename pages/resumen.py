@@ -40,6 +40,55 @@ if st.button("Ir a Inicio"):
 #========== Contenido de la aplicación ===========
 
 st.markdown("""
+<div class="news-text">
+        <div class="div-news-description">
+# Tensiones comerciales y realineamientos geopolíticos: América Latina en la mira del proteccionismo estadounidense
+
+*Semana del reporte:* 20 de julio de 2025
+
+## Diagnóstico
+
+Durante la semana terminada el 20 de julio de 2025, el panorama noticioso estuvo dominado por las tensiones comerciales impulsadas por la administración Trump y sus repercusiones a nivel global, con un enfoque particular en América Latina y el Caribe. Se observó una intensificación de la política proteccionista de Estados Unidos, evidenciada por la imposición de nuevos aranceles y la amenaza de medidas aún más restrictivas.
+
+*   **Política Arancelaria de Trump:** La administración Trump continuó con su política de "aranceles recíprocos", amenazando con imponer gravámenes significativos a países que no abran sus mercados a productos estadounidenses. El secretario de Comercio, Howard Lutnick, defendió enérgicamente esta estrategia, minimizando las preocupaciones sobre la inflación y prometiendo acuerdos comerciales beneficiosos para Estados Unidos.
+*   **Tensiones con Canadá y México:** Estados Unidos presionó a Canadá para que abriera su mercado, amenazando con aranceles más altos en agosto si no lo hacía. De manera similar, se anunció un arancel del 30% sobre las importaciones mexicanas, generando preocupación en México y llevando a la presidenta Claudia Sheinbaum a buscar un acuerdo negociado.
+*   **Impacto en Brasil:** Brasil fue particularmente afectado por la amenaza de aranceles del 50% impuesta por Trump, aparentemente vinculada al enjuiciamiento del expresidente Jair Bolsonaro. Aunque el gobierno brasileño inicialmente descartó represalias económicas directas, se activó la Ley de Reciprocidad Económica, permitiendo la imposición de medidas similares contra países que adopten sanciones unilaterales.
+*   **Reacciones en América Latina:** Ante la creciente incertidumbre, varios países de la región buscaron diversificar sus relaciones comerciales y fortalecer la cooperación regional. En Chile, se celebró una cumbre por la democracia con la participación de líderes progresistas de España, Brasil, Colombia y Uruguay, buscando un posicionamiento común en favor del multilateralismo y la justicia social.
+*   **Acercamiento entre Argentina y Estados Unidos:** En contraste con las tensiones generales, Argentina y Estados Unidos avanzaron en un acuerdo arancelario impulsado por la alianza estratégica entre Javier Milei y Donald Trump. Este pacto, que otorgaría ventajas comerciales a Argentina, generó expectativas de un anuncio conjunto en los próximos días.
+*   **Cumbre de la Izquierda en Chile:** La cumbre de líderes progresistas en Chile, con la participación de España, Brasil, Colombia y Uruguay, buscó fortalecer la cooperación regional frente al avance de la ultraderecha y la incertidumbre generada por las políticas de Trump.
+*   **Brasil y China:** Brasil triplicó sus exportaciones de tierras raras a China, en medio de tensiones comerciales con Estados Unidos, lo que refleja un realineamiento estratégico en el comercio global.
+
+## Tendencias
+
+1.  **Aumento del Proteccionismo Estadounidense:** La administración Trump intensificó su política proteccionista, utilizando aranceles como herramienta de presión en las negociaciones comerciales.
+2.  **Diversificación Comercial:** Ante la incertidumbre generada por las políticas de Estados Unidos, varios países de América Latina y el Caribe buscaron diversificar sus relaciones comerciales, fortaleciendo la cooperación regional y explorando nuevos mercados.
+3.  **Realineamientos Geopolíticos:** Las tensiones comerciales impulsaron realineamientos geopolíticos, con algunos países de la región acercándose a China y otros buscando fortalecer sus lazos con Estados Unidos.
+4.  **Reacción Regional:** Los países de América Latina y el Caribe adoptaron diversas estrategias para hacer frente a las políticas de Trump, desde la búsqueda de acuerdos bilaterales hasta la promoción de la cooperación regional y el multilateralismo.
+5.  **Impacto en la Gobernabilidad:** Las tensiones comerciales y la incertidumbre económica generada por las políticas de Trump exacerbaron las divisiones políticas y sociales en algunos países de la región, desafiando la gobernabilidad y la estabilidad democrática.
+
+## Implicaciones estratégicas
+
+*   **Para la región:** En el corto plazo, las políticas de Trump podrían generar volatilidad económica y financiera, afectando el crecimiento y el empleo. A mediano y largo plazo, podrían impulsar una mayor diversificación comercial y una mayor integración regional, reduciendo la dependencia de Estados Unidos.
+*   **Para Estados Unidos:** El proteccionismo de Trump podría dañar las relaciones comerciales con importantes socios, limitando el acceso a mercados y recursos clave. A largo plazo, podría erosionar el liderazgo económico y político de Estados Unidos en la región.
+*   **Para el mundo:** Las tensiones comerciales impulsadas por Trump podrían desestabilizar el sistema multilateral de comercio, generando incertidumbre y fragmentación en la economía global.
+
+## Factores clave a vigilar
+
+*   **Evolución de las negociaciones comerciales entre Estados Unidos y sus principales socios:** El resultado de estas negociaciones determinará el alcance y la duración de las tensiones comerciales.
+*   **Reacciones de los países de América Latina y el Caribe:** Las estrategias adoptadas por los países de la región para hacer frente a las políticas de Trump tendrán un impacto significativo en su desarrollo económico y político.
+*   **Dinámica de las relaciones entre Estados Unidos y China:** La evolución de las relaciones entre las dos mayores economías del mundo influirá en el panorama comercial y geopolítico global.
+*   **Impacto de las políticas de Trump en la economía estadounidense:** El desempeño de la economía estadounidense bajo las políticas de Trump influirá en su popularidad y en la viabilidad de su estrategia proteccionista.
+    </div>        
+ """, unsafe_allow_html=True)
+
+
+#### Resúmenes anteriores #################
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("Segunda semana de julio de 2025", expanded=False):
+    st.markdown("""
 
 <div class="news-text">
         <div class="div-news-description">
@@ -117,10 +166,6 @@ Durante la semana del 7 al 13 de julio de 2025, el panorama económico global es
  """, unsafe_allow_html=True)
 
 
-#### Resúmenes anteriores #################
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
 
 with st.expander("Primera semana de julio de 2025", expanded=False):
     st.markdown("""
