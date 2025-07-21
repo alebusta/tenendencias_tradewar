@@ -108,6 +108,16 @@ st.markdown(f"""
     <div class="news-grid">
   <!-- Fila 1 -->
     <div class="news-block news-text">
+        <div class="news-title">Argentina y EEUU van por un acuerdo</div>
+        <div class="news-date">Publicado el 20 de julio de 2025</div>
+        <div class="news-description">Mientras el presidente Donald Trump avanza con sus amenazas tarifarias a socios comerciales a partir del 1° de agosto, los gobiernos de la Argentina y Estados Unidos ya trabajan en una comunicación conjunta para anunciar el nuevo acuerdo arancelario entre los dos países.</div>
+        <a class="news-link" href="https://www.eltribuno.com/nacionales/2025-7-20-23-45-0-argentina-y-eeuu-van-por-un-acuerdo">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://uscdn.eltribuno.com/072025/1753065946394.webp?cw=1155&ch=650&extw=jpg"/>
+        </div>    
+  <!-- Fila 1 -->
+    <div class="news-block news-text">
         <div class="news-title">Trump exige más concesiones mientras la UE posterga las contramedidas arancelarias estadounidenses</div>
         <div class="news-date">Publicado el 13 de julio de 2025</div>
         <div class="news-description">La Unión Europea dijo el domingo que extenderá su suspensión de contramedidas a los aranceles estadounidenses hasta principios de agosto y continuará presionando para un acuerdo negociado, mientras el gobierno del presidente estadounidense Donald Trump exige más concesiones de sus socios comerciales.</div>
@@ -167,16 +177,6 @@ st.markdown(f"""
         <div class="news-date">Publicado el 6 de julio de 2025</div>
         <div class="news-description">El influyente grupo intergubernamental BRICS, que reúne a Brasil, India, Rusia, China, Sudáfrica y otros cinco países miembros, se prepara para emitir una declaración formal que critique la actual situación arancelaria de Estados Unidos.</div>
         <a class="news-link" href="https://www.msn.com/es-mx/pol%C3%ADtica/relaciones-internacionales/guerra-comercial-escalada-brics-y-otros-pa%C3%ADses-rechazan-ultim%C3%A1tum-de-aranceles-de-trump/ar-AA1I2k9U">Ver más →</a>
-        </div>
-   <!-- Fila 7 -->
-    <div class="news-block news-text">
-        <div class="news-title">México logra pequeños avances en negociaciones con Estados Unidos ante la avalancha de ataques de Trump</div>
-        <div class="news-date">Publicado el 2 de julio de 2025</div>
-        <div class="news-description">La reapertura a la exportación de ganado o el impuesto del 1% a las remesas son acuerdos concretos, pero la relación bilateral no acaba de encontrar cauces.</div>
-        <a class="news-link" href="https://elpais.com/mexico/2025-07-02/mexico-logra-pequenos-avances-en-negociaciones-con-estados-unidos-ante-la-avalancha-de-ataques-de-trump.html">Ver más →</a>
-        </div>   
-    <div class="news-block">
-        <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/EQ3R4AULWSQTVRXZM5FTU3MILE.jpg?auth=19b34b484a703038a929f87314b2de3f9533b447d195812c33ee2e8a986ffebe&width=1200"/>
         </div>
 </div>
             
