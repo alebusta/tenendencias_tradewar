@@ -107,15 +107,15 @@ st.markdown(f"""
 
     <div class="news-grid">
   <!-- Fila 1 -->
+      <div class="news-block">
+        <img class="news-image" src="https://uscdn.eltribuno.com/072025/1753065946394.webp?cw=1155&ch=650&extw=jpg"/>
+        </div> 
     <div class="news-block news-text">
         <div class="news-title">Argentina y EEUU van por un acuerdo</div>
         <div class="news-date">Publicado el 20 de julio de 2025</div>
         <div class="news-description">Mientras el presidente Donald Trump avanza con sus amenazas tarifarias a socios comerciales a partir del 1° de agosto, los gobiernos de la Argentina y Estados Unidos ya trabajan en una comunicación conjunta para anunciar el nuevo acuerdo arancelario entre los dos países.</div>
         <a class="news-link" href="https://www.eltribuno.com/nacionales/2025-7-20-23-45-0-argentina-y-eeuu-van-por-un-acuerdo">Ver más →</a>
-        </div>   
-    <div class="news-block">
-        <img class="news-image" src="https://uscdn.eltribuno.com/072025/1753065946394.webp?cw=1155&ch=650&extw=jpg"/>
-        </div>    
+        </div>      
   <!-- Fila 1 -->
     <div class="news-block news-text">
         <div class="news-title">Trump exige más concesiones mientras la UE posterga las contramedidas arancelarias estadounidenses</div>
