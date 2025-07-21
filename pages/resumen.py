@@ -42,6 +42,7 @@ if st.button("Ir a Inicio"):
 st.markdown("""
 <div class="news-text">
         <div class="div-news-description">
+        
 # Tensiones comerciales y realineamientos geopolíticos: América Latina en la mira del proteccionismo estadounidense
 
 *Semana del reporte:* 20 de julio de 2025
