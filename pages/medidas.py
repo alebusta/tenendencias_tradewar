@@ -63,6 +63,17 @@ st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 
 st.markdown("""
 ### Cronología de medidas arancelarias de EE.UU. – 2025
 
+- **16 de Julio de 2025**: Actualización de las estimaciones de ingresos y económicas para los aranceles recíprocos y una actualización sobre los aranceles de represalia de la UE.  
+- **Julio de 2025**: Actualización de las estimaciones de ingresos y económicas para los aranceles recíprocos y los aranceles del cobre de la Sección 232.  
+- **Julio de 2025**: Incluye una actualización del cronograma sobre la implementación de los aranceles recíprocos y estimaciones actualizadas de ingresos y económicas para esos aranceles.  
+- **Julio 15, 2025**: La UE publica una lista de $84 mil millones en bienes estadounidenses que enfrentarían aranceles de represalia si no se llega a un acuerdo antes del 1 de agosto.  
+- **Julio 14, 2025**: El presidente Trump amenaza a Rusia con aranceles del 100%.  
+- **Julio 12, 2025**: El presidente Trump anuncia que los aranceles recíprocos para la UE y México se fijarán en un 30% para el 1 de agosto. Esto es inferior al arancel recíproco anterior para la UE anunciado en mayo, que se había fijado en un 50%.  
+- **Julio 10, 2025**: El presidente Trump amenaza a Canadá con un arancel del 35% que entraría en vigor el 1 de agosto.  
+- **Julio 9, 2025**: La administración Trump envía cartas a 7 países más y amenaza a Brasil con un arancel del 50% que entraría en vigor el 1 de agosto.  
+- **Julio 8, 2025**: El presidente Trump anuncia que impondrá un arancel del 50% al cobre el 1 de agosto. También amenaza con un arancel del 200% a los productos farmacéuticos.  
+- **Julio 7, 2025**: El presidente anuncia que los aranceles recíprocos se retrasarían hasta el 1 de agosto. Envió cartas a 14 países, incluidos Japón y Corea del Sur, indicando los aranceles que enfrentarían si no presentaban un acuerdo comercial con los EE. UU. a fines de julio. También amenazó a los "países alineados con los BRICS" con un arancel adicional del 10%.
+
 - **Julio 2, 2025**: El presidente anunció que Estados Unidos llegó a un acuerdo con Vietnam. Se mantendrá un arancel base del **20%** sobre las importaciones de Vietnam, mientras que se impondrá un arancel del **40%** sobre cualquier transbordo. No se ha programado una fecha de entrada en vigor para el acuerdo.
 
 - **Junio 30, 2025**: Entró en vigor el acuerdo entre Estados Unidos y el Reino Unido. El arancel del **25%** sobre las importaciones de acero y aluminio del Reino Unido permanecerá en vigor.
