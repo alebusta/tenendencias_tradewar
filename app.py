@@ -107,6 +107,16 @@ st.markdown(f"""
 
     <div class="news-grid">
   <!-- Fila 1 -->
+    <div class="news-block news-text">
+        <div class="news-title">Sheinbaum y Lula acuerdan ampliar relación comercial ante aranceles de Trump</div>
+        <div class="news-date">Publicado el 24 de julio de 2025</div>
+        <div class="news-description">La presidenta mexicana y el mandatario brasileño acordaron la visita a México de una delegación de empresarios y ministros de Brasil encabezada por el vicepresidente Geraldo Alckmin, el 27 y el 28 de julio.</div>
+        <a class="news-link" href="https://www.msn.com/es-mx/noticias/mundo/sheinbaum-y-lula-acuerdan-ampliar-relaci%C3%B3n-comercial-ante-aranceles-de-trump/ar-AA1Jb3ft">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://editorial.aristeguinoticias.com/wp-content/uploads/2025/07/sheinbaum-lula-profundizar-relacion-comercial-aranceles-trump-2-23072025.jpg"/>
+        </div>    
+  <!-- Fila 2 -->
       <div class="news-block">
         <img class="news-image" src="https://uscdn.eltribuno.com/072025/1753065946394.webp?cw=1155&ch=650&extw=jpg"/>
         </div> 
@@ -116,7 +126,7 @@ st.markdown(f"""
         <div class="news-description">Mientras el presidente Donald Trump avanza con sus amenazas tarifarias a socios comerciales a partir del 1° de agosto, los gobiernos de la Argentina y Estados Unidos ya trabajan en una comunicación conjunta para anunciar el nuevo acuerdo arancelario entre los dos países.</div>
         <a class="news-link" href="https://www.eltribuno.com/nacionales/2025-7-20-23-45-0-argentina-y-eeuu-van-por-un-acuerdo">Ver más →</a>
         </div>      
-  <!-- Fila 1 -->
+  <!-- Fila 3 -->
     <div class="news-block news-text">
         <div class="news-title">Trump exige más concesiones mientras la UE posterga las contramedidas arancelarias estadounidenses</div>
         <div class="news-date">Publicado el 13 de julio de 2025</div>
@@ -126,7 +136,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Iw2m3.img?w=768&h=511&m=6&x=258&y=200&s=235&d=235"/>
         </div>    
-    <!-- Fila 2 -->
+    <!-- Fila 4 -->
     <div class="news-block">
         <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/https%3A%2F%2Fvdmedia.elpais.com%2Felpaistop%2F20257%2F10%2F1752109347_still.jpg?auth=7c953f2247295d4fd31f1a7fc92c0b8ddda6699aa6f2dc5973e5e18f1f94c0d0&width=1200&height=675&smart=true"/>
     </div>
@@ -136,7 +146,7 @@ st.markdown(f"""
         <div class="news-description">Estados Unidos impuso al país un impuesto del 50%, más que cualquier otra nación, mientras el presidente republicano califica el juicio del exlíder como una "caza de brujas".</div>
         <a class="news-link" href="https://english.elpais.com/economy-and-business/2025-07-10/brazil-responds-with-reciprocal-tariffs-to-trumps-tariff-hike-over-bolsonaro-trial.html">Ver más →</a>
         </div>
-   <!-- Fila 3 -->
+   <!-- Fila 5 -->
     <div class="news-block news-text">
         <div class="news-title">Trump promete aranceles del 50% contra Brasil, alegando una "caza de brujas" contra Bolsonaro</div>
         <div class="news-date">Publicado el 9 de julio de 2025</div>
@@ -147,7 +157,7 @@ st.markdown(f"""
         <img class="news-image" src="https://static01.nyt.com/images/2025/07/09/multimedia/09int-brazil-trump-qthb/09int-brazil-trump-qthb-superJumbo.jpg?quality=75&auto=webp"
             style="width: 100%; height: 100%; object-fit: contain;"/>
         </div>    
-    <!-- Fila 4 -->
+    <!-- Fila 6 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Ie8D5.img?w=768&h=405&m=6&x=852&y=111&s=152&d=152"/>
     </div>
@@ -157,7 +167,7 @@ st.markdown(f"""
         <div class="news-description">En abril el escenario mundial era de incertidumbre, cuando el presidente de los Estados Unidos, Donald Trump, salió a exponer acompañado de una icónica tabla en donde anunciaba aranceles generales a una lista de más de 100 países, entre los que destacaba Chile casi al final, con un arancel del 10%.</div>
         <a class="news-link" href="https://www.msn.com/es-cl/noticias/otras/lleg%C3%B3-el-d%C3%ADa-trump-anuncia-arancel-al-cobre-y-en-chile-el-sector-minero-llama-a-la-prudencia/ar-AA1Ie1XI">Ver más →</a>
         </div>
-   <!-- Fila 5 -->
+   <!-- Fila 7 -->
     <div class="news-block news-text">
         <div class="news-title">Presidente Donald Trump amenazó a 14 países con nuevos aranceles de hasta 40%</div>
         <div class="news-date">Publicado el 8 de julio de 2025</div>
@@ -168,16 +178,6 @@ st.markdown(f"""
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1IafdA.img?w=768&h=500&m=6"
             style="width: 100%; height: 100%; object-fit: contain;"/>
         </div>    
-    <!-- Fila 6 -->
-    <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1I2aFe.img?w=768&h=432&m=6"/>
-    </div>
-    <div class="news-block news-text">
-        <div class="news-title">Guerra comercial escalada: BRICS y otros países rechazan ultimátum de aranceles de Trump</div>
-        <div class="news-date">Publicado el 6 de julio de 2025</div>
-        <div class="news-description">El influyente grupo intergubernamental BRICS, que reúne a Brasil, India, Rusia, China, Sudáfrica y otros cinco países miembros, se prepara para emitir una declaración formal que critique la actual situación arancelaria de Estados Unidos.</div>
-        <a class="news-link" href="https://www.msn.com/es-mx/pol%C3%ADtica/relaciones-internacionales/guerra-comercial-escalada-brics-y-otros-pa%C3%ADses-rechazan-ultim%C3%A1tum-de-aranceles-de-trump/ar-AA1I2k9U">Ver más →</a>
-        </div>
 </div>
             
 """, unsafe_allow_html=True)
