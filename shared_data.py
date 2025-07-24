@@ -11,7 +11,7 @@ def load_data_from_drive():
       # ID del archivo en Google Drive (extraído del enlace compartido)
       file_id = '1C5w6w3u-pFKv3-l7iLAGhphyO9nn4Xmc'
       url = f'https://drive.google.com/uc?id={file_id}'      
-      df = pd.read_csv(url, encoding='utf-8')
+      df = pd.read_csv(url)
       return df
 
     except Exception as e:
