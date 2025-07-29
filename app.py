@@ -107,6 +107,16 @@ st.markdown(f"""
 
     <div class="news-grid">
   <!-- Fila 1 -->
+      <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Ji4JX.img?w=768&h=432&m=6&x=118&y=223&s=866&d=96"/>
+        </div> 
+    <div class="news-block news-text">
+        <div class="news-title">Trump y la UE logran acuerdo arancelario; incluye tarifa del 15% a productos europeos</div>
+        <div class="news-date">Publicado el 27 de julio de 2025</div>
+        <div class="news-description">Trump dijo que EE.UU. y la UE acordaron un arancel del 15% a productos de la UE y compras significativas de energía y equipo militar de EE.UU.</div>
+        <a class="news-link" href="https://www.msn.com/es-mx/noticias/mundo/trump-y-la-ue-logran-acuerdo-arancelario-incluye-tarifa-del-15-a-productos-europeos/ar-AA1JofjO">Ver más →</a>
+        </div>      
+  <!-- Fila 2 -->
     <div class="news-block news-text">
         <div class="news-title">Sheinbaum y Lula acuerdan ampliar relación comercial ante aranceles de Trump</div>
         <div class="news-date">Publicado el 24 de julio de 2025</div>
@@ -116,7 +126,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://editorial.aristeguinoticias.com/wp-content/uploads/2025/07/sheinbaum-lula-profundizar-relacion-comercial-aranceles-trump-2-23072025.jpg"/>
         </div>    
-  <!-- Fila 2 -->
+  <!-- Fila 3 -->
       <div class="news-block">
         <img class="news-image" src="https://uscdn.eltribuno.com/072025/1753065946394.webp?cw=1155&ch=650&extw=jpg"/>
         </div> 
@@ -126,7 +136,7 @@ st.markdown(f"""
         <div class="news-description">Mientras el presidente Donald Trump avanza con sus amenazas tarifarias a socios comerciales a partir del 1° de agosto, los gobiernos de la Argentina y Estados Unidos ya trabajan en una comunicación conjunta para anunciar el nuevo acuerdo arancelario entre los dos países.</div>
         <a class="news-link" href="https://www.eltribuno.com/nacionales/2025-7-20-23-45-0-argentina-y-eeuu-van-por-un-acuerdo">Ver más →</a>
         </div>      
-  <!-- Fila 3 -->
+  <!-- Fila 4 -->
     <div class="news-block news-text">
         <div class="news-title">Trump exige más concesiones mientras la UE posterga las contramedidas arancelarias estadounidenses</div>
         <div class="news-date">Publicado el 13 de julio de 2025</div>
@@ -136,7 +146,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Iw2m3.img?w=768&h=511&m=6&x=258&y=200&s=235&d=235"/>
         </div>    
-    <!-- Fila 4 -->
+    <!-- Fila 5 -->
     <div class="news-block">
         <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/https%3A%2F%2Fvdmedia.elpais.com%2Felpaistop%2F20257%2F10%2F1752109347_still.jpg?auth=7c953f2247295d4fd31f1a7fc92c0b8ddda6699aa6f2dc5973e5e18f1f94c0d0&width=1200&height=675&smart=true"/>
     </div>
@@ -146,7 +156,7 @@ st.markdown(f"""
         <div class="news-description">Estados Unidos impuso al país un impuesto del 50%, más que cualquier otra nación, mientras el presidente republicano califica el juicio del exlíder como una "caza de brujas".</div>
         <a class="news-link" href="https://english.elpais.com/economy-and-business/2025-07-10/brazil-responds-with-reciprocal-tariffs-to-trumps-tariff-hike-over-bolsonaro-trial.html">Ver más →</a>
         </div>
-   <!-- Fila 5 -->
+   <!-- Fila 6 -->
     <div class="news-block news-text">
         <div class="news-title">Trump promete aranceles del 50% contra Brasil, alegando una "caza de brujas" contra Bolsonaro</div>
         <div class="news-date">Publicado el 9 de julio de 2025</div>
@@ -157,7 +167,7 @@ st.markdown(f"""
         <img class="news-image" src="https://static01.nyt.com/images/2025/07/09/multimedia/09int-brazil-trump-qthb/09int-brazil-trump-qthb-superJumbo.jpg?quality=75&auto=webp"
             style="width: 100%; height: 100%; object-fit: contain;"/>
         </div>    
-    <!-- Fila 6 -->
+    <!-- Fila 7 -->
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Ie8D5.img?w=768&h=405&m=6&x=852&y=111&s=152&d=152"/>
     </div>
@@ -167,17 +177,6 @@ st.markdown(f"""
         <div class="news-description">En abril el escenario mundial era de incertidumbre, cuando el presidente de los Estados Unidos, Donald Trump, salió a exponer acompañado de una icónica tabla en donde anunciaba aranceles generales a una lista de más de 100 países, entre los que destacaba Chile casi al final, con un arancel del 10%.</div>
         <a class="news-link" href="https://www.msn.com/es-cl/noticias/otras/lleg%C3%B3-el-d%C3%ADa-trump-anuncia-arancel-al-cobre-y-en-chile-el-sector-minero-llama-a-la-prudencia/ar-AA1Ie1XI">Ver más →</a>
         </div>
-   <!-- Fila 7 -->
-    <div class="news-block news-text">
-        <div class="news-title">Presidente Donald Trump amenazó a 14 países con nuevos aranceles de hasta 40%</div>
-        <div class="news-date">Publicado el 8 de julio de 2025</div>
-        <div class="news-description">Trump anunció nuevos aranceles de hasta 40% para 12 países, entre ellos Japón, Corea del Sur, Sudáfrica y varios miembros del sudeste asiático.</div>
-        <a class="news-link" href="https://www.msn.com/es-co/noticias/other/presidente-donald-trump-amenaz%C3%B3-a-14-pa%C3%ADses-con-nuevos-aranceles-de-hasta-40/ar-AA1IacUS">Ver más →</a>
-        </div>   
-    <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1IafdA.img?w=768&h=500&m=6"
-            style="width: 100%; height: 100%; object-fit: contain;"/>
-        </div>    
 </div>
             
 """, unsafe_allow_html=True)
