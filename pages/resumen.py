@@ -43,6 +43,53 @@ st.markdown("""
 <div class="news-text">
         <div class="div-news-description">
         
+# Reconfiguración del Comercio Global: La Era de los Aranceles de Trump y las Reacciones Regionales
+
+*Semana del reporte: 2025-07-27*
+
+## Diagnóstico
+
+Durante la semana analizada, la administración Trump ha mantenido una postura agresiva en materia de política comercial, impactando significativamente las relaciones económicas a nivel global y regional. Los principales hechos noticiosos giran en torno a la imposición de aranceles y las negociaciones bilaterales llevadas a cabo por Estados Unidos con diversos países y bloques económicos.
+
+*   **Acuerdo arancelario con la Unión Europea (UE):** Tras intensas negociaciones, Trump y la presidenta de la Comisión Europea, Ursula von der Leyen, alcanzaron un acuerdo que establece un arancel del 15% para la mayoría de los productos europeos importados a Estados Unidos. A cambio, la UE se compromete a comprar energía estadounidense por valor de 750.000 millones de dólares e invertir 600.000 millones de dólares adicionales en Estados Unidos. Este acuerdo, aunque menor al arancel del 30% inicialmente amenazado, genera incertidumbre y presión sobre las empresas europeas.
+*   **Negociaciones comerciales con China:** Altos funcionarios de Estados Unidos y China se reunieron en Estocolmo para abordar las disputas económicas en el centro de la guerra comercial entre ambos países. El objetivo es extender una tregua que mantenga a raya unos aranceles más altos. Se especula sobre una posible reunión entre Trump y Xi a finales de octubre.
+*   **Aranceles a Brasil:** Trump ha amenazado con imponer un arancel del 50% a las importaciones procedentes de Brasil a partir del 1 de agosto, argumentando una supuesta persecución judicial contra el expresidente Jair Bolsonaro. Esta medida ha generado fuertes críticas por parte del gobierno brasileño, que la considera una injerencia en sus asuntos internos.
+*   **Reacciones de los países de Latinoamérica y el Caribe:** Ante la política arancelaria de Trump, varios países de la región están buscando alternativas para diversificar sus mercados y reducir su dependencia de Estados Unidos. Brasil ha manifestado su intención de fortalecer sus lazos con los BRICS y otros socios comerciales. México está apostando por incrementar su mercado interno y diversificar sus exportaciones. Honduras ve una oportunidad en los aranceles al café brasileño para aumentar su presencia en el mercado estadounidense. Chile busca mantener la exención actual del 10% para el cobre y defender el Tratado de Libre Comercio vigente con Estados Unidos.
+*   **Acuerdo bilateral entre Argentina y Estados Unidos:** Se vislumbra un posible acuerdo bilateral entre Argentina y Estados Unidos que permitiría que algunos productos mendocinos queden exentos de los aranceles.
+
+## Tendencias
+
+1.  **Proteccionismo estadounidense:** La administración Trump continúa implementando políticas proteccionistas a través de la imposición de aranceles y la renegociación de acuerdos comerciales.
+2.  **Negociaciones bilaterales:** Estados Unidos prefiere las negociaciones bilaterales a los acuerdos multilaterales, buscando obtener condiciones más favorables para sus intereses.
+3.  **Diversificación de mercados:** Los países de Latinoamérica y el Caribe están buscando diversificar sus mercados y reducir su dependencia de Estados Unidos ante la incertidumbre generada por su política comercial.
+4.  **Fortalecimiento de alianzas regionales:** Algunos países de la región están fortaleciendo sus lazos con otros socios comerciales, como China y los BRICS, como contrapeso a la influencia de Estados Unidos.
+5.  **Impacto en la economía global:** La política arancelaria de Trump está generando incertidumbre y volatilidad en los mercados financieros, afectando el comercio internacional y el crecimiento económico global.
+
+## Implicaciones estratégicas
+
+*   **Para la región:** La política arancelaria de Trump podría generar una desaceleración económica en la región, especialmente para aquellos países que dependen en gran medida del comercio con Estados Unidos. Sin embargo, también podría impulsar la diversificación de mercados y el fortalecimiento de alianzas regionales.
+*   **Para Estados Unidos:** Si bien la administración Trump busca proteger sus industrias y reducir su déficit comercial, la imposición de aranceles podría generar un aumento de los precios para los consumidores estadounidenses y afectar la competitividad de sus empresas.
+*   **Para el mundo:** La política comercial de Trump está generando tensiones geopolíticas y poniendo en riesgo el sistema multilateral de comercio. Esto podría llevar a una fragmentación de la economía global y a un aumento de la incertidumbre.
+
+## Factores clave a vigilar
+
+*   **Evolución de las negociaciones comerciales entre Estados Unidos y China:** El resultado de estas negociaciones tendrá un impacto significativo en la economía global y en las relaciones comerciales entre Estados Unidos y Latinoamérica.
+*   **Implementación de los aranceles a Brasil:** La imposición de estos aranceles podría generar una fuerte reacción por parte del gobierno brasileño y afectar el comercio entre ambos países.
+*   **Reacciones de los países de Latinoamérica y el Caribe:** Es importante observar cómo los países de la región están respondiendo a la política arancelaria de Trump y qué medidas están tomando para mitigar su impacto.
+*   **Decisiones de la Reserva Federal (FED):** Las decisiones de la FED sobre las tasas de interés tendrán un impacto en el valor del dólar y en la economía global.
+
+ """, unsafe_allow_html=True)
+
+
+#### Resúmenes anteriores #################
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("Segunda tercera semana de julio de 2025", expanded=False):
+    st.markdown("""
+
+        
 # Tensiones comerciales y realineamientos geopolíticos: América Latina en la mira del proteccionismo estadounidense
 
 *Semana del reporte:* 20 de julio de 2025
@@ -82,11 +129,6 @@ Durante la semana terminada el 20 de julio de 2025, el panorama noticioso estuvo
     </div>        
  """, unsafe_allow_html=True)
 
-
-#### Resúmenes anteriores #################
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
 
 with st.expander("Segunda semana de julio de 2025", expanded=False):
     st.markdown("""
