@@ -43,6 +43,100 @@ st.markdown("""
 <div class="news-text">
         <div class="div-news-description">
         
+# Tensiones comerciales globales y realineamientos regionales: El impacto de la política arancelaria de Trump
+
+*Semana del reporte*: Semana del 4 al 10 de agosto de 2025
+
+## Diagnóstico
+
+Durante la semana del 4 al 10 de agosto de 2025, la administración Trump intensificó su política comercial proteccionista, generando una onda expansiva de tensiones y realineamientos en el comercio global. La imposición de nuevos aranceles a una amplia gama de países, incluyendo a varios en América Latina y el Caribe, así como a potencias económicas como China e India, dominó el panorama noticioso.
+
+Un hecho central fue la entrada en vigor de los nuevos aranceles de Estados Unidos el 7 de agosto, afectando a más de 90 países con tasas que oscilan entre el 10% y el 50%. Esta medida, justificada por Trump como una forma de reducir el déficit comercial y fomentar la inversión en Estados Unidos, provocó reacciones inmediatas y diversas estrategias de respuesta por parte de los países afectados.
+
+En América Latina, Argentina logró mantener un arancel base del 10% tras negociaciones con Washington, mientras que otros países como Brasil enfrentaron un arancel del 50%. Esta disparidad generó expectativas y movimientos estratégicos en la región. Por ejemplo, empresas brasileñas como Minerva comenzaron a considerar el uso de sus filiales argentinas para evitar los altos aranceles en Estados Unidos.
+
+La respuesta de los países afectados no se limitó a la adaptación individual. Brasil e India, dos de los países más perjudicados por los aranceles de Trump, buscaron fortalecer sus lazos bilaterales y defender el multilateralismo. Sus líderes acordaron profundizar la cooperación en áreas como defensa, energía y minerales críticos.
+
+En el frente global, las tensiones comerciales entre Estados Unidos y China continuaron siendo un punto focal. Aunque se había acordado una tregua arancelaria que expiraba el 12 de agosto, Trump amenazó con imponer aranceles adicionales a China por sus compras de petróleo ruso, similar a las medidas tomadas contra India. Esta situación generó incertidumbre y llevó a China a buscar alternativas comerciales en otras regiones, como América Latina, África y el Sudeste Asiático.
+
+En cuanto a las reacciones de los países de la región, Ecuador recibió "con algo de sorpresa" el aumento de aranceles por parte de EE.UU., mientras que República Dominicana continuó negociando con Washington para lograr una reducción.
+
+## Tendencias
+
+1.  **Escalada del proteccionismo estadounidense:** La administración Trump continuó implementando una política comercial agresiva basada en la imposición de aranceles, generando tensiones con sus socios comerciales.
+2.  **Realineamientos comerciales regionales:** Los países afectados por los aranceles de Estados Unidos buscaron diversificar sus mercados y fortalecer sus lazos con otras regiones, como China y América Latina.
+3.  **Impacto diferenciado en América Latina:** La política arancelaria de Trump tuvo un impacto desigual en los países de la región, generando ganadores y perdedores y fomentando estrategias de adaptación y cooperación.
+4.  **Aumento de la incertidumbre económica:** La volatilidad de la política comercial de Trump generó incertidumbre en los mercados y dificultó la planificación a largo plazo para las empresas.
+5.  **Desafío al multilateralismo:** La política comercial de Trump, basada en acuerdos bilaterales y la imposición unilateral de aranceles, desafió el sistema multilateral de comercio y la Organización Mundial del Comercio (OMC).
+
+## Implicaciones estratégicas
+
+*   **Para la región:** En el corto plazo, los países de América Latina y el Caribe enfrentan el desafío de adaptarse a los nuevos aranceles y buscar alternativas comerciales. A mediano y largo plazo, la región podría beneficiarse de la diversificación de sus mercados y el fortalecimiento de sus lazos con China y otras economías emergentes.
+*   **Para Estados Unidos:** En el corto plazo, la administración Trump podría obtener algunos beneficios políticos al mostrarse como defensora de los intereses estadounidenses. Sin embargo, a mediano y largo plazo, la política arancelaria podría dañar la competitividad de las empresas estadounidenses, aumentar los precios para los consumidores y aislar a Estados Unidos del sistema multilateral de comercio.
+*   **Para el mundo:** La intensificación de las tensiones comerciales podría ralentizar el crecimiento económico global y generar una mayor fragmentación del sistema internacional.
+
+## Factores clave a vigilar
+
+*   **Evolución de las negociaciones comerciales entre Estados Unidos y China:** El resultado de estas negociaciones tendrá un impacto significativo en el comercio global y en las estrategias de los países de América Latina y el Caribe.
+*   **Reacciones de la OMC:** La respuesta de la OMC a la política arancelaria de Trump podría determinar el futuro del sistema multilateral de comercio.
+*   **Impacto de los aranceles en la inflación y el crecimiento económico:** Es importante monitorear cómo los aranceles afectan los precios al consumidor y el crecimiento económico en Estados Unidos y en los países afectados.
+*   **Estrategias de adaptación de los países de América Latina y el Caribe:** Es clave observar cómo los países de la región responden a los nuevos aranceles y cómo buscan diversificar sus mercados y fortalecer sus lazos con otras regiones.
+
+
+ """, unsafe_allow_html=True)
+
+
+#### Resúmenes anteriores #################
+
+st.markdown("""---""")	
+st.header("Resúmenes anteriores")
+
+with st.expander("Cuarta semana de julio de 2025", expanded=False):
+    st.markdown("""
+
+# Tensiones comerciales y repercusiones regionales: Implicancias del nuevo proteccionismo estadounidense
+
+*Semana del reporte*: Primera semana de agosto de 2025
+
+## Diagnóstico
+
+Durante la primera semana de agosto de 2025, la administración Trump intensificó su política comercial proteccionista, generando una onda expansiva de consecuencias económicas a nivel global y regional. El principal hecho noticioso fue la implementación de nuevos aranceles a una amplia gama de países, justificada bajo el argumento de abordar el déficit comercial estadounidense y proteger su seguridad nacional.
+
+*   **Imposición de Aranceles:** El 1 de agosto, se materializó la amenaza de Trump de imponer aranceles a más de 70 países, aunque la entrada en vigor se retrasó hasta el 7 de agosto. Estos aranceles, que oscilan entre el 10% y el 41%, afectaron a socios comerciales clave de Estados Unidos, incluyendo a varios países de América Latina y el Caribe.
+*   **Reacciones Regionales:** La imposición de aranceles generó diversas reacciones en la región. Algunos países, como Argentina, expresaron conformidad con el nivel de aranceles impuestos (10%), vinculándolo a las buenas relaciones bilaterales con la administración Trump. Otros, como Costa Rica, vieron incrementados sus aranceles del 10% al 15%, generando preocupación en sectores exportadores clave.
+*   **Negociaciones y Prórrogas:** México logró una prórroga de 90 días para evitar la imposición de aranceles adicionales, tras una conversación entre la presidenta Claudia Sheinbaum y Donald Trump. Sin embargo, se mantuvieron los aranceles existentes sobre productos como el fentanilo, automóviles y acero.
+*   **Impacto Sectorial:** Se observó un impacto diferenciado por sectores. El café brasileño, por ejemplo, enfrentó un arancel del 50%, lo que podría reconfigurar el comercio mundial de este producto, beneficiando a China y a la Unión Europea. El cobre peruano también se vio afectado por un arancel del 50%, aunque el gobierno peruano minimizó el impacto, argumentando que Estados Unidos no es su principal mercado para este metal.
+*   **Tensiones Geopolíticas:** La política arancelaria de Trump también se entrelazó con consideraciones geopolíticas. Brasil fue castigado con un arancel del 50% debido al juicio contra el expresidente Jair Bolsonaro, mientras que Canadá enfrentó aranceles más altos por su supuesta falta de cooperación en la lucha contra el tráfico de fentanilo y por su apoyo a la estadidad palestina.
+*   **Reacciones Globales:** La imposición de aranceles generó inquietud en la comunidad internacional. La Unión Europea expresó su decepción, aunque logró negociar un arancel del 15% para la mayoría de sus productos. China, por su parte, mantuvo conversaciones con Estados Unidos para evitar una escalada en la guerra comercial.
+
+## Tendencias
+
+1.  **Fragmentación del Comercio Global:** La imposición de aranceles por parte de Estados Unidos está fragmentando el comercio global, impulsando la búsqueda de acuerdos bilaterales y regionales.
+2.  **Utilización de Aranceles como Herramienta Política:** La administración Trump está utilizando los aranceles como un instrumento de presión política, buscando influir en las políticas internas de otros países.
+3.  **Reconfiguración de las Cadenas de Suministro:** Los aranceles están obligando a las empresas a reevaluar sus cadenas de suministro, buscando proveedores alternativos y relocalizando la producción.
+4.  **Aumento de la Incertidumbre Económica:** La política comercial proteccionista de Estados Unidos está generando incertidumbre económica a nivel global, afectando las decisiones de inversión y el crecimiento económico.
+5.  **Descontento y Potencial Retaliación:** Las medidas arancelarias de Trump están generando descontento entre sus socios comerciales, aumentando el riesgo de represalias y de una escalada en las tensiones comerciales.
+
+## Implicaciones estratégicas
+
+*   **Para la Región:** En el corto plazo, los aranceles podrían afectar negativamente las exportaciones de algunos países de América Latina y el Caribe, especialmente aquellos que no han logrado acuerdos comerciales favorables con Estados Unidos. A mediano y largo plazo, la región podría verse obligada a diversificar sus mercados y a fortalecer la integración regional para reducir su dependencia de Estados Unidos.
+*   **Para Estados Unidos:** En el corto plazo, los aranceles podrían generar ingresos adicionales para el gobierno estadounidense y proteger a algunas industrias nacionales. Sin embargo, a mediano y largo plazo, podrían aumentar los precios para los consumidores, afectar la competitividad de las empresas estadounidenses y dañar las relaciones comerciales con sus socios.
+*   **Para el Mundo:** La política comercial proteccionista de Estados Unidos podría debilitar el sistema multilateral de comercio, basado en la Organización Mundial del Comercio (OMC), y fomentar la fragmentación del comercio global. Esto podría generar ineficiencias económicas y aumentar el riesgo de conflictos comerciales.
+
+## Factores clave a vigilar
+
+*   **Evolución de las negociaciones comerciales entre Estados Unidos y sus principales socios comerciales:** Es clave observar si Estados Unidos logra alcanzar acuerdos comerciales que permitan reducir las tensiones y evitar una escalada en la guerra comercial.
+*   **Reacciones de los países afectados por los aranceles:** Es importante monitorear si los países afectados por los aranceles adoptan medidas de represalia y si presentan denuncias ante la OMC.
+*   **Impacto de los aranceles en la economía estadounidense:** Es fundamental evaluar si los aranceles generan inflación, afectan el crecimiento económico y perjudican a los consumidores y a las empresas estadounidenses.
+*   **Integración regional en América Latina y el Caribe:** Es clave observar si los países de la región logran fortalecer la integración regional para hacer frente a los desafíos del nuevo proteccionismo estadounidense.
+
+
+
+     """, unsafe_allow_html=True)
+
+with st.expander("Cuarta semana de julio de 2025", expanded=False):
+    st.markdown("""
+    
 # Reconfiguración del Comercio Global: La Era de los Aranceles de Trump y las Reacciones Regionales
 
 *Semana del reporte: 2025-07-27*
@@ -80,13 +174,7 @@ Durante la semana analizada, la administración Trump ha mantenido una postura a
 
  """, unsafe_allow_html=True)
 
-
-#### Resúmenes anteriores #################
-
-st.markdown("""---""")	
-st.header("Resúmenes anteriores")
-
-with st.expander("Segunda tercera semana de julio de 2025", expanded=False):
+with st.expander("Tercera semana de julio de 2025", expanded=False):
     st.markdown("""
 
         
@@ -1094,3 +1182,4 @@ with col2:
     st.markdown('<p class="small-text"> </p>', unsafe_allow_html=True)
 with col3:
     st.markdown('<p class="small-text">©2025 Cepal Lab</p>', unsafe_allow_html=True)
+
