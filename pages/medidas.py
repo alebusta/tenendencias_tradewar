@@ -63,6 +63,13 @@ st.markdown("<h1 style='font-family: Georgia; font-weight: bold; margin-bottom: 
 st.markdown("""
 ### Cronología de medidas arancelarias de EE.UU. – 2025
 
+- **7 ago 2025 – EE. UU.**: Entran en vigor los aranceles globales de EE. UU.  
+- **6 ago 2025 – EE. UU.**: Donald Trump anuncia un arancel del **100 %** sobre los chips no fabricados en EE. UU.  
+- **6 ago 2025 – EE. UU.**: EE. UU. aumentará los aranceles a la India debido a sus compras de petróleo ruso.  
+- **31 jul 2025 – EE. UU.**: Donald Trump impone nuevos aranceles a decenas de socios comerciales, vigentes desde el 7 de agosto.  
+- **30 jul 2025 – EE. UU.**: Donald Trump anuncia que las importaciones de India estarán sujetas a un **arancel del 25 %** a partir del 1 de agosto.  
+- **27 jul 2025 – EE. UU./UE**: EE. UU. y la UE alcanzan un acuerdo arancelario que aplicará un arancel estadounidense del **15 %** a la mayoría de las importaciones del bloque.  
+- **22 jul 2025 – EE. UU./Japón**: EE. UU. acuerda un pacto comercial con Japón que impondrá aranceles del **15 %** a los bienes importados a EE. UU.  
 - **16 de Julio de 2025**: Actualización de las estimaciones de ingresos y económicas para los aranceles recíprocos y una actualización sobre los aranceles de represalia de la UE.  
 - **Julio de 2025**: Actualización de las estimaciones de ingresos y económicas para los aranceles recíprocos y los aranceles del cobre de la Sección 232.  
 - **Julio de 2025**: Incluye una actualización del cronograma sobre la implementación de los aranceles recíprocos y estimaciones actualizadas de ingresos y económicas para esos aranceles.  
@@ -208,3 +215,4 @@ st.markdown("""
 © 2025 CEPAL Lab.
 </div>
 """, unsafe_allow_html=True)
+
