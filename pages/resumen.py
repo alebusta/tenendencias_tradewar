@@ -91,7 +91,7 @@ En cuanto a las reacciones de los países de la región, Ecuador recibió "con a
 st.markdown("""---""")	
 st.header("Resúmenes anteriores")
 
-with st.expander("Cuarta semana de julio de 2025", expanded=False):
+with st.expander("Primera semana de julio de 2025", expanded=False):
     st.markdown("""
 
 # Tensiones comerciales y repercusiones regionales: Implicancias del nuevo proteccionismo estadounidense
@@ -1182,4 +1182,5 @@ with col2:
     st.markdown('<p class="small-text"> </p>', unsafe_allow_html=True)
 with col3:
     st.markdown('<p class="small-text">©2025 Cepal Lab</p>', unsafe_allow_html=True)
+
 
