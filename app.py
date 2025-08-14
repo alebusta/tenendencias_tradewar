@@ -222,7 +222,7 @@ with col3:
 
 
 st.header("💬 Asistente IA")
-st.write("Asistente conversacional basado en inteligencia artificial para hacer consultas a la base de datos de noticias")
+st.write("Asistente conversacional basado en inteligencia artificial para hacer consultas a la base de datos de noticias (últimos siete días")
 
 with st.expander("Haz clic aquí para abrir"):
     with open('noticias.json', 'r', encoding='utf-8') as file:
@@ -246,6 +246,7 @@ de hacer cualquier cita de estos datos.*
 
 """)
 st.markdown('<p class="small-text" text-center="right">©2025 Cepal Lab - versión demo v0.1.0</p>', unsafe_allow_html=True)
+
 
 
 
