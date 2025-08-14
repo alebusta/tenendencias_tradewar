@@ -108,6 +108,26 @@ st.markdown(f"""
     <div class="news-grid">
   <!-- Fila 1 -->
       <div class="news-block">
+        <img class="news-image" src="https://efeagro.com/wp-content/uploads/2025/03/USA1262-ARCHIVO-EEUU-GUERRA-COMERCIAL.jpg"/>
+        </div> 
+    <div class="news-block news-text">
+        <div class="news-title">Brasil anuncia un paquete de apoyo a los sectores afectados por los aranceles</div>
+        <div class="news-date">Publicado el 14 de agosto de 2025</div>
+        <div class="news-description">El Gobierno brasileño anunció este miércoles un paquete de ayuda a los sectores afectados por los aranceles decretados por el presidente de EE.UU., Donald Trump, que incluye créditos por 30.000 millones de reales (5.555 millones de dólares o 4.761 millones de euros).</div>
+        <a class="news-link" href="https://efeagro.com/brasil-ayuda-sectores-afectados-aranceles/">Ver más →</a>
+        </div>      
+  <!-- Fila 2 -->
+    <div class="news-block news-text">
+        <div class="news-title">India y China buscan reanudar el comercio fronterizo tras cinco años de separación</div>
+        <div class="news-date">Publicado el 14 de agosto de 2025</div>
+        <div class="news-description">India y China están discutiendo reanudar el comercio fronterizo cinco años después de que se suspendió, dijeron funcionarios del Ministerio de Relaciones Exteriores de ambos lados, mientras los aranceles estadounidenses alteran el orden comercial global.</div>
+        <a class="news-link" href="https://www.msn.com/en-ae/money/news/india-and-china-eye-border-trade-resumption-after-5-year-gap/ar-AA1Kvu2c">Ver más →</a>
+        </div>   
+    <div class="news-block">
+        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Kvmxk.img?w=768&h=580&m=6&x=677&y=253&s=103&d=103"/>
+        </div>    
+  <!-- Fila 3 -->
+      <div class="news-block">
         <img class="news-image" src="https://cassette.sphdigital.com.sg/image/businesstimes/baf4470a0ccaf6aba4590d1aee39cede9b603e97501f5d0f3d285975bff450d1?w=1520&f=webp"/>
         </div> 
     <div class="news-block news-text">
@@ -116,7 +136,7 @@ st.markdown(f"""
         <div class="news-description">La nación asiática está intensificando las exportaciones raras de aceite de soja, ya que los consumidores nacionales reducen las visitas a restaurantes y la creciente demanda mundial de biodiésel hace que los precios sean lo suficientemente atractivos como para enviarlo al extranjero</div>
         <a class="news-link" href="https://www.businesstimes.com.sg/companies-markets/energy-commodities/china-reshuffles-soy-trade-counter-local-glut-and-us-tensions">Ver más →</a>
         </div>  
-  <!-- Fila 2 -->
+  <!-- Fila 4 -->
     <div class="news-block news-text">
         <div class="news-title">¿Qué cambia con los aranceles de Trump y a qué países afecta?</div>
         <div class="news-date">Publicado el 01 de agosto de 2025</div>
@@ -126,7 +146,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1JKnMO.img?w=768&h=512&m=6&x=414&y=137&s=102&d=102"/>
         </div>    
-  <!-- Fila 3 -->
+  <!-- Fila 5 -->
       <div class="news-block">
         <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Ji4JX.img?w=768&h=432&m=6&x=118&y=223&s=866&d=96"/>
         </div> 
@@ -136,7 +156,7 @@ st.markdown(f"""
         <div class="news-description">Trump dijo que EE.UU. y la UE acordaron un arancel del 15% a productos de la UE y compras significativas de energía y equipo militar de EE.UU.</div>
         <a class="news-link" href="https://www.msn.com/es-mx/noticias/mundo/trump-y-la-ue-logran-acuerdo-arancelario-incluye-tarifa-del-15-a-productos-europeos/ar-AA1JofjO">Ver más →</a>
         </div>      
-  <!-- Fila 4 -->
+  <!-- Fila 6 -->
     <div class="news-block news-text">
         <div class="news-title">Sheinbaum y Lula acuerdan ampliar relación comercial ante aranceles de Trump</div>
         <div class="news-date">Publicado el 24 de julio de 2025</div>
@@ -146,7 +166,7 @@ st.markdown(f"""
     <div class="news-block">
         <img class="news-image" src="https://editorial.aristeguinoticias.com/wp-content/uploads/2025/07/sheinbaum-lula-profundizar-relacion-comercial-aranceles-trump-2-23072025.jpg"/>
         </div>    
-  <!-- Fila 5 -->
+  <!-- Fila 7 -->
       <div class="news-block">
         <img class="news-image" src="https://uscdn.eltribuno.com/072025/1753065946394.webp?cw=1155&ch=650&extw=jpg"/>
         </div> 
@@ -156,26 +176,6 @@ st.markdown(f"""
         <div class="news-description">Mientras el presidente Donald Trump avanza con sus amenazas tarifarias a socios comerciales a partir del 1° de agosto, los gobiernos de la Argentina y Estados Unidos ya trabajan en una comunicación conjunta para anunciar el nuevo acuerdo arancelario entre los dos países.</div>
         <a class="news-link" href="https://www.eltribuno.com/nacionales/2025-7-20-23-45-0-argentina-y-eeuu-van-por-un-acuerdo">Ver más →</a>
         </div>      
-  <!-- Fila 6 -->
-    <div class="news-block news-text">
-        <div class="news-title">Trump exige más concesiones mientras la UE posterga las contramedidas arancelarias estadounidenses</div>
-        <div class="news-date">Publicado el 13 de julio de 2025</div>
-        <div class="news-description">La Unión Europea dijo el domingo que extenderá su suspensión de contramedidas a los aranceles estadounidenses hasta principios de agosto y continuará presionando para un acuerdo negociado, mientras el gobierno del presidente estadounidense Donald Trump exige más concesiones de sus socios comerciales.</div>
-        <a class="news-link" href="https://www.msn.com/en-gb/news/world/trump-demands-more-concessions-as-eu-holds-off-on-us-tariff-countermeasures/ar-AA1IwGs7">Ver más →</a>
-        </div>   
-    <div class="news-block">
-        <img class="news-image" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Iw2m3.img?w=768&h=511&m=6&x=258&y=200&s=235&d=235"/>
-        </div>    
-    <!-- Fila 7 -->
-    <div class="news-block">
-        <img class="news-image" src="https://imagenes.elpais.com/resizer/v2/https%3A%2F%2Fvdmedia.elpais.com%2Felpaistop%2F20257%2F10%2F1752109347_still.jpg?auth=7c953f2247295d4fd31f1a7fc92c0b8ddda6699aa6f2dc5973e5e18f1f94c0d0&width=1200&height=675&smart=true"/>
-    </div>
-    <div class="news-block news-text">
-        <div class="news-title">Brasil responde con aranceles recíprocos al alza de aranceles de Trump por el juicio a Bolsonaro</div>
-        <div class="news-date">Publicado el 10 de julio de 2025</div>
-        <div class="news-description">Estados Unidos impuso al país un impuesto del 50%, más que cualquier otra nación, mientras el presidente republicano califica el juicio del exlíder como una "caza de brujas".</div>
-        <a class="news-link" href="https://english.elpais.com/economy-and-business/2025-07-10/brazil-responds-with-reciprocal-tariffs-to-trumps-tariff-hike-over-bolsonaro-trial.html">Ver más →</a>
-        </div>
 </div>
             
 """, unsafe_allow_html=True)
@@ -246,5 +246,6 @@ de hacer cualquier cita de estos datos.*
 
 """)
 st.markdown('<p class="small-text" text-center="right">©2025 Cepal Lab - versión demo v0.1.0</p>', unsafe_allow_html=True)
+
 
 
