@@ -10,8 +10,8 @@
             align-items: center;
             padding: 0 5%;
             gap: 20px;
-            height: 600px;
-            width: 90%;
+            height: 500px;
+            width: 100%;
             border-bottom: 1px solid white;
         }
         
@@ -306,5 +306,6 @@
                     transform: translateX(-100%);
                 }
             }
+
 
 
