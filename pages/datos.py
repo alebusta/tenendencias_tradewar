@@ -281,5 +281,6 @@ st.markdown("---")
 st.markdown("""
 
 """)
-st.markdown('<p class="small-text">©2025 Cepal Lab</p>', unsafe_allow_html=True)
+st.markdown('<p class="small-text">©2025 Lab</p>', unsafe_allow_html=True)
+
 
