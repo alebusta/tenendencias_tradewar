@@ -230,7 +230,7 @@ with st.expander("Haz clic aquí para abrir"):
 
     news_chatbot_component(
         news_data=data,
-        title="Asistente de Noticias CEPAL",
+        title="Asistente de Noticias",
         height=400
     )
 
@@ -246,6 +246,7 @@ de hacer cualquier cita de estos datos.*
 
 """)
 st.markdown('<p class="small-text" text-center="right">Lab - versión demo v0.1.0</p>', unsafe_allow_html=True)
+
 
 
 
