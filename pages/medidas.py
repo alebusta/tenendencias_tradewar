@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 
 # Configuración de la página con estilo The Economist
 st.set_page_config(
-    page_title="Aranceles de Trump - The Economist Style",
+    page_title="Aranceles de Trump",
     page_icon="📊",
     layout="wide"
 )
@@ -212,7 +212,8 @@ st.markdown("""
 # Firma de The Economist
 st.markdown("""
 <div style='font-family: Georgia; font-style: italic; text-align: right; margin-top: 40px; color: #666666;'>
-© 2025 CEPAL Lab.
+© 2025 Lab.
 </div>
 """, unsafe_allow_html=True)
+
 
