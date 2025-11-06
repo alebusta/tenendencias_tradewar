@@ -10,7 +10,7 @@ from grafico import crear_grafico_fmi, X_latam_china
 
 # Configuración de página
 st.set_page_config(
-    page_title="Monitor EEUU-LATAM | CEPAL Lab",
+    page_title="Monitor EEUU-LATAM | Lab",
     page_icon="🌎",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -282,3 +282,4 @@ st.markdown("""
 
 """)
 st.markdown('<p class="small-text">©2025 Cepal Lab</p>', unsafe_allow_html=True)
+
