@@ -15,7 +15,7 @@ from shared_data import get_dataframe
 
 # Configuración de página
 st.set_page_config(
-    page_title="Monitor EEUU-LATAM | CEPAL Lab",
+    page_title="Monitor EEUU-LATAM | Lab",
     page_icon="🌎",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -246,6 +246,7 @@ de hacer cualquier cita de estos datos.*
 
 """)
 st.markdown('<p class="small-text" text-center="right">Lab - versión demo v0.1.0</p>', unsafe_allow_html=True)
+
 
 
 
