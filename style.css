@@ -11,7 +11,7 @@
             padding: 0 5%;
             gap: 20px;
             height: 600px;
-            width: 100%;
+            width: 90%;
             border-bottom: 1px solid white;
         }
         
@@ -306,4 +306,5 @@
                     transform: translateX(-100%);
                 }
             }
+
 
