@@ -8,7 +8,7 @@ import json
 
 # Configuración de página
 st.set_page_config(
-    page_title="Monitor EEUU-LATAM | CEPAL Lab",
+    page_title="Monitor EEUU-LATAM | Lab",
     page_icon="🌎",
     layout="centered", # o 'wide'
     initial_sidebar_state="collapsed"
@@ -1181,6 +1181,7 @@ with col1:
 with col2:
     st.markdown('<p class="small-text"> </p>', unsafe_allow_html=True)
 with col3:
-    st.markdown('<p class="small-text">©2025 Cepal Lab</p>', unsafe_allow_html=True)
+    st.markdown('<p class="small-text">©2025 Lab</p>', unsafe_allow_html=True)
+
 
 
