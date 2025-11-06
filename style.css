@@ -3,7 +3,7 @@
         .header-banner {
             background-size: cover; /* cubre todo el ancho*/
             background-position: center;         
-            padding: 15px 0;
+            padding: 0px 0;
             text-align: center;
             display: flex;
             justify-content: center;
@@ -306,3 +306,4 @@
                     transform: translateX(-100%);
                 }
             }
+
