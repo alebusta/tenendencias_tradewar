@@ -245,7 +245,8 @@ Por lo tanto los resultados de los análisis deben tomarse con la debida cautela
 de hacer cualquier cita de estos datos.*
 
 """)
-st.markdown('<p class="small-text" text-center="right">©2025 Cepal Lab - versión demo v0.1.0</p>', unsafe_allow_html=True)
+st.markdown('<p class="small-text" text-center="right">Lab - versión demo v0.1.0</p>', unsafe_allow_html=True)
+
 
 
 
