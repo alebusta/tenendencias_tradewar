@@ -128,6 +128,7 @@ st.dataframe(
 # footer
 st.markdown("""
 <div style='font-family: Georgia; font-style: italic; text-align: right; margin-top: 40px; color: #666666;'>
-© 2025 CEPAL Lab.
+© 2025 Lab.
 </div>
 """, unsafe_allow_html=True)
+
